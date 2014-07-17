@@ -26,16 +26,23 @@ for (@list) {
         print "#### SNPs\n\n";
         print_snp_text($srr);
         
-        
-        print "#### DNA difference\n\n";
+        print "#### DNA differences\n\n";
 
         print "#### Protein differences\n\n";
+        print_bbh_text($srr);
+
     }
 }
 
 sub print_snp_text {
     my ($srr) = @_;
     my $file = "$base/snps/$srr.snps";
+    print table_to_markdown($file)."\n";
+}
+
+sub print_bbh_text {
+    my ($srr) = @_;
+    my $file = "$base/bbhs/$srr.diffs";
     print table_to_markdown($file)."\n";
 }
 
