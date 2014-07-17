@@ -60,6 +60,7 @@ sub table_to_markdown {
     for ($header, $separator, @lines) {
         s/\t/ \| /g;
         s/kb\|//g;
+        s/%2C/,/g;
         push @out, $_;
     }
     return join("", @out);
