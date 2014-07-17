@@ -47,7 +47,8 @@ sub print_bbh_text {
     print "The protein pairs with low coverage (< 90%) or imperfect identity scores are listed below. Also listed are proteins unique to either genome.\n\n";
  
     my $file = "$base/bbhs/$srr.diffs"; 
-    print table_to_markdown($file)."\n"; 
+    print table_to_html($file)."\n";
+    # print table_to_markdown($file)."\n"; 
 }
 
 sub print_dna_diff_text {
@@ -61,7 +62,8 @@ sub print_dna_diff_text {
 sub print_snp_text {
     my ($srr) = @_;
     my $file = "$base/snps/$srr.snps";
-    print table_to_markdown($file)."\n";
+    # print table_to_markdown($file)."\n";
+    print table_to_html($file)."\n";
 }
 
 sub table_to_markdown {
@@ -81,6 +83,27 @@ sub table_to_markdown {
         push @out, $_;
     }
     return join("", @out);
+}
+
+sub table_to_html {
+    my ($table) = @_;
+    return "None\n" unless -s $table;
+
+    my ($header, @lines) = `cat $table`;
+    return "None\n" if @lines <= 1;
+
+    my @out;
+    push @out, "<table>";
+    my @cols = split(/\t/, $header);
+    push @out, "<tr>".join('', map { "<th>$_</th> " } @cols)."</tr>";
+    for (@lines) {
+        s/kb\|//g;
+        s/%2C/,/g;
+        my @cols = split/\t/;
+        push @out, "<tr>".join('', map { "<td>$_</td> " } @cols)."</tr>";
+    }
+    push @out, "</table>";
+    return join("\n", @out);
 }
 
 sub get_isolates {
