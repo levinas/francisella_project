@@ -41,6 +41,10 @@ AvgIdentity                    99.99                99.99
 ```
 #### Protein differences
 
+1886 scripts/../bbhs/SRR999319.bbhs of the 2031 proteins (0.93%) in the reference genome have Bidirectional Best Hits (BBHs) in the de novo assembled contigs from SRR999319 reads.
+
+The protein pairs with low coverage (< 90%) or imperfect identity scores are listed below. Also listed are proteins unique to either genome.
+
 ref_beg | ref_end | ref_id | ref_len | type | qry_id | qry_len | fract_id | fract_pos | ref_cov | qry_cov | qry_contig | qry_beg | qry_end | ref_function | qry_function
 --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---
  |  |  |  |  -  | g.219510.CDS.151 | 163 |  |  |  |  | NODE_3_length_93334_cov_411.995_ID_5 | 1706 | 2197 |  | aldose epimerase family protein
@@ -268,6 +272,10 @@ AvgLength                   25364.22             25363.50
 AvgIdentity                    99.99                99.99
 ```
 #### Protein differences
+
+1890 scripts/../bbhs/SRR1061346.bbhs of the 2031 proteins (0.93%) in the reference genome have Bidirectional Best Hits (BBHs) in the de novo assembled contigs from SRR1061346 reads.
+
+The protein pairs with low coverage (< 90%) or imperfect identity scores are listed below. Also listed are proteins unique to either genome.
 
 ref_beg | ref_end | ref_id | ref_len | type | qry_id | qry_len | fract_id | fract_pos | ref_cov | qry_cov | qry_contig | qry_beg | qry_end | ref_function | qry_function
 --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---
@@ -497,6 +505,10 @@ AvgLength                   23859.84             23859.36
 AvgIdentity                   100.00               100.00
 ```
 #### Protein differences
+
+1887 scripts/../bbhs/SRR999320.bbhs of the 2031 proteins (0.93%) in the reference genome have Bidirectional Best Hits (BBHs) in the de novo assembled contigs from SRR999320 reads.
+
+The protein pairs with low coverage (< 90%) or imperfect identity scores are listed below. Also listed are proteins unique to either genome.
 
 ref_beg | ref_end | ref_id | ref_len | type | qry_id | qry_len | fract_id | fract_pos | ref_cov | qry_cov | qry_contig | qry_beg | qry_end | ref_function | qry_function
 --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---
@@ -751,6 +763,10 @@ AvgIdentity                   100.00               100.00
 ```
 #### Protein differences
 
+1890 scripts/../bbhs/SRR1061347.bbhs of the 2031 proteins (0.93%) in the reference genome have Bidirectional Best Hits (BBHs) in the de novo assembled contigs from SRR1061347 reads.
+
+The protein pairs with low coverage (< 90%) or imperfect identity scores are listed below. Also listed are proteins unique to either genome.
+
 ref_beg | ref_end | ref_id | ref_len | type | qry_id | qry_len | fract_id | fract_pos | ref_cov | qry_cov | qry_contig | qry_beg | qry_end | ref_function | qry_function
 --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---
  |  |  |  |  -  | g.219506.CDS.411 | 72 |  |  |  |  | NODE_18_length_35505_cov_161.781_ID_35 | 35203 | 35421 |  | hypothetical protein
@@ -976,6 +992,10 @@ AvgIdentity                   100.00               100.00
 ```
 #### Protein differences
 
+1888 scripts/../bbhs/SRR999321.bbhs of the 2031 proteins (0.93%) in the reference genome have Bidirectional Best Hits (BBHs) in the de novo assembled contigs from SRR999321 reads.
+
+The protein pairs with low coverage (< 90%) or imperfect identity scores are listed below. Also listed are proteins unique to either genome.
+
 ref_beg | ref_end | ref_id | ref_len | type | qry_id | qry_len | fract_id | fract_pos | ref_cov | qry_cov | qry_contig | qry_beg | qry_end | ref_function | qry_function
 --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---
  |  |  |  |  -  | g.219512.CDS.207 | 44 |  |  |  |  | NODE_37_length_19465_cov_547.678_ID_73 | 3 | 137 |  | hypothetical protein
@@ -1186,6 +1206,10 @@ AvgLength                   25449.42             25448.60
 AvgIdentity                   100.00               100.00
 ```
 #### Protein differences
+
+1892 scripts/../bbhs/SRR1061348.bbhs of the 2031 proteins (0.93%) in the reference genome have Bidirectional Best Hits (BBHs) in the de novo assembled contigs from SRR1061348 reads.
+
+The protein pairs with low coverage (< 90%) or imperfect identity scores are listed below. Also listed are proteins unique to either genome.
 
 ref_beg | ref_end | ref_id | ref_len | type | qry_id | qry_len | fract_id | fract_pos | ref_cov | qry_cov | qry_contig | qry_beg | qry_end | ref_function | qry_function
 --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---
@@ -1421,6 +1445,10 @@ AvgLength                   24503.14             24502.49
 AvgIdentity                   100.00               100.00
 ```
 #### Protein differences
+
+1886 scripts/../bbhs/SRR999322.bbhs of the 2031 proteins (0.93%) in the reference genome have Bidirectional Best Hits (BBHs) in the de novo assembled contigs from SRR999322 reads.
+
+The protein pairs with low coverage (< 90%) or imperfect identity scores are listed below. Also listed are proteins unique to either genome.
 
 ref_beg | ref_end | ref_id | ref_len | type | qry_id | qry_len | fract_id | fract_pos | ref_cov | qry_cov | qry_contig | qry_beg | qry_end | ref_function | qry_function
 --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---
@@ -1693,6 +1721,10 @@ AvgIdentity                    99.99                99.99
 ```
 #### Protein differences
 
+1887 scripts/../bbhs/SRR1019709.bbhs of the 2031 proteins (0.93%) in the reference genome have Bidirectional Best Hits (BBHs) in the de novo assembled contigs from SRR1019709 reads.
+
+The protein pairs with low coverage (< 90%) or imperfect identity scores are listed below. Also listed are proteins unique to either genome.
+
 ref_beg | ref_end | ref_id | ref_len | type | qry_id | qry_len | fract_id | fract_pos | ref_cov | qry_cov | qry_contig | qry_beg | qry_end | ref_function | qry_function
 --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---
  |  |  |  |  -  | g.219504.CDS.39 | 46 |  |  |  |  | NODE_7_length_53513_cov_154.576_ID_13 | 34691 | 34831 |  | hypothetical protein
@@ -1933,6 +1965,10 @@ AvgIdentity                    99.99                99.99
 ```
 #### Protein differences
 
+1886 scripts/../bbhs/SRR999323.bbhs of the 2031 proteins (0.93%) in the reference genome have Bidirectional Best Hits (BBHs) in the de novo assembled contigs from SRR999323 reads.
+
+The protein pairs with low coverage (< 90%) or imperfect identity scores are listed below. Also listed are proteins unique to either genome.
+
 ref_beg | ref_end | ref_id | ref_len | type | qry_id | qry_len | fract_id | fract_pos | ref_cov | qry_cov | qry_contig | qry_beg | qry_end | ref_function | qry_function
 --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---
  |  |  |  |  -  | g.219513.CDS.115 | 48 |  |  |  |  | NODE_13_length_38202_cov_417.233_ID_25 | 36969 | 37115 |  | FIG026291: Hypothetical periplasmic protein
@@ -2149,6 +2185,10 @@ AvgLength                   25471.90             25470.78
 AvgIdentity                   100.00               100.00
 ```
 #### Protein differences
+
+1888 scripts/../bbhs/SRR1061349.bbhs of the 2031 proteins (0.93%) in the reference genome have Bidirectional Best Hits (BBHs) in the de novo assembled contigs from SRR1061349 reads.
+
+The protein pairs with low coverage (< 90%) or imperfect identity scores are listed below. Also listed are proteins unique to either genome.
 
 ref_beg | ref_end | ref_id | ref_len | type | qry_id | qry_len | fract_id | fract_pos | ref_cov | qry_cov | qry_contig | qry_beg | qry_end | ref_function | qry_function
 --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---
@@ -2376,6 +2416,10 @@ AvgLength                   24767.14             24766.64
 AvgIdentity                   100.00               100.00
 ```
 #### Protein differences
+
+1887 scripts/../bbhs/SRR999318.bbhs of the 2031 proteins (0.93%) in the reference genome have Bidirectional Best Hits (BBHs) in the de novo assembled contigs from SRR999318 reads.
+
+The protein pairs with low coverage (< 90%) or imperfect identity scores are listed below. Also listed are proteins unique to either genome.
 
 ref_beg | ref_end | ref_id | ref_len | type | qry_id | qry_len | fract_id | fract_pos | ref_cov | qry_cov | qry_contig | qry_beg | qry_end | ref_function | qry_function
 --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---

@@ -11,6 +11,7 @@ my $name = 'Francisella tularensis Schu S4';
 my @list = get_isolates();
 
 my $base = dirname(__FILE__) . "/..";
+my $n_proteins_in_ref = 2031;
 
 for (@list) {
     my ($isolate, $runs) = @$_;
@@ -35,6 +36,20 @@ for (@list) {
     }
 }
 
+
+sub print_bbh_text { 
+    my ($srr) = @_; 
+    my $ndiff = `wc -l $base/bbhs/$srr.bbhs`; chomp($ndiff); 
+    my $ratio = sprintf "%.2f", $ndiff / $n_proteins_in_ref; 
+ 
+    print "$ndiff of the $n_proteins_in_ref proteins (".$ratio."%) in the reference genome have Bidirectional Best Hits (BBHs) in the de novo assembled contigs from $srr reads.\n\n"; 
+ 
+    print "The protein pairs with low coverage (< 90%) or imperfect identity scores are listed below. Also listed are proteins unique to either genome.\n\n";
+ 
+    my $file = "$base/bbhs/$srr.diffs"; 
+    print table_to_markdown($file)."\n"; 
+}
+
 sub print_dna_diff_text {
     my ($srr) = @_;
     my $file = "$base/mummer/$srr/$srr.report";
@@ -48,13 +63,6 @@ sub print_snp_text {
     my $file = "$base/snps/$srr.snps";
     print table_to_markdown($file)."\n";
 }
-
-sub print_bbh_text {
-    my ($srr) = @_;
-    my $file = "$base/bbhs/$srr.diffs";
-    print table_to_markdown($file)."\n";
-}
-
 
 sub table_to_markdown {
     my ($table) = @_;
