@@ -1,9 +1,9 @@
-Scaffold and gene FASTA files downloaded from:
+Scaffold and gene FASTA files downloaded from Broad Institute:
 
 https://olive.broadinstitute.org/collections/francisella_tularensis_schu_s4.1/strains
 
 
-Data Use Policy
+Broad Institute's Data Use Policy
 ===============
 
 Our goal is to make sequence data rapidly and broadly available to the
