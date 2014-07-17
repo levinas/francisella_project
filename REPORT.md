@@ -14,6 +14,24 @@ None
 
 #### DNA differences
 
+```
+                               [REF]          [SRR999318]
+[Sequences]
+TotalSeqs                          1                   70
+AlignedSeqs               1(100.00%)          70(100.00%)
+UnalignedSeqs               0(0.00%)             0(0.00%)
+
+[Bases]
+TotalBases                   1892775              1797688
+AlignedBases         1847515(97.61%)     1797688(100.00%)
+UnalignedBases          45260(2.39%)             0(0.00%)
+
+[Alignments]
+1-to-1                            73                   73
+TotalLength                  1808001              1807965
+AvgLength                   24767.14             24766.64
+AvgIdentity                   100.00               100.00
+```
 #### Protein differences
 
 ref_beg | ref_end | ref_id | ref_len | type | qry_id | qry_len | fract_id | fract_pos | ref_cov | qry_cov | qry_contig | qry_beg | qry_end | ref_function | qry_function
@@ -221,6 +239,24 @@ NC_006570 | 1634580 | G | A | 902 | 1.00 | Nonsyn | aca | aTa | T | I | FTT_1573
 
 #### DNA differences
 
+```
+                               [REF]          [SRR999319]
+[Sequences]
+TotalSeqs                          1                   70
+AlignedSeqs               1(100.00%)          70(100.00%)
+UnalignedSeqs               0(0.00%)             0(0.00%)
+
+[Bases]
+TotalBases                   1892775              1797817
+AlignedBases         1847515(97.61%)     1797817(100.00%)
+UnalignedBases          45260(2.39%)             0(0.00%)
+
+[Alignments]
+1-to-1                            73                   73
+TotalLength                  1808077              1808094
+AvgLength                   24768.18             24768.41
+AvgIdentity                    99.99                99.99
+```
 #### Protein differences
 
 ref_beg | ref_end | ref_id | ref_len | type | qry_id | qry_len | fract_id | fract_pos | ref_cov | qry_cov | qry_contig | qry_beg | qry_end | ref_function | qry_function
@@ -431,6 +467,24 @@ NC_006570 | 1634580 | G | A | 384 | 1.00 | Nonsyn | aca | aTa | T | I | FTT_1573
 
 #### DNA differences
 
+```
+                               [REF]          [SRR1061346]
+[Sequences]
+TotalSeqs                          1                   67
+AlignedSeqs               1(100.00%)          67(100.00%)
+UnalignedSeqs               0(0.00%)             0(0.00%)
+
+[Bases]
+TotalBases                   1892775              1805104
+AlignedBases         1854918(98.00%)     1805101(100.00%)
+UnalignedBases          37857(2.00%)             3(0.00%)
+
+[Alignments]
+1-to-1                            72                   72
+TotalLength                  1826224              1826172
+AvgLength                   25364.22             25363.50
+AvgIdentity                    99.99                99.99
+```
 #### Protein differences
 
 ref_beg | ref_end | ref_id | ref_len | type | qry_id | qry_len | fract_id | fract_pos | ref_cov | qry_cov | qry_contig | qry_beg | qry_end | ref_function | qry_function
@@ -642,6 +696,24 @@ None
 
 #### DNA differences
 
+```
+                               [REF]          [SRR999320]
+[Sequences]
+TotalSeqs                          1                   72
+AlignedSeqs               1(100.00%)          72(100.00%)
+UnalignedSeqs               0(0.00%)             0(0.00%)
+
+[Bases]
+TotalBases                   1892775              1802852
+AlignedBases         1869889(98.79%)     1802852(100.00%)
+UnalignedBases          22886(1.21%)             0(0.00%)
+
+[Alignments]
+1-to-1                            76                   76
+TotalLength                  1813348              1813311
+AvgLength                   23859.84             23859.36
+AvgIdentity                   100.00               100.00
+```
 #### Protein differences
 
 ref_beg | ref_end | ref_id | ref_len | type | qry_id | qry_len | fract_id | fract_pos | ref_cov | qry_cov | qry_contig | qry_beg | qry_end | ref_function | qry_function
@@ -877,6 +949,24 @@ None
 
 #### DNA differences
 
+```
+                               [REF]          [SRR1061347]
+[Sequences]
+TotalSeqs                          1                   66
+AlignedSeqs               1(100.00%)          66(100.00%)
+UnalignedSeqs               0(0.00%)             0(0.00%)
+
+[Bases]
+TotalBases                   1892775              1805160
+AlignedBases         1855187(98.01%)     1805160(100.00%)
+UnalignedBases          37588(1.99%)             0(0.00%)
+
+[Alignments]
+1-to-1                            70                   70
+TotalLength                  1825554              1825495
+AvgLength                   26079.34             26078.50
+AvgIdentity                   100.00               100.00
+```
 #### Protein differences
 
 ref_beg | ref_end | ref_id | ref_len | type | qry_id | qry_len | fract_id | fract_pos | ref_cov | qry_cov | qry_contig | qry_beg | qry_end | ref_function | qry_function
@@ -1084,6 +1174,24 @@ None
 
 #### DNA differences
 
+```
+                               [REF]          [SRR999321]
+[Sequences]
+TotalSeqs                          1                   70
+AlignedSeqs               1(100.00%)          70(100.00%)
+UnalignedSeqs               0(0.00%)             0(0.00%)
+
+[Bases]
+TotalBases                   1892775              1797688
+AlignedBases         1847515(97.61%)     1797688(100.00%)
+UnalignedBases          45260(2.39%)             0(0.00%)
+
+[Alignments]
+1-to-1                            73                   73
+TotalLength                  1808001              1807965
+AvgLength                   24767.14             24766.64
+AvgIdentity                   100.00               100.00
+```
 #### Protein differences
 
 ref_beg | ref_end | ref_id | ref_len | type | qry_id | qry_len | fract_id | fract_pos | ref_cov | qry_cov | qry_contig | qry_beg | qry_end | ref_function | qry_function
@@ -1277,6 +1385,24 @@ None
 
 #### DNA differences
 
+```
+                               [REF]          [SRR1061348]
+[Sequences]
+TotalSeqs                          1                   68
+AlignedSeqs               1(100.00%)          68(100.00%)
+UnalignedSeqs               0(0.00%)             0(0.00%)
+
+[Bases]
+TotalBases                   1892775              1811970
+AlignedBases         1882326(99.45%)     1811964(100.00%)
+UnalignedBases          10449(0.55%)             6(0.00%)
+
+[Alignments]
+1-to-1                            72                   72
+TotalLength                  1832358              1832299
+AvgLength                   25449.42             25448.60
+AvgIdentity                   100.00               100.00
+```
 #### Protein differences
 
 ref_beg | ref_end | ref_id | ref_len | type | qry_id | qry_len | fract_id | fract_pos | ref_cov | qry_cov | qry_contig | qry_beg | qry_end | ref_function | qry_function
@@ -1494,6 +1620,24 @@ NC_006570 | 1634580 | G | A | 916 | 1.00 | Nonsyn | aca | aTa | T | I | FTT_1573
 
 #### DNA differences
 
+```
+                               [REF]          [SRR999322]
+[Sequences]
+TotalSeqs                          1                   70
+AlignedSeqs               1(100.00%)          70(100.00%)
+UnalignedSeqs               0(0.00%)             0(0.00%)
+
+[Bases]
+TotalBases                   1892775              1802731
+AlignedBases         1869889(98.79%)     1802725(100.00%)
+UnalignedBases          22886(1.21%)             6(0.00%)
+
+[Alignments]
+1-to-1                            74                   74
+TotalLength                  1813232              1813184
+AvgLength                   24503.14             24502.49
+AvgIdentity                   100.00               100.00
+```
 #### Protein differences
 
 ref_beg | ref_end | ref_id | ref_len | type | qry_id | qry_len | fract_id | fract_pos | ref_cov | qry_cov | qry_contig | qry_beg | qry_end | ref_function | qry_function
@@ -1747,6 +1891,24 @@ NC_006570 | 1634580 | G | A | 406 | 1.00 | Nonsyn | aca | aTa | T | I | FTT_1573
 
 #### DNA differences
 
+```
+                               [REF]          [SRR1019709]
+[Sequences]
+TotalSeqs                          1                   69
+AlignedSeqs               1(100.00%)          69(100.00%)
+UnalignedSeqs               0(0.00%)             0(0.00%)
+
+[Bases]
+TotalBases                   1892775              1805302
+AlignedBases         1853132(97.91%)     1805302(100.00%)
+UnalignedBases          39643(2.09%)             0(0.00%)
+
+[Alignments]
+1-to-1                            73                   73
+TotalLength                  1835676              1835584
+AvgLength                   25146.25             25144.99
+AvgIdentity                    99.99                99.99
+```
 #### Protein differences
 
 ref_beg | ref_end | ref_id | ref_len | type | qry_id | qry_len | fract_id | fract_pos | ref_cov | qry_cov | qry_contig | qry_beg | qry_end | ref_function | qry_function
@@ -1969,6 +2131,24 @@ None
 
 #### DNA differences
 
+```
+                               [REF]          [SRR999323]
+[Sequences]
+TotalSeqs                          1                   69
+AlignedSeqs               1(100.00%)          69(100.00%)
+UnalignedSeqs               0(0.00%)             0(0.00%)
+
+[Bases]
+TotalBases                   1892775              1796987
+AlignedBases         1846809(97.57%)     1796984(100.00%)
+UnalignedBases          45966(2.43%)             3(0.00%)
+
+[Alignments]
+1-to-1                            72                   72
+TotalLength                  1807243              1807261
+AvgLength                   25100.60             25100.85
+AvgIdentity                    99.99                99.99
+```
 #### Protein differences
 
 ref_beg | ref_end | ref_id | ref_len | type | qry_id | qry_len | fract_id | fract_pos | ref_cov | qry_cov | qry_contig | qry_beg | qry_end | ref_function | qry_function
@@ -2168,6 +2348,24 @@ None
 
 #### DNA differences
 
+```
+                               [REF]          [SRR1061349]
+[Sequences]
+TotalSeqs                          1                   68
+AlignedSeqs               1(100.00%)          68(100.00%)
+UnalignedSeqs               0(0.00%)             0(0.00%)
+
+[Bases]
+TotalBases                   1892775              1803582
+AlignedBases         1853805(97.94%)     1803582(100.00%)
+UnalignedBases          38970(2.06%)             0(0.00%)
+
+[Alignments]
+1-to-1                            72                   72
+TotalLength                  1833977              1833896
+AvgLength                   25471.90             25470.78
+AvgIdentity                   100.00               100.00
+```
 #### Protein differences
 
 ref_beg | ref_end | ref_id | ref_len | type | qry_id | qry_len | fract_id | fract_pos | ref_cov | qry_cov | qry_contig | qry_beg | qry_end | ref_function | qry_function

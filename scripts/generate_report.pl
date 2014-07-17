@@ -27,11 +27,20 @@ for (@list) {
         print_snp_text($srr);
         
         print "#### DNA differences\n\n";
+        print_dna_diff_text($srr);
 
         print "#### Protein differences\n\n";
         print_bbh_text($srr);
 
     }
+}
+
+sub print_dna_diff_text {
+    my ($srr) = @_;
+    my $file = "$base/mummer/$srr/$srr.report";
+    my $text = `head -n 19 $file |tail -n 16`;
+    $text =~ s/      \[QRY\]/\[$srr\]/;
+    print "```\n$text```\n";
 }
 
 sub print_snp_text {
