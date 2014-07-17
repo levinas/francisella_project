@@ -2,6 +2,8 @@
 
 This isolate has 2 sequence runs: SRR999318, SRR1061345
 
+### SRR999318
+
 #### Contig alignment
 
 ![SRR999318 contig alignment](http://bioseed.mcs.anl.gov/~fangfang/francisella/png/SRR999318.png)
@@ -13,6 +15,8 @@ None
 #### DNA difference
 
 #### Protein differences
+
+### SRR1061345
 
 #### Contig alignment
 
@@ -29,6 +33,8 @@ None
 ## Francisella tularensis Schu S4 FTS-634
 
 This isolate has 2 sequence runs: SRR999319, SRR1061346
+
+### SRR999319
 
 #### Contig alignment
 
@@ -48,6 +54,8 @@ NC_006570 | 1634580 | G | A | 902 | 1.00 | Nonsyn | aca | aTa | T | I | FTT_1573
 #### DNA difference
 
 #### Protein differences
+
+### SRR1061346
 
 #### Contig alignment
 
@@ -72,6 +80,8 @@ NC_006570 | 1634580 | G | A | 384 | 1.00 | Nonsyn | aca | aTa | T | I | FTT_1573
 
 This isolate has 2 sequence runs: SRR999320, SRR1061347
 
+### SRR999320
+
 #### Contig alignment
 
 ![SRR999320 contig alignment](http://bioseed.mcs.anl.gov/~fangfang/francisella/png/SRR999320.png)
@@ -83,6 +93,8 @@ None
 #### DNA difference
 
 #### Protein differences
+
+### SRR1061347
 
 #### Contig alignment
 
@@ -100,6 +112,8 @@ None
 
 This isolate has 2 sequence runs: SRR999321, SRR1061348
 
+### SRR999321
+
 #### Contig alignment
 
 ![SRR999321 contig alignment](http://bioseed.mcs.anl.gov/~fangfang/francisella/png/SRR999321.png)
@@ -111,6 +125,8 @@ None
 #### DNA difference
 
 #### Protein differences
+
+### SRR1061348
 
 #### Contig alignment
 
@@ -127,6 +143,8 @@ None
 ## Francisella tularensis Schu S4 NR-643
 
 This isolate has 2 sequence runs: SRR999322, SRR1019709
+
+### SRR999322
 
 #### Contig alignment
 
@@ -147,6 +165,8 @@ NC_006570 | 1634580 | G | A | 916 | 1.00 | Nonsyn | aca | aTa | T | I | FTT_1573
 #### DNA difference
 
 #### Protein differences
+
+### SRR1019709
 
 #### Contig alignment
 
@@ -175,6 +195,8 @@ NC_006570 | 1634580 | G | A | 406 | 1.00 | Nonsyn | aca | aTa | T | I | FTT_1573
 
 This isolate has 2 sequence runs: SRR999323, SRR1061349
 
+### SRR999323
+
 #### Contig alignment
 
 ![SRR999323 contig alignment](http://bioseed.mcs.anl.gov/~fangfang/francisella/png/SRR999323.png)
@@ -186,6 +208,8 @@ None
 #### DNA difference
 
 #### Protein differences
+
+### SRR1061349
 
 #### Contig alignment
 

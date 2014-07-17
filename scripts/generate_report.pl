@@ -18,6 +18,8 @@ for (@list) {
     printf "This isolate has %d sequence runs: ", scalar@$runs;
     print join(", ", @$runs)."\n\n";
     for my $srr (@$runs) {
+        print "### $srr\n\n";
+
         print "#### Contig alignment\n\n";
         print "![$srr contig alignment](http://bioseed.mcs.anl.gov/~fangfang/francisella/png/$srr.png)\n\n";
 
