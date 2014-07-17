@@ -39,8 +39,8 @@ for (@list) {
 
 sub print_bbh_text { 
     my ($srr) = @_; 
-    my $ndiff = `wc -l $base/bbhs/$srr.bbhs`; chomp($ndiff); 
-    my $ratio = sprintf "%.2f", $ndiff / $n_proteins_in_ref; 
+    my ($ndiff) = `wc -l $base/bbhs/$srr.bbhs` =~ /(^\d+)/;
+    my $ratio = sprintf "%.2f", 100 * $ndiff / $n_proteins_in_ref; 
  
     print "$ndiff of the $n_proteins_in_ref proteins (".$ratio."%) in the reference genome have Bidirectional Best Hits (BBHs) in the de novo assembled contigs from $srr reads.\n\n"; 
  

@@ -41,7 +41,7 @@ AvgIdentity                    99.99                99.99
 ```
 #### Protein differences
 
-1886 scripts/../bbhs/SRR999319.bbhs of the 2031 proteins (0.93%) in the reference genome have Bidirectional Best Hits (BBHs) in the de novo assembled contigs from SRR999319 reads.
+1886 of the 2031 proteins (92.86%) in the reference genome have Bidirectional Best Hits (BBHs) in the de novo assembled contigs from SRR999319 reads.
 
 The protein pairs with low coverage (< 90%) or imperfect identity scores are listed below. Also listed are proteins unique to either genome.
 
@@ -273,7 +273,7 @@ AvgIdentity                    99.99                99.99
 ```
 #### Protein differences
 
-1890 scripts/../bbhs/SRR1061346.bbhs of the 2031 proteins (0.93%) in the reference genome have Bidirectional Best Hits (BBHs) in the de novo assembled contigs from SRR1061346 reads.
+1890 of the 2031 proteins (93.06%) in the reference genome have Bidirectional Best Hits (BBHs) in the de novo assembled contigs from SRR1061346 reads.
 
 The protein pairs with low coverage (< 90%) or imperfect identity scores are listed below. Also listed are proteins unique to either genome.
 
@@ -506,7 +506,7 @@ AvgIdentity                   100.00               100.00
 ```
 #### Protein differences
 
-1887 scripts/../bbhs/SRR999320.bbhs of the 2031 proteins (0.93%) in the reference genome have Bidirectional Best Hits (BBHs) in the de novo assembled contigs from SRR999320 reads.
+1887 of the 2031 proteins (92.91%) in the reference genome have Bidirectional Best Hits (BBHs) in the de novo assembled contigs from SRR999320 reads.
 
 The protein pairs with low coverage (< 90%) or imperfect identity scores are listed below. Also listed are proteins unique to either genome.
 
@@ -763,7 +763,7 @@ AvgIdentity                   100.00               100.00
 ```
 #### Protein differences
 
-1890 scripts/../bbhs/SRR1061347.bbhs of the 2031 proteins (0.93%) in the reference genome have Bidirectional Best Hits (BBHs) in the de novo assembled contigs from SRR1061347 reads.
+1890 of the 2031 proteins (93.06%) in the reference genome have Bidirectional Best Hits (BBHs) in the de novo assembled contigs from SRR1061347 reads.
 
 The protein pairs with low coverage (< 90%) or imperfect identity scores are listed below. Also listed are proteins unique to either genome.
 
@@ -992,7 +992,7 @@ AvgIdentity                   100.00               100.00
 ```
 #### Protein differences
 
-1888 scripts/../bbhs/SRR999321.bbhs of the 2031 proteins (0.93%) in the reference genome have Bidirectional Best Hits (BBHs) in the de novo assembled contigs from SRR999321 reads.
+1888 of the 2031 proteins (92.96%) in the reference genome have Bidirectional Best Hits (BBHs) in the de novo assembled contigs from SRR999321 reads.
 
 The protein pairs with low coverage (< 90%) or imperfect identity scores are listed below. Also listed are proteins unique to either genome.
 
@@ -1207,7 +1207,7 @@ AvgIdentity                   100.00               100.00
 ```
 #### Protein differences
 
-1892 scripts/../bbhs/SRR1061348.bbhs of the 2031 proteins (0.93%) in the reference genome have Bidirectional Best Hits (BBHs) in the de novo assembled contigs from SRR1061348 reads.
+1892 of the 2031 proteins (93.16%) in the reference genome have Bidirectional Best Hits (BBHs) in the de novo assembled contigs from SRR1061348 reads.
 
 The protein pairs with low coverage (< 90%) or imperfect identity scores are listed below. Also listed are proteins unique to either genome.
 
@@ -1446,7 +1446,7 @@ AvgIdentity                   100.00               100.00
 ```
 #### Protein differences
 
-1886 scripts/../bbhs/SRR999322.bbhs of the 2031 proteins (0.93%) in the reference genome have Bidirectional Best Hits (BBHs) in the de novo assembled contigs from SRR999322 reads.
+1886 of the 2031 proteins (92.86%) in the reference genome have Bidirectional Best Hits (BBHs) in the de novo assembled contigs from SRR999322 reads.
 
 The protein pairs with low coverage (< 90%) or imperfect identity scores are listed below. Also listed are proteins unique to either genome.
 
@@ -1721,7 +1721,7 @@ AvgIdentity                    99.99                99.99
 ```
 #### Protein differences
 
-1887 scripts/../bbhs/SRR1019709.bbhs of the 2031 proteins (0.93%) in the reference genome have Bidirectional Best Hits (BBHs) in the de novo assembled contigs from SRR1019709 reads.
+1887 of the 2031 proteins (92.91%) in the reference genome have Bidirectional Best Hits (BBHs) in the de novo assembled contigs from SRR1019709 reads.
 
 The protein pairs with low coverage (< 90%) or imperfect identity scores are listed below. Also listed are proteins unique to either genome.
 
@@ -1965,7 +1965,7 @@ AvgIdentity                    99.99                99.99
 ```
 #### Protein differences
 
-1886 scripts/../bbhs/SRR999323.bbhs of the 2031 proteins (0.93%) in the reference genome have Bidirectional Best Hits (BBHs) in the de novo assembled contigs from SRR999323 reads.
+1886 of the 2031 proteins (92.86%) in the reference genome have Bidirectional Best Hits (BBHs) in the de novo assembled contigs from SRR999323 reads.
 
 The protein pairs with low coverage (< 90%) or imperfect identity scores are listed below. Also listed are proteins unique to either genome.
 
@@ -2186,7 +2186,7 @@ AvgIdentity                   100.00               100.00
 ```
 #### Protein differences
 
-1888 scripts/../bbhs/SRR1061349.bbhs of the 2031 proteins (0.93%) in the reference genome have Bidirectional Best Hits (BBHs) in the de novo assembled contigs from SRR1061349 reads.
+1888 of the 2031 proteins (92.96%) in the reference genome have Bidirectional Best Hits (BBHs) in the de novo assembled contigs from SRR1061349 reads.
 
 The protein pairs with low coverage (< 90%) or imperfect identity scores are listed below. Also listed are proteins unique to either genome.
 
@@ -2417,7 +2417,7 @@ AvgIdentity                   100.00               100.00
 ```
 #### Protein differences
 
-1887 scripts/../bbhs/SRR999318.bbhs of the 2031 proteins (0.93%) in the reference genome have Bidirectional Best Hits (BBHs) in the de novo assembled contigs from SRR999318 reads.
+1887 of the 2031 proteins (92.91%) in the reference genome have Bidirectional Best Hits (BBHs) in the de novo assembled contigs from SRR999318 reads.
 
 The protein pairs with low coverage (< 90%) or imperfect identity scores are listed below. Also listed are proteins unique to either genome.
 
