@@ -79,9 +79,10 @@ sub get_SRR_to_isolate_mapping {
 
 sub run { system(@_) == 0 or confess("FAILED: ". join(" ", @_)); }
 
+# TODO: add FSC043	SRR1061345
+
 __END__
 FSC043	SRR999318
-FSC043	SRR1061345
 FTS-634	SRR999319
 FTS-634	SRR1061346
 NR-10492	SRR999320

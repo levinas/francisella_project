@@ -1,26 +1,12 @@
 ## Francisella tularensis Schu S4 FSC043
 
-This isolate has 2 sequence runs: SRR999318, SRR1061345
+This isolate has 1 sequence runs: SRR999318
 
 ### SRR999318
 
 #### Contig alignment
 
 ![SRR999318 contig alignment](http://bioseed.mcs.anl.gov/~fangfang/francisella/png/SRR999318.png)
-
-#### SNPs
-
-None
-
-#### DNA difference
-
-#### Protein differences
-
-### SRR1061345
-
-#### Contig alignment
-
-![SRR1061345 contig alignment](http://bioseed.mcs.anl.gov/~fangfang/francisella/png/SRR1061345.png)
 
 #### SNPs
 
