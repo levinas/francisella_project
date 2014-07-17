@@ -1,9 +1,9 @@
-Scaffold and gene FASTA files downloaded from Broad Institute:
+Scaffold and gene FASTA files in this directory downloaded from Broad Institute:
 
 https://olive.broadinstitute.org/collections/francisella_tularensis_schu_s4.1/strains
 
 
-Broad Institute's Data Use Policy
+Data Use Policy
 ===============
 
 Our goal is to make sequence data rapidly and broadly available to the
@@ -29,12 +29,12 @@ contact the project scientist through the link below.
 Any redistribution of these data should include the full text of the
 data use policy.
 
-Initiative
+### Initiative
 Francisella tularensis
 
-Project Scientist
+### Project Scientist
 Bruce Birren
 
-Status
+### Status
 Data Use Policy in Effect
 
