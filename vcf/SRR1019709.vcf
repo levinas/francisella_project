@@ -1,0 +1,47 @@
+##fileformat=VCFv4.1
+##samtoolsVersion=0.1.19-44428cd
+##reference=file://ref.fa
+##contig=<ID=gi|240248234|emb|AJ749949.2|,length=1892775>
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Raw read depth">
+##INFO=<ID=DP4,Number=4,Type=Integer,Description="# high-quality ref-forward bases, ref-reverse, alt-forward and alt-reverse bases">
+##INFO=<ID=MQ,Number=1,Type=Integer,Description="Root-mean-square mapping quality of covering reads">
+##INFO=<ID=FQ,Number=1,Type=Float,Description="Phred probability of all samples being the same">
+##INFO=<ID=AF1,Number=1,Type=Float,Description="Max-likelihood estimate of the first ALT allele frequency (assuming HWE)">
+##INFO=<ID=AC1,Number=1,Type=Float,Description="Max-likelihood estimate of the first ALT allele count (no HWE assumption)">
+##INFO=<ID=AN,Number=1,Type=Integer,Description="Total number of alleles in called genotypes">
+##INFO=<ID=IS,Number=2,Type=Float,Description="Maximum number of reads supporting an indel and fraction of indel reads">
+##INFO=<ID=AC,Number=A,Type=Integer,Description="Allele count in genotypes for each ALT allele, in the same order as listed">
+##INFO=<ID=G3,Number=3,Type=Float,Description="ML estimate of genotype frequencies">
+##INFO=<ID=HWE,Number=1,Type=Float,Description="Chi^2 based HWE test P-value based on G3">
+##INFO=<ID=CLR,Number=1,Type=Integer,Description="Log ratio of genotype likelihoods with and without the constraint">
+##INFO=<ID=UGT,Number=1,Type=String,Description="The most probable unconstrained genotype configuration in the trio">
+##INFO=<ID=CGT,Number=1,Type=String,Description="The most probable constrained genotype configuration in the trio">
+##INFO=<ID=PV4,Number=4,Type=Float,Description="P-values for strand bias, baseQ bias, mapQ bias and tail distance bias">
+##INFO=<ID=INDEL,Number=0,Type=Flag,Description="Indicates that the variant is an INDEL.">
+##INFO=<ID=PC2,Number=2,Type=Integer,Description="Phred probability of the nonRef allele frequency in group1 samples being larger (,smaller) than in group2.">
+##INFO=<ID=PCHI2,Number=1,Type=Float,Description="Posterior weighted chi^2 P-value for testing the association between group1 and group2 samples.">
+##INFO=<ID=QCHI2,Number=1,Type=Integer,Description="Phred scaled PCHI2.">
+##INFO=<ID=PR,Number=1,Type=Integer,Description="# permutations yielding a smaller PCHI2.">
+##INFO=<ID=QBD,Number=1,Type=Float,Description="Quality by Depth: QUAL/#reads">
+##INFO=<ID=RPB,Number=1,Type=Float,Description="Read Position Bias">
+##INFO=<ID=MDV,Number=1,Type=Integer,Description="Maximum number of high-quality nonRef reads in samples">
+##INFO=<ID=VDB,Number=1,Type=Float,Description="Variant Distance Bias (v2) for filtering splice-site artefacts in RNA-seq data. Note: this version may be broken.">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##FORMAT=<ID=GQ,Number=1,Type=Integer,Description="Genotype Quality">
+##FORMAT=<ID=GL,Number=3,Type=Float,Description="Likelihoods for RR,RA,AA genotypes (R=ref,A=alt)">
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="# high-quality bases">
+##FORMAT=<ID=DV,Number=1,Type=Integer,Description="# high-quality non-reference bases">
+##FORMAT=<ID=SP,Number=1,Type=Integer,Description="Phred-scaled strand bias P-value">
+##FORMAT=<ID=PL,Number=G,Type=Integer,Description="List of Phred-scaled genotype likelihoods">
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	aln.sorted.bam
+gi|240248234|emb|AJ749949.2|	24609	.	A	G	222	.	DP=309;VDB=4.674513e-01;RPB=9.440431e-01;AF1=1;AC1=2;DP4=1,1,155,138;MQ=60;FQ=-282;PV4=1,1,0.47,1	GT:PL:GQ	1/1:255,255,0:99
+gi|240248234|emb|AJ749949.2|	541268	.	ACTTTATATAAG	A	217	.	INDEL;IS=1,0.004032;DP=248;VDB=2.622603e-02;AF1=0.5;AC1=1;DP4=64,42,61,44;MQ=60;FQ=217;PV4=0.78,1,1,1	GT:PL:GQ	0/1:255,0,255:99
+gi|240248234|emb|AJ749949.2|	541269	.	CTTTATATAAGTTTTATATAAGTTTTATATAAGTTTT	CTTTATATAAGTTTTATATAAGTTTT	214	.	INDEL;IS=105,0.426829;DP=245;VDB=1.259784e-04;AF1=1;AC1=2;DP4=0,0,74,47;MQ=59;FQ=-290	GT:PL:GQ	1/1:255,255,0:99
+gi|240248234|emb|AJ749949.2|	541284	.	ATATAAGTTTTATA	ATATA	217	.	INDEL;IS=1,0.004098;DP=244;VDB=8.769519e-03;AF1=0.5;AC1=1;DP4=61,31,33,19;MQ=60;FQ=217;PV4=0.86,1.1e-12,1,1	GT:PL:GQ	0/1:255,0,255:99
+gi|240248234|emb|AJ749949.2|	541294	.	TA	T	12.7	.	INDEL;IS=16,0.066116;DP=242;VDB=8.228688e-23;AF1=0.5;AC1=1;DP4=58,27,11,7;MQ=60;FQ=15.6;PV4=0.59,6.9e-10,0.015,3.7e-05	GT:PL:GQ	0/1:50,0,255:53
+gi|240248234|emb|AJ749949.2|	694308	.	A	G	222	.	DP=406;VDB=3.510116e-01;AF1=1;AC1=2;DP4=0,0,215,155;MQ=60;FQ=-282	GT:PL:GQ	1/1:255,255,0:99
+gi|240248234|emb|AJ749949.2|	826816	.	A	G	222	.	DP=483;VDB=3.780318e-01;AF1=1;AC1=2;DP4=0,0,226,222;MQ=60;FQ=-282	GT:PL:GQ	1/1:255,255,0:99
+gi|240248234|emb|AJ749949.2|	1244876	.	C	T	225	.	DP=495;VDB=4.964021e-01;RPB=8.415654e-01;AF1=0.5;AC1=1;DP4=126,129,111,96;MQ=60;FQ=225;PV4=0.4,0.4,1,0.064	GT:PL:GQ	0/1:255,0,255:99
+gi|240248234|emb|AJ749949.2|	1419877	.	C	T	222	.	DP=438;VDB=4.559692e-01;AF1=1;AC1=2;DP4=0,0,180,236;MQ=60;FQ=-282	GT:PL:GQ	1/1:255,255,0:99
+gi|240248234|emb|AJ749949.2|	1423162	.	A	G	222	.	DP=628;VDB=2.547808e-01;AF1=1;AC1=2;DP4=0,0,309,277;MQ=60;FQ=-282	GT:PL:GQ	1/1:255,255,0:99
+gi|240248234|emb|AJ749949.2|	1634580	.	G	A	222	.	DP=439;VDB=2.564518e-01;RPB=-1.698011e+00;AF1=1;AC1=2;DP4=0,1,169,237;MQ=60;FQ=-282;PV4=1,1,0.47,0.22	GT:PL:GQ	1/1:255,255,0:99
