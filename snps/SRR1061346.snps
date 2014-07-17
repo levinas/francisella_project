@@ -1,0 +1,7 @@
+Contig	Pos	Ref	Var	Var cov	Var frac	Type	Ref nt	Var nt	Ref aa	Var aa	Gene ID	Gene	Frameshift	Neighboring feature (3' end)	Neighboring feature (5' end)
+NC_006570	24609	A	G	322	1.00	Intergenic								FIG00657748: hypothetical protein	Multidrug resistance transporter, Bcr/CflA family
+NC_006570	694308	A	G	339	1.00	Nonsyn	gaa	gGa	E	G	FTT_0676	Hemolysins and related proteins containing CBS domains		LSU ribosomal protein L25p	SAM-dependent methyltransferase YafE (UbiE paralog)
+NC_006570	826816	A	G	460	1.00	Nonsyn	gat	gGt	D	G	FTT_0807	Hypothetical protein in predicted poly-gamma-glutamate synthase operon		Poly-gamma-glutamate synthase subunit PgsC/CapC (EC 6.3.2.-)	GTP pyrophosphokinase (EC 2.7.6.5), (p)ppGpp synthetase II / Guanosine-3',5'-bis(diphosphate) 3'-pyrophosphohydrolase (EC 3.1.7.2)
+NC_006570	1419877	C	T	446	1.00	Nonsyn	cct	Tct	P	S	FTT_1373	3-oxoacyl-[acyl-carrier-protein] synthase, KASIII (EC 2.3.1.180)		Phosphate:acyl-ACP acyltransferase PlsX	Malonyl CoA-acyl carrier protein transacylase (EC 2.3.1.39)
+NC_006570	1423162	A	G	614	1.00	Nonsyn	agt	Ggt	S	G	FTT_1377	3-oxoacyl-[acyl-carrier-protein] synthase, KASII (EC 2.3.1.179)		Acyl carrier protein	hypothetical protein
+NC_006570	1634580	G	A	384	1.00	Nonsyn	aca	aTa	T	I	FTT_1573c	Outer membrane protein assembly factor YaeT precursor		Outer membrane chaperone Skp (OmpH) precursor @ Outer membrane protein H precursor	1-deoxy-D-xylulose 5-phosphate reductoisomerase (EC 1.1.1.267)
