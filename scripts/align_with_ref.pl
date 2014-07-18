@@ -39,5 +39,6 @@ sub clean_name {
     $name =~ s/.*\///;
     $name =~ s/\.(fasta|fna|fa)//;
     $name =~ s/\.contigs//;
+    $name =~ s/\.scaffolds//;
     $name;
 }

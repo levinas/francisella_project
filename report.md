@@ -1,14 +1,131 @@
 ## Francisella tularensis Schu S4 FTS-634
 
-This isolate has 2 sequence runs: SRR999319, SRR1061346
+This isolate has one NCBI assembly and 2 sequence runs: SRR999319, SRR1061346
 
+### FTS-634 scaffolds
+
+#### Contig alignment (ref vs NCBI scaffolds)
+
+![FTS-634 contig alignment](http://bioseed.mcs.anl.gov/~fangfang/francisella/png/FTS-634.png)
+
+#### SNPs (ref vs NCBI scaffolds)
+
+```
+/space2/fangfang/francisella/ref/177416.18.contigs /space2/fangfang/francisella/olive/FTS-634.scaffolds.fasta
+NUCMER
+
+                               [REF]                [QRY]
+[Sequences]
+TotalSeqs                          1                    2
+AlignedSeqs               1(100.00%)           2(100.00%)
+UnalignedSeqs               0(0.00%)             0(0.00%)
+
+[Bases]
+TotalBases                   1892775              1892695
+AlignedBases        1892775(100.00%)     1892694(100.00%)
+UnalignedBases              0(0.00%)             1(0.00%)
+
+[Alignments]
+1-to-1                             5                    5
+TotalLength                  1942758              1942839
+AvgLength                  388551.60            388567.80
+AvgIdentity                    99.99                99.99
+
+M-to-M                             6                    6
+TotalLength                  1943653              1943734
+AvgLength                  323942.17            323955.67
+AvgIdentity                    99.99                99.99
+
+[Feature Estimates]
+Breakpoints                       10                    9
+Relocations                        0                    0
+Translocations                     1                    0
+Inversions                         0                    0
+
+Insertions                         2                    2
+InsertionSum                     922                   12
+InsertionAvg                  461.00                 6.00
+
+TandemIns                          1                    1
+TandemInsSum                      27                   11
+TandemInsAvg                   27.00                11.00
+
+[SNPs]
+TotalSNPs                          6                    6
+AT                          0(0.00%)             0(0.00%)
+AC                          0(0.00%)             0(0.00%)
+AG                         4(66.67%)            1(16.67%)
+TA                          0(0.00%)             0(0.00%)
+TC                          0(0.00%)            1(16.67%)
+TG                          0(0.00%)             0(0.00%)
+CA                          0(0.00%)             0(0.00%)
+CT                         1(16.67%)             0(0.00%)
+CG                          0(0.00%)             0(0.00%)
+GA                         1(16.67%)            4(66.67%)
+GT                          0(0.00%)             0(0.00%)
+GC                          0(0.00%)             0(0.00%)
+
+TotalGSNPs                         6                    6
+AT                          0(0.00%)             0(0.00%)
+AC                          0(0.00%)             0(0.00%)
+AG                         4(66.67%)            1(16.67%)
+TA                          0(0.00%)             0(0.00%)
+TC                          0(0.00%)            1(16.67%)
+TG                          0(0.00%)             0(0.00%)
+CA                          0(0.00%)             0(0.00%)
+CT                         1(16.67%)             0(0.00%)
+CG                          0(0.00%)             0(0.00%)
+GA                         1(16.67%)            4(66.67%)
+GT                          0(0.00%)             0(0.00%)
+GC                          0(0.00%)             0(0.00%)
+
+TotalIndels                        2                    2
+A.                         1(50.00%)            1(50.00%)
+T.                          0(0.00%)             0(0.00%)
+C.                          0(0.00%)             0(0.00%)
+G.                          0(0.00%)             0(0.00%)
+.A                         1(50.00%)            1(50.00%)
+.T                          0(0.00%)             0(0.00%)
+.C                          0(0.00%)             0(0.00%)
+.G                          0(0.00%)             0(0.00%)
+
+TotalGIndels                       2                    2
+A.                         1(50.00%)            1(50.00%)
+T.                          0(0.00%)             0(0.00%)
+C.                          0(0.00%)             0(0.00%)
+G.                          0(0.00%)             0(0.00%)
+.A                         1(50.00%)            1(50.00%)
+.T                          0(0.00%)             0(0.00%)
+.C                          0(0.00%)             0(0.00%)
+.G                          0(0.00%)             0(0.00%)
+```
+#### DNA differences (ref vs NCBI scaffolds)
+
+```
+                               [REF]          [FTS-634]
+[Sequences]
+TotalSeqs                          1                    2
+AlignedSeqs               1(100.00%)           2(100.00%)
+UnalignedSeqs               0(0.00%)             0(0.00%)
+
+[Bases]
+TotalBases                   1892775              1892695
+AlignedBases        1892775(100.00%)     1892694(100.00%)
+UnalignedBases              0(0.00%)             1(0.00%)
+
+[Alignments]
+1-to-1                             5                    5
+TotalLength                  1942758              1942839
+AvgLength                  388551.60            388567.80
+AvgIdentity                    99.99                99.99
+```
 ### SRR999319
 
-#### Contig alignment
+#### Contig alignment (ref vs de novo assembly)
 
 ![SRR999319 contig alignment](http://bioseed.mcs.anl.gov/~fangfang/francisella/png/SRR999319.png)
 
-#### SNPs
+#### SNPs (ref vs reads)
 
 Contig | Pos | Ref | Var | Var cov | Var frac | Type | Ref nt | Var nt | Ref aa | Var aa | Gene ID | Gene | Frameshift | Neighboring feature (3' end) | Neighboring feature (5' end)
 --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---
@@ -19,7 +136,7 @@ NC_006570 | 1419877 | C | T | 834 | 1.00 | Nonsyn | cct | Tct | P | S | FTT_1373
 NC_006570 | 1423162 | A | G | 894 | 1.00 | Nonsyn | agt | Ggt | S | G | FTT_1377 | 3-oxoacyl-[acyl-carrier-protein] synthase, KASII (EC 2.3.1.179) |  | Acyl carrier protein | hypothetical protein
 NC_006570 | 1634580 | G | A | 902 | 1.00 | Nonsyn | aca | aTa | T | I | FTT_1573c | Outer membrane protein assembly factor YaeT precursor |  | Outer membrane chaperone Skp (OmpH) precursor @ Outer membrane protein H precursor | 1-deoxy-D-xylulose 5-phosphate reductoisomerase (EC 1.1.1.267)
 
-#### DNA differences
+#### DNA differences (ref vs de novo assembly)
 
 ```
                                [REF]          [SRR999319]
@@ -39,7 +156,7 @@ TotalLength                  1808077              1808094
 AvgLength                   24768.18             24768.41
 AvgIdentity                    99.99                99.99
 ```
-#### Protein differences
+#### Protein differences (ref vs de novo assembly)
 
 1886 of the 2031 proteins (92.86%) in the reference genome have Bidirectional Best Hits (BBHs) in the de novo assembled contigs from SRR999319 reads.
 
@@ -90,7 +207,6 @@ ref_beg | ref_end | ref_id | ref_len | type | qry_id | qry_len | fract_id | frac
 351205 | 351585 | g.219517.CDS.379 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 351573 | 351989 | g.219517.CDS.380 | 138 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 352063 | 352554 | g.219517.CDS.381 | 163 |  -> | g.219510.CDS.1 | 108 | 0.900 | 1.000 | 0.117 | 0.176 | NODE_2_length_103385_cov_411.97_ID_3 | 2 | 325 | Mobile element protein | Mobile element protein
-352918 | 353913 | g.219517.CDS.382 | 331 |  -> | g.219510.CDS.1695 | 331 | 1.000 | 1.000 | 0.997 | 0.997 | NODE_69_length_1682_cov_1261.21_ID_137 | 263 | 1258 | hypothetical protein | hypothetical protein
 354205 | 354621 | g.219517.CDS.383 | 138 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 354609 | 354989 | g.219517.CDS.384 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 357361 | 357777 | g.219517.CDS.386 | 138 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
@@ -100,7 +216,6 @@ ref_beg | ref_end | ref_id | ref_len | type | qry_id | qry_len | fract_id | frac
 366495 | 366677 | g.219517.CDS.398 | 60 |  -  |  |  |  |  |  |  |  |  |  | hypothetical protein | 
 378906 | 379286 | g.219517.CDS.410 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 379274 | 379690 | g.219517.CDS.411 | 138 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
-379982 | 380977 | g.219517.CDS.412 | 331 |  -> | g.219510.CDS.1695 | 331 | 1.000 | 1.000 | 0.997 | 0.997 | NODE_69_length_1682_cov_1261.21_ID_137 | 263 | 1258 | hypothetical protein | hypothetical protein
 381341 | 381820 | g.219517.CDS.413 | 159 |  -> | g.219510.CDS.1 | 108 | 0.900 | 1.000 | 0.119 | 0.176 | NODE_2_length_103385_cov_411.97_ID_3 | 2 | 325 | Mobile element protein | Mobile element protein
 383702 | 384445 | g.219517.CDS.415 | 247 |  -> | g.219510.CDS.1 | 108 | 1.000 | 1.000 | 0.433 | 0.991 | NODE_2_length_103385_cov_411.97_ID_3 | 2 | 325 | Mobile element protein | Mobile element protein
 426305 | 427444 | g.219517.CDS.450 | 379 | <-> | g.219510.CDS.1137 | 423 | 1.000 | 1.000 | 0.989 | 0.887 | NODE_5_length_68941_cov_411.008_ID_9 | 41928 | 43199 | Glucose-1-phosphate adenylyltransferase (EC 2.7.7.27) | Glucose-1-phosphate adenylyltransferase (EC 2.7.7.27)
@@ -119,7 +234,6 @@ ref_beg | ref_end | ref_id | ref_len | type | qry_id | qry_len | fract_id | frac
 578744 | 579160 | g.219517.CDS.618 | 138 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 582508 | 583251 | g.219517.CDS.622 | 247 |  -> | g.219510.CDS.1 | 108 | 1.000 | 1.000 | 0.433 | 0.991 | NODE_2_length_103385_cov_411.97_ID_3 | 2 | 325 | Mobile element protein | Mobile element protein
 606904 | 607647 | g.219517.CDS.650 | 247 |  -> | g.219510.CDS.1 | 108 | 1.000 | 1.000 | 0.433 | 0.991 | NODE_2_length_103385_cov_411.97_ID_3 | 2 | 325 | Mobile element protein | Mobile element protein
-693461 | 694720 | g.219517.CDS.749 | 419 | <-> | g.219510.CDS.100 | 419 | 0.998 | 0.998 | 0.998 | 0.998 | NODE_2_length_103385_cov_411.97_ID_3 | 86139 | 87398 | Hemolysins and related proteins containing CBS domains | Hemolysins and related proteins containing CBS domains
 710737 | 711153 | g.219517.CDS.766 | 138 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 711141 | 711521 | g.219517.CDS.767 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 744289 | 744705 | g.219517.CDS.799 | 138 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
@@ -131,7 +245,6 @@ ref_beg | ref_end | ref_id | ref_len | type | qry_id | qry_len | fract_id | frac
 785370 | 785786 | g.219517.CDS.849 | 138 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 799235 | 799615 | g.219517.CDS.866 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 799603 | 800019 | g.219517.CDS.867 | 138 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
-826545 | 827756 | g.219517.CDS.895 | 403 | <-> | g.219510.CDS.1085 | 403 | 0.998 | 0.998 | 0.998 | 0.998 | NODE_12_length_39157_cov_395.864_ID_23 | 26497 | 27708 | Hypothetical protein in predicted poly-gamma-glutamate synthase operon | Hypothetical protein in predicted poly-gamma-glutamate synthase operon
 839217 | 839597 | g.219517.CDS.910 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 839585 | 840001 | g.219517.CDS.911 | 138 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 876765 | 877508 | g.219517.CDS.962 | 247 |  -> | g.219510.CDS.1 | 108 | 1.000 | 1.000 | 0.433 | 0.991 | NODE_2_length_103385_cov_411.97_ID_3 | 2 | 325 | Mobile element protein | Mobile element protein
@@ -140,12 +253,10 @@ ref_beg | ref_end | ref_id | ref_len | type | qry_id | qry_len | fract_id | frac
 1018849 | 1020057 | g.219517.CDS.1114 | 402 | <-> | g.219510.CDS.544 | 377 | 0.997 | 1.000 | 0.935 | 0.997 | NODE_1_length_131947_cov_387.376_ID_1 | 87175 | 88308 | FIG097052: Sugar transporter | FIG097052: Sugar transporter
 1062454 | 1062660 | g.219517.CDS.1163 | 68 | <-> | g.219510.CDS.593 | 64 | 0.984 | 1.000 | 0.926 | 0.984 | NODE_1_length_131947_cov_387.376_ID_1 | 130705 | 130899 | hypothetical protein | hypothetical protein
 1063612 | 1063953 | g.219517.CDS.1166 | 113 |  -> | g.219510.CDS.343 | 22 | 0.909 | 0.955 | 0.186 | 0.955 | NODE_11_length_39322_cov_417.53_ID_21 | 39253 | 39321 | Mobile element protein | Mobile element protein
-1064014 | 1064310 | g.219517.CDS.1167 | 98 |  -> | g.219510.CDS.1310 | 98 | 1.000 | 1.000 | 0.990 | 0.990 | NODE_41_length_16537_cov_412.411_ID_81 | 28 | 324 | Mobile element protein | Mobile element protein
 1073411 | 1073827 | g.219517.CDS.1181 | 138 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 1073815 | 1074195 | g.219517.CDS.1182 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 1085435 | 1085815 | g.219517.CDS.1194 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 1085803 | 1086219 | g.219517.CDS.1195 | 138 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
-1104026 | 1105408 | g.219517.CDS.1217 | 460 | <-> | g.219510.CDS.796 | 457 | 0.998 | 1.000 | 0.991 | 0.998 | NODE_17_length_35227_cov_398.942_ID_33 | 17778 | 19151 | Outer membrane protein TolC | Outer membrane protein TolC
 1121516 | 1122259 | g.219517.CDS.1237 | 247 |  -> | g.219510.CDS.1 | 108 | 1.000 | 1.000 | 0.433 | 0.991 | NODE_2_length_103385_cov_411.97_ID_3 | 2 | 325 | Mobile element protein | Mobile element protein
 1153900 | 1154316 | g.219517.CDS.1273 | 138 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 1154304 | 1154684 | g.219517.CDS.1274 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
@@ -162,30 +273,8 @@ ref_beg | ref_end | ref_id | ref_len | type | qry_id | qry_len | fract_id | frac
 1287369 | 1287749 | g.219517.CDS.1419 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 1332313 | 1332693 | g.219517.CDS.1466 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 1370445 | 1371188 | g.219517.CDS.1497 | 247 |  -> | g.219510.CDS.1 | 108 | 1.000 | 1.000 | 0.433 | 0.991 | NODE_2_length_103385_cov_411.97_ID_3 | 2 | 325 | Mobile element protein | Mobile element protein
-1379925 | 1382387 | g.219517.CDS.1501 | 820 |  -> | g.219510.CDS.1248 | 820 | 1.000 | 1.000 | 0.999 | 0.999 | NODE_26_length_27521_cov_752.742_ID_51 | 80 | 2542 | hypothetical protein | hypothetical protein
-1382392 | 1385673 | g.219517.CDS.1502 | 1093 |  -> | g.219510.CDS.1249 | 1093 | 1.000 | 1.000 | 0.999 | 0.999 | NODE_26_length_27521_cov_752.742_ID_51 | 2547 | 5828 | hypothetical protein | hypothetical protein
-1385663 | 1386040 | g.219517.CDS.1503 | 125 |  -> | g.219510.CDS.1250 | 125 | 1.000 | 1.000 | 0.992 | 0.992 | NODE_26_length_27521_cov_752.742_ID_51 | 5818 | 6195 | hypothetical protein | hypothetical protein
-1386053 | 1386547 | g.219517.CDS.1504 | 164 |  -> | g.219510.CDS.1251 | 164 | 1.000 | 1.000 | 0.994 | 0.994 | NODE_26_length_27521_cov_752.742_ID_51 | 6208 | 6702 | vgrG protein | vgrG protein
-1386552 | 1388282 | g.219517.CDS.1505 | 576 |  -> | g.219510.CDS.1252 | 576 | 1.000 | 1.000 | 0.998 | 0.998 | NODE_26_length_27521_cov_752.742_ID_51 | 6707 | 8437 | DNA polymerase I (EC 2.7.7.7) | DNA polymerase I (EC 2.7.7.7)
-1388283 | 1388804 | g.219517.CDS.1506 | 173 |  -> | g.219510.CDS.1253 | 173 | 1.000 | 1.000 | 0.994 | 0.994 | NODE_26_length_27521_cov_752.742_ID_51 | 8438 | 8959 | hypothetical protein | hypothetical protein
-1388817 | 1390247 | g.219517.CDS.1507 | 476 |  -> | g.219510.CDS.1254 | 476 | 1.000 | 1.000 | 0.998 | 0.998 | NODE_26_length_27521_cov_752.742_ID_51 | 8972 | 10402 | hypothetical protein | hypothetical protein
-1390260 | 1390883 | g.219517.CDS.1508 | 207 |  -> | g.219510.CDS.1255 | 207 | 1.000 | 1.000 | 0.995 | 0.995 | NODE_26_length_27521_cov_752.742_ID_51 | 10415 | 11038 | hypothetical protein | hypothetical protein
-1390905 | 1392056 | g.219517.CDS.1509 | 383 |  -> | g.219510.CDS.1256 | 383 | 1.000 | 1.000 | 0.997 | 0.997 | NODE_26_length_27521_cov_752.742_ID_51 | 11060 | 12211 | hypothetical protein | hypothetical protein
-1392079 | 1392795 | g.219517.CDS.1510 | 238 |  -> | g.219510.CDS.1257 | 238 | 1.000 | 1.000 | 0.996 | 0.996 | NODE_26_length_27521_cov_752.742_ID_51 | 12234 | 12950 | hypothetical protein | hypothetical protein
-1392835 | 1396821 | g.219517.CDS.1511 | 1328 |  -> | g.219510.CDS.1258 | 1328 | 1.000 | 1.000 | 0.999 | 0.999 | NODE_26_length_27521_cov_752.742_ID_51 | 12990 | 16976 | hypothetical protein | hypothetical protein
-1396839 | 1397414 | g.219517.CDS.1512 | 191 |  -> | g.219510.CDS.1259 | 191 | 1.000 | 1.000 | 0.995 | 0.995 | NODE_26_length_27521_cov_752.742_ID_51 | 16994 | 17569 | hypothetical protein | hypothetical protein
-1397421 | 1398617 | g.219517.CDS.1513 | 398 |  -> | g.219510.CDS.1260 | 398 | 1.000 | 1.000 | 0.997 | 0.997 | NODE_26_length_27521_cov_752.742_ID_51 | 17576 | 18772 | hypothetical protein | hypothetical protein
-1398638 | 1399267 | g.219517.CDS.1514 | 209 |  -> | g.219510.CDS.1261 | 209 | 1.000 | 1.000 | 0.995 | 0.995 | NODE_26_length_27521_cov_752.742_ID_51 | 18793 | 19422 | hypothetical protein | hypothetical protein
-1399284 | 1400804 | g.219517.CDS.1515 | 506 |  -> | g.219510.CDS.1262 | 506 | 1.000 | 1.000 | 0.998 | 0.998 | NODE_26_length_27521_cov_752.742_ID_51 | 19439 | 20959 | Uncharacterized protein ImpC | Uncharacterized protein ImpC
-1400818 | 1401372 | g.219517.CDS.1516 | 184 |  -> | g.219510.CDS.1263 | 184 | 1.000 | 1.000 | 0.995 | 0.995 | NODE_26_length_27521_cov_752.742_ID_51 | 20973 | 21527 | Uncharacterized protein ImpB | Uncharacterized protein ImpB
-1401453 | 1405040 | g.219517.CDS.1517 | 1195 |  -> | g.219510.CDS.1264 | 1195 | 1.000 | 1.000 | 0.999 | 0.999 | NODE_26_length_27521_cov_752.742_ID_51 | 21608 | 25195 | hypothetical protein | hypothetical protein
-1405272 | 1405673 | g.219517.CDS.1518 | 133 |  -> | g.219510.CDS.1265 | 133 | 1.000 | 1.000 | 0.992 | 0.992 | NODE_26_length_27521_cov_752.742_ID_51 | 25427 | 25828 | Anhydro-N-acetylmuramic acid kinase (EC 2.7.1.-) | Anhydro-N-acetylmuramic acid kinase (EC 2.7.1.-)
-1405686 | 1406255 | g.219517.CDS.1519 | 189 |  -> | g.219510.CDS.1266 | 189 | 1.000 | 1.000 | 0.995 | 0.995 | NODE_26_length_27521_cov_752.742_ID_51 | 25841 | 26410 | Anhydro-N-acetylmuramic acid kinase (EC 2.7.1.-) | Anhydro-N-acetylmuramic acid kinase (EC 2.7.1.-)
-1406685 | 1407299 | g.219517.CDS.1520 | 204 |  -> | g.219510.CDS.1267 | 204 | 1.000 | 1.000 | 0.995 | 0.995 | NODE_26_length_27521_cov_752.742_ID_51 | 26840 | 27454 | Predicted trehalose permease, MFS family, FucP subfamily | Predicted trehalose permease, MFS family, FucP subfamily
 1407396 | 1407812 | g.219517.CDS.1521 | 138 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 1407800 | 1408180 | g.219517.CDS.1522 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
-1419073 | 1420044 | g.219517.CDS.1534 | 323 | <-> | g.219510.CDS.1279 | 323 | 0.997 | 0.997 | 0.997 | 0.997 | NODE_33_length_21756_cov_399.293_ID_65 | 10882 | 11853 | 3-oxoacyl-[acyl-carrier-protein] synthase, KASIII (EC 2.3.1.180) | 3-oxoacyl-[acyl-carrier-protein] synthase, KASIII (EC 2.3.1.180)
-1422229 | 1423488 | g.219517.CDS.1538 | 419 | <-> | g.219510.CDS.1283 | 419 | 0.998 | 0.998 | 0.998 | 0.998 | NODE_33_length_21756_cov_399.293_ID_65 | 14038 | 15297 | 3-oxoacyl-[acyl-carrier-protein] synthase, KASII (EC 2.3.1.179) | 3-oxoacyl-[acyl-carrier-protein] synthase, KASII (EC 2.3.1.179)
 1426779 | 1426982 | g.219517.CDS.1544 | 67 |  -  |  |  |  |  |  |  |  |  |  | Putative membrane protein | 
 1429959 | 1430339 | g.219517.CDS.1548 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 1430327 | 1430743 | g.219517.CDS.1549 | 138 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
@@ -194,7 +283,6 @@ ref_beg | ref_end | ref_id | ref_len | type | qry_id | qry_len | fract_id | frac
 1476390 | 1476806 | g.219517.CDS.1594 | 138 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 1483215 | 1483958 | g.219517.CDS.1604 | 247 |  -> | g.219510.CDS.1 | 108 | 1.000 | 1.000 | 0.433 | 0.991 | NODE_2_length_103385_cov_411.97_ID_3 | 2 | 325 | Mobile element protein | Mobile element protein
 1498514 | 1498894 | g.219517.CDS.1618 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
-1508636 | 1509865 | g.219517.CDS.1628 | 409 | <-> | g.219510.CDS.1197 | 404 | 0.998 | 1.000 | 0.985 | 0.998 | NODE_38_length_17640_cov_397.02_ID_75 | 6696 | 7910 | NADH dehydrogenase subunit 4 | NADH dehydrogenase subunit 4
 1516518 | 1517261 | g.219517.CDS.1635 | 247 |  -> | g.219510.CDS.1 | 108 | 1.000 | 1.000 | 0.433 | 0.991 | NODE_2_length_103385_cov_411.97_ID_3 | 2 | 325 | Mobile element protein | Mobile element protein
 1531388 | 1531660 | g.219517.CDS.1651 | 90 | <-> | g.219510.CDS.1624 | 102 | 1.000 | 1.000 | 0.989 | 0.873 | NODE_47_length_14397_cov_427.973_ID_93 | 14087 | 14395 | Pap2 superfamily protein | Pap2 superfamily protein
 1531728 | 1532144 | g.219517.CDS.1652 | 138 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
@@ -202,7 +290,6 @@ ref_beg | ref_end | ref_id | ref_len | type | qry_id | qry_len | fract_id | frac
 1576231 | 1576974 | g.219517.CDS.1697 | 247 | <-> | g.219510.CDS.1 | 108 | 1.000 | 1.000 | 0.433 | 0.991 | NODE_2_length_103385_cov_411.97_ID_3 | 2 | 325 | Mobile element protein | Mobile element protein
 1609794 | 1610174 | g.219517.CDS.1728 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 1610162 | 1610578 | g.219517.CDS.1729 | 138 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
-1633718 | 1636054 | g.219517.CDS.1757 | 778 | <-> | g.219510.CDS.1580 | 778 | 0.999 | 0.999 | 0.999 | 0.999 | NODE_13_length_38202_cov_421.461_ID_25 | 12756 | 15092 | Outer membrane protein assembly factor YaeT precursor | Outer membrane protein assembly factor YaeT precursor
 1648839 | 1649255 | g.219517.CDS.1770 | 138 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 1649243 | 1649623 | g.219517.CDS.1771 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 1665129 | 1665545 | g.219517.CDS.1786 | 138 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
@@ -221,7 +308,6 @@ ref_beg | ref_end | ref_id | ref_len | type | qry_id | qry_len | fract_id | frac
 1761288 | 1761704 | g.219517.CDS.1899 | 138 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 1766112 | 1766528 | g.219517.CDS.1905 | 138 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 1766516 | 1766896 | g.219517.CDS.1906 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
-1766954 | 1767718 | g.219517.CDS.1907 | 254 | <-> | g.219510.CDS.1899 | 256 | 0.996 | 1.000 | 0.996 | 0.988 | NODE_70_length_818_cov_412.853_ID_139 | 47 | 817 | NAD-dependent formate dehydrogenase (EC 1.2.1.2) | NAD-dependent formate dehydrogenase (EC 1.2.1.2)
 1800731 | 1801147 | g.219517.CDS.1928 | 138 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 1801135 | 1801515 | g.219517.CDS.1929 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 1816777 | 1816986 | g.219517.CDS.1942 | 69 |  -  |  |  |  |  |  |  |  |  |  | hypothetical protein | 
@@ -236,11 +322,11 @@ ref_beg | ref_end | ref_id | ref_len | type | qry_id | qry_len | fract_id | frac
 
 ### SRR1061346
 
-#### Contig alignment
+#### Contig alignment (ref vs de novo assembly)
 
 ![SRR1061346 contig alignment](http://bioseed.mcs.anl.gov/~fangfang/francisella/png/SRR1061346.png)
 
-#### SNPs
+#### SNPs (ref vs reads)
 
 Contig | Pos | Ref | Var | Var cov | Var frac | Type | Ref nt | Var nt | Ref aa | Var aa | Gene ID | Gene | Frameshift | Neighboring feature (3' end) | Neighboring feature (5' end)
 --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---
@@ -251,7 +337,7 @@ NC_006570 | 1419877 | C | T | 446 | 1.00 | Nonsyn | cct | Tct | P | S | FTT_1373
 NC_006570 | 1423162 | A | G | 614 | 1.00 | Nonsyn | agt | Ggt | S | G | FTT_1377 | 3-oxoacyl-[acyl-carrier-protein] synthase, KASII (EC 2.3.1.179) |  | Acyl carrier protein | hypothetical protein
 NC_006570 | 1634580 | G | A | 384 | 1.00 | Nonsyn | aca | aTa | T | I | FTT_1573c | Outer membrane protein assembly factor YaeT precursor |  | Outer membrane chaperone Skp (OmpH) precursor @ Outer membrane protein H precursor | 1-deoxy-D-xylulose 5-phosphate reductoisomerase (EC 1.1.1.267)
 
-#### DNA differences
+#### DNA differences (ref vs de novo assembly)
 
 ```
                                [REF]          [SRR1061346]
@@ -271,7 +357,7 @@ TotalLength                  1826224              1826172
 AvgLength                   25364.22             25363.50
 AvgIdentity                    99.99                99.99
 ```
-#### Protein differences
+#### Protein differences (ref vs de novo assembly)
 
 1890 of the 2031 proteins (93.06%) in the reference genome have Bidirectional Best Hits (BBHs) in the de novo assembled contigs from SRR1061346 reads.
 
@@ -318,7 +404,6 @@ ref_beg | ref_end | ref_id | ref_len | type | qry_id | qry_len | fract_id | frac
 351205 | 351585 | g.219517.CDS.379 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 351573 | 351989 | g.219517.CDS.380 | 138 |  -> | g.219505.CDS.1290 | 41 | 0.967 | 0.967 | 0.210 | 0.707 | NODE_3_length_93491_cov_186.056_ID_5 | 3 | 128 | Mobile element protein | Mobile element protein
 352063 | 352554 | g.219517.CDS.381 | 163 |  -> | g.219505.CDS.1871 | 108 | 0.900 | 1.000 | 0.117 | 0.176 | NODE_53_length_8517_cov_214.179_ID_105 | 8193 | 8516 | Mobile element protein | Mobile element protein
-352918 | 353913 | g.219517.CDS.382 | 331 |  -> | g.219505.CDS.334 | 331 | 1.000 | 1.000 | 0.997 | 0.997 | NODE_66_length_1682_cov_329.245_ID_131 | 263 | 1258 | hypothetical protein | hypothetical protein
 354205 | 354621 | g.219517.CDS.383 | 138 |  -> | g.219505.CDS.1290 | 41 | 0.967 | 0.967 | 0.210 | 0.707 | NODE_3_length_93491_cov_186.056_ID_5 | 3 | 128 | Mobile element protein | Mobile element protein
 354609 | 354989 | g.219517.CDS.384 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 357361 | 357777 | g.219517.CDS.386 | 138 |  -> | g.219505.CDS.1290 | 41 | 0.967 | 0.967 | 0.210 | 0.707 | NODE_3_length_93491_cov_186.056_ID_5 | 3 | 128 | Mobile element protein | Mobile element protein
@@ -328,7 +413,6 @@ ref_beg | ref_end | ref_id | ref_len | type | qry_id | qry_len | fract_id | frac
 366495 | 366677 | g.219517.CDS.398 | 60 |  -  |  |  |  |  |  |  |  |  |  | hypothetical protein | 
 378906 | 379286 | g.219517.CDS.410 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 379274 | 379690 | g.219517.CDS.411 | 138 |  -> | g.219505.CDS.1290 | 41 | 0.967 | 0.967 | 0.210 | 0.707 | NODE_3_length_93491_cov_186.056_ID_5 | 3 | 128 | Mobile element protein | Mobile element protein
-379982 | 380977 | g.219517.CDS.412 | 331 |  -> | g.219505.CDS.334 | 331 | 1.000 | 1.000 | 0.997 | 0.997 | NODE_66_length_1682_cov_329.245_ID_131 | 263 | 1258 | hypothetical protein | hypothetical protein
 381341 | 381820 | g.219517.CDS.413 | 159 |  -> | g.219505.CDS.1871 | 108 | 0.900 | 1.000 | 0.119 | 0.176 | NODE_53_length_8517_cov_214.179_ID_105 | 8193 | 8516 | Mobile element protein | Mobile element protein
 383702 | 384445 | g.219517.CDS.415 | 247 |  -> | g.219505.CDS.1871 | 108 | 1.000 | 1.000 | 0.433 | 0.991 | NODE_53_length_8517_cov_214.179_ID_105 | 8193 | 8516 | Mobile element protein | Mobile element protein
 426305 | 427444 | g.219517.CDS.450 | 379 | <-> | g.219505.CDS.609 | 423 | 1.000 | 1.000 | 0.989 | 0.887 | NODE_6_length_68941_cov_149.738_ID_11 | 41928 | 43199 | Glucose-1-phosphate adenylyltransferase (EC 2.7.7.27) | Glucose-1-phosphate adenylyltransferase (EC 2.7.7.27)
@@ -345,7 +429,6 @@ ref_beg | ref_end | ref_id | ref_len | type | qry_id | qry_len | fract_id | frac
 578744 | 579160 | g.219517.CDS.618 | 138 |  -> | g.219505.CDS.1290 | 41 | 0.967 | 0.967 | 0.210 | 0.707 | NODE_3_length_93491_cov_186.056_ID_5 | 3 | 128 | Mobile element protein | Mobile element protein
 582508 | 583251 | g.219517.CDS.622 | 247 |  -> | g.219505.CDS.1871 | 108 | 1.000 | 1.000 | 0.433 | 0.991 | NODE_53_length_8517_cov_214.179_ID_105 | 8193 | 8516 | Mobile element protein | Mobile element protein
 606904 | 607647 | g.219517.CDS.650 | 247 |  -> | g.219505.CDS.1871 | 108 | 1.000 | 1.000 | 0.433 | 0.991 | NODE_53_length_8517_cov_214.179_ID_105 | 8193 | 8516 | Mobile element protein | Mobile element protein
-693461 | 694720 | g.219517.CDS.749 | 419 | <-> | g.219505.CDS.1485 | 419 | 0.998 | 0.998 | 0.998 | 0.998 | NODE_2_length_103385_cov_137.65_ID_3 | 86139 | 87398 | Hemolysins and related proteins containing CBS domains | Hemolysins and related proteins containing CBS domains
 710737 | 711153 | g.219517.CDS.766 | 138 |  -> | g.219505.CDS.1290 | 41 | 0.967 | 0.967 | 0.210 | 0.707 | NODE_3_length_93491_cov_186.056_ID_5 | 3 | 128 | Mobile element protein | Mobile element protein
 711141 | 711521 | g.219517.CDS.767 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 744289 | 744705 | g.219517.CDS.799 | 138 |  -> | g.219505.CDS.1290 | 41 | 0.967 | 0.967 | 0.210 | 0.707 | NODE_3_length_93491_cov_186.056_ID_5 | 3 | 128 | Mobile element protein | Mobile element protein
@@ -355,7 +438,6 @@ ref_beg | ref_end | ref_id | ref_len | type | qry_id | qry_len | fract_id | frac
 785370 | 785786 | g.219517.CDS.849 | 138 |  -> | g.219505.CDS.1290 | 41 | 0.967 | 0.967 | 0.210 | 0.707 | NODE_3_length_93491_cov_186.056_ID_5 | 3 | 128 | Mobile element protein | Mobile element protein
 799235 | 799615 | g.219517.CDS.866 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 799603 | 800019 | g.219517.CDS.867 | 138 |  -> | g.219505.CDS.1290 | 41 | 0.967 | 0.967 | 0.210 | 0.707 | NODE_3_length_93491_cov_186.056_ID_5 | 3 | 128 | Mobile element protein | Mobile element protein
-826545 | 827756 | g.219517.CDS.895 | 403 | <-> | g.219505.CDS.410 | 403 | 0.998 | 0.998 | 0.998 | 0.998 | NODE_12_length_39170_cov_143.386_ID_23 | 11463 | 12674 | Hypothetical protein in predicted poly-gamma-glutamate synthase operon | Hypothetical protein in predicted poly-gamma-glutamate synthase operon
 839217 | 839597 | g.219517.CDS.910 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 839585 | 840001 | g.219517.CDS.911 | 138 |  -> | g.219505.CDS.1290 | 41 | 0.967 | 0.967 | 0.210 | 0.707 | NODE_3_length_93491_cov_186.056_ID_5 | 3 | 128 | Mobile element protein | Mobile element protein
 876765 | 877508 | g.219517.CDS.962 | 247 |  -> | g.219505.CDS.1871 | 108 | 1.000 | 1.000 | 0.433 | 0.991 | NODE_53_length_8517_cov_214.179_ID_105 | 8193 | 8516 | Mobile element protein | Mobile element protein
@@ -363,12 +445,10 @@ ref_beg | ref_end | ref_id | ref_len | type | qry_id | qry_len | fract_id | frac
 931304 | 931720 | g.219517.CDS.1018 | 138 |  -> | g.219505.CDS.1290 | 41 | 0.967 | 0.967 | 0.210 | 0.707 | NODE_3_length_93491_cov_186.056_ID_5 | 3 | 128 | Mobile element protein | Mobile element protein
 1018849 | 1020057 | g.219517.CDS.1114 | 402 | <-> | g.219505.CDS.1073 | 377 | 0.997 | 1.000 | 0.935 | 0.997 | NODE_1_length_148774_cov_111.131_ID_1 | 87175 | 88308 | FIG097052: Sugar transporter | FIG097052: Sugar transporter
 1062454 | 1062660 | g.219517.CDS.1163 | 68 | <-> | g.219505.CDS.1122 | 64 | 0.984 | 1.000 | 0.926 | 0.984 | NODE_1_length_148774_cov_111.131_ID_1 | 130705 | 130899 | hypothetical protein | hypothetical protein
-1064014 | 1064310 | g.219517.CDS.1167 | 98 |  -> | g.219505.CDS.1126 | 98 | 1.000 | 1.000 | 0.990 | 0.990 | NODE_1_length_148774_cov_111.131_ID_1 | 132265 | 132561 | Mobile element protein | Mobile element protein
 1073411 | 1073827 | g.219517.CDS.1181 | 138 |  -> | g.219505.CDS.1290 | 41 | 0.967 | 0.967 | 0.210 | 0.707 | NODE_3_length_93491_cov_186.056_ID_5 | 3 | 128 | Mobile element protein | Mobile element protein
 1073815 | 1074195 | g.219517.CDS.1182 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 1085435 | 1085815 | g.219517.CDS.1194 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 1085803 | 1086219 | g.219517.CDS.1195 | 138 |  -> | g.219505.CDS.1290 | 41 | 0.967 | 0.967 | 0.210 | 0.707 | NODE_3_length_93491_cov_186.056_ID_5 | 3 | 128 | Mobile element protein | Mobile element protein
-1104026 | 1105408 | g.219517.CDS.1217 | 460 | <-> | g.219505.CDS.1810 | 457 | 0.998 | 1.000 | 0.991 | 0.998 | NODE_16_length_35592_cov_148.448_ID_31 | 17778 | 19151 | Outer membrane protein TolC | Outer membrane protein TolC
 1121516 | 1122259 | g.219517.CDS.1237 | 247 |  -> | g.219505.CDS.1871 | 108 | 1.000 | 1.000 | 0.433 | 0.991 | NODE_53_length_8517_cov_214.179_ID_105 | 8193 | 8516 | Mobile element protein | Mobile element protein
 1153900 | 1154316 | g.219517.CDS.1273 | 138 |  -> | g.219505.CDS.1290 | 41 | 0.967 | 0.967 | 0.210 | 0.707 | NODE_3_length_93491_cov_186.056_ID_5 | 3 | 128 | Mobile element protein | Mobile element protein
 1154304 | 1154684 | g.219517.CDS.1274 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
@@ -385,40 +465,16 @@ ref_beg | ref_end | ref_id | ref_len | type | qry_id | qry_len | fract_id | frac
 1287369 | 1287749 | g.219517.CDS.1419 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 1332313 | 1332693 | g.219517.CDS.1466 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 1370445 | 1371188 | g.219517.CDS.1497 | 247 |  -> | g.219505.CDS.1871 | 108 | 1.000 | 1.000 | 0.433 | 0.991 | NODE_53_length_8517_cov_214.179_ID_105 | 8193 | 8516 | Mobile element protein | Mobile element protein
-1379925 | 1382387 | g.219517.CDS.1501 | 820 |  -> | g.219505.CDS.1502 | 820 | 1.000 | 1.000 | 0.999 | 0.999 | NODE_26_length_27521_cov_196.975_ID_51 | 80 | 2542 | hypothetical protein | hypothetical protein
-1382392 | 1385673 | g.219517.CDS.1502 | 1093 |  -> | g.219505.CDS.1503 | 1093 | 1.000 | 1.000 | 0.999 | 0.999 | NODE_26_length_27521_cov_196.975_ID_51 | 2547 | 5828 | hypothetical protein | hypothetical protein
-1385663 | 1386040 | g.219517.CDS.1503 | 125 |  -> | g.219505.CDS.1504 | 125 | 1.000 | 1.000 | 0.992 | 0.992 | NODE_26_length_27521_cov_196.975_ID_51 | 5818 | 6195 | hypothetical protein | hypothetical protein
-1386053 | 1386547 | g.219517.CDS.1504 | 164 |  -> | g.219505.CDS.1505 | 164 | 1.000 | 1.000 | 0.994 | 0.994 | NODE_26_length_27521_cov_196.975_ID_51 | 6208 | 6702 | vgrG protein | vgrG protein
-1386552 | 1388282 | g.219517.CDS.1505 | 576 |  -> | g.219505.CDS.1506 | 576 | 1.000 | 1.000 | 0.998 | 0.998 | NODE_26_length_27521_cov_196.975_ID_51 | 6707 | 8437 | DNA polymerase I (EC 2.7.7.7) | DNA polymerase I (EC 2.7.7.7)
-1388283 | 1388804 | g.219517.CDS.1506 | 173 |  -> | g.219505.CDS.1507 | 173 | 1.000 | 1.000 | 0.994 | 0.994 | NODE_26_length_27521_cov_196.975_ID_51 | 8438 | 8959 | hypothetical protein | hypothetical protein
-1388817 | 1390247 | g.219517.CDS.1507 | 476 |  -> | g.219505.CDS.1508 | 476 | 1.000 | 1.000 | 0.998 | 0.998 | NODE_26_length_27521_cov_196.975_ID_51 | 8972 | 10402 | hypothetical protein | hypothetical protein
-1390260 | 1390883 | g.219517.CDS.1508 | 207 |  -> | g.219505.CDS.1509 | 207 | 1.000 | 1.000 | 0.995 | 0.995 | NODE_26_length_27521_cov_196.975_ID_51 | 10415 | 11038 | hypothetical protein | hypothetical protein
-1390905 | 1392056 | g.219517.CDS.1509 | 383 |  -> | g.219505.CDS.1510 | 383 | 1.000 | 1.000 | 0.997 | 0.997 | NODE_26_length_27521_cov_196.975_ID_51 | 11060 | 12211 | hypothetical protein | hypothetical protein
-1392079 | 1392795 | g.219517.CDS.1510 | 238 |  -> | g.219505.CDS.1511 | 238 | 1.000 | 1.000 | 0.996 | 0.996 | NODE_26_length_27521_cov_196.975_ID_51 | 12234 | 12950 | hypothetical protein | hypothetical protein
-1392835 | 1396821 | g.219517.CDS.1511 | 1328 |  -> | g.219505.CDS.1512 | 1328 | 1.000 | 1.000 | 0.999 | 0.999 | NODE_26_length_27521_cov_196.975_ID_51 | 12990 | 16976 | hypothetical protein | hypothetical protein
-1396839 | 1397414 | g.219517.CDS.1512 | 191 |  -> | g.219505.CDS.1513 | 191 | 1.000 | 1.000 | 0.995 | 0.995 | NODE_26_length_27521_cov_196.975_ID_51 | 16994 | 17569 | hypothetical protein | hypothetical protein
-1397421 | 1398617 | g.219517.CDS.1513 | 398 |  -> | g.219505.CDS.1514 | 398 | 1.000 | 1.000 | 0.997 | 0.997 | NODE_26_length_27521_cov_196.975_ID_51 | 17576 | 18772 | hypothetical protein | hypothetical protein
-1398638 | 1399267 | g.219517.CDS.1514 | 209 |  -> | g.219505.CDS.1515 | 209 | 1.000 | 1.000 | 0.995 | 0.995 | NODE_26_length_27521_cov_196.975_ID_51 | 18793 | 19422 | hypothetical protein | hypothetical protein
-1399284 | 1400804 | g.219517.CDS.1515 | 506 |  -> | g.219505.CDS.1516 | 506 | 1.000 | 1.000 | 0.998 | 0.998 | NODE_26_length_27521_cov_196.975_ID_51 | 19439 | 20959 | Uncharacterized protein ImpC | Uncharacterized protein ImpC
-1400818 | 1401372 | g.219517.CDS.1516 | 184 |  -> | g.219505.CDS.1517 | 184 | 1.000 | 1.000 | 0.995 | 0.995 | NODE_26_length_27521_cov_196.975_ID_51 | 20973 | 21527 | Uncharacterized protein ImpB | Uncharacterized protein ImpB
-1401453 | 1405040 | g.219517.CDS.1517 | 1195 |  -> | g.219505.CDS.1518 | 1195 | 1.000 | 1.000 | 0.999 | 0.999 | NODE_26_length_27521_cov_196.975_ID_51 | 21608 | 25195 | hypothetical protein | hypothetical protein
-1405272 | 1405673 | g.219517.CDS.1518 | 133 |  -> | g.219505.CDS.1519 | 133 | 1.000 | 1.000 | 0.992 | 0.992 | NODE_26_length_27521_cov_196.975_ID_51 | 25427 | 25828 | Anhydro-N-acetylmuramic acid kinase (EC 2.7.1.-) | Anhydro-N-acetylmuramic acid kinase (EC 2.7.1.-)
-1405686 | 1406255 | g.219517.CDS.1519 | 189 |  -> | g.219505.CDS.1520 | 189 | 1.000 | 1.000 | 0.995 | 0.995 | NODE_26_length_27521_cov_196.975_ID_51 | 25841 | 26410 | Anhydro-N-acetylmuramic acid kinase (EC 2.7.1.-) | Anhydro-N-acetylmuramic acid kinase (EC 2.7.1.-)
-1406685 | 1407299 | g.219517.CDS.1520 | 204 |  -> | g.219505.CDS.1521 | 204 | 1.000 | 1.000 | 0.995 | 0.995 | NODE_26_length_27521_cov_196.975_ID_51 | 26840 | 27454 | Predicted trehalose permease, MFS family, FucP subfamily | Predicted trehalose permease, MFS family, FucP subfamily
 1407396 | 1407812 | g.219517.CDS.1521 | 138 |  -> | g.219505.CDS.1290 | 41 | 0.967 | 0.967 | 0.210 | 0.707 | NODE_3_length_93491_cov_186.056_ID_5 | 3 | 128 | Mobile element protein | Mobile element protein
 1407800 | 1408180 | g.219517.CDS.1522 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
-1419073 | 1420044 | g.219517.CDS.1534 | 323 | <-> | g.219505.CDS.1533 | 323 | 0.997 | 0.997 | 0.997 | 0.997 | NODE_32_length_21782_cov_179.395_ID_63 | 10895 | 11866 | 3-oxoacyl-[acyl-carrier-protein] synthase, KASIII (EC 2.3.1.180) | 3-oxoacyl-[acyl-carrier-protein] synthase, KASIII (EC 2.3.1.180)
-1422229 | 1423488 | g.219517.CDS.1538 | 419 | <-> | g.219505.CDS.1537 | 419 | 0.998 | 0.998 | 0.998 | 0.998 | NODE_32_length_21782_cov_179.395_ID_63 | 14051 | 15310 | 3-oxoacyl-[acyl-carrier-protein] synthase, KASII (EC 2.3.1.179) | 3-oxoacyl-[acyl-carrier-protein] synthase, KASII (EC 2.3.1.179)
 1426779 | 1426982 | g.219517.CDS.1544 | 67 |  -  |  |  |  |  |  |  |  |  |  | Putative membrane protein | 
 1429959 | 1430339 | g.219517.CDS.1548 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 1430327 | 1430743 | g.219517.CDS.1549 | 138 |  -> | g.219505.CDS.1290 | 41 | 0.967 | 0.967 | 0.210 | 0.707 | NODE_3_length_93491_cov_186.056_ID_5 | 3 | 128 | Mobile element protein | Mobile element protein
-1442488 | 1443918 | g.219517.CDS.1558 | 476 | <-> | g.219505.CDS.1885 | 469 | 0.985 | 0.985 | 0.998 | 0.998 | NODE_27_length_27276_cov_131.107_ID_53 | 14152 | 15561 | ATP-dependent DNA helicase | ATP-dependent DNA helicase
 1458062 | 1458811 | g.219517.CDS.1572 | 249 | <-> | g.219505.CDS.906 | 132 | 1.000 | 1.000 | 0.526 | 0.992 | NODE_38_length_17608_cov_147.487_ID_75 | 1 | 396 | Predicted D-lactate dehydrogenase, Fe-S protein, FAD/FMN-containing | Predicted D-lactate dehydrogenase, Fe-S protein, FAD/FMN-containing
 1476022 | 1476402 | g.219517.CDS.1593 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 1476390 | 1476806 | g.219517.CDS.1594 | 138 |  -> | g.219505.CDS.1290 | 41 | 0.967 | 0.967 | 0.210 | 0.707 | NODE_3_length_93491_cov_186.056_ID_5 | 3 | 128 | Mobile element protein | Mobile element protein
 1483215 | 1483958 | g.219517.CDS.1604 | 247 |  -> | g.219505.CDS.1871 | 108 | 1.000 | 1.000 | 0.433 | 0.991 | NODE_53_length_8517_cov_214.179_ID_105 | 8193 | 8516 | Mobile element protein | Mobile element protein
 1498514 | 1498894 | g.219517.CDS.1618 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
-1508636 | 1509865 | g.219517.CDS.1628 | 409 | <-> | g.219505.CDS.1760 | 404 | 0.998 | 1.000 | 0.985 | 0.998 | NODE_37_length_17693_cov_141.076_ID_73 | 6736 | 7950 | NADH dehydrogenase subunit 4 | NADH dehydrogenase subunit 4
 1516518 | 1517261 | g.219517.CDS.1635 | 247 |  -> | g.219505.CDS.1871 | 108 | 1.000 | 1.000 | 0.433 | 0.991 | NODE_53_length_8517_cov_214.179_ID_105 | 8193 | 8516 | Mobile element protein | Mobile element protein
 1531388 | 1531660 | g.219517.CDS.1651 | 90 | <-> | g.219505.CDS.102 | 102 | 1.000 | 1.000 | 0.989 | 0.873 | NODE_43_length_14762_cov_193.111_ID_85 | 14452 | 14760 | Pap2 superfamily protein | Pap2 superfamily protein
 1531728 | 1532144 | g.219517.CDS.1652 | 138 |  -> | g.219505.CDS.1290 | 41 | 0.967 | 0.967 | 0.210 | 0.707 | NODE_3_length_93491_cov_186.056_ID_5 | 3 | 128 | Mobile element protein | Mobile element protein
@@ -437,7 +493,6 @@ ref_beg | ref_end | ref_id | ref_len | type | qry_id | qry_len | fract_id | frac
 1576231 | 1576974 | g.219517.CDS.1697 | 247 | <-> | g.219505.CDS.1871 | 108 | 1.000 | 1.000 | 0.433 | 0.991 | NODE_53_length_8517_cov_214.179_ID_105 | 8193 | 8516 | Mobile element protein | Mobile element protein
 1609794 | 1610174 | g.219517.CDS.1728 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 1610162 | 1610578 | g.219517.CDS.1729 | 138 |  -> | g.219505.CDS.1290 | 41 | 0.967 | 0.967 | 0.210 | 0.707 | NODE_3_length_93491_cov_186.056_ID_5 | 3 | 128 | Mobile element protein | Mobile element protein
-1633718 | 1636054 | g.219517.CDS.1757 | 778 | <-> | g.219505.CDS.1585 | 778 | 0.999 | 0.999 | 0.999 | 0.999 | NODE_13_length_38202_cov_143.291_ID_25 | 12756 | 15092 | Outer membrane protein assembly factor YaeT precursor | Outer membrane protein assembly factor YaeT precursor
 1648839 | 1649255 | g.219517.CDS.1770 | 138 |  -> | g.219505.CDS.1290 | 41 | 0.967 | 0.967 | 0.210 | 0.707 | NODE_3_length_93491_cov_186.056_ID_5 | 3 | 128 | Mobile element protein | Mobile element protein
 1649243 | 1649623 | g.219517.CDS.1771 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 1665129 | 1665545 | g.219517.CDS.1786 | 138 |  -> | g.219505.CDS.1290 | 41 | 0.967 | 0.967 | 0.210 | 0.707 | NODE_3_length_93491_cov_186.056_ID_5 | 3 | 128 | Mobile element protein | Mobile element protein
@@ -468,23 +523,139 @@ ref_beg | ref_end | ref_id | ref_len | type | qry_id | qry_len | fract_id | frac
 1869174 | 1869590 | g.219517.CDS.2003 | 138 | <-  | g.219505.CDS.52 | 41 | 0.967 | 0.967 | 0.210 | 0.707 | NODE_36_length_19622_cov_170.512_ID_71 | 3 | 128 | Mobile element protein | Mobile element protein
 1869174 | 1869590 | g.219517.CDS.2003 | 138 | <-  | g.219505.CDS.333 | 41 | 0.933 | 0.933 | 0.210 | 0.707 | NODE_44_length_14658_cov_213.591_ID_87 | 14531 | 14656 | Mobile element protein | Mobile element protein
 1869174 | 1869590 | g.219517.CDS.2003 | 138 | <-> | g.219505.CDS.1290 | 41 | 0.967 | 0.967 | 0.210 | 0.707 | NODE_3_length_93491_cov_186.056_ID_5 | 3 | 128 | Mobile element protein | Mobile element protein
-1879440 | 1879736 | g.219517.CDS.2017 | 98 | <-  | g.219505.CDS.543 | 98 | 1.000 | 1.000 | 0.990 | 0.990 | NODE_50_length_10173_cov_142.643_ID_99 | 9821 | 10117 | Mobile element protein | Mobile element protein
 
 ## Francisella tularensis Schu S4 NR-10492
 
-This isolate has 2 sequence runs: SRR999320, SRR1061347
+This isolate has one NCBI assembly and 2 sequence runs: SRR999320, SRR1061347
 
+### NR-10492 scaffolds
+
+#### Contig alignment (ref vs NCBI scaffolds)
+
+![NR-10492 contig alignment](http://bioseed.mcs.anl.gov/~fangfang/francisella/png/NR-10492.png)
+
+#### SNPs (ref vs NCBI scaffolds)
+
+```
+/space2/fangfang/francisella/ref/177416.18.contigs /space2/fangfang/francisella/olive/NR-10492.scaffolds.fasta
+NUCMER
+
+                               [REF]                [QRY]
+[Sequences]
+TotalSeqs                          1                    2
+AlignedSeqs               1(100.00%)           2(100.00%)
+UnalignedSeqs               0(0.00%)             0(0.00%)
+
+[Bases]
+TotalBases                   1892775              1894828
+AlignedBases        1892775(100.00%)      1893511(99.93%)
+UnalignedBases              0(0.00%)          1317(0.07%)
+
+[Alignments]
+1-to-1                             5                    5
+TotalLength                  1913673              1913722
+AvgLength                  382734.60            382744.40
+AvgIdentity                    99.99                99.99
+
+M-to-M                             5                    5
+TotalLength                  1913673              1913722
+AvgLength                  382734.60            382744.40
+AvgIdentity                    99.99                99.99
+
+[Feature Estimates]
+Breakpoints                        8                    6
+Relocations                        0                    0
+Translocations                     1                    0
+Inversions                         0                    0
+
+Insertions                         1                    2
+InsertionSum                       9                 1918
+InsertionAvg                    9.00               959.00
+
+TandemIns                          1                    0
+TandemInsSum                       9                    0
+TandemInsAvg                    9.00                 0.00
+
+[SNPs]
+TotalSNPs                          1                    1
+AT                          0(0.00%)             0(0.00%)
+AC                          0(0.00%)             0(0.00%)
+AG                          0(0.00%)             0(0.00%)
+TA                          0(0.00%)             0(0.00%)
+TC                          0(0.00%)           1(100.00%)
+TG                          0(0.00%)             0(0.00%)
+CA                          0(0.00%)             0(0.00%)
+CT                        1(100.00%)             0(0.00%)
+CG                          0(0.00%)             0(0.00%)
+GA                          0(0.00%)             0(0.00%)
+GT                          0(0.00%)             0(0.00%)
+GC                          0(0.00%)             0(0.00%)
+
+TotalGSNPs                         1                    1
+AT                          0(0.00%)             0(0.00%)
+AC                          0(0.00%)             0(0.00%)
+AG                          0(0.00%)             0(0.00%)
+TA                          0(0.00%)             0(0.00%)
+TC                          0(0.00%)           1(100.00%)
+TG                          0(0.00%)             0(0.00%)
+CA                          0(0.00%)             0(0.00%)
+CT                        1(100.00%)             0(0.00%)
+CG                          0(0.00%)             0(0.00%)
+GA                          0(0.00%)             0(0.00%)
+GT                          0(0.00%)             0(0.00%)
+GC                          0(0.00%)             0(0.00%)
+
+TotalIndels                        0                    0
+A.                          0(0.00%)             0(0.00%)
+T.                          0(0.00%)             0(0.00%)
+C.                          0(0.00%)             0(0.00%)
+G.                          0(0.00%)             0(0.00%)
+.A                          0(0.00%)             0(0.00%)
+.T                          0(0.00%)             0(0.00%)
+.C                          0(0.00%)             0(0.00%)
+.G                          0(0.00%)             0(0.00%)
+
+TotalGIndels                       0                    0
+A.                          0(0.00%)             0(0.00%)
+T.                          0(0.00%)             0(0.00%)
+C.                          0(0.00%)             0(0.00%)
+G.                          0(0.00%)             0(0.00%)
+.A                          0(0.00%)             0(0.00%)
+.T                          0(0.00%)             0(0.00%)
+.C                          0(0.00%)             0(0.00%)
+.G                          0(0.00%)             0(0.00%)
+```
+#### DNA differences (ref vs NCBI scaffolds)
+
+```
+                               [REF]          [NR-10492]
+[Sequences]
+TotalSeqs                          1                    2
+AlignedSeqs               1(100.00%)           2(100.00%)
+UnalignedSeqs               0(0.00%)             0(0.00%)
+
+[Bases]
+TotalBases                   1892775              1894828
+AlignedBases        1892775(100.00%)      1893511(99.93%)
+UnalignedBases              0(0.00%)          1317(0.07%)
+
+[Alignments]
+1-to-1                             5                    5
+TotalLength                  1913673              1913722
+AvgLength                  382734.60            382744.40
+AvgIdentity                    99.99                99.99
+```
 ### SRR999320
 
-#### Contig alignment
+#### Contig alignment (ref vs de novo assembly)
 
 ![SRR999320 contig alignment](http://bioseed.mcs.anl.gov/~fangfang/francisella/png/SRR999320.png)
 
-#### SNPs
+#### SNPs (ref vs reads)
 
 None
 
-#### DNA differences
+#### DNA differences (ref vs de novo assembly)
 
 ```
                                [REF]          [SRR999320]
@@ -504,7 +675,7 @@ TotalLength                  1813348              1813311
 AvgLength                   23859.84             23859.36
 AvgIdentity                   100.00               100.00
 ```
-#### Protein differences
+#### Protein differences (ref vs de novo assembly)
 
 1887 of the 2031 proteins (92.91%) in the reference genome have Bidirectional Best Hits (BBHs) in the de novo assembled contigs from SRR999320 reads.
 
@@ -552,7 +723,6 @@ ref_beg | ref_end | ref_id | ref_len | type | qry_id | qry_len | fract_id | frac
 351205 | 351585 | g.219517.CDS.379 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 351573 | 351989 | g.219517.CDS.380 | 138 |  -> | g.219511.CDS.120 | 145 | 0.993 | 1.000 | 0.993 | 0.945 | NODE_3_length_93913_cov_682.663_ID_5 | 93474 | 93911 | Mobile element protein | Mobile element protein
 352063 | 352554 | g.219517.CDS.381 | 163 |  -> | g.219511.CDS.428 | 108 | 0.900 | 1.000 | 0.117 | 0.176 | NODE_2_length_103495_cov_479.835_ID_3 | 2 | 325 | Mobile element protein | Mobile element protein
-352918 | 353913 | g.219517.CDS.382 | 331 |  -> | g.219511.CDS.1865 | 331 | 1.000 | 1.000 | 0.997 | 0.997 | NODE_69_length_1792_cov_2742.19_ID_137 | 373 | 1368 | hypothetical protein | hypothetical protein
 354205 | 354621 | g.219517.CDS.383 | 138 |  -> | g.219511.CDS.120 | 145 | 0.993 | 1.000 | 0.993 | 0.945 | NODE_3_length_93913_cov_682.663_ID_5 | 93474 | 93911 | Mobile element protein | Mobile element protein
 354609 | 354989 | g.219517.CDS.384 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 357361 | 357777 | g.219517.CDS.386 | 138 |  -> | g.219511.CDS.120 | 145 | 0.993 | 1.000 | 0.993 | 0.945 | NODE_3_length_93913_cov_682.663_ID_5 | 93474 | 93911 | Mobile element protein | Mobile element protein
@@ -562,7 +732,6 @@ ref_beg | ref_end | ref_id | ref_len | type | qry_id | qry_len | fract_id | frac
 366495 | 366677 | g.219517.CDS.398 | 60 |  -  |  |  |  |  |  |  |  |  |  | hypothetical protein | 
 378906 | 379286 | g.219517.CDS.410 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 379274 | 379690 | g.219517.CDS.411 | 138 |  -> | g.219511.CDS.120 | 145 | 0.993 | 1.000 | 0.993 | 0.945 | NODE_3_length_93913_cov_682.663_ID_5 | 93474 | 93911 | Mobile element protein | Mobile element protein
-379982 | 380977 | g.219517.CDS.412 | 331 |  -> | g.219511.CDS.1865 | 331 | 1.000 | 1.000 | 0.997 | 0.997 | NODE_69_length_1792_cov_2742.19_ID_137 | 373 | 1368 | hypothetical protein | hypothetical protein
 381341 | 381820 | g.219517.CDS.413 | 159 |  -> | g.219511.CDS.428 | 108 | 0.900 | 1.000 | 0.119 | 0.176 | NODE_2_length_103495_cov_479.835_ID_3 | 2 | 325 | Mobile element protein | Mobile element protein
 383702 | 384445 | g.219517.CDS.415 | 247 |  -> | g.219511.CDS.428 | 108 | 1.000 | 1.000 | 0.433 | 0.991 | NODE_2_length_103495_cov_479.835_ID_3 | 2 | 325 | Mobile element protein | Mobile element protein
 442099 | 442215 | g.219517.CDS.464 | 38 | <-> | g.219511.CDS.1746 | 46 | 1.000 | 1.000 | 0.974 | 0.804 | NODE_5_length_69052_cov_518.816_ID_9 | 57698 | 57838 | hypothetical protein | hypothetical protein
@@ -598,12 +767,10 @@ ref_beg | ref_end | ref_id | ref_len | type | qry_id | qry_len | fract_id | frac
 1018849 | 1020057 | g.219517.CDS.1114 | 402 | <-> | g.219511.CDS.1601 | 377 | 0.997 | 1.000 | 0.935 | 0.997 | NODE_1_length_132057_cov_423.958_ID_1 | 87285 | 88418 | FIG097052: Sugar transporter | FIG097052: Sugar transporter
 1062454 | 1062660 | g.219517.CDS.1163 | 68 | <-> | g.219511.CDS.1650 | 64 | 0.984 | 1.000 | 0.926 | 0.984 | NODE_1_length_132057_cov_423.958_ID_1 | 130815 | 131009 | hypothetical protein | hypothetical protein
 1063612 | 1063953 | g.219517.CDS.1166 | 113 |  -> | g.219511.CDS.1809 | 22 | 0.909 | 0.955 | 0.186 | 0.955 | NODE_11_length_39432_cov_587.347_ID_21 | 39363 | 39431 | Mobile element protein | Mobile element protein
-1064014 | 1064310 | g.219517.CDS.1167 | 98 |  -> | g.219511.CDS.1415 | 98 | 1.000 | 1.000 | 0.990 | 0.990 | NODE_41_length_16647_cov_643.07_ID_81 | 28 | 324 | Mobile element protein | Mobile element protein
 1073411 | 1073827 | g.219517.CDS.1181 | 138 |  -> | g.219511.CDS.120 | 145 | 0.993 | 1.000 | 0.993 | 0.945 | NODE_3_length_93913_cov_682.663_ID_5 | 93474 | 93911 | Mobile element protein | Mobile element protein
 1073815 | 1074195 | g.219517.CDS.1182 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 1085435 | 1085815 | g.219517.CDS.1194 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 1085803 | 1086219 | g.219517.CDS.1195 | 138 |  -> | g.219511.CDS.120 | 145 | 0.993 | 1.000 | 0.993 | 0.945 | NODE_3_length_93913_cov_682.663_ID_5 | 93474 | 93911 | Mobile element protein | Mobile element protein
-1104026 | 1105408 | g.219517.CDS.1217 | 460 | <-> | g.219511.CDS.1677 | 457 | 0.998 | 1.000 | 0.991 | 0.998 | NODE_17_length_35337_cov_502.615_ID_33 | 17888 | 19261 | Outer membrane protein TolC | Outer membrane protein TolC
 1121516 | 1122259 | g.219517.CDS.1237 | 247 |  -> | g.219511.CDS.428 | 108 | 1.000 | 1.000 | 0.433 | 0.991 | NODE_2_length_103495_cov_479.835_ID_3 | 2 | 325 | Mobile element protein | Mobile element protein
 1153900 | 1154316 | g.219517.CDS.1273 | 138 |  -> | g.219511.CDS.120 | 145 | 0.993 | 1.000 | 0.993 | 0.945 | NODE_3_length_93913_cov_682.663_ID_5 | 93474 | 93911 | Mobile element protein | Mobile element protein
 1154304 | 1154684 | g.219517.CDS.1274 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
@@ -620,26 +787,6 @@ ref_beg | ref_end | ref_id | ref_len | type | qry_id | qry_len | fract_id | frac
 1287369 | 1287749 | g.219517.CDS.1419 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 1332313 | 1332693 | g.219517.CDS.1466 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 1370445 | 1371188 | g.219517.CDS.1497 | 247 |  -> | g.219511.CDS.428 | 108 | 1.000 | 1.000 | 0.433 | 0.991 | NODE_2_length_103495_cov_479.835_ID_3 | 2 | 325 | Mobile element protein | Mobile element protein
-1379925 | 1382387 | g.219517.CDS.1501 | 820 |  -> | g.219511.CDS.1245 | 820 | 1.000 | 1.000 | 0.999 | 0.999 | NODE_26_length_27504_cov_888.665_ID_51 | 80 | 2542 | hypothetical protein | hypothetical protein
-1382392 | 1385673 | g.219517.CDS.1502 | 1093 |  -> | g.219511.CDS.1246 | 1093 | 1.000 | 1.000 | 0.999 | 0.999 | NODE_26_length_27504_cov_888.665_ID_51 | 2547 | 5828 | hypothetical protein | hypothetical protein
-1385663 | 1386040 | g.219517.CDS.1503 | 125 |  -> | g.219511.CDS.1247 | 125 | 1.000 | 1.000 | 0.992 | 0.992 | NODE_26_length_27504_cov_888.665_ID_51 | 5818 | 6195 | hypothetical protein | hypothetical protein
-1386053 | 1386547 | g.219517.CDS.1504 | 164 |  -> | g.219511.CDS.1248 | 164 | 1.000 | 1.000 | 0.994 | 0.994 | NODE_26_length_27504_cov_888.665_ID_51 | 6208 | 6702 | vgrG protein | vgrG protein
-1386552 | 1388282 | g.219517.CDS.1505 | 576 |  -> | g.219511.CDS.1249 | 576 | 1.000 | 1.000 | 0.998 | 0.998 | NODE_26_length_27504_cov_888.665_ID_51 | 6707 | 8437 | DNA polymerase I (EC 2.7.7.7) | DNA polymerase I (EC 2.7.7.7)
-1388283 | 1388804 | g.219517.CDS.1506 | 173 |  -> | g.219511.CDS.1250 | 173 | 1.000 | 1.000 | 0.994 | 0.994 | NODE_26_length_27504_cov_888.665_ID_51 | 8438 | 8959 | hypothetical protein | hypothetical protein
-1388817 | 1390247 | g.219517.CDS.1507 | 476 |  -> | g.219511.CDS.1251 | 476 | 1.000 | 1.000 | 0.998 | 0.998 | NODE_26_length_27504_cov_888.665_ID_51 | 8972 | 10402 | hypothetical protein | hypothetical protein
-1390260 | 1390883 | g.219517.CDS.1508 | 207 |  -> | g.219511.CDS.1252 | 207 | 1.000 | 1.000 | 0.995 | 0.995 | NODE_26_length_27504_cov_888.665_ID_51 | 10415 | 11038 | hypothetical protein | hypothetical protein
-1390905 | 1392056 | g.219517.CDS.1509 | 383 |  -> | g.219511.CDS.1253 | 383 | 1.000 | 1.000 | 0.997 | 0.997 | NODE_26_length_27504_cov_888.665_ID_51 | 11060 | 12211 | hypothetical protein | hypothetical protein
-1392079 | 1392795 | g.219517.CDS.1510 | 238 |  -> | g.219511.CDS.1254 | 238 | 1.000 | 1.000 | 0.996 | 0.996 | NODE_26_length_27504_cov_888.665_ID_51 | 12234 | 12950 | hypothetical protein | hypothetical protein
-1392835 | 1396821 | g.219517.CDS.1511 | 1328 |  -> | g.219511.CDS.1255 | 1328 | 1.000 | 1.000 | 0.999 | 0.999 | NODE_26_length_27504_cov_888.665_ID_51 | 12990 | 16976 | hypothetical protein | hypothetical protein
-1396839 | 1397414 | g.219517.CDS.1512 | 191 |  -> | g.219511.CDS.1256 | 191 | 1.000 | 1.000 | 0.995 | 0.995 | NODE_26_length_27504_cov_888.665_ID_51 | 16994 | 17569 | hypothetical protein | hypothetical protein
-1397421 | 1398617 | g.219517.CDS.1513 | 398 |  -> | g.219511.CDS.1257 | 398 | 1.000 | 1.000 | 0.997 | 0.997 | NODE_26_length_27504_cov_888.665_ID_51 | 17576 | 18772 | hypothetical protein | hypothetical protein
-1398638 | 1399267 | g.219517.CDS.1514 | 209 |  -> | g.219511.CDS.1258 | 209 | 1.000 | 1.000 | 0.995 | 0.995 | NODE_26_length_27504_cov_888.665_ID_51 | 18793 | 19422 | hypothetical protein | hypothetical protein
-1399284 | 1400804 | g.219517.CDS.1515 | 506 |  -> | g.219511.CDS.1259 | 506 | 1.000 | 1.000 | 0.998 | 0.998 | NODE_26_length_27504_cov_888.665_ID_51 | 19439 | 20959 | Uncharacterized protein ImpC | Uncharacterized protein ImpC
-1400818 | 1401372 | g.219517.CDS.1516 | 184 |  -> | g.219511.CDS.1260 | 184 | 1.000 | 1.000 | 0.995 | 0.995 | NODE_26_length_27504_cov_888.665_ID_51 | 20973 | 21527 | Uncharacterized protein ImpB | Uncharacterized protein ImpB
-1401453 | 1405040 | g.219517.CDS.1517 | 1195 |  -> | g.219511.CDS.1261 | 1195 | 1.000 | 1.000 | 0.999 | 0.999 | NODE_26_length_27504_cov_888.665_ID_51 | 21608 | 25195 | hypothetical protein | hypothetical protein
-1405272 | 1405673 | g.219517.CDS.1518 | 133 |  -> | g.219511.CDS.1262 | 133 | 1.000 | 1.000 | 0.992 | 0.992 | NODE_26_length_27504_cov_888.665_ID_51 | 25427 | 25828 | Anhydro-N-acetylmuramic acid kinase (EC 2.7.1.-) | Anhydro-N-acetylmuramic acid kinase (EC 2.7.1.-)
-1405686 | 1406255 | g.219517.CDS.1519 | 189 |  -> | g.219511.CDS.1263 | 189 | 1.000 | 1.000 | 0.995 | 0.995 | NODE_26_length_27504_cov_888.665_ID_51 | 25841 | 26410 | Anhydro-N-acetylmuramic acid kinase (EC 2.7.1.-) | Anhydro-N-acetylmuramic acid kinase (EC 2.7.1.-)
-1406685 | 1407299 | g.219517.CDS.1520 | 204 |  -> | g.219511.CDS.1264 | 204 | 1.000 | 1.000 | 0.995 | 0.995 | NODE_26_length_27504_cov_888.665_ID_51 | 26840 | 27454 | Predicted trehalose permease, MFS family, FucP subfamily | Predicted trehalose permease, MFS family, FucP subfamily
 1407396 | 1407812 | g.219517.CDS.1521 | 138 |  -> | g.219511.CDS.120 | 145 | 0.993 | 1.000 | 0.993 | 0.945 | NODE_3_length_93913_cov_682.663_ID_5 | 93474 | 93911 | Mobile element protein | Mobile element protein
 1407800 | 1408180 | g.219517.CDS.1522 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 1426779 | 1426982 | g.219517.CDS.1544 | 67 |  -  |  |  |  |  |  |  |  |  |  | Putative membrane protein | 
@@ -650,7 +797,6 @@ ref_beg | ref_end | ref_id | ref_len | type | qry_id | qry_len | fract_id | frac
 1476390 | 1476806 | g.219517.CDS.1594 | 138 |  -> | g.219511.CDS.120 | 145 | 0.993 | 1.000 | 0.993 | 0.945 | NODE_3_length_93913_cov_682.663_ID_5 | 93474 | 93911 | Mobile element protein | Mobile element protein
 1483215 | 1483958 | g.219517.CDS.1604 | 247 |  -> | g.219511.CDS.428 | 108 | 1.000 | 1.000 | 0.433 | 0.991 | NODE_2_length_103495_cov_479.835_ID_3 | 2 | 325 | Mobile element protein | Mobile element protein
 1498514 | 1498894 | g.219517.CDS.1618 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
-1508636 | 1509865 | g.219517.CDS.1628 | 409 | <-> | g.219511.CDS.127 | 404 | 0.998 | 1.000 | 0.985 | 0.998 | NODE_38_length_17640_cov_465.954_ID_75 | 6696 | 7910 | NADH dehydrogenase subunit 4 | NADH dehydrogenase subunit 4
 1516518 | 1517261 | g.219517.CDS.1635 | 247 |  -> | g.219511.CDS.428 | 108 | 1.000 | 1.000 | 0.433 | 0.991 | NODE_2_length_103495_cov_479.835_ID_3 | 2 | 325 | Mobile element protein | Mobile element protein
 1531728 | 1532144 | g.219517.CDS.1652 | 138 |  -> | g.219511.CDS.120 | 145 | 0.993 | 1.000 | 0.993 | 0.945 | NODE_3_length_93913_cov_682.663_ID_5 | 93474 | 93911 | Mobile element protein | Mobile element protein
 1532132 | 1532512 | g.219517.CDS.1653 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
@@ -676,7 +822,6 @@ ref_beg | ref_end | ref_id | ref_len | type | qry_id | qry_len | fract_id | frac
 1761288 | 1761704 | g.219517.CDS.1899 | 138 |  -> | g.219511.CDS.120 | 145 | 0.993 | 1.000 | 0.993 | 0.945 | NODE_3_length_93913_cov_682.663_ID_5 | 93474 | 93911 | Mobile element protein | Mobile element protein
 1766112 | 1766528 | g.219517.CDS.1905 | 138 |  -> | g.219511.CDS.120 | 145 | 0.993 | 1.000 | 0.993 | 0.945 | NODE_3_length_93913_cov_682.663_ID_5 | 93474 | 93911 | Mobile element protein | Mobile element protein
 1766516 | 1766896 | g.219517.CDS.1906 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
-1766954 | 1767718 | g.219517.CDS.1907 | 254 | <-> | g.219511.CDS.1187 | 256 | 0.996 | 1.000 | 0.996 | 0.988 | NODE_71_length_818_cov_566.451_ID_141 | 47 | 817 | NAD-dependent formate dehydrogenase (EC 1.2.1.2) | NAD-dependent formate dehydrogenase (EC 1.2.1.2)
 1800731 | 1801147 | g.219517.CDS.1928 | 138 |  -> | g.219511.CDS.120 | 145 | 0.993 | 1.000 | 0.993 | 0.945 | NODE_3_length_93913_cov_682.663_ID_5 | 93474 | 93911 | Mobile element protein | Mobile element protein
 1801135 | 1801515 | g.219517.CDS.1929 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 1816777 | 1816986 | g.219517.CDS.1942 | 69 |  -  |  |  |  |  |  |  |  |  |  | hypothetical protein | 
@@ -733,15 +878,15 @@ ref_beg | ref_end | ref_id | ref_len | type | qry_id | qry_len | fract_id | frac
 
 ### SRR1061347
 
-#### Contig alignment
+#### Contig alignment (ref vs de novo assembly)
 
 ![SRR1061347 contig alignment](http://bioseed.mcs.anl.gov/~fangfang/francisella/png/SRR1061347.png)
 
-#### SNPs
+#### SNPs (ref vs reads)
 
 None
 
-#### DNA differences
+#### DNA differences (ref vs de novo assembly)
 
 ```
                                [REF]          [SRR1061347]
@@ -761,7 +906,7 @@ TotalLength                  1825554              1825495
 AvgLength                   26079.34             26078.50
 AvgIdentity                   100.00               100.00
 ```
-#### Protein differences
+#### Protein differences (ref vs de novo assembly)
 
 1890 of the 2031 proteins (93.06%) in the reference genome have Bidirectional Best Hits (BBHs) in the de novo assembled contigs from SRR1061347 reads.
 
@@ -811,7 +956,6 @@ ref_beg | ref_end | ref_id | ref_len | type | qry_id | qry_len | fract_id | frac
 351205 | 351585 | g.219517.CDS.379 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 351573 | 351989 | g.219517.CDS.380 | 138 |  -> | g.219506.CDS.1211 | 41 | 0.933 | 0.933 | 0.210 | 0.707 | NODE_37_length_19622_cov_164.283_ID_73 | 3 | 128 | Mobile element protein | Mobile element protein
 352063 | 352554 | g.219517.CDS.381 | 163 |  -> | g.219506.CDS.1583 | 108 | 0.900 | 1.000 | 0.117 | 0.176 | NODE_17_length_35592_cov_136.791_ID_33 | 35268 | 35591 | Mobile element protein | Mobile element protein
-352918 | 353913 | g.219517.CDS.382 | 331 |  -> | g.219506.CDS.1774 | 331 | 1.000 | 1.000 | 0.997 | 0.997 | NODE_65_length_1682_cov_309.837_ID_129 | 263 | 1258 | hypothetical protein | hypothetical protein
 354205 | 354621 | g.219517.CDS.383 | 138 |  -> | g.219506.CDS.1211 | 41 | 0.933 | 0.933 | 0.210 | 0.707 | NODE_37_length_19622_cov_164.283_ID_73 | 3 | 128 | Mobile element protein | Mobile element protein
 354609 | 354989 | g.219517.CDS.384 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 357361 | 357777 | g.219517.CDS.386 | 138 |  -> | g.219506.CDS.1211 | 41 | 0.933 | 0.933 | 0.210 | 0.707 | NODE_37_length_19622_cov_164.283_ID_73 | 3 | 128 | Mobile element protein | Mobile element protein
@@ -821,7 +965,6 @@ ref_beg | ref_end | ref_id | ref_len | type | qry_id | qry_len | fract_id | frac
 366495 | 366677 | g.219517.CDS.398 | 60 |  -  |  |  |  |  |  |  |  |  |  | hypothetical protein | 
 378906 | 379286 | g.219517.CDS.410 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 379274 | 379690 | g.219517.CDS.411 | 138 |  -> | g.219506.CDS.1211 | 41 | 0.933 | 0.933 | 0.210 | 0.707 | NODE_37_length_19622_cov_164.283_ID_73 | 3 | 128 | Mobile element protein | Mobile element protein
-379982 | 380977 | g.219517.CDS.412 | 331 |  -> | g.219506.CDS.1774 | 331 | 1.000 | 1.000 | 0.997 | 0.997 | NODE_65_length_1682_cov_309.837_ID_129 | 263 | 1258 | hypothetical protein | hypothetical protein
 381341 | 381820 | g.219517.CDS.413 | 159 |  -> | g.219506.CDS.1583 | 108 | 0.900 | 1.000 | 0.119 | 0.176 | NODE_17_length_35592_cov_136.791_ID_33 | 35268 | 35591 | Mobile element protein | Mobile element protein
 383702 | 384445 | g.219517.CDS.415 | 247 |  -> | g.219506.CDS.1583 | 108 | 1.000 | 1.000 | 0.433 | 0.991 | NODE_17_length_35592_cov_136.791_ID_33 | 35268 | 35591 | Mobile element protein | Mobile element protein
 442099 | 442215 | g.219517.CDS.464 | 38 | <-> | g.219506.CDS.866 | 46 | 1.000 | 1.000 | 0.974 | 0.804 | NODE_6_length_68942_cov_138.218_ID_11 | 57698 | 57838 | hypothetical protein | hypothetical protein
@@ -852,12 +995,10 @@ ref_beg | ref_end | ref_id | ref_len | type | qry_id | qry_len | fract_id | frac
 931304 | 931720 | g.219517.CDS.1018 | 138 |  -> | g.219506.CDS.1211 | 41 | 0.933 | 0.933 | 0.210 | 0.707 | NODE_37_length_19622_cov_164.283_ID_73 | 3 | 128 | Mobile element protein | Mobile element protein
 1018849 | 1020057 | g.219517.CDS.1114 | 402 | <-> | g.219506.CDS.1679 | 377 | 0.997 | 1.000 | 0.935 | 0.997 | NODE_1_length_132617_cov_108.04_ID_1 | 87175 | 88308 | FIG097052: Sugar transporter | FIG097052: Sugar transporter
 1062454 | 1062660 | g.219517.CDS.1163 | 68 | <-> | g.219506.CDS.1728 | 64 | 0.984 | 1.000 | 0.926 | 0.984 | NODE_1_length_132617_cov_108.04_ID_1 | 130705 | 130899 | hypothetical protein | hypothetical protein
-1064014 | 1064310 | g.219517.CDS.1167 | 98 |  -> | g.219506.CDS.1732 | 98 | 1.000 | 1.000 | 0.990 | 0.990 | NODE_1_length_132617_cov_108.04_ID_1 | 132265 | 132561 | Mobile element protein | Mobile element protein
 1073411 | 1073827 | g.219517.CDS.1181 | 138 |  -> | g.219506.CDS.1211 | 41 | 0.933 | 0.933 | 0.210 | 0.707 | NODE_37_length_19622_cov_164.283_ID_73 | 3 | 128 | Mobile element protein | Mobile element protein
 1073815 | 1074195 | g.219517.CDS.1182 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 1085435 | 1085815 | g.219517.CDS.1194 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 1085803 | 1086219 | g.219517.CDS.1195 | 138 |  -> | g.219506.CDS.1211 | 41 | 0.933 | 0.933 | 0.210 | 0.707 | NODE_37_length_19622_cov_164.283_ID_73 | 3 | 128 | Mobile element protein | Mobile element protein
-1104026 | 1105408 | g.219517.CDS.1217 | 460 | <-> | g.219506.CDS.1563 | 457 | 0.998 | 1.000 | 0.991 | 0.998 | NODE_17_length_35592_cov_136.791_ID_33 | 17778 | 19151 | Outer membrane protein TolC | Outer membrane protein TolC
 1121516 | 1122259 | g.219517.CDS.1237 | 247 |  -> | g.219506.CDS.1583 | 108 | 1.000 | 1.000 | 0.433 | 0.991 | NODE_17_length_35592_cov_136.791_ID_33 | 35268 | 35591 | Mobile element protein | Mobile element protein
 1153900 | 1154316 | g.219517.CDS.1273 | 138 |  -> | g.219506.CDS.1211 | 41 | 0.933 | 0.933 | 0.210 | 0.707 | NODE_37_length_19622_cov_164.283_ID_73 | 3 | 128 | Mobile element protein | Mobile element protein
 1154304 | 1154684 | g.219517.CDS.1274 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
@@ -874,37 +1015,15 @@ ref_beg | ref_end | ref_id | ref_len | type | qry_id | qry_len | fract_id | frac
 1287369 | 1287749 | g.219517.CDS.1419 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 1332313 | 1332693 | g.219517.CDS.1466 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 1370445 | 1371188 | g.219517.CDS.1497 | 247 |  -> | g.219506.CDS.1583 | 108 | 1.000 | 1.000 | 0.433 | 0.991 | NODE_17_length_35592_cov_136.791_ID_33 | 35268 | 35591 | Mobile element protein | Mobile element protein
-1379925 | 1382387 | g.219517.CDS.1501 | 820 |  -> | g.219506.CDS.1818 | 820 | 1.000 | 1.000 | 0.999 | 0.999 | NODE_27_length_27521_cov_222.386_ID_53 | 80 | 2542 | hypothetical protein | hypothetical protein
-1382392 | 1385673 | g.219517.CDS.1502 | 1093 |  -> | g.219506.CDS.1819 | 1093 | 1.000 | 1.000 | 0.999 | 0.999 | NODE_27_length_27521_cov_222.386_ID_53 | 2547 | 5828 | hypothetical protein | hypothetical protein
-1385663 | 1386040 | g.219517.CDS.1503 | 125 |  -> | g.219506.CDS.1820 | 125 | 1.000 | 1.000 | 0.992 | 0.992 | NODE_27_length_27521_cov_222.386_ID_53 | 5818 | 6195 | hypothetical protein | hypothetical protein
-1386053 | 1386547 | g.219517.CDS.1504 | 164 |  -> | g.219506.CDS.1821 | 164 | 1.000 | 1.000 | 0.994 | 0.994 | NODE_27_length_27521_cov_222.386_ID_53 | 6208 | 6702 | vgrG protein | vgrG protein
-1386552 | 1388282 | g.219517.CDS.1505 | 576 |  -> | g.219506.CDS.1822 | 576 | 1.000 | 1.000 | 0.998 | 0.998 | NODE_27_length_27521_cov_222.386_ID_53 | 6707 | 8437 | DNA polymerase I (EC 2.7.7.7) | DNA polymerase I (EC 2.7.7.7)
-1388283 | 1388804 | g.219517.CDS.1506 | 173 |  -> | g.219506.CDS.1823 | 173 | 1.000 | 1.000 | 0.994 | 0.994 | NODE_27_length_27521_cov_222.386_ID_53 | 8438 | 8959 | hypothetical protein | hypothetical protein
-1388817 | 1390247 | g.219517.CDS.1507 | 476 |  -> | g.219506.CDS.1824 | 476 | 1.000 | 1.000 | 0.998 | 0.998 | NODE_27_length_27521_cov_222.386_ID_53 | 8972 | 10402 | hypothetical protein | hypothetical protein
-1390260 | 1390883 | g.219517.CDS.1508 | 207 |  -> | g.219506.CDS.1825 | 207 | 1.000 | 1.000 | 0.995 | 0.995 | NODE_27_length_27521_cov_222.386_ID_53 | 10415 | 11038 | hypothetical protein | hypothetical protein
-1390905 | 1392056 | g.219517.CDS.1509 | 383 |  -> | g.219506.CDS.1826 | 383 | 1.000 | 1.000 | 0.997 | 0.997 | NODE_27_length_27521_cov_222.386_ID_53 | 11060 | 12211 | hypothetical protein | hypothetical protein
-1392079 | 1392795 | g.219517.CDS.1510 | 238 |  -> | g.219506.CDS.1827 | 238 | 1.000 | 1.000 | 0.996 | 0.996 | NODE_27_length_27521_cov_222.386_ID_53 | 12234 | 12950 | hypothetical protein | hypothetical protein
-1392835 | 1396821 | g.219517.CDS.1511 | 1328 |  -> | g.219506.CDS.1828 | 1328 | 1.000 | 1.000 | 0.999 | 0.999 | NODE_27_length_27521_cov_222.386_ID_53 | 12990 | 16976 | hypothetical protein | hypothetical protein
-1396839 | 1397414 | g.219517.CDS.1512 | 191 |  -> | g.219506.CDS.1829 | 191 | 1.000 | 1.000 | 0.995 | 0.995 | NODE_27_length_27521_cov_222.386_ID_53 | 16994 | 17569 | hypothetical protein | hypothetical protein
-1397421 | 1398617 | g.219517.CDS.1513 | 398 |  -> | g.219506.CDS.1830 | 398 | 1.000 | 1.000 | 0.997 | 0.997 | NODE_27_length_27521_cov_222.386_ID_53 | 17576 | 18772 | hypothetical protein | hypothetical protein
-1398638 | 1399267 | g.219517.CDS.1514 | 209 |  -> | g.219506.CDS.1831 | 209 | 1.000 | 1.000 | 0.995 | 0.995 | NODE_27_length_27521_cov_222.386_ID_53 | 18793 | 19422 | hypothetical protein | hypothetical protein
-1399284 | 1400804 | g.219517.CDS.1515 | 506 |  -> | g.219506.CDS.1832 | 506 | 1.000 | 1.000 | 0.998 | 0.998 | NODE_27_length_27521_cov_222.386_ID_53 | 19439 | 20959 | Uncharacterized protein ImpC | Uncharacterized protein ImpC
-1400818 | 1401372 | g.219517.CDS.1516 | 184 |  -> | g.219506.CDS.1833 | 184 | 1.000 | 1.000 | 0.995 | 0.995 | NODE_27_length_27521_cov_222.386_ID_53 | 20973 | 21527 | Uncharacterized protein ImpB | Uncharacterized protein ImpB
-1401453 | 1405040 | g.219517.CDS.1517 | 1195 |  -> | g.219506.CDS.1834 | 1195 | 1.000 | 1.000 | 0.999 | 0.999 | NODE_27_length_27521_cov_222.386_ID_53 | 21608 | 25195 | hypothetical protein | hypothetical protein
-1405272 | 1405673 | g.219517.CDS.1518 | 133 |  -> | g.219506.CDS.1835 | 133 | 1.000 | 1.000 | 0.992 | 0.992 | NODE_27_length_27521_cov_222.386_ID_53 | 25427 | 25828 | Anhydro-N-acetylmuramic acid kinase (EC 2.7.1.-) | Anhydro-N-acetylmuramic acid kinase (EC 2.7.1.-)
-1405686 | 1406255 | g.219517.CDS.1519 | 189 |  -> | g.219506.CDS.1836 | 189 | 1.000 | 1.000 | 0.995 | 0.995 | NODE_27_length_27521_cov_222.386_ID_53 | 25841 | 26410 | Anhydro-N-acetylmuramic acid kinase (EC 2.7.1.-) | Anhydro-N-acetylmuramic acid kinase (EC 2.7.1.-)
-1406685 | 1407299 | g.219517.CDS.1520 | 204 |  -> | g.219506.CDS.1837 | 204 | 1.000 | 1.000 | 0.995 | 0.995 | NODE_27_length_27521_cov_222.386_ID_53 | 26840 | 27454 | Predicted trehalose permease, MFS family, FucP subfamily | Predicted trehalose permease, MFS family, FucP subfamily
 1407396 | 1407812 | g.219517.CDS.1521 | 138 |  -> | g.219506.CDS.1211 | 41 | 0.933 | 0.933 | 0.210 | 0.707 | NODE_37_length_19622_cov_164.283_ID_73 | 3 | 128 | Mobile element protein | Mobile element protein
 1407800 | 1408180 | g.219517.CDS.1522 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 1426779 | 1426982 | g.219517.CDS.1544 | 67 |  -  |  |  |  |  |  |  |  |  |  | Putative membrane protein | 
 1429959 | 1430339 | g.219517.CDS.1548 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 1430327 | 1430743 | g.219517.CDS.1549 | 138 |  -> | g.219506.CDS.1211 | 41 | 0.933 | 0.933 | 0.210 | 0.707 | NODE_37_length_19622_cov_164.283_ID_73 | 3 | 128 | Mobile element protein | Mobile element protein
-1442488 | 1443918 | g.219517.CDS.1558 | 476 | <-> | g.219506.CDS.1175 | 469 | 0.985 | 0.985 | 0.998 | 0.998 | NODE_8_length_45217_cov_132.415_ID_15 | 11716 | 13125 | ATP-dependent DNA helicase | ATP-dependent DNA helicase
 1476022 | 1476402 | g.219517.CDS.1593 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 1476390 | 1476806 | g.219517.CDS.1594 | 138 |  -> | g.219506.CDS.1211 | 41 | 0.933 | 0.933 | 0.210 | 0.707 | NODE_37_length_19622_cov_164.283_ID_73 | 3 | 128 | Mobile element protein | Mobile element protein
 1483215 | 1483958 | g.219517.CDS.1604 | 247 |  -> | g.219506.CDS.1583 | 108 | 1.000 | 1.000 | 0.433 | 0.991 | NODE_17_length_35592_cov_136.791_ID_33 | 35268 | 35591 | Mobile element protein | Mobile element protein
 1498514 | 1498894 | g.219517.CDS.1618 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
-1508636 | 1509865 | g.219517.CDS.1628 | 409 | <-> | g.219506.CDS.886 | 404 | 0.998 | 1.000 | 0.985 | 0.998 | NODE_38_length_17680_cov_136.463_ID_75 | 6736 | 7950 | NADH dehydrogenase subunit 4 | NADH dehydrogenase subunit 4
 1516518 | 1517261 | g.219517.CDS.1635 | 247 |  -> | g.219506.CDS.1583 | 108 | 1.000 | 1.000 | 0.433 | 0.991 | NODE_17_length_35592_cov_136.791_ID_33 | 35268 | 35591 | Mobile element protein | Mobile element protein
 1531388 | 1531660 | g.219517.CDS.1651 | 90 | <-> | g.219506.CDS.344 | 102 | 1.000 | 1.000 | 0.989 | 0.873 | NODE_43_length_14762_cov_187.735_ID_85 | 14452 | 14760 | Pap2 superfamily protein | Pap2 superfamily protein
 1531728 | 1532144 | g.219517.CDS.1652 | 138 |  -> | g.219506.CDS.1211 | 41 | 0.933 | 0.933 | 0.210 | 0.707 | NODE_37_length_19622_cov_164.283_ID_73 | 3 | 128 | Mobile element protein | Mobile element protein
@@ -954,23 +1073,139 @@ ref_beg | ref_end | ref_id | ref_len | type | qry_id | qry_len | fract_id | frac
 1869174 | 1869590 | g.219517.CDS.2003 | 138 | <-  | g.219506.CDS.1069 | 41 | 0.933 | 0.933 | 0.210 | 0.707 | NODE_3_length_93491_cov_174.046_ID_5 | 93364 | 93489 | Mobile element protein | Mobile element protein
 1869174 | 1869590 | g.219517.CDS.2003 | 138 | <-> | g.219506.CDS.1211 | 41 | 0.933 | 0.933 | 0.210 | 0.707 | NODE_37_length_19622_cov_164.283_ID_73 | 3 | 128 | Mobile element protein | Mobile element protein
 1869174 | 1869590 | g.219517.CDS.2003 | 138 | <-  | g.219506.CDS.1499 | 26 | 1.000 | 1.000 | 0.181 | 0.962 | NODE_61_length_3496_cov_342.556_ID_121 | 1 | 81 | Mobile element protein | Mobile element protein
-1879440 | 1879736 | g.219517.CDS.2017 | 98 | <-  | g.219506.CDS.1330 | 98 | 1.000 | 1.000 | 0.990 | 0.990 | NODE_29_length_26330_cov_130.841_ID_57 | 9821 | 10117 | Mobile element protein | Mobile element protein
 
 ## Francisella tularensis Schu S4 NR-28534
 
-This isolate has 2 sequence runs: SRR999321, SRR1061348
+This isolate has one NCBI assembly and 2 sequence runs: SRR999321, SRR1061348
 
+### NR-28534 scaffolds
+
+#### Contig alignment (ref vs NCBI scaffolds)
+
+![NR-28534 contig alignment](http://bioseed.mcs.anl.gov/~fangfang/francisella/png/NR-28534.png)
+
+#### SNPs (ref vs NCBI scaffolds)
+
+```
+/space2/fangfang/francisella/ref/177416.18.contigs /space2/fangfang/francisella/olive/NR-28534.scaffolds.fasta
+NUCMER
+
+                               [REF]                [QRY]
+[Sequences]
+TotalSeqs                          1                    2
+AlignedSeqs               1(100.00%)           2(100.00%)
+UnalignedSeqs               0(0.00%)             0(0.00%)
+
+[Bases]
+TotalBases                   1892775              1892972
+AlignedBases        1892775(100.00%)     1892972(100.00%)
+UnalignedBases              0(0.00%)             0(0.00%)
+
+[Alignments]
+1-to-1                             4                    4
+TotalLength                  1893375              1893375
+AvgLength                  473343.75            473343.75
+AvgIdentity                    99.99                99.99
+
+M-to-M                             4                    4
+TotalLength                  1893375              1893375
+AvgLength                  473343.75            473343.75
+AvgIdentity                    99.99                99.99
+
+[Feature Estimates]
+Breakpoints                        6                    4
+Relocations                        0                    0
+Translocations                     1                    0
+Inversions                         0                    0
+
+Insertions                         0                    2
+InsertionSum                       0                  102
+InsertionAvg                    0.00                51.00
+
+TandemIns                          0                    2
+TandemInsSum                       0                  102
+TandemInsAvg                    0.00                51.00
+
+[SNPs]
+TotalSNPs                          2                    2
+AT                          0(0.00%)             0(0.00%)
+AC                          0(0.00%)             0(0.00%)
+AG                          0(0.00%)             0(0.00%)
+TA                          0(0.00%)             0(0.00%)
+TC                         1(50.00%)            1(50.00%)
+TG                          0(0.00%)             0(0.00%)
+CA                          0(0.00%)             0(0.00%)
+CT                         1(50.00%)            1(50.00%)
+CG                          0(0.00%)             0(0.00%)
+GA                          0(0.00%)             0(0.00%)
+GT                          0(0.00%)             0(0.00%)
+GC                          0(0.00%)             0(0.00%)
+
+TotalGSNPs                         2                    2
+AT                          0(0.00%)             0(0.00%)
+AC                          0(0.00%)             0(0.00%)
+AG                          0(0.00%)             0(0.00%)
+TA                          0(0.00%)             0(0.00%)
+TC                         1(50.00%)            1(50.00%)
+TG                          0(0.00%)             0(0.00%)
+CA                          0(0.00%)             0(0.00%)
+CT                         1(50.00%)            1(50.00%)
+CG                          0(0.00%)             0(0.00%)
+GA                          0(0.00%)             0(0.00%)
+GT                          0(0.00%)             0(0.00%)
+GC                          0(0.00%)             0(0.00%)
+
+TotalIndels                        0                    0
+A.                          0(0.00%)             0(0.00%)
+T.                          0(0.00%)             0(0.00%)
+C.                          0(0.00%)             0(0.00%)
+G.                          0(0.00%)             0(0.00%)
+.A                          0(0.00%)             0(0.00%)
+.T                          0(0.00%)             0(0.00%)
+.C                          0(0.00%)             0(0.00%)
+.G                          0(0.00%)             0(0.00%)
+
+TotalGIndels                       0                    0
+A.                          0(0.00%)             0(0.00%)
+T.                          0(0.00%)             0(0.00%)
+C.                          0(0.00%)             0(0.00%)
+G.                          0(0.00%)             0(0.00%)
+.A                          0(0.00%)             0(0.00%)
+.T                          0(0.00%)             0(0.00%)
+.C                          0(0.00%)             0(0.00%)
+.G                          0(0.00%)             0(0.00%)
+```
+#### DNA differences (ref vs NCBI scaffolds)
+
+```
+                               [REF]          [NR-28534]
+[Sequences]
+TotalSeqs                          1                    2
+AlignedSeqs               1(100.00%)           2(100.00%)
+UnalignedSeqs               0(0.00%)             0(0.00%)
+
+[Bases]
+TotalBases                   1892775              1892972
+AlignedBases        1892775(100.00%)     1892972(100.00%)
+UnalignedBases              0(0.00%)             0(0.00%)
+
+[Alignments]
+1-to-1                             4                    4
+TotalLength                  1893375              1893375
+AvgLength                  473343.75            473343.75
+AvgIdentity                    99.99                99.99
+```
 ### SRR999321
 
-#### Contig alignment
+#### Contig alignment (ref vs de novo assembly)
 
 ![SRR999321 contig alignment](http://bioseed.mcs.anl.gov/~fangfang/francisella/png/SRR999321.png)
 
-#### SNPs
+#### SNPs (ref vs reads)
 
 None
 
-#### DNA differences
+#### DNA differences (ref vs de novo assembly)
 
 ```
                                [REF]          [SRR999321]
@@ -990,7 +1225,7 @@ TotalLength                  1808001              1807965
 AvgLength                   24767.14             24766.64
 AvgIdentity                   100.00               100.00
 ```
-#### Protein differences
+#### Protein differences (ref vs de novo assembly)
 
 1888 of the 2031 proteins (92.96%) in the reference genome have Bidirectional Best Hits (BBHs) in the de novo assembled contigs from SRR999321 reads.
 
@@ -1038,7 +1273,6 @@ ref_beg | ref_end | ref_id | ref_len | type | qry_id | qry_len | fract_id | frac
 351205 | 351585 | g.219517.CDS.379 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 351573 | 351989 | g.219517.CDS.380 | 138 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 352063 | 352554 | g.219517.CDS.381 | 163 |  -> | g.219512.CDS.630 | 108 | 0.900 | 1.000 | 0.117 | 0.176 | NODE_2_length_103385_cov_532.633_ID_3 | 2 | 325 | Mobile element protein | Mobile element protein
-352918 | 353913 | g.219517.CDS.382 | 331 |  -> | g.219512.CDS.802 | 331 | 1.000 | 1.000 | 0.997 | 0.997 | NODE_69_length_1682_cov_1670.48_ID_137 | 263 | 1258 | hypothetical protein | hypothetical protein
 354205 | 354621 | g.219517.CDS.383 | 138 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 354609 | 354989 | g.219517.CDS.384 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 357361 | 357777 | g.219517.CDS.386 | 138 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
@@ -1048,7 +1282,6 @@ ref_beg | ref_end | ref_id | ref_len | type | qry_id | qry_len | fract_id | frac
 366495 | 366677 | g.219517.CDS.398 | 60 |  -  |  |  |  |  |  |  |  |  |  | hypothetical protein | 
 378906 | 379286 | g.219517.CDS.410 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 379274 | 379690 | g.219517.CDS.411 | 138 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
-379982 | 380977 | g.219517.CDS.412 | 331 |  -> | g.219512.CDS.802 | 331 | 1.000 | 1.000 | 0.997 | 0.997 | NODE_69_length_1682_cov_1670.48_ID_137 | 263 | 1258 | hypothetical protein | hypothetical protein
 381341 | 381820 | g.219517.CDS.413 | 159 |  -> | g.219512.CDS.630 | 108 | 0.900 | 1.000 | 0.119 | 0.176 | NODE_2_length_103385_cov_532.633_ID_3 | 2 | 325 | Mobile element protein | Mobile element protein
 383702 | 384445 | g.219517.CDS.415 | 247 |  -> | g.219512.CDS.630 | 108 | 1.000 | 1.000 | 0.433 | 0.991 | NODE_2_length_103385_cov_532.633_ID_3 | 2 | 325 | Mobile element protein | Mobile element protein
 442099 | 442215 | g.219517.CDS.464 | 38 | <-> | g.219512.CDS.1786 | 46 | 1.000 | 1.000 | 0.974 | 0.804 | NODE_5_length_68942_cov_556.55_ID_9 | 57698 | 57838 | hypothetical protein | hypothetical protein
@@ -1084,12 +1317,10 @@ ref_beg | ref_end | ref_id | ref_len | type | qry_id | qry_len | fract_id | frac
 1018849 | 1020057 | g.219517.CDS.1114 | 402 | <-> | g.219512.CDS.1318 | 377 | 0.997 | 1.000 | 0.935 | 0.997 | NODE_1_length_131947_cov_480.596_ID_1 | 87175 | 88308 | FIG097052: Sugar transporter | FIG097052: Sugar transporter
 1062454 | 1062660 | g.219517.CDS.1163 | 68 | <-> | g.219512.CDS.1367 | 64 | 0.984 | 1.000 | 0.926 | 0.984 | NODE_1_length_131947_cov_480.596_ID_1 | 130705 | 130899 | hypothetical protein | hypothetical protein
 1063612 | 1063953 | g.219517.CDS.1166 | 113 |  -> | g.219512.CDS.592 | 22 | 0.909 | 0.955 | 0.186 | 0.955 | NODE_11_length_39322_cov_594.833_ID_21 | 39253 | 39321 | Mobile element protein | Mobile element protein
-1064014 | 1064310 | g.219517.CDS.1167 | 98 |  -> | g.219512.CDS.1852 | 98 | 1.000 | 1.000 | 0.990 | 0.990 | NODE_41_length_16537_cov_580.587_ID_81 | 28 | 324 | Mobile element protein | Mobile element protein
 1073411 | 1073827 | g.219517.CDS.1181 | 138 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 1073815 | 1074195 | g.219517.CDS.1182 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 1085435 | 1085815 | g.219517.CDS.1194 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 1085803 | 1086219 | g.219517.CDS.1195 | 138 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
-1104026 | 1105408 | g.219517.CDS.1217 | 460 | <-> | g.219512.CDS.1499 | 457 | 0.998 | 1.000 | 0.991 | 0.998 | NODE_17_length_35227_cov_506.802_ID_33 | 17778 | 19151 | Outer membrane protein TolC | Outer membrane protein TolC
 1121516 | 1122259 | g.219517.CDS.1237 | 247 |  -> | g.219512.CDS.630 | 108 | 1.000 | 1.000 | 0.433 | 0.991 | NODE_2_length_103385_cov_532.633_ID_3 | 2 | 325 | Mobile element protein | Mobile element protein
 1153900 | 1154316 | g.219517.CDS.1273 | 138 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 1154304 | 1154684 | g.219517.CDS.1274 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
@@ -1106,26 +1337,6 @@ ref_beg | ref_end | ref_id | ref_len | type | qry_id | qry_len | fract_id | frac
 1287369 | 1287749 | g.219517.CDS.1419 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 1332313 | 1332693 | g.219517.CDS.1466 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 1370445 | 1371188 | g.219517.CDS.1497 | 247 |  -> | g.219512.CDS.630 | 108 | 1.000 | 1.000 | 0.433 | 0.991 | NODE_2_length_103385_cov_532.633_ID_3 | 2 | 325 | Mobile element protein | Mobile element protein
-1379925 | 1382387 | g.219517.CDS.1501 | 820 |  -> | g.219512.CDS.833 | 820 | 1.000 | 1.000 | 0.999 | 0.999 | NODE_26_length_27521_cov_1030.41_ID_51 | 80 | 2542 | hypothetical protein | hypothetical protein
-1382392 | 1385673 | g.219517.CDS.1502 | 1093 |  -> | g.219512.CDS.834 | 1093 | 1.000 | 1.000 | 0.999 | 0.999 | NODE_26_length_27521_cov_1030.41_ID_51 | 2547 | 5828 | hypothetical protein | hypothetical protein
-1385663 | 1386040 | g.219517.CDS.1503 | 125 |  -> | g.219512.CDS.835 | 125 | 1.000 | 1.000 | 0.992 | 0.992 | NODE_26_length_27521_cov_1030.41_ID_51 | 5818 | 6195 | hypothetical protein | hypothetical protein
-1386053 | 1386547 | g.219517.CDS.1504 | 164 |  -> | g.219512.CDS.836 | 164 | 1.000 | 1.000 | 0.994 | 0.994 | NODE_26_length_27521_cov_1030.41_ID_51 | 6208 | 6702 | vgrG protein | vgrG protein
-1386552 | 1388282 | g.219517.CDS.1505 | 576 |  -> | g.219512.CDS.837 | 576 | 1.000 | 1.000 | 0.998 | 0.998 | NODE_26_length_27521_cov_1030.41_ID_51 | 6707 | 8437 | DNA polymerase I (EC 2.7.7.7) | DNA polymerase I (EC 2.7.7.7)
-1388283 | 1388804 | g.219517.CDS.1506 | 173 |  -> | g.219512.CDS.838 | 173 | 1.000 | 1.000 | 0.994 | 0.994 | NODE_26_length_27521_cov_1030.41_ID_51 | 8438 | 8959 | hypothetical protein | hypothetical protein
-1388817 | 1390247 | g.219517.CDS.1507 | 476 |  -> | g.219512.CDS.839 | 476 | 1.000 | 1.000 | 0.998 | 0.998 | NODE_26_length_27521_cov_1030.41_ID_51 | 8972 | 10402 | hypothetical protein | hypothetical protein
-1390260 | 1390883 | g.219517.CDS.1508 | 207 |  -> | g.219512.CDS.840 | 207 | 1.000 | 1.000 | 0.995 | 0.995 | NODE_26_length_27521_cov_1030.41_ID_51 | 10415 | 11038 | hypothetical protein | hypothetical protein
-1390905 | 1392056 | g.219517.CDS.1509 | 383 |  -> | g.219512.CDS.841 | 383 | 1.000 | 1.000 | 0.997 | 0.997 | NODE_26_length_27521_cov_1030.41_ID_51 | 11060 | 12211 | hypothetical protein | hypothetical protein
-1392079 | 1392795 | g.219517.CDS.1510 | 238 |  -> | g.219512.CDS.842 | 238 | 1.000 | 1.000 | 0.996 | 0.996 | NODE_26_length_27521_cov_1030.41_ID_51 | 12234 | 12950 | hypothetical protein | hypothetical protein
-1392835 | 1396821 | g.219517.CDS.1511 | 1328 |  -> | g.219512.CDS.843 | 1328 | 1.000 | 1.000 | 0.999 | 0.999 | NODE_26_length_27521_cov_1030.41_ID_51 | 12990 | 16976 | hypothetical protein | hypothetical protein
-1396839 | 1397414 | g.219517.CDS.1512 | 191 |  -> | g.219512.CDS.844 | 191 | 1.000 | 1.000 | 0.995 | 0.995 | NODE_26_length_27521_cov_1030.41_ID_51 | 16994 | 17569 | hypothetical protein | hypothetical protein
-1397421 | 1398617 | g.219517.CDS.1513 | 398 |  -> | g.219512.CDS.845 | 398 | 1.000 | 1.000 | 0.997 | 0.997 | NODE_26_length_27521_cov_1030.41_ID_51 | 17576 | 18772 | hypothetical protein | hypothetical protein
-1398638 | 1399267 | g.219517.CDS.1514 | 209 |  -> | g.219512.CDS.846 | 209 | 1.000 | 1.000 | 0.995 | 0.995 | NODE_26_length_27521_cov_1030.41_ID_51 | 18793 | 19422 | hypothetical protein | hypothetical protein
-1399284 | 1400804 | g.219517.CDS.1515 | 506 |  -> | g.219512.CDS.847 | 506 | 1.000 | 1.000 | 0.998 | 0.998 | NODE_26_length_27521_cov_1030.41_ID_51 | 19439 | 20959 | Uncharacterized protein ImpC | Uncharacterized protein ImpC
-1400818 | 1401372 | g.219517.CDS.1516 | 184 |  -> | g.219512.CDS.848 | 184 | 1.000 | 1.000 | 0.995 | 0.995 | NODE_26_length_27521_cov_1030.41_ID_51 | 20973 | 21527 | Uncharacterized protein ImpB | Uncharacterized protein ImpB
-1401453 | 1405040 | g.219517.CDS.1517 | 1195 |  -> | g.219512.CDS.849 | 1195 | 1.000 | 1.000 | 0.999 | 0.999 | NODE_26_length_27521_cov_1030.41_ID_51 | 21608 | 25195 | hypothetical protein | hypothetical protein
-1405272 | 1405673 | g.219517.CDS.1518 | 133 |  -> | g.219512.CDS.850 | 133 | 1.000 | 1.000 | 0.992 | 0.992 | NODE_26_length_27521_cov_1030.41_ID_51 | 25427 | 25828 | Anhydro-N-acetylmuramic acid kinase (EC 2.7.1.-) | Anhydro-N-acetylmuramic acid kinase (EC 2.7.1.-)
-1405686 | 1406255 | g.219517.CDS.1519 | 189 |  -> | g.219512.CDS.851 | 189 | 1.000 | 1.000 | 0.995 | 0.995 | NODE_26_length_27521_cov_1030.41_ID_51 | 25841 | 26410 | Anhydro-N-acetylmuramic acid kinase (EC 2.7.1.-) | Anhydro-N-acetylmuramic acid kinase (EC 2.7.1.-)
-1406685 | 1407299 | g.219517.CDS.1520 | 204 |  -> | g.219512.CDS.852 | 204 | 1.000 | 1.000 | 0.995 | 0.995 | NODE_26_length_27521_cov_1030.41_ID_51 | 26840 | 27454 | Predicted trehalose permease, MFS family, FucP subfamily | Predicted trehalose permease, MFS family, FucP subfamily
 1407396 | 1407812 | g.219517.CDS.1521 | 138 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 1407800 | 1408180 | g.219517.CDS.1522 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 1426779 | 1426982 | g.219517.CDS.1544 | 67 |  -  |  |  |  |  |  |  |  |  |  | Putative membrane protein | 
@@ -1136,7 +1347,6 @@ ref_beg | ref_end | ref_id | ref_len | type | qry_id | qry_len | fract_id | frac
 1476390 | 1476806 | g.219517.CDS.1594 | 138 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 1483215 | 1483958 | g.219517.CDS.1604 | 247 |  -> | g.219512.CDS.630 | 108 | 1.000 | 1.000 | 0.433 | 0.991 | NODE_2_length_103385_cov_532.633_ID_3 | 2 | 325 | Mobile element protein | Mobile element protein
 1498514 | 1498894 | g.219517.CDS.1618 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
-1508636 | 1509865 | g.219517.CDS.1628 | 409 | <-> | g.219512.CDS.1184 | 404 | 0.998 | 1.000 | 0.985 | 0.998 | NODE_38_length_17640_cov_530.223_ID_75 | 6696 | 7910 | NADH dehydrogenase subunit 4 | NADH dehydrogenase subunit 4
 1516518 | 1517261 | g.219517.CDS.1635 | 247 |  -> | g.219512.CDS.630 | 108 | 1.000 | 1.000 | 0.433 | 0.991 | NODE_2_length_103385_cov_532.633_ID_3 | 2 | 325 | Mobile element protein | Mobile element protein
 1531388 | 1531660 | g.219517.CDS.1651 | 90 | <-> | g.219512.CDS.156 | 102 | 1.000 | 1.000 | 0.989 | 0.873 | NODE_47_length_14397_cov_597.663_ID_93 | 14087 | 14395 | Pap2 superfamily protein | Pap2 superfamily protein
 1531728 | 1532144 | g.219517.CDS.1652 | 138 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
@@ -1162,7 +1372,6 @@ ref_beg | ref_end | ref_id | ref_len | type | qry_id | qry_len | fract_id | frac
 1761288 | 1761704 | g.219517.CDS.1899 | 138 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 1766112 | 1766528 | g.219517.CDS.1905 | 138 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 1766516 | 1766896 | g.219517.CDS.1906 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
-1766954 | 1767718 | g.219517.CDS.1907 | 254 | <-> | g.219512.CDS.1886 | 256 | 0.996 | 1.000 | 0.996 | 0.988 | NODE_70_length_818_cov_604.189_ID_139 | 47 | 817 | NAD-dependent formate dehydrogenase (EC 1.2.1.2) | NAD-dependent formate dehydrogenase (EC 1.2.1.2)
 1800731 | 1801147 | g.219517.CDS.1928 | 138 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 1801135 | 1801515 | g.219517.CDS.1929 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 1816777 | 1816986 | g.219517.CDS.1942 | 69 |  -  |  |  |  |  |  |  |  |  |  | hypothetical protein | 
@@ -1177,15 +1386,15 @@ ref_beg | ref_end | ref_id | ref_len | type | qry_id | qry_len | fract_id | frac
 
 ### SRR1061348
 
-#### Contig alignment
+#### Contig alignment (ref vs de novo assembly)
 
 ![SRR1061348 contig alignment](http://bioseed.mcs.anl.gov/~fangfang/francisella/png/SRR1061348.png)
 
-#### SNPs
+#### SNPs (ref vs reads)
 
 None
 
-#### DNA differences
+#### DNA differences (ref vs de novo assembly)
 
 ```
                                [REF]          [SRR1061348]
@@ -1205,7 +1414,7 @@ TotalLength                  1832358              1832299
 AvgLength                   25449.42             25448.60
 AvgIdentity                   100.00               100.00
 ```
-#### Protein differences
+#### Protein differences (ref vs de novo assembly)
 
 1892 of the 2031 proteins (93.16%) in the reference genome have Bidirectional Best Hits (BBHs) in the de novo assembled contigs from SRR1061348 reads.
 
@@ -1219,176 +1428,92 @@ ref_beg | ref_end | ref_id | ref_len | type | qry_id | qry_len | fract_id | frac
  |  |  |  |  -  | g.219508.CDS.1855 | 46 |  |  |  |  | NODE_7_length_53541_cov_103.097_ID_13 | 34719 | 34859 |  | hypothetical protein
  |  |  |  |  -  | g.219508.CDS.1922 | 72 |  |  |  |  | NODE_17_length_35505_cov_117.428_ID_33 | 35203 | 35421 |  | hypothetical protein
 3204 | 3620 | g.219517.CDS.4 | 138 |  -> | g.219508.CDS.933 | 145 | 0.993 | 1.000 | 0.993 | 0.945 | NODE_20_length_33209_cov_160.652_ID_39 | 32770 | 33207 | Mobile element protein | Mobile element protein
-3608 | 3931 | g.219517.CDS.5 | 107 |  -> | g.219508.CDS.398 | 107 | 1.000 | 1.000 | 0.991 | 0.991 | NODE_47_length_13080_cov_376.268_ID_93 | 379 | 702 | Mobile element protein | Mobile element protein
 3957 | 4625 | g.219517.CDS.6 | 222 | <-> | g.219508.CDS.901 | 199 | 1.000 | 1.000 | 0.892 | 0.995 | NODE_60_length_4289_cov_99.5376_ID_119 | 3689 | 4288 | Succinate-semialdehyde dehydrogenase [NAD(P)+] (EC 1.2.1.16) | Succinate-semialdehyde dehydrogenase [NAD(P)+] (EC 1.2.1.16)
-8350 | 8730 | g.219517.CDS.10 | 126 |  -> | g.219508.CDS.1884 | 126 | 1.000 | 1.000 | 0.992 | 0.992 | NODE_55_length_6886_cov_1093.67_ID_109 | 6128 | 6508 | Mobile element protein | Mobile element protein
 10955 | 11416 | g.219517.CDS.14 | 153 | <-> | g.219508.CDS.5 | 87 | 0.989 | 1.000 | 0.562 | 0.989 | NODE_3_length_93334_cov_118.743_ID_5 | 2302 | 2565 | aldose epimerase family protein | aldose epimerase family protein
 102215 | 102631 | g.219517.CDS.105 | 138 |  -> | g.219508.CDS.933 | 145 | 0.993 | 1.000 | 0.993 | 0.945 | NODE_20_length_33209_cov_160.652_ID_39 | 32770 | 33207 | Mobile element protein | Mobile element protein
-102619 | 102999 | g.219517.CDS.106 | 126 |  -> | g.219508.CDS.1884 | 126 | 1.000 | 1.000 | 0.992 | 0.992 | NODE_55_length_6886_cov_1093.67_ID_109 | 6128 | 6508 | Mobile element protein | Mobile element protein
 103101 | 103844 | g.219517.CDS.107 | 247 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 133685 | 134806 | g.219517.CDS.131 | 373 | <-> | g.219508.CDS.1624 | 365 | 0.997 | 1.000 | 0.976 | 0.997 | NODE_12_length_39761_cov_115.683_ID_23 | 8732 | 9829 | Oligopeptide ABC transporter, periplasmic oligopeptide-binding protein OppA (TC 3.A.1.5.1) | Oligopeptide ABC transporter, periplasmic oligopeptide-binding protein OppA (TC 3.A.1.5.1)
 143567 | 143983 | g.219517.CDS.141 | 138 |  -> | g.219508.CDS.933 | 145 | 0.993 | 1.000 | 0.993 | 0.945 | NODE_20_length_33209_cov_160.652_ID_39 | 32770 | 33207 | Mobile element protein | Mobile element protein
-143971 | 144351 | g.219517.CDS.142 | 126 |  -> | g.219508.CDS.1884 | 126 | 1.000 | 1.000 | 0.992 | 0.992 | NODE_55_length_6886_cov_1093.67_ID_109 | 6128 | 6508 | Mobile element protein | Mobile element protein
 185497 | 185997 | g.219517.CDS.182 | 166 | <-  | g.219508.CDS.614 | 84 | 0.765 | 0.794 | 0.199 | 0.393 | NODE_10_length_43226_cov_102.24_ID_19 | 37 | 291 | LSU m3Psi1915 methyltransferase RlmH | hypothetical protein
 185497 | 185997 | g.219517.CDS.182 | 166 | <-  | g.219508.CDS.726 | 89 | 0.833 | 0.867 | 0.175 | 0.326 | NODE_32_length_21870_cov_131.095_ID_63 | 21565 | 21834 | LSU m3Psi1915 methyltransferase RlmH | hypothetical protein
-186048 | 186371 | g.219517.CDS.183 | 107 |  -> | g.219508.CDS.398 | 107 | 1.000 | 1.000 | 0.991 | 0.991 | NODE_47_length_13080_cov_376.268_ID_93 | 379 | 702 | Mobile element protein | Mobile element protein
 186359 | 186775 | g.219517.CDS.184 | 138 |  -> | g.219508.CDS.933 | 145 | 0.993 | 1.000 | 0.993 | 0.945 | NODE_20_length_33209_cov_160.652_ID_39 | 32770 | 33207 | Mobile element protein | Mobile element protein
 218947 | 219690 | g.219517.CDS.217 | 247 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
-234257 | 234637 | g.219517.CDS.235 | 126 |  -> | g.219508.CDS.1884 | 126 | 1.000 | 1.000 | 0.992 | 0.992 | NODE_55_length_6886_cov_1093.67_ID_109 | 6128 | 6508 | Mobile element protein | Mobile element protein
 234625 | 235041 | g.219517.CDS.236 | 138 |  -> | g.219508.CDS.933 | 145 | 0.993 | 1.000 | 0.993 | 0.945 | NODE_20_length_33209_cov_160.652_ID_39 | 32770 | 33207 | Mobile element protein | Mobile element protein
 235109 | 235378 | g.219517.CDS.237 | 89 | <-> | g.219508.CDS.1383 | 101 | 1.000 | 1.000 | 0.989 | 0.871 | NODE_54_length_7638_cov_121.533_ID_107 | 7331 | 7636 | hypothetical protein | hypothetical protein
 242738 | 243154 | g.219517.CDS.247 | 138 |  -> | g.219508.CDS.933 | 145 | 0.993 | 1.000 | 0.993 | 0.945 | NODE_20_length_33209_cov_160.652_ID_39 | 32770 | 33207 | Mobile element protein | Mobile element protein
-243142 | 243522 | g.219517.CDS.248 | 126 |  -> | g.219508.CDS.1884 | 126 | 1.000 | 1.000 | 0.992 | 0.992 | NODE_55_length_6886_cov_1093.67_ID_109 | 6128 | 6508 | Mobile element protein | Mobile element protein
-259568 | 259948 | g.219517.CDS.268 | 126 |  -> | g.219508.CDS.1884 | 126 | 1.000 | 1.000 | 0.992 | 0.992 | NODE_55_length_6886_cov_1093.67_ID_109 | 6128 | 6508 | Mobile element protein | Mobile element protein
 259936 | 260352 | g.219517.CDS.269 | 138 |  -> | g.219508.CDS.933 | 145 | 0.993 | 1.000 | 0.993 | 0.945 | NODE_20_length_33209_cov_160.652_ID_39 | 32770 | 33207 | Mobile element protein | Mobile element protein
 269465 | 269881 | g.219517.CDS.276 | 138 |  -> | g.219508.CDS.933 | 145 | 0.993 | 1.000 | 0.993 | 0.945 | NODE_20_length_33209_cov_160.652_ID_39 | 32770 | 33207 | Mobile element protein | Mobile element protein
-269869 | 270249 | g.219517.CDS.277 | 126 |  -> | g.219508.CDS.1884 | 126 | 1.000 | 1.000 | 0.992 | 0.992 | NODE_55_length_6886_cov_1093.67_ID_109 | 6128 | 6508 | Mobile element protein | Mobile element protein
 277410 | 277742 | g.219517.CDS.285 | 110 | <-> | g.219508.CDS.1211 | 135 | 1.000 | 1.000 | 0.991 | 0.807 | NODE_38_length_18121_cov_301.46_ID_75 | 7845 | 8252 | hypothetical protein | hypothetical protein
-287566 | 287946 | g.219517.CDS.297 | 126 |  -> | g.219508.CDS.1884 | 126 | 1.000 | 1.000 | 0.992 | 0.992 | NODE_55_length_6886_cov_1093.67_ID_109 | 6128 | 6508 | Mobile element protein | Mobile element protein
 287934 | 288350 | g.219517.CDS.298 | 138 |  -> | g.219508.CDS.933 | 145 | 0.993 | 1.000 | 0.993 | 0.945 | NODE_20_length_33209_cov_160.652_ID_39 | 32770 | 33207 | Mobile element protein | Mobile element protein
 288424 | 288771 | g.219517.CDS.299 | 115 |  -  |  |  |  |  |  |  |  |  |  | hypothetical protein | 
 308187 | 309002 | g.219517.CDS.321 | 271 | <-> | g.219508.CDS.1900 | 232 | 1.000 | 1.000 | 0.458 | 0.534 | NODE_17_length_35505_cov_117.428_ID_33 | 15000 | 15698 | BatB | BatB
 323934 | 324677 | g.219517.CDS.336 | 247 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
-351205 | 351585 | g.219517.CDS.379 | 126 |  -> | g.219508.CDS.1884 | 126 | 1.000 | 1.000 | 0.992 | 0.992 | NODE_55_length_6886_cov_1093.67_ID_109 | 6128 | 6508 | Mobile element protein | Mobile element protein
 351573 | 351989 | g.219517.CDS.380 | 138 |  -> | g.219508.CDS.933 | 145 | 0.993 | 1.000 | 0.993 | 0.945 | NODE_20_length_33209_cov_160.652_ID_39 | 32770 | 33207 | Mobile element protein | Mobile element protein
 352063 | 352554 | g.219517.CDS.381 | 163 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
-352918 | 353913 | g.219517.CDS.382 | 331 |  -> | g.219508.CDS.1576 | 331 | 1.000 | 1.000 | 0.997 | 0.997 | NODE_65_length_1682_cov_229.077_ID_129 | 263 | 1258 | hypothetical protein | hypothetical protein
 354205 | 354621 | g.219517.CDS.383 | 138 |  -> | g.219508.CDS.933 | 145 | 0.993 | 1.000 | 0.993 | 0.945 | NODE_20_length_33209_cov_160.652_ID_39 | 32770 | 33207 | Mobile element protein | Mobile element protein
-354609 | 354989 | g.219517.CDS.384 | 126 |  -> | g.219508.CDS.1884 | 126 | 1.000 | 1.000 | 0.992 | 0.992 | NODE_55_length_6886_cov_1093.67_ID_109 | 6128 | 6508 | Mobile element protein | Mobile element protein
 357361 | 357777 | g.219517.CDS.386 | 138 |  -> | g.219508.CDS.933 | 145 | 0.993 | 1.000 | 0.993 | 0.945 | NODE_20_length_33209_cov_160.652_ID_39 | 32770 | 33207 | Mobile element protein | Mobile element protein
-357765 | 358145 | g.219517.CDS.387 | 126 |  -> | g.219508.CDS.1884 | 126 | 1.000 | 1.000 | 0.992 | 0.992 | NODE_55_length_6886_cov_1093.67_ID_109 | 6128 | 6508 | Mobile element protein | Mobile element protein
-363514 | 363894 | g.219517.CDS.393 | 126 |  -> | g.219508.CDS.1884 | 126 | 1.000 | 1.000 | 0.992 | 0.992 | NODE_55_length_6886_cov_1093.67_ID_109 | 6128 | 6508 | Mobile element protein | Mobile element protein
 363882 | 364298 | g.219517.CDS.394 | 138 |  -> | g.219508.CDS.933 | 145 | 0.993 | 1.000 | 0.993 | 0.945 | NODE_20_length_33209_cov_160.652_ID_39 | 32770 | 33207 | Mobile element protein | Mobile element protein
 366495 | 366677 | g.219517.CDS.398 | 60 |  -  |  |  |  |  |  |  |  |  |  | hypothetical protein | 
-378906 | 379286 | g.219517.CDS.410 | 126 |  -> | g.219508.CDS.1884 | 126 | 1.000 | 1.000 | 0.992 | 0.992 | NODE_55_length_6886_cov_1093.67_ID_109 | 6128 | 6508 | Mobile element protein | Mobile element protein
 379274 | 379690 | g.219517.CDS.411 | 138 |  -> | g.219508.CDS.933 | 145 | 0.993 | 1.000 | 0.993 | 0.945 | NODE_20_length_33209_cov_160.652_ID_39 | 32770 | 33207 | Mobile element protein | Mobile element protein
-379982 | 380977 | g.219517.CDS.412 | 331 |  -> | g.219508.CDS.1576 | 331 | 1.000 | 1.000 | 0.997 | 0.997 | NODE_65_length_1682_cov_229.077_ID_129 | 263 | 1258 | hypothetical protein | hypothetical protein
 381341 | 381820 | g.219517.CDS.413 | 159 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 383702 | 384445 | g.219517.CDS.415 | 247 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 442099 | 442215 | g.219517.CDS.464 | 38 | <-> | g.219508.CDS.342 | 46 | 1.000 | 1.000 | 0.974 | 0.804 | NODE_6_length_68942_cov_101.536_ID_11 | 57698 | 57838 | hypothetical protein | hypothetical protein
 453349 | 453765 | g.219517.CDS.478 | 138 |  -> | g.219508.CDS.933 | 145 | 0.993 | 1.000 | 0.993 | 0.945 | NODE_20_length_33209_cov_160.652_ID_39 | 32770 | 33207 | Mobile element protein | Mobile element protein
-453753 | 454133 | g.219517.CDS.479 | 126 |  -> | g.219508.CDS.1884 | 126 | 1.000 | 1.000 | 0.992 | 0.992 | NODE_55_length_6886_cov_1093.67_ID_109 | 6128 | 6508 | Mobile element protein | Mobile element protein
 460513 | 460695 | g.219517.CDS.487 | 60 |  -  |  |  |  |  |  |  |  |  |  | hypothetical protein | 
 534457 | 534873 | g.219517.CDS.560 | 138 |  -> | g.219508.CDS.933 | 145 | 0.993 | 1.000 | 0.993 | 0.945 | NODE_20_length_33209_cov_160.652_ID_39 | 32770 | 33207 | Mobile element protein | Mobile element protein
-534861 | 535241 | g.219517.CDS.561 | 126 |  -> | g.219508.CDS.1884 | 126 | 1.000 | 1.000 | 0.992 | 0.992 | NODE_55_length_6886_cov_1093.67_ID_109 | 6128 | 6508 | Mobile element protein | Mobile element protein
-578376 | 578756 | g.219517.CDS.617 | 126 |  -> | g.219508.CDS.1884 | 126 | 1.000 | 1.000 | 0.992 | 0.992 | NODE_55_length_6886_cov_1093.67_ID_109 | 6128 | 6508 | Mobile element protein | Mobile element protein
 578744 | 579160 | g.219517.CDS.618 | 138 |  -> | g.219508.CDS.933 | 145 | 0.993 | 1.000 | 0.993 | 0.945 | NODE_20_length_33209_cov_160.652_ID_39 | 32770 | 33207 | Mobile element protein | Mobile element protein
 582508 | 583251 | g.219517.CDS.622 | 247 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 606904 | 607647 | g.219517.CDS.650 | 247 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 710737 | 711153 | g.219517.CDS.766 | 138 |  -> | g.219508.CDS.933 | 145 | 0.993 | 1.000 | 0.993 | 0.945 | NODE_20_length_33209_cov_160.652_ID_39 | 32770 | 33207 | Mobile element protein | Mobile element protein
-711141 | 711521 | g.219517.CDS.767 | 126 |  -> | g.219508.CDS.1884 | 126 | 1.000 | 1.000 | 0.992 | 0.992 | NODE_55_length_6886_cov_1093.67_ID_109 | 6128 | 6508 | Mobile element protein | Mobile element protein
 744289 | 744705 | g.219517.CDS.799 | 138 |  -> | g.219508.CDS.933 | 145 | 0.993 | 1.000 | 0.993 | 0.945 | NODE_20_length_33209_cov_160.652_ID_39 | 32770 | 33207 | Mobile element protein | Mobile element protein
-744693 | 745073 | g.219517.CDS.800 | 126 |  -> | g.219508.CDS.1884 | 126 | 1.000 | 1.000 | 0.992 | 0.992 | NODE_55_length_6886_cov_1093.67_ID_109 | 6128 | 6508 | Mobile element protein | Mobile element protein
 753264 | 754007 | g.219517.CDS.809 | 247 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
-785002 | 785382 | g.219517.CDS.848 | 126 |  -> | g.219508.CDS.1884 | 126 | 1.000 | 1.000 | 0.992 | 0.992 | NODE_55_length_6886_cov_1093.67_ID_109 | 6128 | 6508 | Mobile element protein | Mobile element protein
 785370 | 785786 | g.219517.CDS.849 | 138 |  -> | g.219508.CDS.933 | 145 | 0.993 | 1.000 | 0.993 | 0.945 | NODE_20_length_33209_cov_160.652_ID_39 | 32770 | 33207 | Mobile element protein | Mobile element protein
-799235 | 799615 | g.219517.CDS.866 | 126 |  -> | g.219508.CDS.1884 | 126 | 1.000 | 1.000 | 0.992 | 0.992 | NODE_55_length_6886_cov_1093.67_ID_109 | 6128 | 6508 | Mobile element protein | Mobile element protein
 799603 | 800019 | g.219517.CDS.867 | 138 |  -> | g.219508.CDS.933 | 145 | 0.993 | 1.000 | 0.993 | 0.945 | NODE_20_length_33209_cov_160.652_ID_39 | 32770 | 33207 | Mobile element protein | Mobile element protein
-839217 | 839597 | g.219517.CDS.910 | 126 |  -> | g.219508.CDS.1884 | 126 | 1.000 | 1.000 | 0.992 | 0.992 | NODE_55_length_6886_cov_1093.67_ID_109 | 6128 | 6508 | Mobile element protein | Mobile element protein
 839585 | 840001 | g.219517.CDS.911 | 138 |  -> | g.219508.CDS.933 | 145 | 0.993 | 1.000 | 0.993 | 0.945 | NODE_20_length_33209_cov_160.652_ID_39 | 32770 | 33207 | Mobile element protein | Mobile element protein
 876765 | 877508 | g.219517.CDS.962 | 247 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
-930936 | 931316 | g.219517.CDS.1017 | 126 |  -> | g.219508.CDS.1884 | 126 | 1.000 | 1.000 | 0.992 | 0.992 | NODE_55_length_6886_cov_1093.67_ID_109 | 6128 | 6508 | Mobile element protein | Mobile element protein
 931304 | 931720 | g.219517.CDS.1018 | 138 |  -> | g.219508.CDS.933 | 145 | 0.993 | 1.000 | 0.993 | 0.945 | NODE_20_length_33209_cov_160.652_ID_39 | 32770 | 33207 | Mobile element protein | Mobile element protein
 1018849 | 1020057 | g.219517.CDS.1114 | 402 | <-> | g.219508.CDS.1770 | 377 | 0.997 | 1.000 | 0.935 | 0.997 | NODE_1_length_131934_cov_79.9336_ID_1 | 87175 | 88308 | FIG097052: Sugar transporter | FIG097052: Sugar transporter
 1062454 | 1062660 | g.219517.CDS.1163 | 68 | <-> | g.219508.CDS.1819 | 64 | 0.984 | 1.000 | 0.926 | 0.984 | NODE_1_length_131934_cov_79.9336_ID_1 | 130705 | 130899 | hypothetical protein | hypothetical protein
 1063612 | 1063953 | g.219517.CDS.1166 | 113 |  -> | g.219508.CDS.1032 | 108 | 1.000 | 1.000 | 0.947 | 0.991 | NODE_76_length_738_cov_213.747_ID_159 | 2 | 325 | Mobile element protein | Mobile element protein
-1064014 | 1064310 | g.219517.CDS.1167 | 98 |  -> | g.219508.CDS.1033 | 98 | 1.000 | 1.000 | 0.990 | 0.990 | NODE_76_length_738_cov_213.747_ID_159 | 386 | 682 | Mobile element protein | Mobile element protein
 1073411 | 1073827 | g.219517.CDS.1181 | 138 |  -> | g.219508.CDS.933 | 145 | 0.993 | 1.000 | 0.993 | 0.945 | NODE_20_length_33209_cov_160.652_ID_39 | 32770 | 33207 | Mobile element protein | Mobile element protein
-1073815 | 1074195 | g.219517.CDS.1182 | 126 |  -> | g.219508.CDS.1884 | 126 | 1.000 | 1.000 | 0.992 | 0.992 | NODE_55_length_6886_cov_1093.67_ID_109 | 6128 | 6508 | Mobile element protein | Mobile element protein
-1085435 | 1085815 | g.219517.CDS.1194 | 126 |  -> | g.219508.CDS.1884 | 126 | 1.000 | 1.000 | 0.992 | 0.992 | NODE_55_length_6886_cov_1093.67_ID_109 | 6128 | 6508 | Mobile element protein | Mobile element protein
 1085803 | 1086219 | g.219517.CDS.1195 | 138 |  -> | g.219508.CDS.933 | 145 | 0.993 | 1.000 | 0.993 | 0.945 | NODE_20_length_33209_cov_160.652_ID_39 | 32770 | 33207 | Mobile element protein | Mobile element protein
-1104026 | 1105408 | g.219517.CDS.1217 | 460 | <-> | g.219508.CDS.377 | 457 | 0.998 | 1.000 | 0.991 | 0.998 | NODE_18_length_35228_cov_88.8974_ID_35 | 17778 | 19151 | Outer membrane protein TolC | Outer membrane protein TolC
 1121516 | 1122259 | g.219517.CDS.1237 | 247 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 1153900 | 1154316 | g.219517.CDS.1273 | 138 |  -> | g.219508.CDS.933 | 145 | 0.993 | 1.000 | 0.993 | 0.945 | NODE_20_length_33209_cov_160.652_ID_39 | 32770 | 33207 | Mobile element protein | Mobile element protein
-1154304 | 1154684 | g.219517.CDS.1274 | 126 |  -> | g.219508.CDS.1884 | 126 | 1.000 | 1.000 | 0.992 | 0.992 | NODE_55_length_6886_cov_1093.67_ID_109 | 6128 | 6508 | Mobile element protein | Mobile element protein
 1154804 | 1154956 | g.219517.CDS.1275 | 50 | <-> | g.219508.CDS.109 | 90 | 1.000 | 1.000 | 0.980 | 0.544 | NODE_5_length_75226_cov_94.3395_ID_9 | 2 | 274 | antigen | antigen
 1229938 | 1230354 | g.219517.CDS.1357 | 138 |  -> | g.219508.CDS.933 | 145 | 0.993 | 1.000 | 0.993 | 0.945 | NODE_20_length_33209_cov_160.652_ID_39 | 32770 | 33207 | Mobile element protein | Mobile element protein
-1230342 | 1230722 | g.219517.CDS.1358 | 126 |  -> | g.219508.CDS.1884 | 126 | 1.000 | 1.000 | 0.992 | 0.992 | NODE_55_length_6886_cov_1093.67_ID_109 | 6128 | 6508 | Mobile element protein | Mobile element protein
-1250509 | 1250889 | g.219517.CDS.1381 | 126 |  -> | g.219508.CDS.1884 | 126 | 1.000 | 1.000 | 0.992 | 0.992 | NODE_55_length_6886_cov_1093.67_ID_109 | 6128 | 6508 | Mobile element protein | Mobile element protein
 1250877 | 1251293 | g.219517.CDS.1382 | 138 |  -> | g.219508.CDS.933 | 145 | 0.993 | 1.000 | 0.993 | 0.945 | NODE_20_length_33209_cov_160.652_ID_39 | 32770 | 33207 | Mobile element protein | Mobile element protein
 1283043 | 1283246 | g.219517.CDS.1411 | 67 | <-> | g.219508.CDS.1386 | 79 | 1.000 | 1.000 | 0.985 | 0.835 | NODE_21_length_32624_cov_99.6177_ID_41 | 665 | 904 | Tryptophan repressor binding protein | Tryptophan repressor binding protein
-1283965 | 1284345 | g.219517.CDS.1414 | 126 |  -> | g.219508.CDS.1884 | 126 | 1.000 | 1.000 | 0.992 | 0.992 | NODE_55_length_6886_cov_1093.67_ID_109 | 6128 | 6508 | Mobile element protein | Mobile element protein
 1284333 | 1284749 | g.219517.CDS.1415 | 138 |  -> | g.219508.CDS.933 | 145 | 0.993 | 1.000 | 0.993 | 0.945 | NODE_20_length_33209_cov_160.652_ID_39 | 32770 | 33207 | Mobile element protein | Mobile element protein
 1286400 | 1286891 | g.219517.CDS.1417 | 163 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 1286965 | 1287381 | g.219517.CDS.1418 | 138 |  -> | g.219508.CDS.933 | 145 | 0.993 | 1.000 | 0.993 | 0.945 | NODE_20_length_33209_cov_160.652_ID_39 | 32770 | 33207 | Mobile element protein | Mobile element protein
-1287369 | 1287749 | g.219517.CDS.1419 | 126 |  -> | g.219508.CDS.1884 | 126 | 1.000 | 1.000 | 0.992 | 0.992 | NODE_55_length_6886_cov_1093.67_ID_109 | 6128 | 6508 | Mobile element protein | Mobile element protein
-1332313 | 1332693 | g.219517.CDS.1466 | 126 |  -> | g.219508.CDS.1884 | 126 | 1.000 | 1.000 | 0.992 | 0.992 | NODE_55_length_6886_cov_1093.67_ID_109 | 6128 | 6508 | Mobile element protein | Mobile element protein
 1370445 | 1371188 | g.219517.CDS.1497 | 247 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
-1379925 | 1382387 | g.219517.CDS.1501 | 820 |  -> | g.219508.CDS.1295 | 820 | 1.000 | 1.000 | 0.999 | 0.999 | NODE_27_length_27521_cov_167.316_ID_53 | 80 | 2542 | hypothetical protein | hypothetical protein
-1382392 | 1385673 | g.219517.CDS.1502 | 1093 |  -> | g.219508.CDS.1296 | 1093 | 1.000 | 1.000 | 0.999 | 0.999 | NODE_27_length_27521_cov_167.316_ID_53 | 2547 | 5828 | hypothetical protein | hypothetical protein
-1385663 | 1386040 | g.219517.CDS.1503 | 125 |  -> | g.219508.CDS.1297 | 125 | 1.000 | 1.000 | 0.992 | 0.992 | NODE_27_length_27521_cov_167.316_ID_53 | 5818 | 6195 | hypothetical protein | hypothetical protein
-1386053 | 1386547 | g.219517.CDS.1504 | 164 |  -> | g.219508.CDS.1298 | 164 | 1.000 | 1.000 | 0.994 | 0.994 | NODE_27_length_27521_cov_167.316_ID_53 | 6208 | 6702 | vgrG protein | vgrG protein
-1386552 | 1388282 | g.219517.CDS.1505 | 576 |  -> | g.219508.CDS.1299 | 576 | 1.000 | 1.000 | 0.998 | 0.998 | NODE_27_length_27521_cov_167.316_ID_53 | 6707 | 8437 | DNA polymerase I (EC 2.7.7.7) | DNA polymerase I (EC 2.7.7.7)
-1388283 | 1388804 | g.219517.CDS.1506 | 173 |  -> | g.219508.CDS.1300 | 173 | 1.000 | 1.000 | 0.994 | 0.994 | NODE_27_length_27521_cov_167.316_ID_53 | 8438 | 8959 | hypothetical protein | hypothetical protein
-1388817 | 1390247 | g.219517.CDS.1507 | 476 |  -> | g.219508.CDS.1301 | 476 | 1.000 | 1.000 | 0.998 | 0.998 | NODE_27_length_27521_cov_167.316_ID_53 | 8972 | 10402 | hypothetical protein | hypothetical protein
-1390260 | 1390883 | g.219517.CDS.1508 | 207 |  -> | g.219508.CDS.1302 | 207 | 1.000 | 1.000 | 0.995 | 0.995 | NODE_27_length_27521_cov_167.316_ID_53 | 10415 | 11038 | hypothetical protein | hypothetical protein
-1390905 | 1392056 | g.219517.CDS.1509 | 383 |  -> | g.219508.CDS.1303 | 383 | 1.000 | 1.000 | 0.997 | 0.997 | NODE_27_length_27521_cov_167.316_ID_53 | 11060 | 12211 | hypothetical protein | hypothetical protein
-1392079 | 1392795 | g.219517.CDS.1510 | 238 |  -> | g.219508.CDS.1304 | 238 | 1.000 | 1.000 | 0.996 | 0.996 | NODE_27_length_27521_cov_167.316_ID_53 | 12234 | 12950 | hypothetical protein | hypothetical protein
-1392835 | 1396821 | g.219517.CDS.1511 | 1328 |  -> | g.219508.CDS.1305 | 1328 | 1.000 | 1.000 | 0.999 | 0.999 | NODE_27_length_27521_cov_167.316_ID_53 | 12990 | 16976 | hypothetical protein | hypothetical protein
-1396839 | 1397414 | g.219517.CDS.1512 | 191 |  -> | g.219508.CDS.1306 | 191 | 1.000 | 1.000 | 0.995 | 0.995 | NODE_27_length_27521_cov_167.316_ID_53 | 16994 | 17569 | hypothetical protein | hypothetical protein
-1397421 | 1398617 | g.219517.CDS.1513 | 398 |  -> | g.219508.CDS.1307 | 398 | 1.000 | 1.000 | 0.997 | 0.997 | NODE_27_length_27521_cov_167.316_ID_53 | 17576 | 18772 | hypothetical protein | hypothetical protein
-1398638 | 1399267 | g.219517.CDS.1514 | 209 |  -> | g.219508.CDS.1308 | 209 | 1.000 | 1.000 | 0.995 | 0.995 | NODE_27_length_27521_cov_167.316_ID_53 | 18793 | 19422 | hypothetical protein | hypothetical protein
-1399284 | 1400804 | g.219517.CDS.1515 | 506 |  -> | g.219508.CDS.1309 | 506 | 1.000 | 1.000 | 0.998 | 0.998 | NODE_27_length_27521_cov_167.316_ID_53 | 19439 | 20959 | Uncharacterized protein ImpC | Uncharacterized protein ImpC
-1400818 | 1401372 | g.219517.CDS.1516 | 184 |  -> | g.219508.CDS.1310 | 184 | 1.000 | 1.000 | 0.995 | 0.995 | NODE_27_length_27521_cov_167.316_ID_53 | 20973 | 21527 | Uncharacterized protein ImpB | Uncharacterized protein ImpB
-1401453 | 1405040 | g.219517.CDS.1517 | 1195 |  -> | g.219508.CDS.1311 | 1195 | 1.000 | 1.000 | 0.999 | 0.999 | NODE_27_length_27521_cov_167.316_ID_53 | 21608 | 25195 | hypothetical protein | hypothetical protein
-1405272 | 1405673 | g.219517.CDS.1518 | 133 |  -> | g.219508.CDS.1312 | 133 | 1.000 | 1.000 | 0.992 | 0.992 | NODE_27_length_27521_cov_167.316_ID_53 | 25427 | 25828 | Anhydro-N-acetylmuramic acid kinase (EC 2.7.1.-) | Anhydro-N-acetylmuramic acid kinase (EC 2.7.1.-)
-1405686 | 1406255 | g.219517.CDS.1519 | 189 |  -> | g.219508.CDS.1313 | 189 | 1.000 | 1.000 | 0.995 | 0.995 | NODE_27_length_27521_cov_167.316_ID_53 | 25841 | 26410 | Anhydro-N-acetylmuramic acid kinase (EC 2.7.1.-) | Anhydro-N-acetylmuramic acid kinase (EC 2.7.1.-)
-1406685 | 1407299 | g.219517.CDS.1520 | 204 |  -> | g.219508.CDS.1314 | 204 | 1.000 | 1.000 | 0.995 | 0.995 | NODE_27_length_27521_cov_167.316_ID_53 | 26840 | 27454 | Predicted trehalose permease, MFS family, FucP subfamily | Predicted trehalose permease, MFS family, FucP subfamily
 1407396 | 1407812 | g.219517.CDS.1521 | 138 |  -> | g.219508.CDS.933 | 145 | 0.993 | 1.000 | 0.993 | 0.945 | NODE_20_length_33209_cov_160.652_ID_39 | 32770 | 33207 | Mobile element protein | Mobile element protein
-1407800 | 1408180 | g.219517.CDS.1522 | 126 |  -> | g.219508.CDS.1884 | 126 | 1.000 | 1.000 | 0.992 | 0.992 | NODE_55_length_6886_cov_1093.67_ID_109 | 6128 | 6508 | Mobile element protein | Mobile element protein
 1426779 | 1426982 | g.219517.CDS.1544 | 67 |  -  |  |  |  |  |  |  |  |  |  | Putative membrane protein | 
-1429959 | 1430339 | g.219517.CDS.1548 | 126 |  -> | g.219508.CDS.1884 | 126 | 1.000 | 1.000 | 0.992 | 0.992 | NODE_55_length_6886_cov_1093.67_ID_109 | 6128 | 6508 | Mobile element protein | Mobile element protein
 1430327 | 1430743 | g.219517.CDS.1549 | 138 |  -> | g.219508.CDS.933 | 145 | 0.993 | 1.000 | 0.993 | 0.945 | NODE_20_length_33209_cov_160.652_ID_39 | 32770 | 33207 | Mobile element protein | Mobile element protein
-1442488 | 1443918 | g.219517.CDS.1558 | 476 | <-> | g.219508.CDS.1042 | 469 | 0.985 | 0.985 | 0.998 | 0.998 | NODE_8_length_45274_cov_101.6_ID_15 | 11716 | 13125 | ATP-dependent DNA helicase | ATP-dependent DNA helicase
-1476022 | 1476402 | g.219517.CDS.1593 | 126 |  -> | g.219508.CDS.1884 | 126 | 1.000 | 1.000 | 0.992 | 0.992 | NODE_55_length_6886_cov_1093.67_ID_109 | 6128 | 6508 | Mobile element protein | Mobile element protein
 1476390 | 1476806 | g.219517.CDS.1594 | 138 |  -> | g.219508.CDS.933 | 145 | 0.993 | 1.000 | 0.993 | 0.945 | NODE_20_length_33209_cov_160.652_ID_39 | 32770 | 33207 | Mobile element protein | Mobile element protein
 1483215 | 1483958 | g.219517.CDS.1604 | 247 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
-1498514 | 1498894 | g.219517.CDS.1618 | 126 |  -> | g.219508.CDS.1884 | 126 | 1.000 | 1.000 | 0.992 | 0.992 | NODE_55_length_6886_cov_1093.67_ID_109 | 6128 | 6508 | Mobile element protein | Mobile element protein
-1508636 | 1509865 | g.219517.CDS.1628 | 409 | <-> | g.219508.CDS.1321 | 404 | 0.998 | 1.000 | 0.985 | 0.998 | NODE_37_length_18138_cov_202.451_ID_73 | 6736 | 7950 | NADH dehydrogenase subunit 4 | NADH dehydrogenase subunit 4
 1516518 | 1517261 | g.219517.CDS.1635 | 247 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 1531388 | 1531660 | g.219517.CDS.1651 | 90 | <-> | g.219508.CDS.1532 | 102 | 1.000 | 1.000 | 0.989 | 0.873 | NODE_45_length_14398_cov_107.099_ID_89 | 14088 | 14396 | Pap2 superfamily protein | Pap2 superfamily protein
 1531728 | 1532144 | g.219517.CDS.1652 | 138 |  -> | g.219508.CDS.933 | 145 | 0.993 | 1.000 | 0.993 | 0.945 | NODE_20_length_33209_cov_160.652_ID_39 | 32770 | 33207 | Mobile element protein | Mobile element protein
-1532132 | 1532512 | g.219517.CDS.1653 | 126 |  -> | g.219508.CDS.1884 | 126 | 1.000 | 1.000 | 0.992 | 0.992 | NODE_55_length_6886_cov_1093.67_ID_109 | 6128 | 6508 | Mobile element protein | Mobile element protein
 1576231 | 1576974 | g.219517.CDS.1697 | 247 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
-1609794 | 1610174 | g.219517.CDS.1728 | 126 |  -> | g.219508.CDS.1884 | 126 | 1.000 | 1.000 | 0.992 | 0.992 | NODE_55_length_6886_cov_1093.67_ID_109 | 6128 | 6508 | Mobile element protein | Mobile element protein
 1610162 | 1610578 | g.219517.CDS.1729 | 138 |  -> | g.219508.CDS.933 | 145 | 0.993 | 1.000 | 0.993 | 0.945 | NODE_20_length_33209_cov_160.652_ID_39 | 32770 | 33207 | Mobile element protein | Mobile element protein
 1648839 | 1649255 | g.219517.CDS.1770 | 138 |  -> | g.219508.CDS.933 | 145 | 0.993 | 1.000 | 0.993 | 0.945 | NODE_20_length_33209_cov_160.652_ID_39 | 32770 | 33207 | Mobile element protein | Mobile element protein
-1649243 | 1649623 | g.219517.CDS.1771 | 126 |  -> | g.219508.CDS.1884 | 126 | 1.000 | 1.000 | 0.992 | 0.992 | NODE_55_length_6886_cov_1093.67_ID_109 | 6128 | 6508 | Mobile element protein | Mobile element protein
 1665129 | 1665545 | g.219517.CDS.1786 | 138 |  -> | g.219508.CDS.933 | 145 | 0.993 | 1.000 | 0.993 | 0.945 | NODE_20_length_33209_cov_160.652_ID_39 | 32770 | 33207 | Mobile element protein | Mobile element protein
-1665533 | 1665913 | g.219517.CDS.1787 | 126 |  -> | g.219508.CDS.1884 | 126 | 1.000 | 1.000 | 0.992 | 0.992 | NODE_55_length_6886_cov_1093.67_ID_109 | 6128 | 6508 | Mobile element protein | Mobile element protein
 1678557 | 1678973 | g.219517.CDS.1806 | 138 |  -> | g.219508.CDS.933 | 145 | 0.993 | 1.000 | 0.993 | 0.945 | NODE_20_length_33209_cov_160.652_ID_39 | 32770 | 33207 | Mobile element protein | Mobile element protein
-1683438 | 1683818 | g.219517.CDS.1813 | 126 |  -> | g.219508.CDS.1884 | 126 | 1.000 | 1.000 | 0.992 | 0.992 | NODE_55_length_6886_cov_1093.67_ID_109 | 6128 | 6508 | Mobile element protein | Mobile element protein
 1683806 | 1684222 | g.219517.CDS.1814 | 138 |  -> | g.219508.CDS.933 | 145 | 0.993 | 1.000 | 0.993 | 0.945 | NODE_20_length_33209_cov_160.652_ID_39 | 32770 | 33207 | Mobile element protein | Mobile element protein
 1706934 | 1707584 | g.219517.CDS.1837 | 216 | <-> | g.219508.CDS.530 | 255 | 0.995 | 1.000 | 0.995 | 0.843 | NODE_30_length_23486_cov_119.053_ID_59 | 22683 | 23450 | Type I restriction-modification system, restriction subunit R (EC 3.1.21.3) | Type I restriction-modification system, restriction subunit R (EC 3.1.21.3)
-1707692 | 1708072 | g.219517.CDS.1838 | 126 |  -> | g.219508.CDS.1884 | 126 | 1.000 | 1.000 | 0.992 | 0.992 | NODE_55_length_6886_cov_1093.67_ID_109 | 6128 | 6508 | Mobile element protein | Mobile element protein
 1708060 | 1708476 | g.219517.CDS.1839 | 138 |  -> | g.219508.CDS.933 | 145 | 0.993 | 1.000 | 0.993 | 0.945 | NODE_20_length_33209_cov_160.652_ID_39 | 32770 | 33207 | Mobile element protein | Mobile element protein
 1708532 | 1708741 | g.219517.CDS.1840 | 69 | <-> | g.219508.CDS.1265 | 77 | 1.000 | 1.000 | 0.986 | 0.883 | NODE_26_length_30263_cov_113.262_ID_51 | 3 | 236 | hypothetical protein | hypothetical protein
-1738723 | 1739103 | g.219517.CDS.1870 | 126 |  -> | g.219508.CDS.1884 | 126 | 1.000 | 1.000 | 0.992 | 0.992 | NODE_55_length_6886_cov_1093.67_ID_109 | 6128 | 6508 | Mobile element protein | Mobile element protein
 1739091 | 1739507 | g.219517.CDS.1871 | 138 |  -> | g.219508.CDS.933 | 145 | 0.986 | 0.993 | 0.993 | 0.945 | NODE_20_length_33209_cov_160.652_ID_39 | 32770 | 33207 | Mobile element protein | Mobile element protein
-1760920 | 1761300 | g.219517.CDS.1898 | 126 |  -> | g.219508.CDS.1884 | 126 | 1.000 | 1.000 | 0.992 | 0.992 | NODE_55_length_6886_cov_1093.67_ID_109 | 6128 | 6508 | Mobile element protein | Mobile element protein
 1761288 | 1761704 | g.219517.CDS.1899 | 138 |  -> | g.219508.CDS.933 | 145 | 0.993 | 1.000 | 0.993 | 0.945 | NODE_20_length_33209_cov_160.652_ID_39 | 32770 | 33207 | Mobile element protein | Mobile element protein
 1766112 | 1766528 | g.219517.CDS.1905 | 138 |  -> | g.219508.CDS.933 | 145 | 0.993 | 1.000 | 0.993 | 0.945 | NODE_20_length_33209_cov_160.652_ID_39 | 32770 | 33207 | Mobile element protein | Mobile element protein
-1766516 | 1766896 | g.219517.CDS.1906 | 126 |  -> | g.219508.CDS.1884 | 126 | 1.000 | 1.000 | 0.992 | 0.992 | NODE_55_length_6886_cov_1093.67_ID_109 | 6128 | 6508 | Mobile element protein | Mobile element protein
 1800731 | 1801147 | g.219517.CDS.1928 | 138 |  -> | g.219508.CDS.933 | 145 | 0.993 | 1.000 | 0.993 | 0.945 | NODE_20_length_33209_cov_160.652_ID_39 | 32770 | 33207 | Mobile element protein | Mobile element protein
-1801135 | 1801515 | g.219517.CDS.1929 | 126 |  -> | g.219508.CDS.1884 | 126 | 1.000 | 1.000 | 0.992 | 0.992 | NODE_55_length_6886_cov_1093.67_ID_109 | 6128 | 6508 | Mobile element protein | Mobile element protein
 1816777 | 1816986 | g.219517.CDS.1942 | 69 |  -  |  |  |  |  |  |  |  |  |  | hypothetical protein | 
 1831850 | 1832266 | g.219517.CDS.1957 | 138 |  -> | g.219508.CDS.933 | 145 | 0.993 | 1.000 | 0.993 | 0.945 | NODE_20_length_33209_cov_160.652_ID_39 | 32770 | 33207 | Mobile element protein | Mobile element protein
-1832254 | 1832634 | g.219517.CDS.1958 | 126 |  -> | g.219508.CDS.1884 | 126 | 1.000 | 1.000 | 0.992 | 0.992 | NODE_55_length_6886_cov_1093.67_ID_109 | 6128 | 6508 | Mobile element protein | Mobile element protein
 1832724 | 1833197 | g.219517.CDS.1959 | 157 | <-> | g.219508.CDS.1674 | 190 | 1.000 | 1.000 | 0.994 | 0.821 | NODE_48_length_12130_cov_142.143_ID_95 | 11522 | 12094 | hypothetical protein | hypothetical protein
 1844748 | 1845164 | g.219517.CDS.1972 | 138 |  -> | g.219508.CDS.933 | 145 | 0.993 | 1.000 | 0.993 | 0.945 | NODE_20_length_33209_cov_160.652_ID_39 | 32770 | 33207 | Mobile element protein | Mobile element protein
-1845152 | 1845532 | g.219517.CDS.1973 | 126 |  -> | g.219508.CDS.1884 | 126 | 1.000 | 1.000 | 0.992 | 0.992 | NODE_55_length_6886_cov_1093.67_ID_109 | 6128 | 6508 | Mobile element protein | Mobile element protein
-1868806 | 1869186 | g.219517.CDS.2002 | 126 | <-  | g.219508.CDS.257 | 126 | 1.000 | 1.000 | 0.992 | 0.992 | NODE_34_length_20591_cov_272.158_ID_67 | 19833 | 20213 | Mobile element protein | Mobile element protein
 1868806 | 1869186 | g.219517.CDS.2002 | 126 | <-  | g.219508.CDS.429 | 129 | 1.000 | 1.000 | 0.992 | 0.969 | NODE_43_length_15012_cov_244.809_ID_85 | 14623 | 15012 | Mobile element protein | Mobile element protein
-1868806 | 1869186 | g.219517.CDS.2002 | 126 | <-  | g.219508.CDS.700 | 126 | 1.000 | 1.000 | 0.992 | 0.992 | NODE_19_length_33539_cov_209.818_ID_37 | 32781 | 33161 | Mobile element protein | Mobile element protein
-1868806 | 1869186 | g.219517.CDS.2002 | 126 | <-  | g.219508.CDS.961 | 126 | 1.000 | 1.000 | 0.992 | 0.992 | NODE_49_length_12044_cov_389.644_ID_97 | 379 | 759 | Mobile element protein | Mobile element protein
-1868806 | 1869186 | g.219517.CDS.2002 | 126 | <-  | g.219508.CDS.1001 | 126 | 1.000 | 1.000 | 0.992 | 0.992 | NODE_58_length_5194_cov_784.766_ID_115 | 379 | 759 | Mobile element protein | Mobile element protein
 1868806 | 1869186 | g.219517.CDS.2002 | 126 | <-  | g.219508.CDS.1078 | 129 | 1.000 | 1.000 | 0.992 | 0.969 | NODE_35_length_19976_cov_198.699_ID_69 | 1 | 390 | Mobile element protein | Mobile element protein
-1868806 | 1869186 | g.219517.CDS.2002 | 126 | <-  | g.219508.CDS.1130 | 126 | 1.000 | 1.000 | 0.992 | 0.992 | NODE_63_length_3101_cov_1236.46_ID_125 | 2343 | 2723 | Mobile element protein | Mobile element protein
-1868806 | 1869186 | g.219517.CDS.2002 | 126 | <-  | g.219508.CDS.1203 | 126 | 1.000 | 1.000 | 0.992 | 0.992 | NODE_38_length_18121_cov_301.46_ID_75 | 379 | 759 | Mobile element protein | Mobile element protein
-1868806 | 1869186 | g.219517.CDS.2002 | 126 | <-  | g.219508.CDS.1331 | 126 | 1.000 | 1.000 | 0.992 | 0.992 | NODE_37_length_18138_cov_202.451_ID_73 | 17692 | 18072 | Mobile element protein | Mobile element protein
-1868806 | 1869186 | g.219517.CDS.2002 | 126 | <-  | g.219508.CDS.1498 | 126 | 1.000 | 1.000 | 0.992 | 0.992 | NODE_42_length_15337_cov_329.076_ID_83 | 14579 | 14959 | Mobile element protein | Mobile element protein
-1868806 | 1869186 | g.219517.CDS.2002 | 126 | <-  | g.219508.CDS.1661 | 126 | 1.000 | 1.000 | 0.992 | 0.992 | NODE_72_length_821_cov_4244.4_ID_147 | 379 | 759 | Mobile element protein | Mobile element protein
-1868806 | 1869186 | g.219517.CDS.2002 | 126 | <-  | g.219508.CDS.1878 | 126 | 1.000 | 1.000 | 0.992 | 0.992 | NODE_55_length_6886_cov_1093.67_ID_109 | 379 | 759 | Mobile element protein | Mobile element protein
 1869174 | 1869590 | g.219517.CDS.2003 | 138 | <-  | g.219508.CDS.258 | 130 | 1.000 | 1.000 | 0.935 | 0.992 | NODE_34_length_20591_cov_272.158_ID_67 | 20201 | 20590 | Mobile element protein | Mobile element protein
 1869174 | 1869590 | g.219517.CDS.2003 | 138 | <-  | g.219508.CDS.397 | 130 | 1.000 | 1.000 | 0.935 | 0.992 | NODE_47_length_13080_cov_376.268_ID_93 | 2 | 391 | Mobile element protein | Mobile element protein
 1869174 | 1869590 | g.219517.CDS.2003 | 138 | <-  | g.219508.CDS.701 | 130 | 1.000 | 1.000 | 0.935 | 0.992 | NODE_19_length_33539_cov_209.818_ID_37 | 33149 | 33538 | Mobile element protein | Mobile element protein
@@ -1404,15 +1529,132 @@ ref_beg | ref_end | ref_id | ref_len | type | qry_id | qry_len | fract_id | frac
 
 ## Francisella tularensis Schu S4 NR-643
 
-This isolate has 2 sequence runs: SRR999322, SRR1019709
+This isolate has one NCBI assembly and 2 sequence runs: SRR999322, SRR1019709
 
+### NR-643 scaffolds
+
+#### Contig alignment (ref vs NCBI scaffolds)
+
+![NR-643 contig alignment](http://bioseed.mcs.anl.gov/~fangfang/francisella/png/NR-643.png)
+
+#### SNPs (ref vs NCBI scaffolds)
+
+```
+/space2/fangfang/francisella/ref/177416.18.contigs /space2/fangfang/francisella/olive/NR-643.scaffolds.fasta
+NUCMER
+
+                               [REF]                [QRY]
+[Sequences]
+TotalSeqs                          1                    2
+AlignedSeqs               1(100.00%)           2(100.00%)
+UnalignedSeqs               0(0.00%)             0(0.00%)
+
+[Bases]
+TotalBases                   1892775              1892834
+AlignedBases        1892775(100.00%)      1892729(99.99%)
+UnalignedBases              0(0.00%)           105(0.01%)
+
+[Alignments]
+1-to-1                             5                    5
+TotalLength                  1932919              1932929
+AvgLength                  386583.80            386585.80
+AvgIdentity                    99.99                99.99
+
+M-to-M                             7                    7
+TotalLength                  1934030              1934040
+AvgLength                  276290.00            276291.43
+AvgIdentity                    99.99                99.99
+
+[Feature Estimates]
+Breakpoints                       12                   10
+Relocations                        1                    0
+Translocations                     1                    0
+Inversions                         0                    0
+
+Insertions                         2                    3
+InsertionSum                     911                  332
+InsertionAvg                  455.50               110.67
+
+TandemIns                          1                    1
+TandemInsSum                      16                   11
+TandemInsAvg                   16.00                11.00
+
+[SNPs]
+TotalSNPs                          6                    6
+AT                          0(0.00%)             0(0.00%)
+AC                          0(0.00%)             0(0.00%)
+AG                         4(66.67%)            1(16.67%)
+TA                          0(0.00%)             0(0.00%)
+TC                          0(0.00%)            1(16.67%)
+TG                          0(0.00%)             0(0.00%)
+CA                          0(0.00%)             0(0.00%)
+CT                         1(16.67%)             0(0.00%)
+CG                          0(0.00%)             0(0.00%)
+GA                         1(16.67%)            4(66.67%)
+GT                          0(0.00%)             0(0.00%)
+GC                          0(0.00%)             0(0.00%)
+
+TotalGSNPs                         6                    6
+AT                          0(0.00%)             0(0.00%)
+AC                          0(0.00%)             0(0.00%)
+AG                         4(66.67%)            1(16.67%)
+TA                          0(0.00%)             0(0.00%)
+TC                          0(0.00%)            1(16.67%)
+TG                          0(0.00%)             0(0.00%)
+CA                          0(0.00%)             0(0.00%)
+CT                         1(16.67%)             0(0.00%)
+CG                          0(0.00%)             0(0.00%)
+GA                         1(16.67%)            4(66.67%)
+GT                          0(0.00%)             0(0.00%)
+GC                          0(0.00%)             0(0.00%)
+
+TotalIndels                        2                    2
+A.                         1(50.00%)            1(50.00%)
+T.                          0(0.00%)             0(0.00%)
+C.                          0(0.00%)             0(0.00%)
+G.                          0(0.00%)             0(0.00%)
+.A                         1(50.00%)            1(50.00%)
+.T                          0(0.00%)             0(0.00%)
+.C                          0(0.00%)             0(0.00%)
+.G                          0(0.00%)             0(0.00%)
+
+TotalGIndels                       2                    2
+A.                         1(50.00%)            1(50.00%)
+T.                          0(0.00%)             0(0.00%)
+C.                          0(0.00%)             0(0.00%)
+G.                          0(0.00%)             0(0.00%)
+.A                         1(50.00%)            1(50.00%)
+.T                          0(0.00%)             0(0.00%)
+.C                          0(0.00%)             0(0.00%)
+.G                          0(0.00%)             0(0.00%)
+```
+#### DNA differences (ref vs NCBI scaffolds)
+
+```
+                               [REF]          [NR-643]
+[Sequences]
+TotalSeqs                          1                    2
+AlignedSeqs               1(100.00%)           2(100.00%)
+UnalignedSeqs               0(0.00%)             0(0.00%)
+
+[Bases]
+TotalBases                   1892775              1892834
+AlignedBases        1892775(100.00%)      1892729(99.99%)
+UnalignedBases              0(0.00%)           105(0.01%)
+
+[Alignments]
+1-to-1                             5                    5
+TotalLength                  1932919              1932929
+AvgLength                  386583.80            386585.80
+AvgIdentity                    99.99                99.99
+```
 ### SRR999322
 
-#### Contig alignment
+#### Contig alignment (ref vs de novo assembly)
 
 ![SRR999322 contig alignment](http://bioseed.mcs.anl.gov/~fangfang/francisella/png/SRR999322.png)
 
-#### SNPs
+#### SNPs (ref vs reads)
 
 Contig | Pos | Ref | Var | Var cov | Var frac | Type | Ref nt | Var nt | Ref aa | Var aa | Gene ID | Gene | Frameshift | Neighboring feature (3' end) | Neighboring feature (5' end)
 --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---
@@ -1424,7 +1666,7 @@ NC_006570 | 1419877 | C | T | 1007 | 1.00 | Nonsyn | cct | Tct | P | S | FTT_137
 NC_006570 | 1423162 | A | G | 1080 | 1.00 | Nonsyn | agt | Ggt | S | G | FTT_1377 | 3-oxoacyl-[acyl-carrier-protein] synthase, KASII (EC 2.3.1.179) |  | Acyl carrier protein | hypothetical protein
 NC_006570 | 1634580 | G | A | 916 | 1.00 | Nonsyn | aca | aTa | T | I | FTT_1573c | Outer membrane protein assembly factor YaeT precursor |  | Outer membrane chaperone Skp (OmpH) precursor @ Outer membrane protein H precursor | 1-deoxy-D-xylulose 5-phosphate reductoisomerase (EC 1.1.1.267)
 
-#### DNA differences
+#### DNA differences (ref vs de novo assembly)
 
 ```
                                [REF]          [SRR999322]
@@ -1444,7 +1686,7 @@ TotalLength                  1813232              1813184
 AvgLength                   24503.14             24502.49
 AvgIdentity                   100.00               100.00
 ```
-#### Protein differences
+#### Protein differences (ref vs de novo assembly)
 
 1886 of the 2031 proteins (92.86%) in the reference genome have Bidirectional Best Hits (BBHs) in the de novo assembled contigs from SRR999322 reads.
 
@@ -1492,7 +1734,6 @@ ref_beg | ref_end | ref_id | ref_len | type | qry_id | qry_len | fract_id | frac
 351205 | 351585 | g.219517.CDS.379 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 351573 | 351989 | g.219517.CDS.380 | 138 |  -> | g.219514.CDS.205 | 145 | 0.993 | 1.000 | 0.993 | 0.945 | NODE_3_length_93913_cov_579.138_ID_5 | 93474 | 93911 | Mobile element protein | Mobile element protein
 352063 | 352554 | g.219517.CDS.381 | 163 |  -> | g.219514.CDS.1433 | 108 | 0.900 | 1.000 | 0.117 | 0.176 | NODE_2_length_103495_cov_475.664_ID_3 | 2 | 325 | Mobile element protein | Mobile element protein
-352918 | 353913 | g.219517.CDS.382 | 331 |  -> | g.219514.CDS.1904 | 331 | 1.000 | 1.000 | 0.997 | 0.997 | NODE_69_length_1792_cov_2597.46_ID_137 | 373 | 1368 | hypothetical protein | hypothetical protein
 354205 | 354621 | g.219517.CDS.383 | 138 |  -> | g.219514.CDS.205 | 145 | 0.993 | 1.000 | 0.993 | 0.945 | NODE_3_length_93913_cov_579.138_ID_5 | 93474 | 93911 | Mobile element protein | Mobile element protein
 354609 | 354989 | g.219517.CDS.384 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 357361 | 357777 | g.219517.CDS.386 | 138 |  -> | g.219514.CDS.205 | 145 | 0.993 | 1.000 | 0.993 | 0.945 | NODE_3_length_93913_cov_579.138_ID_5 | 93474 | 93911 | Mobile element protein | Mobile element protein
@@ -1502,7 +1743,6 @@ ref_beg | ref_end | ref_id | ref_len | type | qry_id | qry_len | fract_id | frac
 366495 | 366677 | g.219517.CDS.398 | 60 |  -  |  |  |  |  |  |  |  |  |  | hypothetical protein | 
 378906 | 379286 | g.219517.CDS.410 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 379274 | 379690 | g.219517.CDS.411 | 138 |  -> | g.219514.CDS.205 | 145 | 0.993 | 1.000 | 0.993 | 0.945 | NODE_3_length_93913_cov_579.138_ID_5 | 93474 | 93911 | Mobile element protein | Mobile element protein
-379982 | 380977 | g.219517.CDS.412 | 331 |  -> | g.219514.CDS.1904 | 331 | 1.000 | 1.000 | 0.997 | 0.997 | NODE_69_length_1792_cov_2597.46_ID_137 | 373 | 1368 | hypothetical protein | hypothetical protein
 381341 | 381820 | g.219517.CDS.413 | 159 |  -> | g.219514.CDS.1433 | 108 | 0.900 | 1.000 | 0.119 | 0.176 | NODE_2_length_103495_cov_475.664_ID_3 | 2 | 325 | Mobile element protein | Mobile element protein
 383702 | 384445 | g.219517.CDS.415 | 247 |  -> | g.219514.CDS.1433 | 108 | 1.000 | 1.000 | 0.433 | 0.991 | NODE_2_length_103495_cov_475.664_ID_3 | 2 | 325 | Mobile element protein | Mobile element protein
 426305 | 427444 | g.219517.CDS.450 | 379 | <-> | g.219514.CDS.621 | 423 | 1.000 | 1.000 | 0.989 | 0.887 | NODE_5_length_69051_cov_485.188_ID_9 | 41928 | 43199 | Glucose-1-phosphate adenylyltransferase (EC 2.7.7.27) | Glucose-1-phosphate adenylyltransferase (EC 2.7.7.27)
@@ -1521,7 +1761,6 @@ ref_beg | ref_end | ref_id | ref_len | type | qry_id | qry_len | fract_id | frac
 578744 | 579160 | g.219517.CDS.618 | 138 |  -> | g.219514.CDS.205 | 145 | 0.993 | 1.000 | 0.993 | 0.945 | NODE_3_length_93913_cov_579.138_ID_5 | 93474 | 93911 | Mobile element protein | Mobile element protein
 582508 | 583251 | g.219517.CDS.622 | 247 |  -> | g.219514.CDS.1433 | 108 | 1.000 | 1.000 | 0.433 | 0.991 | NODE_2_length_103495_cov_475.664_ID_3 | 2 | 325 | Mobile element protein | Mobile element protein
 606904 | 607647 | g.219517.CDS.650 | 247 |  -> | g.219514.CDS.1433 | 108 | 1.000 | 1.000 | 0.433 | 0.991 | NODE_2_length_103495_cov_475.664_ID_3 | 2 | 325 | Mobile element protein | Mobile element protein
-693461 | 694720 | g.219517.CDS.749 | 419 | <-> | g.219514.CDS.1532 | 419 | 0.998 | 0.998 | 0.998 | 0.998 | NODE_2_length_103495_cov_475.664_ID_3 | 86139 | 87398 | Hemolysins and related proteins containing CBS domains | Hemolysins and related proteins containing CBS domains
 710737 | 711153 | g.219517.CDS.766 | 138 |  -> | g.219514.CDS.205 | 145 | 0.993 | 1.000 | 0.993 | 0.945 | NODE_3_length_93913_cov_579.138_ID_5 | 93474 | 93911 | Mobile element protein | Mobile element protein
 711141 | 711521 | g.219517.CDS.767 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 744289 | 744705 | g.219517.CDS.799 | 138 |  -> | g.219514.CDS.205 | 145 | 0.993 | 1.000 | 0.993 | 0.945 | NODE_3_length_93913_cov_579.138_ID_5 | 93474 | 93911 | Mobile element protein | Mobile element protein
@@ -1533,7 +1772,6 @@ ref_beg | ref_end | ref_id | ref_len | type | qry_id | qry_len | fract_id | frac
 785370 | 785786 | g.219517.CDS.849 | 138 |  -> | g.219514.CDS.205 | 145 | 0.993 | 1.000 | 0.993 | 0.945 | NODE_3_length_93913_cov_579.138_ID_5 | 93474 | 93911 | Mobile element protein | Mobile element protein
 799235 | 799615 | g.219517.CDS.866 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 799603 | 800019 | g.219517.CDS.867 | 138 |  -> | g.219514.CDS.205 | 145 | 0.993 | 1.000 | 0.993 | 0.945 | NODE_3_length_93913_cov_579.138_ID_5 | 93474 | 93911 | Mobile element protein | Mobile element protein
-826545 | 827756 | g.219517.CDS.895 | 403 | <-> | g.219514.CDS.716 | 403 | 0.998 | 0.998 | 0.998 | 0.998 | NODE_12_length_39267_cov_496.062_ID_23 | 26607 | 27818 | Hypothetical protein in predicted poly-gamma-glutamate synthase operon | Hypothetical protein in predicted poly-gamma-glutamate synthase operon
 839217 | 839597 | g.219517.CDS.910 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 839585 | 840001 | g.219517.CDS.911 | 138 |  -> | g.219514.CDS.205 | 145 | 0.993 | 1.000 | 0.993 | 0.945 | NODE_3_length_93913_cov_579.138_ID_5 | 93474 | 93911 | Mobile element protein | Mobile element protein
 876765 | 877508 | g.219517.CDS.962 | 247 |  -> | g.219514.CDS.1433 | 108 | 1.000 | 1.000 | 0.433 | 0.991 | NODE_2_length_103495_cov_475.664_ID_3 | 2 | 325 | Mobile element protein | Mobile element protein
@@ -1542,12 +1780,10 @@ ref_beg | ref_end | ref_id | ref_len | type | qry_id | qry_len | fract_id | frac
 1018849 | 1020057 | g.219517.CDS.1114 | 402 | <-> | g.219514.CDS.1019 | 377 | 0.997 | 1.000 | 0.935 | 0.997 | NODE_1_length_132057_cov_441.193_ID_1 | 87285 | 88418 | FIG097052: Sugar transporter | FIG097052: Sugar transporter
 1062454 | 1062660 | g.219517.CDS.1163 | 68 | <-> | g.219514.CDS.1068 | 64 | 0.984 | 1.000 | 0.926 | 0.984 | NODE_1_length_132057_cov_441.193_ID_1 | 130815 | 131009 | hypothetical protein | hypothetical protein
 1063612 | 1063953 | g.219517.CDS.1166 | 113 |  -> | g.219514.CDS.1939 | 22 | 0.909 | 0.955 | 0.186 | 0.955 | NODE_11_length_39432_cov_515.838_ID_21 | 39363 | 39431 | Mobile element protein | Mobile element protein
-1064014 | 1064310 | g.219517.CDS.1167 | 98 |  -> | g.219514.CDS.1145 | 98 | 1.000 | 1.000 | 0.990 | 0.990 | NODE_41_length_16647_cov_582.157_ID_81 | 28 | 324 | Mobile element protein | Mobile element protein
 1073411 | 1073827 | g.219517.CDS.1181 | 138 |  -> | g.219514.CDS.205 | 145 | 0.993 | 1.000 | 0.993 | 0.945 | NODE_3_length_93913_cov_579.138_ID_5 | 93474 | 93911 | Mobile element protein | Mobile element protein
 1073815 | 1074195 | g.219517.CDS.1182 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 1085435 | 1085815 | g.219517.CDS.1194 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 1085803 | 1086219 | g.219517.CDS.1195 | 138 |  -> | g.219514.CDS.205 | 145 | 0.993 | 1.000 | 0.993 | 0.945 | NODE_3_length_93913_cov_579.138_ID_5 | 93474 | 93911 | Mobile element protein | Mobile element protein
-1104026 | 1105408 | g.219517.CDS.1217 | 460 | <-> | g.219514.CDS.1227 | 457 | 0.998 | 1.000 | 0.991 | 0.998 | NODE_17_length_35337_cov_499.766_ID_33 | 17888 | 19261 | Outer membrane protein TolC | Outer membrane protein TolC
 1121516 | 1122259 | g.219517.CDS.1237 | 247 |  -> | g.219514.CDS.1433 | 108 | 1.000 | 1.000 | 0.433 | 0.991 | NODE_2_length_103495_cov_475.664_ID_3 | 2 | 325 | Mobile element protein | Mobile element protein
 1153900 | 1154316 | g.219517.CDS.1273 | 138 |  -> | g.219514.CDS.205 | 145 | 0.993 | 1.000 | 0.993 | 0.945 | NODE_3_length_93913_cov_579.138_ID_5 | 93474 | 93911 | Mobile element protein | Mobile element protein
 1154304 | 1154684 | g.219517.CDS.1274 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
@@ -1564,30 +1800,8 @@ ref_beg | ref_end | ref_id | ref_len | type | qry_id | qry_len | fract_id | frac
 1287369 | 1287749 | g.219517.CDS.1419 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 1332313 | 1332693 | g.219517.CDS.1466 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 1370445 | 1371188 | g.219517.CDS.1497 | 247 |  -> | g.219514.CDS.1433 | 108 | 1.000 | 1.000 | 0.433 | 0.991 | NODE_2_length_103495_cov_475.664_ID_3 | 2 | 325 | Mobile element protein | Mobile element protein
-1379925 | 1382387 | g.219517.CDS.1501 | 820 |  -> | g.219514.CDS.534 | 820 | 1.000 | 1.000 | 0.999 | 0.999 | NODE_26_length_27504_cov_837.083_ID_51 | 80 | 2542 | hypothetical protein | hypothetical protein
-1382392 | 1385673 | g.219517.CDS.1502 | 1093 |  -> | g.219514.CDS.535 | 1093 | 1.000 | 1.000 | 0.999 | 0.999 | NODE_26_length_27504_cov_837.083_ID_51 | 2547 | 5828 | hypothetical protein | hypothetical protein
-1385663 | 1386040 | g.219517.CDS.1503 | 125 |  -> | g.219514.CDS.536 | 125 | 1.000 | 1.000 | 0.992 | 0.992 | NODE_26_length_27504_cov_837.083_ID_51 | 5818 | 6195 | hypothetical protein | hypothetical protein
-1386053 | 1386547 | g.219517.CDS.1504 | 164 |  -> | g.219514.CDS.537 | 164 | 1.000 | 1.000 | 0.994 | 0.994 | NODE_26_length_27504_cov_837.083_ID_51 | 6208 | 6702 | vgrG protein | vgrG protein
-1386552 | 1388282 | g.219517.CDS.1505 | 576 |  -> | g.219514.CDS.538 | 576 | 1.000 | 1.000 | 0.998 | 0.998 | NODE_26_length_27504_cov_837.083_ID_51 | 6707 | 8437 | DNA polymerase I (EC 2.7.7.7) | DNA polymerase I (EC 2.7.7.7)
-1388283 | 1388804 | g.219517.CDS.1506 | 173 |  -> | g.219514.CDS.539 | 173 | 1.000 | 1.000 | 0.994 | 0.994 | NODE_26_length_27504_cov_837.083_ID_51 | 8438 | 8959 | hypothetical protein | hypothetical protein
-1388817 | 1390247 | g.219517.CDS.1507 | 476 |  -> | g.219514.CDS.540 | 476 | 1.000 | 1.000 | 0.998 | 0.998 | NODE_26_length_27504_cov_837.083_ID_51 | 8972 | 10402 | hypothetical protein | hypothetical protein
-1390260 | 1390883 | g.219517.CDS.1508 | 207 |  -> | g.219514.CDS.541 | 207 | 1.000 | 1.000 | 0.995 | 0.995 | NODE_26_length_27504_cov_837.083_ID_51 | 10415 | 11038 | hypothetical protein | hypothetical protein
-1390905 | 1392056 | g.219517.CDS.1509 | 383 |  -> | g.219514.CDS.542 | 383 | 1.000 | 1.000 | 0.997 | 0.997 | NODE_26_length_27504_cov_837.083_ID_51 | 11060 | 12211 | hypothetical protein | hypothetical protein
-1392079 | 1392795 | g.219517.CDS.1510 | 238 |  -> | g.219514.CDS.543 | 238 | 1.000 | 1.000 | 0.996 | 0.996 | NODE_26_length_27504_cov_837.083_ID_51 | 12234 | 12950 | hypothetical protein | hypothetical protein
-1392835 | 1396821 | g.219517.CDS.1511 | 1328 |  -> | g.219514.CDS.544 | 1328 | 1.000 | 1.000 | 0.999 | 0.999 | NODE_26_length_27504_cov_837.083_ID_51 | 12990 | 16976 | hypothetical protein | hypothetical protein
-1396839 | 1397414 | g.219517.CDS.1512 | 191 |  -> | g.219514.CDS.545 | 191 | 1.000 | 1.000 | 0.995 | 0.995 | NODE_26_length_27504_cov_837.083_ID_51 | 16994 | 17569 | hypothetical protein | hypothetical protein
-1397421 | 1398617 | g.219517.CDS.1513 | 398 |  -> | g.219514.CDS.546 | 398 | 1.000 | 1.000 | 0.997 | 0.997 | NODE_26_length_27504_cov_837.083_ID_51 | 17576 | 18772 | hypothetical protein | hypothetical protein
-1398638 | 1399267 | g.219517.CDS.1514 | 209 |  -> | g.219514.CDS.547 | 209 | 1.000 | 1.000 | 0.995 | 0.995 | NODE_26_length_27504_cov_837.083_ID_51 | 18793 | 19422 | hypothetical protein | hypothetical protein
-1399284 | 1400804 | g.219517.CDS.1515 | 506 |  -> | g.219514.CDS.548 | 506 | 1.000 | 1.000 | 0.998 | 0.998 | NODE_26_length_27504_cov_837.083_ID_51 | 19439 | 20959 | Uncharacterized protein ImpC | Uncharacterized protein ImpC
-1400818 | 1401372 | g.219517.CDS.1516 | 184 |  -> | g.219514.CDS.549 | 184 | 1.000 | 1.000 | 0.995 | 0.995 | NODE_26_length_27504_cov_837.083_ID_51 | 20973 | 21527 | Uncharacterized protein ImpB | Uncharacterized protein ImpB
-1401453 | 1405040 | g.219517.CDS.1517 | 1195 |  -> | g.219514.CDS.550 | 1195 | 1.000 | 1.000 | 0.999 | 0.999 | NODE_26_length_27504_cov_837.083_ID_51 | 21608 | 25195 | hypothetical protein | hypothetical protein
-1405272 | 1405673 | g.219517.CDS.1518 | 133 |  -> | g.219514.CDS.551 | 133 | 1.000 | 1.000 | 0.992 | 0.992 | NODE_26_length_27504_cov_837.083_ID_51 | 25427 | 25828 | Anhydro-N-acetylmuramic acid kinase (EC 2.7.1.-) | Anhydro-N-acetylmuramic acid kinase (EC 2.7.1.-)
-1405686 | 1406255 | g.219517.CDS.1519 | 189 |  -> | g.219514.CDS.552 | 189 | 1.000 | 1.000 | 0.995 | 0.995 | NODE_26_length_27504_cov_837.083_ID_51 | 25841 | 26410 | Anhydro-N-acetylmuramic acid kinase (EC 2.7.1.-) | Anhydro-N-acetylmuramic acid kinase (EC 2.7.1.-)
-1406685 | 1407299 | g.219517.CDS.1520 | 204 |  -> | g.219514.CDS.553 | 204 | 1.000 | 1.000 | 0.995 | 0.995 | NODE_26_length_27504_cov_837.083_ID_51 | 26840 | 27454 | Predicted trehalose permease, MFS family, FucP subfamily | Predicted trehalose permease, MFS family, FucP subfamily
 1407396 | 1407812 | g.219517.CDS.1521 | 138 |  -> | g.219514.CDS.205 | 145 | 0.993 | 1.000 | 0.993 | 0.945 | NODE_3_length_93913_cov_579.138_ID_5 | 93474 | 93911 | Mobile element protein | Mobile element protein
 1407800 | 1408180 | g.219517.CDS.1522 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
-1419073 | 1420044 | g.219517.CDS.1534 | 323 | <-> | g.219514.CDS.664 | 323 | 0.997 | 0.997 | 0.997 | 0.997 | NODE_33_length_21756_cov_453.687_ID_65 | 9904 | 10875 | 3-oxoacyl-[acyl-carrier-protein] synthase, KASIII (EC 2.3.1.180) | 3-oxoacyl-[acyl-carrier-protein] synthase, KASIII (EC 2.3.1.180)
-1422229 | 1423488 | g.219517.CDS.1538 | 419 | <-> | g.219514.CDS.660 | 419 | 0.998 | 0.998 | 0.998 | 0.998 | NODE_33_length_21756_cov_453.687_ID_65 | 6460 | 7719 | 3-oxoacyl-[acyl-carrier-protein] synthase, KASII (EC 2.3.1.179) | 3-oxoacyl-[acyl-carrier-protein] synthase, KASII (EC 2.3.1.179)
 1426779 | 1426982 | g.219517.CDS.1544 | 67 |  -  |  |  |  |  |  |  |  |  |  | Putative membrane protein | 
 1429959 | 1430339 | g.219517.CDS.1548 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 1430327 | 1430743 | g.219517.CDS.1549 | 138 |  -> | g.219514.CDS.205 | 145 | 0.993 | 1.000 | 0.993 | 0.945 | NODE_3_length_93913_cov_579.138_ID_5 | 93474 | 93911 | Mobile element protein | Mobile element protein
@@ -1596,7 +1810,6 @@ ref_beg | ref_end | ref_id | ref_len | type | qry_id | qry_len | fract_id | frac
 1476390 | 1476806 | g.219517.CDS.1594 | 138 |  -> | g.219514.CDS.205 | 145 | 0.993 | 1.000 | 0.993 | 0.945 | NODE_3_length_93913_cov_579.138_ID_5 | 93474 | 93911 | Mobile element protein | Mobile element protein
 1483215 | 1483958 | g.219517.CDS.1604 | 247 |  -> | g.219514.CDS.1433 | 108 | 1.000 | 1.000 | 0.433 | 0.991 | NODE_2_length_103495_cov_475.664_ID_3 | 2 | 325 | Mobile element protein | Mobile element protein
 1498514 | 1498894 | g.219517.CDS.1618 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
-1508636 | 1509865 | g.219517.CDS.1628 | 409 | <-> | g.219514.CDS.269 | 404 | 0.998 | 1.000 | 0.985 | 0.998 | NODE_38_length_17640_cov_436.717_ID_75 | 6696 | 7910 | NADH dehydrogenase subunit 4 | NADH dehydrogenase subunit 4
 1516518 | 1517261 | g.219517.CDS.1635 | 247 |  -> | g.219514.CDS.1433 | 108 | 1.000 | 1.000 | 0.433 | 0.991 | NODE_2_length_103495_cov_475.664_ID_3 | 2 | 325 | Mobile element protein | Mobile element protein
 1531728 | 1532144 | g.219517.CDS.1652 | 138 |  -> | g.219514.CDS.205 | 145 | 0.993 | 1.000 | 0.993 | 0.945 | NODE_3_length_93913_cov_579.138_ID_5 | 93474 | 93911 | Mobile element protein | Mobile element protein
 1532132 | 1532512 | g.219517.CDS.1653 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
@@ -1605,7 +1818,6 @@ ref_beg | ref_end | ref_id | ref_len | type | qry_id | qry_len | fract_id | frac
 1610162 | 1610578 | g.219517.CDS.1729 | 138 |  -> | g.219514.CDS.205 | 145 | 0.993 | 1.000 | 0.993 | 0.945 | NODE_3_length_93913_cov_579.138_ID_5 | 93474 | 93911 | Mobile element protein | Mobile element protein
 1628504 | 1628779 | g.219517.CDS.1749 | 91 | <-> | g.219514.CDS.1184 | 98 | 0.989 | 1.000 | 0.989 | 0.918 | NODE_13_length_38422_cov_574.224_ID_25 | 20120 | 20416 | hypothetical protein | hypothetical protein
 1628731 | 1628880 | g.219517.CDS.1750 | 49 |  -  |  |  |  |  |  |  |  |  |  | hypothetical protein | 
-1633718 | 1636054 | g.219517.CDS.1757 | 778 | <-> | g.219514.CDS.1177 | 778 | 0.999 | 0.999 | 0.999 | 0.999 | NODE_13_length_38422_cov_574.224_ID_25 | 12866 | 15202 | Outer membrane protein assembly factor YaeT precursor | Outer membrane protein assembly factor YaeT precursor
 1648839 | 1649255 | g.219517.CDS.1770 | 138 |  -> | g.219514.CDS.205 | 145 | 0.993 | 1.000 | 0.993 | 0.945 | NODE_3_length_93913_cov_579.138_ID_5 | 93474 | 93911 | Mobile element protein | Mobile element protein
 1649243 | 1649623 | g.219517.CDS.1771 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 1665129 | 1665545 | g.219517.CDS.1786 | 138 |  -> | g.219514.CDS.205 | 145 | 0.993 | 1.000 | 0.993 | 0.945 | NODE_3_length_93913_cov_579.138_ID_5 | 93474 | 93911 | Mobile element protein | Mobile element protein
@@ -1623,7 +1835,6 @@ ref_beg | ref_end | ref_id | ref_len | type | qry_id | qry_len | fract_id | frac
 1761288 | 1761704 | g.219517.CDS.1899 | 138 |  -> | g.219514.CDS.205 | 145 | 0.993 | 1.000 | 0.993 | 0.945 | NODE_3_length_93913_cov_579.138_ID_5 | 93474 | 93911 | Mobile element protein | Mobile element protein
 1766112 | 1766528 | g.219517.CDS.1905 | 138 |  -> | g.219514.CDS.205 | 145 | 0.993 | 1.000 | 0.993 | 0.945 | NODE_3_length_93913_cov_579.138_ID_5 | 93474 | 93911 | Mobile element protein | Mobile element protein
 1766516 | 1766896 | g.219517.CDS.1906 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
-1766954 | 1767718 | g.219517.CDS.1907 | 254 | <-> | g.219514.CDS.323 | 256 | 0.996 | 1.000 | 0.996 | 0.988 | NODE_70_length_818_cov_451.127_ID_139 | 47 | 817 | NAD-dependent formate dehydrogenase (EC 1.2.1.2) | NAD-dependent formate dehydrogenase (EC 1.2.1.2)
 1800731 | 1801147 | g.219517.CDS.1928 | 138 |  -> | g.219514.CDS.205 | 145 | 0.993 | 1.000 | 0.993 | 0.945 | NODE_3_length_93913_cov_579.138_ID_5 | 93474 | 93911 | Mobile element protein | Mobile element protein
 1801135 | 1801515 | g.219517.CDS.1929 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 1816777 | 1816986 | g.219517.CDS.1942 | 69 |  -  |  |  |  |  |  |  |  |  |  | hypothetical protein | 
@@ -1680,11 +1891,11 @@ ref_beg | ref_end | ref_id | ref_len | type | qry_id | qry_len | fract_id | frac
 
 ### SRR1019709
 
-#### Contig alignment
+#### Contig alignment (ref vs de novo assembly)
 
 ![SRR1019709 contig alignment](http://bioseed.mcs.anl.gov/~fangfang/francisella/png/SRR1019709.png)
 
-#### SNPs
+#### SNPs (ref vs reads)
 
 Contig | Pos | Ref | Var | Var cov | Var frac | Type | Ref nt | Var nt | Ref aa | Var aa | Gene ID | Gene | Frameshift | Neighboring feature (3' end) | Neighboring feature (5' end)
 --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---
@@ -1699,7 +1910,7 @@ NC_006570 | 1419877 | C | T | 416 | 1.00 | Nonsyn | cct | Tct | P | S | FTT_1373
 NC_006570 | 1423162 | A | G | 586 | 1.00 | Nonsyn | agt | Ggt | S | G | FTT_1377 | 3-oxoacyl-[acyl-carrier-protein] synthase, KASII (EC 2.3.1.179) |  | Acyl carrier protein | hypothetical protein
 NC_006570 | 1634580 | G | A | 406 | 1.00 | Nonsyn | aca | aTa | T | I | FTT_1573c | Outer membrane protein assembly factor YaeT precursor |  | Outer membrane chaperone Skp (OmpH) precursor @ Outer membrane protein H precursor | 1-deoxy-D-xylulose 5-phosphate reductoisomerase (EC 1.1.1.267)
 
-#### DNA differences
+#### DNA differences (ref vs de novo assembly)
 
 ```
                                [REF]          [SRR1019709]
@@ -1719,7 +1930,7 @@ TotalLength                  1835676              1835584
 AvgLength                   25146.25             25144.99
 AvgIdentity                    99.99                99.99
 ```
-#### Protein differences
+#### Protein differences (ref vs de novo assembly)
 
 1887 of the 2031 proteins (92.91%) in the reference genome have Bidirectional Best Hits (BBHs) in the de novo assembled contigs from SRR1019709 reads.
 
@@ -1777,7 +1988,6 @@ ref_beg | ref_end | ref_id | ref_len | type | qry_id | qry_len | fract_id | frac
 351205 | 351585 | g.219517.CDS.379 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 351573 | 351989 | g.219517.CDS.380 | 138 |  -> | g.219504.CDS.1496 | 41 | 0.933 | 0.933 | 0.210 | 0.707 | NODE_36_length_19622_cov_177.963_ID_71 | 3 | 128 | Mobile element protein | Mobile element protein
 352063 | 352554 | g.219517.CDS.381 | 163 |  -> | g.219504.CDS.1567 | 108 | 0.900 | 1.000 | 0.117 | 0.176 | NODE_44_length_14762_cov_194.945_ID_87 | 2 | 325 | Mobile element protein | Mobile element protein
-352918 | 353913 | g.219517.CDS.382 | 331 |  -> | g.219504.CDS.210 | 331 | 1.000 | 1.000 | 0.997 | 0.997 | NODE_67_length_1682_cov_397.602_ID_133 | 263 | 1258 | hypothetical protein | hypothetical protein
 354205 | 354621 | g.219517.CDS.383 | 138 |  -> | g.219504.CDS.1496 | 41 | 0.933 | 0.933 | 0.210 | 0.707 | NODE_36_length_19622_cov_177.963_ID_71 | 3 | 128 | Mobile element protein | Mobile element protein
 354609 | 354989 | g.219517.CDS.384 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 357361 | 357777 | g.219517.CDS.386 | 138 |  -> | g.219504.CDS.1496 | 41 | 0.933 | 0.933 | 0.210 | 0.707 | NODE_36_length_19622_cov_177.963_ID_71 | 3 | 128 | Mobile element protein | Mobile element protein
@@ -1787,7 +1997,6 @@ ref_beg | ref_end | ref_id | ref_len | type | qry_id | qry_len | fract_id | frac
 366495 | 366677 | g.219517.CDS.398 | 60 |  -  |  |  |  |  |  |  |  |  |  | hypothetical protein | 
 378906 | 379286 | g.219517.CDS.410 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 379274 | 379690 | g.219517.CDS.411 | 138 |  -> | g.219504.CDS.1496 | 41 | 0.933 | 0.933 | 0.210 | 0.707 | NODE_36_length_19622_cov_177.963_ID_71 | 3 | 128 | Mobile element protein | Mobile element protein
-379982 | 380977 | g.219517.CDS.412 | 331 |  -> | g.219504.CDS.210 | 331 | 1.000 | 1.000 | 0.997 | 0.997 | NODE_67_length_1682_cov_397.602_ID_133 | 263 | 1258 | hypothetical protein | hypothetical protein
 381341 | 381820 | g.219517.CDS.413 | 159 |  -> | g.219504.CDS.1567 | 108 | 0.900 | 1.000 | 0.119 | 0.176 | NODE_44_length_14762_cov_194.945_ID_87 | 2 | 325 | Mobile element protein | Mobile element protein
 383702 | 384445 | g.219517.CDS.415 | 247 |  -> | g.219504.CDS.1567 | 108 | 1.000 | 1.000 | 0.433 | 0.991 | NODE_44_length_14762_cov_194.945_ID_87 | 2 | 325 | Mobile element protein | Mobile element protein
 426305 | 427444 | g.219517.CDS.450 | 379 | <-> | g.219504.CDS.1804 | 423 | 1.000 | 1.000 | 0.989 | 0.887 | NODE_6_length_68941_cov_146.59_ID_11 | 41928 | 43199 | Glucose-1-phosphate adenylyltransferase (EC 2.7.7.27) | Glucose-1-phosphate adenylyltransferase (EC 2.7.7.27)
@@ -1804,7 +2013,6 @@ ref_beg | ref_end | ref_id | ref_len | type | qry_id | qry_len | fract_id | frac
 578744 | 579160 | g.219517.CDS.618 | 138 |  -> | g.219504.CDS.1496 | 41 | 0.933 | 0.933 | 0.210 | 0.707 | NODE_36_length_19622_cov_177.963_ID_71 | 3 | 128 | Mobile element protein | Mobile element protein
 582508 | 583251 | g.219517.CDS.622 | 247 |  -> | g.219504.CDS.1567 | 108 | 1.000 | 1.000 | 0.433 | 0.991 | NODE_44_length_14762_cov_194.945_ID_87 | 2 | 325 | Mobile element protein | Mobile element protein
 606904 | 607647 | g.219517.CDS.650 | 247 |  -> | g.219504.CDS.1567 | 108 | 1.000 | 1.000 | 0.433 | 0.991 | NODE_44_length_14762_cov_194.945_ID_87 | 2 | 325 | Mobile element protein | Mobile element protein
-693461 | 694720 | g.219517.CDS.749 | 419 | <-> | g.219504.CDS.179 | 419 | 0.998 | 0.998 | 0.998 | 0.998 | NODE_2_length_103385_cov_147.117_ID_3 | 86139 | 87398 | Hemolysins and related proteins containing CBS domains | Hemolysins and related proteins containing CBS domains
 710737 | 711153 | g.219517.CDS.766 | 138 |  -> | g.219504.CDS.1496 | 41 | 0.933 | 0.933 | 0.210 | 0.707 | NODE_36_length_19622_cov_177.963_ID_71 | 3 | 128 | Mobile element protein | Mobile element protein
 711141 | 711521 | g.219517.CDS.767 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 744289 | 744705 | g.219517.CDS.799 | 138 |  -> | g.219504.CDS.1496 | 41 | 0.933 | 0.933 | 0.210 | 0.707 | NODE_36_length_19622_cov_177.963_ID_71 | 3 | 128 | Mobile element protein | Mobile element protein
@@ -1814,7 +2022,6 @@ ref_beg | ref_end | ref_id | ref_len | type | qry_id | qry_len | fract_id | frac
 785370 | 785786 | g.219517.CDS.849 | 138 |  -> | g.219504.CDS.1496 | 41 | 0.933 | 0.933 | 0.210 | 0.707 | NODE_36_length_19622_cov_177.963_ID_71 | 3 | 128 | Mobile element protein | Mobile element protein
 799235 | 799615 | g.219517.CDS.866 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 799603 | 800019 | g.219517.CDS.867 | 138 |  -> | g.219504.CDS.1496 | 41 | 0.933 | 0.933 | 0.210 | 0.707 | NODE_36_length_19622_cov_177.963_ID_71 | 3 | 128 | Mobile element protein | Mobile element protein
-826545 | 827756 | g.219517.CDS.895 | 403 | <-> | g.219504.CDS.238 | 403 | 0.998 | 0.998 | 0.998 | 0.998 | NODE_12_length_39186_cov_144.257_ID_23 | 26497 | 27708 | Hypothetical protein in predicted poly-gamma-glutamate synthase operon | Hypothetical protein in predicted poly-gamma-glutamate synthase operon
 839217 | 839597 | g.219517.CDS.910 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 839585 | 840001 | g.219517.CDS.911 | 138 |  -> | g.219504.CDS.1496 | 41 | 0.933 | 0.933 | 0.210 | 0.707 | NODE_36_length_19622_cov_177.963_ID_71 | 3 | 128 | Mobile element protein | Mobile element protein
 876765 | 877508 | g.219517.CDS.962 | 247 |  -> | g.219504.CDS.1567 | 108 | 1.000 | 1.000 | 0.433 | 0.991 | NODE_44_length_14762_cov_194.945_ID_87 | 2 | 325 | Mobile element protein | Mobile element protein
@@ -1823,12 +2030,10 @@ ref_beg | ref_end | ref_id | ref_len | type | qry_id | qry_len | fract_id | frac
 1018849 | 1020057 | g.219517.CDS.1114 | 402 | <-> | g.219504.CDS.1679 | 377 | 0.997 | 1.000 | 0.935 | 0.997 | NODE_1_length_131934_cov_127.327_ID_1 | 87175 | 88308 | FIG097052: Sugar transporter | FIG097052: Sugar transporter
 1062454 | 1062660 | g.219517.CDS.1163 | 68 | <-> | g.219504.CDS.1728 | 64 | 0.984 | 1.000 | 0.926 | 0.984 | NODE_1_length_131934_cov_127.327_ID_1 | 130705 | 130899 | hypothetical protein | hypothetical protein
 1063612 | 1063953 | g.219517.CDS.1166 | 113 |  -> | g.219504.CDS.1731 | 108 | 1.000 | 1.000 | 0.947 | 0.991 | NODE_70_length_738_cov_340.174_ID_139 | 2 | 325 | Mobile element protein | Mobile element protein
-1064014 | 1064310 | g.219517.CDS.1167 | 98 |  -> | g.219504.CDS.1732 | 98 | 1.000 | 1.000 | 0.990 | 0.990 | NODE_70_length_738_cov_340.174_ID_139 | 386 | 682 | Mobile element protein | Mobile element protein
 1073411 | 1073827 | g.219517.CDS.1181 | 138 |  -> | g.219504.CDS.1496 | 41 | 0.933 | 0.933 | 0.210 | 0.707 | NODE_36_length_19622_cov_177.963_ID_71 | 3 | 128 | Mobile element protein | Mobile element protein
 1073815 | 1074195 | g.219517.CDS.1182 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 1085435 | 1085815 | g.219517.CDS.1194 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 1085803 | 1086219 | g.219517.CDS.1195 | 138 |  -> | g.219504.CDS.1496 | 41 | 0.933 | 0.933 | 0.210 | 0.707 | NODE_36_length_19622_cov_177.963_ID_71 | 3 | 128 | Mobile element protein | Mobile element protein
-1104026 | 1105408 | g.219517.CDS.1217 | 460 | <-> | g.219504.CDS.1107 | 457 | 0.998 | 1.000 | 0.991 | 0.998 | NODE_16_length_35592_cov_159.139_ID_31 | 17778 | 19151 | Outer membrane protein TolC | Outer membrane protein TolC
 1121516 | 1122259 | g.219517.CDS.1237 | 247 |  -> | g.219504.CDS.1567 | 108 | 1.000 | 1.000 | 0.433 | 0.991 | NODE_44_length_14762_cov_194.945_ID_87 | 2 | 325 | Mobile element protein | Mobile element protein
 1153900 | 1154316 | g.219517.CDS.1273 | 138 |  -> | g.219504.CDS.1496 | 41 | 0.933 | 0.933 | 0.210 | 0.707 | NODE_36_length_19622_cov_177.963_ID_71 | 3 | 128 | Mobile element protein | Mobile element protein
 1154304 | 1154684 | g.219517.CDS.1274 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
@@ -1845,40 +2050,16 @@ ref_beg | ref_end | ref_id | ref_len | type | qry_id | qry_len | fract_id | frac
 1287369 | 1287749 | g.219517.CDS.1419 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 1332313 | 1332693 | g.219517.CDS.1466 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 1370445 | 1371188 | g.219517.CDS.1497 | 247 |  -> | g.219504.CDS.1567 | 108 | 1.000 | 1.000 | 0.433 | 0.991 | NODE_44_length_14762_cov_194.945_ID_87 | 2 | 325 | Mobile element protein | Mobile element protein
-1379925 | 1382387 | g.219517.CDS.1501 | 820 |  -> | g.219504.CDS.972 | 820 | 1.000 | 1.000 | 0.999 | 0.999 | NODE_26_length_27521_cov_253.339_ID_51 | 80 | 2542 | hypothetical protein | hypothetical protein
-1382392 | 1385673 | g.219517.CDS.1502 | 1093 |  -> | g.219504.CDS.973 | 1093 | 1.000 | 1.000 | 0.999 | 0.999 | NODE_26_length_27521_cov_253.339_ID_51 | 2547 | 5828 | hypothetical protein | hypothetical protein
-1385663 | 1386040 | g.219517.CDS.1503 | 125 |  -> | g.219504.CDS.974 | 125 | 1.000 | 1.000 | 0.992 | 0.992 | NODE_26_length_27521_cov_253.339_ID_51 | 5818 | 6195 | hypothetical protein | hypothetical protein
-1386053 | 1386547 | g.219517.CDS.1504 | 164 |  -> | g.219504.CDS.975 | 164 | 1.000 | 1.000 | 0.994 | 0.994 | NODE_26_length_27521_cov_253.339_ID_51 | 6208 | 6702 | vgrG protein | vgrG protein
-1386552 | 1388282 | g.219517.CDS.1505 | 576 |  -> | g.219504.CDS.976 | 576 | 1.000 | 1.000 | 0.998 | 0.998 | NODE_26_length_27521_cov_253.339_ID_51 | 6707 | 8437 | DNA polymerase I (EC 2.7.7.7) | DNA polymerase I (EC 2.7.7.7)
-1388283 | 1388804 | g.219517.CDS.1506 | 173 |  -> | g.219504.CDS.977 | 173 | 1.000 | 1.000 | 0.994 | 0.994 | NODE_26_length_27521_cov_253.339_ID_51 | 8438 | 8959 | hypothetical protein | hypothetical protein
-1388817 | 1390247 | g.219517.CDS.1507 | 476 |  -> | g.219504.CDS.978 | 476 | 1.000 | 1.000 | 0.998 | 0.998 | NODE_26_length_27521_cov_253.339_ID_51 | 8972 | 10402 | hypothetical protein | hypothetical protein
-1390260 | 1390883 | g.219517.CDS.1508 | 207 |  -> | g.219504.CDS.979 | 207 | 1.000 | 1.000 | 0.995 | 0.995 | NODE_26_length_27521_cov_253.339_ID_51 | 10415 | 11038 | hypothetical protein | hypothetical protein
-1390905 | 1392056 | g.219517.CDS.1509 | 383 |  -> | g.219504.CDS.980 | 383 | 1.000 | 1.000 | 0.997 | 0.997 | NODE_26_length_27521_cov_253.339_ID_51 | 11060 | 12211 | hypothetical protein | hypothetical protein
-1392079 | 1392795 | g.219517.CDS.1510 | 238 |  -> | g.219504.CDS.981 | 238 | 1.000 | 1.000 | 0.996 | 0.996 | NODE_26_length_27521_cov_253.339_ID_51 | 12234 | 12950 | hypothetical protein | hypothetical protein
-1392835 | 1396821 | g.219517.CDS.1511 | 1328 |  -> | g.219504.CDS.982 | 1328 | 1.000 | 1.000 | 0.999 | 0.999 | NODE_26_length_27521_cov_253.339_ID_51 | 12990 | 16976 | hypothetical protein | hypothetical protein
-1396839 | 1397414 | g.219517.CDS.1512 | 191 |  -> | g.219504.CDS.983 | 191 | 1.000 | 1.000 | 0.995 | 0.995 | NODE_26_length_27521_cov_253.339_ID_51 | 16994 | 17569 | hypothetical protein | hypothetical protein
-1397421 | 1398617 | g.219517.CDS.1513 | 398 |  -> | g.219504.CDS.984 | 398 | 1.000 | 1.000 | 0.997 | 0.997 | NODE_26_length_27521_cov_253.339_ID_51 | 17576 | 18772 | hypothetical protein | hypothetical protein
-1398638 | 1399267 | g.219517.CDS.1514 | 209 |  -> | g.219504.CDS.985 | 209 | 1.000 | 1.000 | 0.995 | 0.995 | NODE_26_length_27521_cov_253.339_ID_51 | 18793 | 19422 | hypothetical protein | hypothetical protein
-1399284 | 1400804 | g.219517.CDS.1515 | 506 |  -> | g.219504.CDS.986 | 506 | 1.000 | 1.000 | 0.998 | 0.998 | NODE_26_length_27521_cov_253.339_ID_51 | 19439 | 20959 | Uncharacterized protein ImpC | Uncharacterized protein ImpC
-1400818 | 1401372 | g.219517.CDS.1516 | 184 |  -> | g.219504.CDS.987 | 184 | 1.000 | 1.000 | 0.995 | 0.995 | NODE_26_length_27521_cov_253.339_ID_51 | 20973 | 21527 | Uncharacterized protein ImpB | Uncharacterized protein ImpB
-1401453 | 1405040 | g.219517.CDS.1517 | 1195 |  -> | g.219504.CDS.988 | 1195 | 1.000 | 1.000 | 0.999 | 0.999 | NODE_26_length_27521_cov_253.339_ID_51 | 21608 | 25195 | hypothetical protein | hypothetical protein
-1405272 | 1405673 | g.219517.CDS.1518 | 133 |  -> | g.219504.CDS.989 | 133 | 1.000 | 1.000 | 0.992 | 0.992 | NODE_26_length_27521_cov_253.339_ID_51 | 25427 | 25828 | Anhydro-N-acetylmuramic acid kinase (EC 2.7.1.-) | Anhydro-N-acetylmuramic acid kinase (EC 2.7.1.-)
-1405686 | 1406255 | g.219517.CDS.1519 | 189 |  -> | g.219504.CDS.990 | 189 | 1.000 | 1.000 | 0.995 | 0.995 | NODE_26_length_27521_cov_253.339_ID_51 | 25841 | 26410 | Anhydro-N-acetylmuramic acid kinase (EC 2.7.1.-) | Anhydro-N-acetylmuramic acid kinase (EC 2.7.1.-)
-1406685 | 1407299 | g.219517.CDS.1520 | 204 |  -> | g.219504.CDS.991 | 204 | 1.000 | 1.000 | 0.995 | 0.995 | NODE_26_length_27521_cov_253.339_ID_51 | 26840 | 27454 | Predicted trehalose permease, MFS family, FucP subfamily | Predicted trehalose permease, MFS family, FucP subfamily
 1407396 | 1407812 | g.219517.CDS.1521 | 138 |  -> | g.219504.CDS.1496 | 41 | 0.933 | 0.933 | 0.210 | 0.707 | NODE_36_length_19622_cov_177.963_ID_71 | 3 | 128 | Mobile element protein | Mobile element protein
 1407800 | 1408180 | g.219517.CDS.1522 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
-1419073 | 1420044 | g.219517.CDS.1534 | 323 | <-> | g.219504.CDS.940 | 323 | 0.997 | 0.997 | 0.997 | 0.997 | NODE_32_length_21814_cov_169.445_ID_63 | 10911 | 11882 | 3-oxoacyl-[acyl-carrier-protein] synthase, KASIII (EC 2.3.1.180) | 3-oxoacyl-[acyl-carrier-protein] synthase, KASIII (EC 2.3.1.180)
-1422229 | 1423488 | g.219517.CDS.1538 | 419 | <-> | g.219504.CDS.944 | 419 | 0.998 | 0.998 | 0.998 | 0.998 | NODE_32_length_21814_cov_169.445_ID_63 | 14067 | 15326 | 3-oxoacyl-[acyl-carrier-protein] synthase, KASII (EC 2.3.1.179) | 3-oxoacyl-[acyl-carrier-protein] synthase, KASII (EC 2.3.1.179)
 1426779 | 1426982 | g.219517.CDS.1544 | 67 |  -  |  |  |  |  |  |  |  |  |  | Putative membrane protein | 
 1429959 | 1430339 | g.219517.CDS.1548 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 1430327 | 1430743 | g.219517.CDS.1549 | 138 |  -> | g.219504.CDS.1496 | 41 | 0.933 | 0.933 | 0.210 | 0.707 | NODE_36_length_19622_cov_177.963_ID_71 | 3 | 128 | Mobile element protein | Mobile element protein
-1442488 | 1443918 | g.219517.CDS.1558 | 476 | <-> | g.219504.CDS.1532 | 469 | 0.985 | 0.985 | 0.998 | 0.998 | NODE_27_length_27276_cov_135.561_ID_53 | 14152 | 15561 | ATP-dependent DNA helicase | ATP-dependent DNA helicase
 1458062 | 1458811 | g.219517.CDS.1572 | 249 | <-> | g.219504.CDS.443 | 132 | 1.000 | 1.000 | 0.526 | 0.992 | NODE_38_length_17624_cov_155.898_ID_75 | 1 | 396 | Predicted D-lactate dehydrogenase, Fe-S protein, FAD/FMN-containing | Predicted D-lactate dehydrogenase, Fe-S protein, FAD/FMN-containing
 1476022 | 1476402 | g.219517.CDS.1593 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 1476390 | 1476806 | g.219517.CDS.1594 | 138 |  -> | g.219504.CDS.1496 | 41 | 0.933 | 0.933 | 0.210 | 0.707 | NODE_36_length_19622_cov_177.963_ID_71 | 3 | 128 | Mobile element protein | Mobile element protein
 1483215 | 1483958 | g.219517.CDS.1604 | 247 |  -> | g.219504.CDS.1567 | 108 | 1.000 | 1.000 | 0.433 | 0.991 | NODE_44_length_14762_cov_194.945_ID_87 | 2 | 325 | Mobile element protein | Mobile element protein
 1498514 | 1498894 | g.219517.CDS.1618 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
-1508636 | 1509865 | g.219517.CDS.1628 | 409 | <-> | g.219504.CDS.1845 | 404 | 0.998 | 1.000 | 0.985 | 0.998 | NODE_37_length_17709_cov_155.337_ID_73 | 6736 | 7950 | NADH dehydrogenase subunit 4 | NADH dehydrogenase subunit 4
 1516518 | 1517261 | g.219517.CDS.1635 | 247 |  -> | g.219504.CDS.1567 | 108 | 1.000 | 1.000 | 0.433 | 0.991 | NODE_44_length_14762_cov_194.945_ID_87 | 2 | 325 | Mobile element protein | Mobile element protein
 1531388 | 1531660 | g.219517.CDS.1651 | 90 | <-> | g.219504.CDS.1583 | 102 | 1.000 | 1.000 | 0.989 | 0.873 | NODE_44_length_14762_cov_194.945_ID_87 | 14452 | 14760 | Pap2 superfamily protein | Pap2 superfamily protein
 1531728 | 1532144 | g.219517.CDS.1652 | 138 |  -> | g.219504.CDS.1496 | 41 | 0.933 | 0.933 | 0.210 | 0.707 | NODE_36_length_19622_cov_177.963_ID_71 | 3 | 128 | Mobile element protein | Mobile element protein
@@ -1897,7 +2078,6 @@ ref_beg | ref_end | ref_id | ref_len | type | qry_id | qry_len | fract_id | frac
 1576231 | 1576974 | g.219517.CDS.1697 | 247 | <-> | g.219504.CDS.1567 | 108 | 1.000 | 1.000 | 0.433 | 0.991 | NODE_44_length_14762_cov_194.945_ID_87 | 2 | 325 | Mobile element protein | Mobile element protein
 1609794 | 1610174 | g.219517.CDS.1728 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 1610162 | 1610578 | g.219517.CDS.1729 | 138 |  -> | g.219504.CDS.1496 | 41 | 0.933 | 0.933 | 0.210 | 0.707 | NODE_36_length_19622_cov_177.963_ID_71 | 3 | 128 | Mobile element protein | Mobile element protein
-1633718 | 1636054 | g.219517.CDS.1757 | 778 | <-> | g.219504.CDS.477 | 778 | 0.999 | 0.999 | 0.999 | 0.999 | NODE_13_length_38202_cov_148.023_ID_25 | 12756 | 15092 | Outer membrane protein assembly factor YaeT precursor | Outer membrane protein assembly factor YaeT precursor
 1648839 | 1649255 | g.219517.CDS.1770 | 138 |  -> | g.219504.CDS.1496 | 41 | 0.933 | 0.933 | 0.210 | 0.707 | NODE_36_length_19622_cov_177.963_ID_71 | 3 | 128 | Mobile element protein | Mobile element protein
 1649243 | 1649623 | g.219517.CDS.1771 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 1665129 | 1665545 | g.219517.CDS.1786 | 138 |  -> | g.219504.CDS.1496 | 41 | 0.933 | 0.933 | 0.210 | 0.707 | NODE_36_length_19622_cov_177.963_ID_71 | 3 | 128 | Mobile element protein | Mobile element protein
@@ -1931,19 +2111,136 @@ ref_beg | ref_end | ref_id | ref_len | type | qry_id | qry_len | fract_id | frac
 
 ## Francisella tularensis Schu S4 SL
 
-This isolate has 2 sequence runs: SRR999323, SRR1061349
+This isolate has one NCBI assembly and 2 sequence runs: SRR999323, SRR1061349
 
+### SL scaffolds
+
+#### Contig alignment (ref vs NCBI scaffolds)
+
+![SL contig alignment](http://bioseed.mcs.anl.gov/~fangfang/francisella/png/SL.png)
+
+#### SNPs (ref vs NCBI scaffolds)
+
+```
+/space2/fangfang/francisella/ref/177416.18.contigs /space2/fangfang/francisella/olive/SL.scaffolds.fasta
+NUCMER
+
+                               [REF]                [QRY]
+[Sequences]
+TotalSeqs                          1                    2
+AlignedSeqs               1(100.00%)           2(100.00%)
+UnalignedSeqs               0(0.00%)             0(0.00%)
+
+[Bases]
+TotalBases                   1892775              1894315
+AlignedBases         1892076(99.96%)      1893906(99.98%)
+UnalignedBases            699(0.04%)           409(0.02%)
+
+[Alignments]
+1-to-1                             6                    6
+TotalLength                  1932361              1932446
+AvgLength                  322060.17            322074.33
+AvgIdentity                    99.99                99.99
+
+M-to-M                             9                    9
+TotalLength                  1970080              1970167
+AvgLength                  218897.78            218907.44
+AvgIdentity                    99.99                99.99
+
+[Feature Estimates]
+Breakpoints                       16                   14
+Relocations                        1                    1
+Translocations                     1                    0
+Inversions                         0                    0
+
+Insertions                         5                    3
+InsertionSum                   35615                 3289
+InsertionAvg                 7123.00              1096.33
+
+TandemIns                          2                    0
+TandemInsSum                      43                    0
+TandemInsAvg                   21.50                 0.00
+
+[SNPs]
+TotalSNPs                          7                    7
+AT                         1(14.29%)            1(14.29%)
+AC                          0(0.00%)             0(0.00%)
+AG                         2(28.57%)             0(0.00%)
+TA                         1(14.29%)            1(14.29%)
+TC                         2(28.57%)             0(0.00%)
+TG                          0(0.00%)             0(0.00%)
+CA                          0(0.00%)             0(0.00%)
+CT                          0(0.00%)            2(28.57%)
+CG                          0(0.00%)            1(14.29%)
+GA                          0(0.00%)            2(28.57%)
+GT                          0(0.00%)             0(0.00%)
+GC                         1(14.29%)             0(0.00%)
+
+TotalGSNPs                         0                    0
+AT                          0(0.00%)             0(0.00%)
+AC                          0(0.00%)             0(0.00%)
+AG                          0(0.00%)             0(0.00%)
+TA                          0(0.00%)             0(0.00%)
+TC                          0(0.00%)             0(0.00%)
+TG                          0(0.00%)             0(0.00%)
+CA                          0(0.00%)             0(0.00%)
+CT                          0(0.00%)             0(0.00%)
+CG                          0(0.00%)             0(0.00%)
+GA                          0(0.00%)             0(0.00%)
+GT                          0(0.00%)             0(0.00%)
+GC                          0(0.00%)             0(0.00%)
+
+TotalIndels                        3                    3
+A.                          0(0.00%)            1(33.33%)
+T.                         1(33.33%)             0(0.00%)
+C.                         1(33.33%)             0(0.00%)
+G.                          0(0.00%)             0(0.00%)
+.A                         1(33.33%)             0(0.00%)
+.T                          0(0.00%)            1(33.33%)
+.C                          0(0.00%)            1(33.33%)
+.G                          0(0.00%)             0(0.00%)
+
+TotalGIndels                       0                    0
+A.                          0(0.00%)             0(0.00%)
+T.                          0(0.00%)             0(0.00%)
+C.                          0(0.00%)             0(0.00%)
+G.                          0(0.00%)             0(0.00%)
+.A                          0(0.00%)             0(0.00%)
+.T                          0(0.00%)             0(0.00%)
+.C                          0(0.00%)             0(0.00%)
+.G                          0(0.00%)             0(0.00%)
+```
+#### DNA differences (ref vs NCBI scaffolds)
+
+```
+                               [REF]          [SL]
+[Sequences]
+TotalSeqs                          1                    2
+AlignedSeqs               1(100.00%)           2(100.00%)
+UnalignedSeqs               0(0.00%)             0(0.00%)
+
+[Bases]
+TotalBases                   1892775              1894315
+AlignedBases         1892076(99.96%)      1893906(99.98%)
+UnalignedBases            699(0.04%)           409(0.02%)
+
+[Alignments]
+1-to-1                             6                    6
+TotalLength                  1932361              1932446
+AvgLength                  322060.17            322074.33
+AvgIdentity                    99.99                99.99
+```
 ### SRR999323
 
-#### Contig alignment
+#### Contig alignment (ref vs de novo assembly)
 
 ![SRR999323 contig alignment](http://bioseed.mcs.anl.gov/~fangfang/francisella/png/SRR999323.png)
 
-#### SNPs
+#### SNPs (ref vs reads)
 
 None
 
-#### DNA differences
+#### DNA differences (ref vs de novo assembly)
 
 ```
                                [REF]          [SRR999323]
@@ -1963,7 +2260,7 @@ TotalLength                  1807243              1807261
 AvgLength                   25100.60             25100.85
 AvgIdentity                    99.99                99.99
 ```
-#### Protein differences
+#### Protein differences (ref vs de novo assembly)
 
 1886 of the 2031 proteins (92.86%) in the reference genome have Bidirectional Best Hits (BBHs) in the de novo assembled contigs from SRR999323 reads.
 
@@ -2013,7 +2310,6 @@ ref_beg | ref_end | ref_id | ref_len | type | qry_id | qry_len | fract_id | frac
 351205 | 351585 | g.219517.CDS.379 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 351573 | 351989 | g.219517.CDS.380 | 138 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 352063 | 352554 | g.219517.CDS.381 | 163 |  -> | g.219513.CDS.529 | 108 | 0.900 | 1.000 | 0.117 | 0.176 | NODE_2_length_103383_cov_417.603_ID_3 | 2 | 325 | Mobile element protein | Mobile element protein
-352918 | 353913 | g.219517.CDS.382 | 331 |  -> | g.219513.CDS.836 | 331 | 1.000 | 1.000 | 0.997 | 0.997 | NODE_69_length_1682_cov_1315.08_ID_137 | 263 | 1258 | hypothetical protein | hypothetical protein
 354205 | 354621 | g.219517.CDS.383 | 138 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 354609 | 354989 | g.219517.CDS.384 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 357361 | 357777 | g.219517.CDS.386 | 138 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
@@ -2023,7 +2319,6 @@ ref_beg | ref_end | ref_id | ref_len | type | qry_id | qry_len | fract_id | frac
 366495 | 366677 | g.219517.CDS.398 | 60 |  -  |  |  |  |  |  |  |  |  |  | hypothetical protein | 
 378906 | 379286 | g.219517.CDS.410 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 379274 | 379690 | g.219517.CDS.411 | 138 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
-379982 | 380977 | g.219517.CDS.412 | 331 |  -> | g.219513.CDS.836 | 331 | 1.000 | 1.000 | 0.997 | 0.997 | NODE_69_length_1682_cov_1315.08_ID_137 | 263 | 1258 | hypothetical protein | hypothetical protein
 381341 | 381820 | g.219517.CDS.413 | 159 |  -> | g.219513.CDS.529 | 108 | 0.900 | 1.000 | 0.119 | 0.176 | NODE_2_length_103383_cov_417.603_ID_3 | 2 | 325 | Mobile element protein | Mobile element protein
 383702 | 384445 | g.219517.CDS.415 | 247 |  -> | g.219513.CDS.529 | 108 | 1.000 | 1.000 | 0.433 | 0.991 | NODE_2_length_103383_cov_417.603_ID_3 | 2 | 325 | Mobile element protein | Mobile element protein
 442099 | 442215 | g.219517.CDS.464 | 38 | <-> | g.219513.CDS.1517 | 46 | 1.000 | 1.000 | 0.974 | 0.804 | NODE_5_length_68942_cov_425.881_ID_9 | 57698 | 57838 | hypothetical protein | hypothetical protein
@@ -2063,12 +2358,10 @@ ref_beg | ref_end | ref_id | ref_len | type | qry_id | qry_len | fract_id | frac
 1018849 | 1020057 | g.219517.CDS.1114 | 402 | <-> | g.219513.CDS.1417 | 377 | 0.997 | 1.000 | 0.935 | 0.997 | NODE_1_length_131947_cov_390.949_ID_1 | 87175 | 88308 | FIG097052: Sugar transporter | FIG097052: Sugar transporter
 1062454 | 1062660 | g.219517.CDS.1163 | 68 | <-> | g.219513.CDS.1466 | 64 | 0.984 | 1.000 | 0.926 | 0.984 | NODE_1_length_131947_cov_390.949_ID_1 | 130705 | 130899 | hypothetical protein | hypothetical protein
 1063612 | 1063953 | g.219517.CDS.1166 | 113 |  -> | g.219513.CDS.1161 | 22 | 0.909 | 0.955 | 0.186 | 0.955 | NODE_11_length_39322_cov_435.296_ID_21 | 39253 | 39321 | Mobile element protein | Mobile element protein
-1064014 | 1064310 | g.219517.CDS.1167 | 98 |  -> | g.219513.CDS.1023 | 98 | 1.000 | 1.000 | 0.990 | 0.990 | NODE_41_length_16537_cov_443.596_ID_81 | 28 | 324 | Mobile element protein | Mobile element protein
 1073411 | 1073827 | g.219517.CDS.1181 | 138 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 1073815 | 1074195 | g.219517.CDS.1182 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 1085435 | 1085815 | g.219517.CDS.1194 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 1085803 | 1086219 | g.219517.CDS.1195 | 138 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
-1104026 | 1105408 | g.219517.CDS.1217 | 460 | <-> | g.219513.CDS.375 | 457 | 0.998 | 1.000 | 0.991 | 0.998 | NODE_17_length_35227_cov_407.817_ID_33 | 17778 | 19151 | Outer membrane protein TolC | Outer membrane protein TolC
 1121516 | 1122259 | g.219517.CDS.1237 | 247 |  -> | g.219513.CDS.529 | 108 | 1.000 | 1.000 | 0.433 | 0.991 | NODE_2_length_103383_cov_417.603_ID_3 | 2 | 325 | Mobile element protein | Mobile element protein
 1153900 | 1154316 | g.219517.CDS.1273 | 138 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 1154304 | 1154684 | g.219517.CDS.1274 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
@@ -2085,26 +2378,6 @@ ref_beg | ref_end | ref_id | ref_len | type | qry_id | qry_len | fract_id | frac
 1287369 | 1287749 | g.219517.CDS.1419 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 1332313 | 1332693 | g.219517.CDS.1466 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 1370445 | 1371188 | g.219517.CDS.1497 | 247 |  -> | g.219513.CDS.529 | 108 | 1.000 | 1.000 | 0.433 | 0.991 | NODE_2_length_103383_cov_417.603_ID_3 | 2 | 325 | Mobile element protein | Mobile element protein
-1379925 | 1382387 | g.219517.CDS.1501 | 820 |  -> | g.219513.CDS.966 | 820 | 1.000 | 1.000 | 0.999 | 0.999 | NODE_26_length_27521_cov_359.053_ID_51 | 80 | 2542 | hypothetical protein | hypothetical protein
-1382392 | 1385673 | g.219517.CDS.1502 | 1093 |  -> | g.219513.CDS.967 | 1093 | 1.000 | 1.000 | 0.999 | 0.999 | NODE_26_length_27521_cov_359.053_ID_51 | 2547 | 5828 | hypothetical protein | hypothetical protein
-1385663 | 1386040 | g.219517.CDS.1503 | 125 |  -> | g.219513.CDS.968 | 125 | 1.000 | 1.000 | 0.992 | 0.992 | NODE_26_length_27521_cov_359.053_ID_51 | 5818 | 6195 | hypothetical protein | hypothetical protein
-1386053 | 1386547 | g.219517.CDS.1504 | 164 |  -> | g.219513.CDS.969 | 164 | 1.000 | 1.000 | 0.994 | 0.994 | NODE_26_length_27521_cov_359.053_ID_51 | 6208 | 6702 | vgrG protein | vgrG protein
-1386552 | 1388282 | g.219517.CDS.1505 | 576 |  -> | g.219513.CDS.970 | 576 | 1.000 | 1.000 | 0.998 | 0.998 | NODE_26_length_27521_cov_359.053_ID_51 | 6707 | 8437 | DNA polymerase I (EC 2.7.7.7) | DNA polymerase I (EC 2.7.7.7)
-1388283 | 1388804 | g.219517.CDS.1506 | 173 |  -> | g.219513.CDS.971 | 173 | 1.000 | 1.000 | 0.994 | 0.994 | NODE_26_length_27521_cov_359.053_ID_51 | 8438 | 8959 | hypothetical protein | hypothetical protein
-1388817 | 1390247 | g.219517.CDS.1507 | 476 |  -> | g.219513.CDS.972 | 476 | 1.000 | 1.000 | 0.998 | 0.998 | NODE_26_length_27521_cov_359.053_ID_51 | 8972 | 10402 | hypothetical protein | hypothetical protein
-1390260 | 1390883 | g.219517.CDS.1508 | 207 |  -> | g.219513.CDS.973 | 207 | 1.000 | 1.000 | 0.995 | 0.995 | NODE_26_length_27521_cov_359.053_ID_51 | 10415 | 11038 | hypothetical protein | hypothetical protein
-1390905 | 1392056 | g.219517.CDS.1509 | 383 |  -> | g.219513.CDS.974 | 383 | 1.000 | 1.000 | 0.997 | 0.997 | NODE_26_length_27521_cov_359.053_ID_51 | 11060 | 12211 | hypothetical protein | hypothetical protein
-1392079 | 1392795 | g.219517.CDS.1510 | 238 |  -> | g.219513.CDS.975 | 238 | 1.000 | 1.000 | 0.996 | 0.996 | NODE_26_length_27521_cov_359.053_ID_51 | 12234 | 12950 | hypothetical protein | hypothetical protein
-1392835 | 1396821 | g.219517.CDS.1511 | 1328 |  -> | g.219513.CDS.976 | 1328 | 1.000 | 1.000 | 0.999 | 0.999 | NODE_26_length_27521_cov_359.053_ID_51 | 12990 | 16976 | hypothetical protein | hypothetical protein
-1396839 | 1397414 | g.219517.CDS.1512 | 191 |  -> | g.219513.CDS.977 | 191 | 1.000 | 1.000 | 0.995 | 0.995 | NODE_26_length_27521_cov_359.053_ID_51 | 16994 | 17569 | hypothetical protein | hypothetical protein
-1397421 | 1398617 | g.219517.CDS.1513 | 398 |  -> | g.219513.CDS.978 | 398 | 1.000 | 1.000 | 0.997 | 0.997 | NODE_26_length_27521_cov_359.053_ID_51 | 17576 | 18772 | hypothetical protein | hypothetical protein
-1398638 | 1399267 | g.219517.CDS.1514 | 209 |  -> | g.219513.CDS.979 | 209 | 1.000 | 1.000 | 0.995 | 0.995 | NODE_26_length_27521_cov_359.053_ID_51 | 18793 | 19422 | hypothetical protein | hypothetical protein
-1399284 | 1400804 | g.219517.CDS.1515 | 506 |  -> | g.219513.CDS.980 | 506 | 1.000 | 1.000 | 0.998 | 0.998 | NODE_26_length_27521_cov_359.053_ID_51 | 19439 | 20959 | Uncharacterized protein ImpC | Uncharacterized protein ImpC
-1400818 | 1401372 | g.219517.CDS.1516 | 184 |  -> | g.219513.CDS.981 | 184 | 1.000 | 1.000 | 0.995 | 0.995 | NODE_26_length_27521_cov_359.053_ID_51 | 20973 | 21527 | Uncharacterized protein ImpB | Uncharacterized protein ImpB
-1401453 | 1405040 | g.219517.CDS.1517 | 1195 |  -> | g.219513.CDS.982 | 1195 | 1.000 | 1.000 | 0.999 | 0.999 | NODE_26_length_27521_cov_359.053_ID_51 | 21608 | 25195 | hypothetical protein | hypothetical protein
-1405272 | 1405673 | g.219517.CDS.1518 | 133 |  -> | g.219513.CDS.983 | 133 | 1.000 | 1.000 | 0.992 | 0.992 | NODE_26_length_27521_cov_359.053_ID_51 | 25427 | 25828 | Anhydro-N-acetylmuramic acid kinase (EC 2.7.1.-) | Anhydro-N-acetylmuramic acid kinase (EC 2.7.1.-)
-1405686 | 1406255 | g.219517.CDS.1519 | 189 |  -> | g.219513.CDS.984 | 189 | 1.000 | 1.000 | 0.995 | 0.995 | NODE_26_length_27521_cov_359.053_ID_51 | 25841 | 26410 | Anhydro-N-acetylmuramic acid kinase (EC 2.7.1.-) | Anhydro-N-acetylmuramic acid kinase (EC 2.7.1.-)
-1406685 | 1407299 | g.219517.CDS.1520 | 204 |  -> | g.219513.CDS.985 | 204 | 1.000 | 1.000 | 0.995 | 0.995 | NODE_26_length_27521_cov_359.053_ID_51 | 26840 | 27454 | Predicted trehalose permease, MFS family, FucP subfamily | Predicted trehalose permease, MFS family, FucP subfamily
 1407396 | 1407812 | g.219517.CDS.1521 | 138 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 1407800 | 1408180 | g.219517.CDS.1522 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 1426779 | 1426982 | g.219517.CDS.1544 | 67 |  -  |  |  |  |  |  |  |  |  |  | Putative membrane protein | 
@@ -2115,7 +2388,6 @@ ref_beg | ref_end | ref_id | ref_len | type | qry_id | qry_len | fract_id | frac
 1476390 | 1476806 | g.219517.CDS.1594 | 138 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 1483215 | 1483958 | g.219517.CDS.1604 | 247 |  -> | g.219513.CDS.529 | 108 | 1.000 | 1.000 | 0.433 | 0.991 | NODE_2_length_103383_cov_417.603_ID_3 | 2 | 325 | Mobile element protein | Mobile element protein
 1498514 | 1498894 | g.219517.CDS.1618 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
-1508636 | 1509865 | g.219517.CDS.1628 | 409 | <-> | g.219513.CDS.1646 | 404 | 0.998 | 1.000 | 0.985 | 0.998 | NODE_38_length_17640_cov_377.55_ID_75 | 6696 | 7910 | NADH dehydrogenase subunit 4 | NADH dehydrogenase subunit 4
 1516518 | 1517261 | g.219517.CDS.1635 | 247 |  -> | g.219513.CDS.529 | 108 | 1.000 | 1.000 | 0.433 | 0.991 | NODE_2_length_103383_cov_417.603_ID_3 | 2 | 325 | Mobile element protein | Mobile element protein
 1531388 | 1531660 | g.219517.CDS.1651 | 90 | <-> | g.219513.CDS.1296 | 102 | 1.000 | 1.000 | 0.989 | 0.873 | NODE_47_length_14397_cov_412.451_ID_93 | 14087 | 14395 | Pap2 superfamily protein | Pap2 superfamily protein
 1531728 | 1532144 | g.219517.CDS.1652 | 138 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
@@ -2156,15 +2428,15 @@ ref_beg | ref_end | ref_id | ref_len | type | qry_id | qry_len | fract_id | frac
 
 ### SRR1061349
 
-#### Contig alignment
+#### Contig alignment (ref vs de novo assembly)
 
 ![SRR1061349 contig alignment](http://bioseed.mcs.anl.gov/~fangfang/francisella/png/SRR1061349.png)
 
-#### SNPs
+#### SNPs (ref vs reads)
 
 None
 
-#### DNA differences
+#### DNA differences (ref vs de novo assembly)
 
 ```
                                [REF]          [SRR1061349]
@@ -2184,7 +2456,7 @@ TotalLength                  1833977              1833896
 AvgLength                   25471.90             25470.78
 AvgIdentity                   100.00               100.00
 ```
-#### Protein differences
+#### Protein differences (ref vs de novo assembly)
 
 1888 of the 2031 proteins (92.96%) in the reference genome have Bidirectional Best Hits (BBHs) in the de novo assembled contigs from SRR1061349 reads.
 
@@ -2233,7 +2505,6 @@ ref_beg | ref_end | ref_id | ref_len | type | qry_id | qry_len | fract_id | frac
 351205 | 351585 | g.219517.CDS.379 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 351573 | 351989 | g.219517.CDS.380 | 138 |  -> | g.219507.CDS.1780 | 41 | 0.933 | 0.933 | 0.210 | 0.707 | NODE_3_length_93491_cov_175.266_ID_5 | 3 | 128 | Mobile element protein | Mobile element protein
 352063 | 352554 | g.219517.CDS.381 | 163 |  -> | g.219507.CDS.1706 | 108 | 0.900 | 1.000 | 0.117 | 0.176 | NODE_43_length_14893_cov_208.421_ID_85 | 14569 | 14892 | Mobile element protein | Mobile element protein
-352918 | 353913 | g.219517.CDS.382 | 331 |  -> | g.219507.CDS.1892 | 331 | 1.000 | 1.000 | 0.997 | 0.997 | NODE_67_length_1682_cov_372.916_ID_133 | 263 | 1258 | hypothetical protein | hypothetical protein
 354205 | 354621 | g.219517.CDS.383 | 138 |  -> | g.219507.CDS.1780 | 41 | 0.933 | 0.933 | 0.210 | 0.707 | NODE_3_length_93491_cov_175.266_ID_5 | 3 | 128 | Mobile element protein | Mobile element protein
 354609 | 354989 | g.219517.CDS.384 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 357361 | 357777 | g.219517.CDS.386 | 138 |  -> | g.219507.CDS.1780 | 41 | 0.933 | 0.933 | 0.210 | 0.707 | NODE_3_length_93491_cov_175.266_ID_5 | 3 | 128 | Mobile element protein | Mobile element protein
@@ -2243,7 +2514,6 @@ ref_beg | ref_end | ref_id | ref_len | type | qry_id | qry_len | fract_id | frac
 366495 | 366677 | g.219517.CDS.398 | 60 |  -  |  |  |  |  |  |  |  |  |  | hypothetical protein | 
 378906 | 379286 | g.219517.CDS.410 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 379274 | 379690 | g.219517.CDS.411 | 138 |  -> | g.219507.CDS.1780 | 41 | 0.933 | 0.933 | 0.210 | 0.707 | NODE_3_length_93491_cov_175.266_ID_5 | 3 | 128 | Mobile element protein | Mobile element protein
-379982 | 380977 | g.219517.CDS.412 | 331 |  -> | g.219507.CDS.1892 | 331 | 1.000 | 1.000 | 0.997 | 0.997 | NODE_67_length_1682_cov_372.916_ID_133 | 263 | 1258 | hypothetical protein | hypothetical protein
 381341 | 381820 | g.219517.CDS.413 | 159 |  -> | g.219507.CDS.1706 | 108 | 0.900 | 1.000 | 0.119 | 0.176 | NODE_43_length_14893_cov_208.421_ID_85 | 14569 | 14892 | Mobile element protein | Mobile element protein
 383702 | 384445 | g.219517.CDS.415 | 247 |  -> | g.219507.CDS.1706 | 108 | 1.000 | 1.000 | 0.433 | 0.991 | NODE_43_length_14893_cov_208.421_ID_85 | 14569 | 14892 | Mobile element protein | Mobile element protein
 442099 | 442215 | g.219517.CDS.464 | 38 | <-> | g.219507.CDS.576 | 46 | 1.000 | 1.000 | 0.974 | 0.804 | NODE_6_length_68942_cov_155.788_ID_11 | 57698 | 57838 | hypothetical protein | hypothetical protein
@@ -2277,12 +2547,10 @@ ref_beg | ref_end | ref_id | ref_len | type | qry_id | qry_len | fract_id | frac
 1018849 | 1020057 | g.219517.CDS.1114 | 402 | <-> | g.219507.CDS.139 | 377 | 0.997 | 1.000 | 0.935 | 0.997 | NODE_1_length_131934_cov_139.225_ID_1 | 87175 | 88308 | FIG097052: Sugar transporter | FIG097052: Sugar transporter
 1062454 | 1062660 | g.219517.CDS.1163 | 68 | <-> | g.219507.CDS.188 | 64 | 0.984 | 1.000 | 0.926 | 0.984 | NODE_1_length_131934_cov_139.225_ID_1 | 130705 | 130899 | hypothetical protein | hypothetical protein
 1063612 | 1063953 | g.219517.CDS.1166 | 113 |  -> | g.219507.CDS.418 | 108 | 1.000 | 1.000 | 0.947 | 0.991 | NODE_72_length_738_cov_351.132_ID_143 | 2 | 325 | Mobile element protein | Mobile element protein
-1064014 | 1064310 | g.219517.CDS.1167 | 98 |  -> | g.219507.CDS.419 | 98 | 1.000 | 1.000 | 0.990 | 0.990 | NODE_72_length_738_cov_351.132_ID_143 | 386 | 682 | Mobile element protein | Mobile element protein
 1073411 | 1073827 | g.219517.CDS.1181 | 138 |  -> | g.219507.CDS.1780 | 41 | 0.933 | 0.933 | 0.210 | 0.707 | NODE_3_length_93491_cov_175.266_ID_5 | 3 | 128 | Mobile element protein | Mobile element protein
 1073815 | 1074195 | g.219517.CDS.1182 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 1085435 | 1085815 | g.219517.CDS.1194 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 1085803 | 1086219 | g.219517.CDS.1195 | 138 |  -> | g.219507.CDS.1780 | 41 | 0.933 | 0.933 | 0.210 | 0.707 | NODE_3_length_93491_cov_175.266_ID_5 | 3 | 128 | Mobile element protein | Mobile element protein
-1104026 | 1105408 | g.219517.CDS.1217 | 460 | <-> | g.219507.CDS.888 | 457 | 0.998 | 1.000 | 0.991 | 0.998 | NODE_16_length_35592_cov_163.677_ID_31 | 17778 | 19151 | Outer membrane protein TolC | Outer membrane protein TolC
 1121516 | 1122259 | g.219517.CDS.1237 | 247 |  -> | g.219507.CDS.1706 | 108 | 1.000 | 1.000 | 0.433 | 0.991 | NODE_43_length_14893_cov_208.421_ID_85 | 14569 | 14892 | Mobile element protein | Mobile element protein
 1153900 | 1154316 | g.219517.CDS.1273 | 138 |  -> | g.219507.CDS.1780 | 41 | 0.933 | 0.933 | 0.210 | 0.707 | NODE_3_length_93491_cov_175.266_ID_5 | 3 | 128 | Mobile element protein | Mobile element protein
 1154304 | 1154684 | g.219517.CDS.1274 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
@@ -2299,38 +2567,16 @@ ref_beg | ref_end | ref_id | ref_len | type | qry_id | qry_len | fract_id | frac
 1287369 | 1287749 | g.219517.CDS.1419 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 1332313 | 1332693 | g.219517.CDS.1466 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 1370445 | 1371188 | g.219517.CDS.1497 | 247 |  -> | g.219507.CDS.1706 | 108 | 1.000 | 1.000 | 0.433 | 0.991 | NODE_43_length_14893_cov_208.421_ID_85 | 14569 | 14892 | Mobile element protein | Mobile element protein
-1379925 | 1382387 | g.219517.CDS.1501 | 820 |  -> | g.219507.CDS.470 | 820 | 1.000 | 1.000 | 0.999 | 0.999 | NODE_26_length_27521_cov_133.713_ID_51 | 80 | 2542 | hypothetical protein | hypothetical protein
-1382392 | 1385673 | g.219517.CDS.1502 | 1093 |  -> | g.219507.CDS.471 | 1093 | 1.000 | 1.000 | 0.999 | 0.999 | NODE_26_length_27521_cov_133.713_ID_51 | 2547 | 5828 | hypothetical protein | hypothetical protein
-1385663 | 1386040 | g.219517.CDS.1503 | 125 |  -> | g.219507.CDS.472 | 125 | 1.000 | 1.000 | 0.992 | 0.992 | NODE_26_length_27521_cov_133.713_ID_51 | 5818 | 6195 | hypothetical protein | hypothetical protein
-1386053 | 1386547 | g.219517.CDS.1504 | 164 |  -> | g.219507.CDS.473 | 164 | 1.000 | 1.000 | 0.994 | 0.994 | NODE_26_length_27521_cov_133.713_ID_51 | 6208 | 6702 | vgrG protein | vgrG protein
-1386552 | 1388282 | g.219517.CDS.1505 | 576 |  -> | g.219507.CDS.474 | 576 | 1.000 | 1.000 | 0.998 | 0.998 | NODE_26_length_27521_cov_133.713_ID_51 | 6707 | 8437 | DNA polymerase I (EC 2.7.7.7) | DNA polymerase I (EC 2.7.7.7)
-1388283 | 1388804 | g.219517.CDS.1506 | 173 |  -> | g.219507.CDS.475 | 173 | 1.000 | 1.000 | 0.994 | 0.994 | NODE_26_length_27521_cov_133.713_ID_51 | 8438 | 8959 | hypothetical protein | hypothetical protein
-1388817 | 1390247 | g.219517.CDS.1507 | 476 |  -> | g.219507.CDS.476 | 476 | 1.000 | 1.000 | 0.998 | 0.998 | NODE_26_length_27521_cov_133.713_ID_51 | 8972 | 10402 | hypothetical protein | hypothetical protein
-1390260 | 1390883 | g.219517.CDS.1508 | 207 |  -> | g.219507.CDS.477 | 207 | 1.000 | 1.000 | 0.995 | 0.995 | NODE_26_length_27521_cov_133.713_ID_51 | 10415 | 11038 | hypothetical protein | hypothetical protein
-1390905 | 1392056 | g.219517.CDS.1509 | 383 |  -> | g.219507.CDS.478 | 383 | 1.000 | 1.000 | 0.997 | 0.997 | NODE_26_length_27521_cov_133.713_ID_51 | 11060 | 12211 | hypothetical protein | hypothetical protein
-1392079 | 1392795 | g.219517.CDS.1510 | 238 |  -> | g.219507.CDS.479 | 238 | 1.000 | 1.000 | 0.996 | 0.996 | NODE_26_length_27521_cov_133.713_ID_51 | 12234 | 12950 | hypothetical protein | hypothetical protein
-1392835 | 1396821 | g.219517.CDS.1511 | 1328 |  -> | g.219507.CDS.480 | 1328 | 1.000 | 1.000 | 0.999 | 0.999 | NODE_26_length_27521_cov_133.713_ID_51 | 12990 | 16976 | hypothetical protein | hypothetical protein
-1396839 | 1397414 | g.219517.CDS.1512 | 191 |  -> | g.219507.CDS.481 | 191 | 1.000 | 1.000 | 0.995 | 0.995 | NODE_26_length_27521_cov_133.713_ID_51 | 16994 | 17569 | hypothetical protein | hypothetical protein
-1397421 | 1398617 | g.219517.CDS.1513 | 398 |  -> | g.219507.CDS.482 | 398 | 1.000 | 1.000 | 0.997 | 0.997 | NODE_26_length_27521_cov_133.713_ID_51 | 17576 | 18772 | hypothetical protein | hypothetical protein
-1398638 | 1399267 | g.219517.CDS.1514 | 209 |  -> | g.219507.CDS.483 | 209 | 1.000 | 1.000 | 0.995 | 0.995 | NODE_26_length_27521_cov_133.713_ID_51 | 18793 | 19422 | hypothetical protein | hypothetical protein
-1399284 | 1400804 | g.219517.CDS.1515 | 506 |  -> | g.219507.CDS.484 | 506 | 1.000 | 1.000 | 0.998 | 0.998 | NODE_26_length_27521_cov_133.713_ID_51 | 19439 | 20959 | Uncharacterized protein ImpC | Uncharacterized protein ImpC
-1400818 | 1401372 | g.219517.CDS.1516 | 184 |  -> | g.219507.CDS.485 | 184 | 1.000 | 1.000 | 0.995 | 0.995 | NODE_26_length_27521_cov_133.713_ID_51 | 20973 | 21527 | Uncharacterized protein ImpB | Uncharacterized protein ImpB
-1401453 | 1405040 | g.219517.CDS.1517 | 1195 |  -> | g.219507.CDS.486 | 1195 | 1.000 | 1.000 | 0.999 | 0.999 | NODE_26_length_27521_cov_133.713_ID_51 | 21608 | 25195 | hypothetical protein | hypothetical protein
-1405272 | 1405673 | g.219517.CDS.1518 | 133 |  -> | g.219507.CDS.487 | 133 | 1.000 | 1.000 | 0.992 | 0.992 | NODE_26_length_27521_cov_133.713_ID_51 | 25427 | 25828 | Anhydro-N-acetylmuramic acid kinase (EC 2.7.1.-) | Anhydro-N-acetylmuramic acid kinase (EC 2.7.1.-)
-1405686 | 1406255 | g.219517.CDS.1519 | 189 |  -> | g.219507.CDS.488 | 189 | 1.000 | 1.000 | 0.995 | 0.995 | NODE_26_length_27521_cov_133.713_ID_51 | 25841 | 26410 | Anhydro-N-acetylmuramic acid kinase (EC 2.7.1.-) | Anhydro-N-acetylmuramic acid kinase (EC 2.7.1.-)
-1406685 | 1407299 | g.219517.CDS.1520 | 204 |  -> | g.219507.CDS.489 | 204 | 1.000 | 1.000 | 0.995 | 0.995 | NODE_26_length_27521_cov_133.713_ID_51 | 26840 | 27454 | Predicted trehalose permease, MFS family, FucP subfamily | Predicted trehalose permease, MFS family, FucP subfamily
 1407396 | 1407812 | g.219517.CDS.1521 | 138 |  -> | g.219507.CDS.1780 | 41 | 0.933 | 0.933 | 0.210 | 0.707 | NODE_3_length_93491_cov_175.266_ID_5 | 3 | 128 | Mobile element protein | Mobile element protein
 1407800 | 1408180 | g.219517.CDS.1522 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 1426779 | 1426982 | g.219517.CDS.1544 | 67 |  -  |  |  |  |  |  |  |  |  |  | Putative membrane protein | 
 1429959 | 1430339 | g.219517.CDS.1548 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 1430327 | 1430743 | g.219517.CDS.1549 | 138 |  -> | g.219507.CDS.1780 | 41 | 0.933 | 0.933 | 0.210 | 0.707 | NODE_3_length_93491_cov_175.266_ID_5 | 3 | 128 | Mobile element protein | Mobile element protein
-1442488 | 1443918 | g.219517.CDS.1558 | 476 | <-> | g.219507.CDS.307 | 469 | 0.985 | 0.985 | 0.998 | 0.998 | NODE_27_length_27276_cov_146.241_ID_53 | 14152 | 15561 | ATP-dependent DNA helicase | ATP-dependent DNA helicase
 1458062 | 1458811 | g.219517.CDS.1572 | 249 | <-> | g.219507.CDS.730 | 132 | 1.000 | 1.000 | 0.526 | 0.992 | NODE_38_length_17608_cov_147.264_ID_75 | 1 | 396 | Predicted D-lactate dehydrogenase, Fe-S protein, FAD/FMN-containing | Predicted D-lactate dehydrogenase, Fe-S protein, FAD/FMN-containing
 1476022 | 1476402 | g.219517.CDS.1593 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 1476390 | 1476806 | g.219517.CDS.1594 | 138 |  -> | g.219507.CDS.1780 | 41 | 0.933 | 0.933 | 0.210 | 0.707 | NODE_3_length_93491_cov_175.266_ID_5 | 3 | 128 | Mobile element protein | Mobile element protein
 1483215 | 1483958 | g.219517.CDS.1604 | 247 |  -> | g.219507.CDS.1706 | 108 | 1.000 | 1.000 | 0.433 | 0.991 | NODE_43_length_14893_cov_208.421_ID_85 | 14569 | 14892 | Mobile element protein | Mobile element protein
 1498514 | 1498894 | g.219517.CDS.1618 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
-1508636 | 1509865 | g.219517.CDS.1628 | 409 | <-> | g.219507.CDS.34 | 404 | 0.998 | 1.000 | 0.985 | 0.998 | NODE_37_length_17693_cov_156.493_ID_73 | 6736 | 7950 | NADH dehydrogenase subunit 4 | NADH dehydrogenase subunit 4
 1516518 | 1517261 | g.219517.CDS.1635 | 247 |  -> | g.219507.CDS.1706 | 108 | 1.000 | 1.000 | 0.433 | 0.991 | NODE_43_length_14893_cov_208.421_ID_85 | 14569 | 14892 | Mobile element protein | Mobile element protein
 1531388 | 1531660 | g.219517.CDS.1651 | 90 | <-> | g.219507.CDS.1039 | 102 | 1.000 | 1.000 | 0.989 | 0.873 | NODE_44_length_14762_cov_194.859_ID_87 | 14452 | 14760 | Pap2 superfamily protein | Pap2 superfamily protein
 1531728 | 1532144 | g.219517.CDS.1652 | 138 |  -> | g.219507.CDS.1780 | 41 | 0.933 | 0.933 | 0.210 | 0.707 | NODE_3_length_93491_cov_175.266_ID_5 | 3 | 128 | Mobile element protein | Mobile element protein
@@ -2383,19 +2629,136 @@ ref_beg | ref_end | ref_id | ref_len | type | qry_id | qry_len | fract_id | frac
 
 ## Francisella tularensis Schu S4 FSC043
 
-This isolate has 1 sequence runs: SRR999318
+This isolate has one NCBI assembly and 1 sequence runs: SRR999318
 
+### FSC043 scaffolds
+
+#### Contig alignment (ref vs NCBI scaffolds)
+
+![FSC043 contig alignment](http://bioseed.mcs.anl.gov/~fangfang/francisella/png/FSC043.png)
+
+#### SNPs (ref vs NCBI scaffolds)
+
+```
+/space2/fangfang/francisella/ref/177416.18.contigs /space2/fangfang/francisella/olive/FSC043.scaffolds.fasta
+NUCMER
+
+                               [REF]                [QRY]
+[Sequences]
+TotalSeqs                          1                    2
+AlignedSeqs               1(100.00%)           2(100.00%)
+UnalignedSeqs               0(0.00%)             0(0.00%)
+
+[Bases]
+TotalBases                   1892775              1893557
+AlignedBases        1892775(100.00%)      1892558(99.95%)
+UnalignedBases              0(0.00%)           999(0.05%)
+
+[Alignments]
+1-to-1                             5                    5
+TotalLength                  1932990              1933040
+AvgLength                  386598.00            386608.00
+AvgIdentity                    99.99                99.99
+
+M-to-M                             6                    6
+TotalLength                  1933885              1933935
+AvgLength                  322314.17            322322.50
+AvgIdentity                    99.99                99.99
+
+[Feature Estimates]
+Breakpoints                       10                    8
+Relocations                        0                    0
+Translocations                     1                    0
+Inversions                         0                    0
+
+Insertions                         3                    1
+InsertionSum                     920                 1203
+InsertionAvg                  306.67              1203.00
+
+TandemIns                          2                    0
+TandemInsSum                      25                    0
+TandemInsAvg                   12.50                 0.00
+
+[SNPs]
+TotalSNPs                          1                    1
+AT                          0(0.00%)             0(0.00%)
+AC                          0(0.00%)             0(0.00%)
+AG                          0(0.00%)             0(0.00%)
+TA                          0(0.00%)             0(0.00%)
+TC                          0(0.00%)           1(100.00%)
+TG                          0(0.00%)             0(0.00%)
+CA                          0(0.00%)             0(0.00%)
+CT                        1(100.00%)             0(0.00%)
+CG                          0(0.00%)             0(0.00%)
+GA                          0(0.00%)             0(0.00%)
+GT                          0(0.00%)             0(0.00%)
+GC                          0(0.00%)             0(0.00%)
+
+TotalGSNPs                         0                    0
+AT                          0(0.00%)             0(0.00%)
+AC                          0(0.00%)             0(0.00%)
+AG                          0(0.00%)             0(0.00%)
+TA                          0(0.00%)             0(0.00%)
+TC                          0(0.00%)             0(0.00%)
+TG                          0(0.00%)             0(0.00%)
+CA                          0(0.00%)             0(0.00%)
+CT                          0(0.00%)             0(0.00%)
+CG                          0(0.00%)             0(0.00%)
+GA                          0(0.00%)             0(0.00%)
+GT                          0(0.00%)             0(0.00%)
+GC                          0(0.00%)             0(0.00%)
+
+TotalIndels                        0                    0
+A.                          0(0.00%)             0(0.00%)
+T.                          0(0.00%)             0(0.00%)
+C.                          0(0.00%)             0(0.00%)
+G.                          0(0.00%)             0(0.00%)
+.A                          0(0.00%)             0(0.00%)
+.T                          0(0.00%)             0(0.00%)
+.C                          0(0.00%)             0(0.00%)
+.G                          0(0.00%)             0(0.00%)
+
+TotalGIndels                       0                    0
+A.                          0(0.00%)             0(0.00%)
+T.                          0(0.00%)             0(0.00%)
+C.                          0(0.00%)             0(0.00%)
+G.                          0(0.00%)             0(0.00%)
+.A                          0(0.00%)             0(0.00%)
+.T                          0(0.00%)             0(0.00%)
+.C                          0(0.00%)             0(0.00%)
+.G                          0(0.00%)             0(0.00%)
+```
+#### DNA differences (ref vs NCBI scaffolds)
+
+```
+                               [REF]          [FSC043]
+[Sequences]
+TotalSeqs                          1                    2
+AlignedSeqs               1(100.00%)           2(100.00%)
+UnalignedSeqs               0(0.00%)             0(0.00%)
+
+[Bases]
+TotalBases                   1892775              1893557
+AlignedBases        1892775(100.00%)      1892558(99.95%)
+UnalignedBases              0(0.00%)           999(0.05%)
+
+[Alignments]
+1-to-1                             5                    5
+TotalLength                  1932990              1933040
+AvgLength                  386598.00            386608.00
+AvgIdentity                    99.99                99.99
+```
 ### SRR999318
 
-#### Contig alignment
+#### Contig alignment (ref vs de novo assembly)
 
 ![SRR999318 contig alignment](http://bioseed.mcs.anl.gov/~fangfang/francisella/png/SRR999318.png)
 
-#### SNPs
+#### SNPs (ref vs reads)
 
 None
 
-#### DNA differences
+#### DNA differences (ref vs de novo assembly)
 
 ```
                                [REF]          [SRR999318]
@@ -2415,7 +2778,7 @@ TotalLength                  1808001              1807965
 AvgLength                   24767.14             24766.64
 AvgIdentity                   100.00               100.00
 ```
-#### Protein differences
+#### Protein differences (ref vs de novo assembly)
 
 1887 of the 2031 proteins (92.91%) in the reference genome have Bidirectional Best Hits (BBHs) in the de novo assembled contigs from SRR999318 reads.
 
@@ -2466,7 +2829,6 @@ ref_beg | ref_end | ref_id | ref_len | type | qry_id | qry_len | fract_id | frac
 351205 | 351585 | g.219517.CDS.379 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 351573 | 351989 | g.219517.CDS.380 | 138 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 352063 | 352554 | g.219517.CDS.381 | 163 |  -> | g.219509.CDS.68 | 108 | 0.900 | 1.000 | 0.117 | 0.176 | NODE_2_length_103385_cov_411.602_ID_3 | 2 | 325 | Mobile element protein | Mobile element protein
-352918 | 353913 | g.219517.CDS.382 | 331 |  -> | g.219509.CDS.689 | 331 | 1.000 | 1.000 | 0.997 | 0.997 | NODE_69_length_1682_cov_1270.02_ID_137 | 263 | 1258 | hypothetical protein | hypothetical protein
 354205 | 354621 | g.219517.CDS.383 | 138 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 354609 | 354989 | g.219517.CDS.384 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 357361 | 357777 | g.219517.CDS.386 | 138 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
@@ -2476,7 +2838,6 @@ ref_beg | ref_end | ref_id | ref_len | type | qry_id | qry_len | fract_id | frac
 366495 | 366677 | g.219517.CDS.398 | 60 |  -  |  |  |  |  |  |  |  |  |  | hypothetical protein | 
 378906 | 379286 | g.219517.CDS.410 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 379274 | 379690 | g.219517.CDS.411 | 138 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
-379982 | 380977 | g.219517.CDS.412 | 331 |  -> | g.219509.CDS.689 | 331 | 1.000 | 1.000 | 0.997 | 0.997 | NODE_69_length_1682_cov_1270.02_ID_137 | 263 | 1258 | hypothetical protein | hypothetical protein
 381341 | 381820 | g.219517.CDS.413 | 159 |  -> | g.219509.CDS.68 | 108 | 0.900 | 1.000 | 0.119 | 0.176 | NODE_2_length_103385_cov_411.602_ID_3 | 2 | 325 | Mobile element protein | Mobile element protein
 383702 | 384445 | g.219517.CDS.415 | 247 |  -> | g.219509.CDS.68 | 108 | 1.000 | 1.000 | 0.433 | 0.991 | NODE_2_length_103385_cov_411.602_ID_3 | 2 | 325 | Mobile element protein | Mobile element protein
 442099 | 442215 | g.219517.CDS.464 | 38 | <-> | g.219509.CDS.1756 | 46 | 1.000 | 1.000 | 0.974 | 0.804 | NODE_5_length_68942_cov_415.455_ID_9 | 57698 | 57838 | hypothetical protein | hypothetical protein
@@ -2512,12 +2873,10 @@ ref_beg | ref_end | ref_id | ref_len | type | qry_id | qry_len | fract_id | frac
 1018849 | 1020057 | g.219517.CDS.1114 | 402 | <-> | g.219509.CDS.1183 | 377 | 0.997 | 1.000 | 0.935 | 0.997 | NODE_1_length_131947_cov_380.672_ID_1 | 87175 | 88308 | FIG097052: Sugar transporter | FIG097052: Sugar transporter
 1062454 | 1062660 | g.219517.CDS.1163 | 68 | <-> | g.219509.CDS.1232 | 64 | 0.984 | 1.000 | 0.926 | 0.984 | NODE_1_length_131947_cov_380.672_ID_1 | 130705 | 130899 | hypothetical protein | hypothetical protein
 1063612 | 1063953 | g.219517.CDS.1166 | 113 |  -> | g.219509.CDS.497 | 22 | 0.909 | 0.955 | 0.186 | 0.955 | NODE_11_length_39322_cov_427.293_ID_21 | 39253 | 39321 | Mobile element protein | Mobile element protein
-1064014 | 1064310 | g.219517.CDS.1167 | 98 |  -> | g.219509.CDS.1321 | 98 | 1.000 | 1.000 | 0.990 | 0.990 | NODE_41_length_16537_cov_424.997_ID_81 | 28 | 324 | Mobile element protein | Mobile element protein
 1073411 | 1073827 | g.219517.CDS.1181 | 138 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 1073815 | 1074195 | g.219517.CDS.1182 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 1085435 | 1085815 | g.219517.CDS.1194 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 1085803 | 1086219 | g.219517.CDS.1195 | 138 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
-1104026 | 1105408 | g.219517.CDS.1217 | 460 | <-> | g.219509.CDS.1426 | 457 | 0.998 | 1.000 | 0.991 | 0.998 | NODE_17_length_35227_cov_397.592_ID_33 | 17778 | 19151 | Outer membrane protein TolC | Outer membrane protein TolC
 1121516 | 1122259 | g.219517.CDS.1237 | 247 |  -> | g.219509.CDS.68 | 108 | 1.000 | 1.000 | 0.433 | 0.991 | NODE_2_length_103385_cov_411.602_ID_3 | 2 | 325 | Mobile element protein | Mobile element protein
 1153900 | 1154316 | g.219517.CDS.1273 | 138 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 1154304 | 1154684 | g.219517.CDS.1274 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
@@ -2534,26 +2893,6 @@ ref_beg | ref_end | ref_id | ref_len | type | qry_id | qry_len | fract_id | frac
 1287369 | 1287749 | g.219517.CDS.1419 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 1332313 | 1332693 | g.219517.CDS.1466 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 1370445 | 1371188 | g.219517.CDS.1497 | 247 |  -> | g.219509.CDS.68 | 108 | 1.000 | 1.000 | 0.433 | 0.991 | NODE_2_length_103385_cov_411.602_ID_3 | 2 | 325 | Mobile element protein | Mobile element protein
-1379925 | 1382387 | g.219517.CDS.1501 | 820 |  -> | g.219509.CDS.721 | 820 | 1.000 | 1.000 | 0.999 | 0.999 | NODE_26_length_27521_cov_768.161_ID_51 | 80 | 2542 | hypothetical protein | hypothetical protein
-1382392 | 1385673 | g.219517.CDS.1502 | 1093 |  -> | g.219509.CDS.722 | 1093 | 1.000 | 1.000 | 0.999 | 0.999 | NODE_26_length_27521_cov_768.161_ID_51 | 2547 | 5828 | hypothetical protein | hypothetical protein
-1385663 | 1386040 | g.219517.CDS.1503 | 125 |  -> | g.219509.CDS.723 | 125 | 1.000 | 1.000 | 0.992 | 0.992 | NODE_26_length_27521_cov_768.161_ID_51 | 5818 | 6195 | hypothetical protein | hypothetical protein
-1386053 | 1386547 | g.219517.CDS.1504 | 164 |  -> | g.219509.CDS.724 | 164 | 1.000 | 1.000 | 0.994 | 0.994 | NODE_26_length_27521_cov_768.161_ID_51 | 6208 | 6702 | vgrG protein | vgrG protein
-1386552 | 1388282 | g.219517.CDS.1505 | 576 |  -> | g.219509.CDS.725 | 576 | 1.000 | 1.000 | 0.998 | 0.998 | NODE_26_length_27521_cov_768.161_ID_51 | 6707 | 8437 | DNA polymerase I (EC 2.7.7.7) | DNA polymerase I (EC 2.7.7.7)
-1388283 | 1388804 | g.219517.CDS.1506 | 173 |  -> | g.219509.CDS.726 | 173 | 1.000 | 1.000 | 0.994 | 0.994 | NODE_26_length_27521_cov_768.161_ID_51 | 8438 | 8959 | hypothetical protein | hypothetical protein
-1388817 | 1390247 | g.219517.CDS.1507 | 476 |  -> | g.219509.CDS.727 | 476 | 1.000 | 1.000 | 0.998 | 0.998 | NODE_26_length_27521_cov_768.161_ID_51 | 8972 | 10402 | hypothetical protein | hypothetical protein
-1390260 | 1390883 | g.219517.CDS.1508 | 207 |  -> | g.219509.CDS.728 | 207 | 1.000 | 1.000 | 0.995 | 0.995 | NODE_26_length_27521_cov_768.161_ID_51 | 10415 | 11038 | hypothetical protein | hypothetical protein
-1390905 | 1392056 | g.219517.CDS.1509 | 383 |  -> | g.219509.CDS.729 | 383 | 1.000 | 1.000 | 0.997 | 0.997 | NODE_26_length_27521_cov_768.161_ID_51 | 11060 | 12211 | hypothetical protein | hypothetical protein
-1392079 | 1392795 | g.219517.CDS.1510 | 238 |  -> | g.219509.CDS.730 | 238 | 1.000 | 1.000 | 0.996 | 0.996 | NODE_26_length_27521_cov_768.161_ID_51 | 12234 | 12950 | hypothetical protein | hypothetical protein
-1392835 | 1396821 | g.219517.CDS.1511 | 1328 |  -> | g.219509.CDS.731 | 1328 | 1.000 | 1.000 | 0.999 | 0.999 | NODE_26_length_27521_cov_768.161_ID_51 | 12990 | 16976 | hypothetical protein | hypothetical protein
-1396839 | 1397414 | g.219517.CDS.1512 | 191 |  -> | g.219509.CDS.732 | 191 | 1.000 | 1.000 | 0.995 | 0.995 | NODE_26_length_27521_cov_768.161_ID_51 | 16994 | 17569 | hypothetical protein | hypothetical protein
-1397421 | 1398617 | g.219517.CDS.1513 | 398 |  -> | g.219509.CDS.733 | 398 | 1.000 | 1.000 | 0.997 | 0.997 | NODE_26_length_27521_cov_768.161_ID_51 | 17576 | 18772 | hypothetical protein | hypothetical protein
-1398638 | 1399267 | g.219517.CDS.1514 | 209 |  -> | g.219509.CDS.734 | 209 | 1.000 | 1.000 | 0.995 | 0.995 | NODE_26_length_27521_cov_768.161_ID_51 | 18793 | 19422 | hypothetical protein | hypothetical protein
-1399284 | 1400804 | g.219517.CDS.1515 | 506 |  -> | g.219509.CDS.735 | 506 | 1.000 | 1.000 | 0.998 | 0.998 | NODE_26_length_27521_cov_768.161_ID_51 | 19439 | 20959 | Uncharacterized protein ImpC | Uncharacterized protein ImpC
-1400818 | 1401372 | g.219517.CDS.1516 | 184 |  -> | g.219509.CDS.736 | 184 | 1.000 | 1.000 | 0.995 | 0.995 | NODE_26_length_27521_cov_768.161_ID_51 | 20973 | 21527 | Uncharacterized protein ImpB | Uncharacterized protein ImpB
-1401453 | 1405040 | g.219517.CDS.1517 | 1195 |  -> | g.219509.CDS.737 | 1195 | 1.000 | 1.000 | 0.999 | 0.999 | NODE_26_length_27521_cov_768.161_ID_51 | 21608 | 25195 | hypothetical protein | hypothetical protein
-1405272 | 1405673 | g.219517.CDS.1518 | 133 |  -> | g.219509.CDS.738 | 133 | 1.000 | 1.000 | 0.992 | 0.992 | NODE_26_length_27521_cov_768.161_ID_51 | 25427 | 25828 | Anhydro-N-acetylmuramic acid kinase (EC 2.7.1.-) | Anhydro-N-acetylmuramic acid kinase (EC 2.7.1.-)
-1405686 | 1406255 | g.219517.CDS.1519 | 189 |  -> | g.219509.CDS.739 | 189 | 1.000 | 1.000 | 0.995 | 0.995 | NODE_26_length_27521_cov_768.161_ID_51 | 25841 | 26410 | Anhydro-N-acetylmuramic acid kinase (EC 2.7.1.-) | Anhydro-N-acetylmuramic acid kinase (EC 2.7.1.-)
-1406685 | 1407299 | g.219517.CDS.1520 | 204 |  -> | g.219509.CDS.740 | 204 | 1.000 | 1.000 | 0.995 | 0.995 | NODE_26_length_27521_cov_768.161_ID_51 | 26840 | 27454 | Predicted trehalose permease, MFS family, FucP subfamily | Predicted trehalose permease, MFS family, FucP subfamily
 1407396 | 1407812 | g.219517.CDS.1521 | 138 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 1407800 | 1408180 | g.219517.CDS.1522 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 1426779 | 1426982 | g.219517.CDS.1544 | 67 |  -  |  |  |  |  |  |  |  |  |  | Putative membrane protein | 
@@ -2564,7 +2903,6 @@ ref_beg | ref_end | ref_id | ref_len | type | qry_id | qry_len | fract_id | frac
 1476390 | 1476806 | g.219517.CDS.1594 | 138 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 1483215 | 1483958 | g.219517.CDS.1604 | 247 |  -> | g.219509.CDS.68 | 108 | 1.000 | 1.000 | 0.433 | 0.991 | NODE_2_length_103385_cov_411.602_ID_3 | 2 | 325 | Mobile element protein | Mobile element protein
 1498514 | 1498894 | g.219517.CDS.1618 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
-1508636 | 1509865 | g.219517.CDS.1628 | 409 | <-> | g.219509.CDS.1455 | 404 | 0.998 | 1.000 | 0.985 | 0.998 | NODE_38_length_17640_cov_399.146_ID_75 | 6696 | 7910 | NADH dehydrogenase subunit 4 | NADH dehydrogenase subunit 4
 1516518 | 1517261 | g.219517.CDS.1635 | 247 |  -> | g.219509.CDS.68 | 108 | 1.000 | 1.000 | 0.433 | 0.991 | NODE_2_length_103385_cov_411.602_ID_3 | 2 | 325 | Mobile element protein | Mobile element protein
 1531388 | 1531660 | g.219517.CDS.1651 | 90 | <-> | g.219509.CDS.605 | 102 | 1.000 | 1.000 | 0.989 | 0.873 | NODE_47_length_14397_cov_436.432_ID_93 | 14087 | 14395 | Pap2 superfamily protein | Pap2 superfamily protein
 1531728 | 1532144 | g.219517.CDS.1652 | 138 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
@@ -2590,7 +2928,6 @@ ref_beg | ref_end | ref_id | ref_len | type | qry_id | qry_len | fract_id | frac
 1761288 | 1761704 | g.219517.CDS.1899 | 138 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 1766112 | 1766528 | g.219517.CDS.1905 | 138 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 1766516 | 1766896 | g.219517.CDS.1906 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
-1766954 | 1767718 | g.219517.CDS.1907 | 254 | <-> | g.219509.CDS.1531 | 256 | 0.996 | 1.000 | 0.996 | 0.988 | NODE_70_length_818_cov_401.634_ID_139 | 47 | 817 | NAD-dependent formate dehydrogenase (EC 1.2.1.2) | NAD-dependent formate dehydrogenase (EC 1.2.1.2)
 1800731 | 1801147 | g.219517.CDS.1928 | 138 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 1801135 | 1801515 | g.219517.CDS.1929 | 126 |  -  |  |  |  |  |  |  |  |  |  | Mobile element protein | 
 1816777 | 1816986 | g.219517.CDS.1942 | 69 |  -  |  |  |  |  |  |  |  |  |  | hypothetical protein | 

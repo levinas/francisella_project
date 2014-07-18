@@ -9,6 +9,7 @@ my $usage = "Usage: $0 args\n\n";
 
 my $name = 'Francisella tularensis Schu S4';
 my @list = get_isolates();
+my %dict = get_SRR_to_isolate_mapping();
 
 my $base = dirname(__FILE__) . "/..";
 my $n_proteins_in_ref = 2031;
@@ -16,21 +17,33 @@ my $n_proteins_in_ref = 2031;
 for (@list) {
     my ($isolate, $runs) = @$_;
     print "## $name $isolate\n\n";
-    printf "This isolate has %d sequence runs: ", scalar@$runs;
+    printf "This isolate has one NCBI assembly and %d sequence runs: ", scalar@$runs;
     print join(", ", @$runs)."\n\n";
+
+    print "### $isolate scaffolds\n\n";
+
+    print "#### Contig alignment (ref vs NCBI scaffolds)\n\n";
+    print "![$isolate contig alignment](http://bioseed.mcs.anl.gov/~fangfang/francisella/png/$isolate.png)\n\n";
+
+    print "#### SNPs (ref vs NCBI scaffolds)\n\n";
+    print_dnadiff_snp_text($isolate);
+
+    print "#### DNA differences (ref vs NCBI scaffolds)\n\n";
+    print_report_dnadiff_text("$base/olive-mummer/$isolate/$isolate.report");
+
     for my $srr (@$runs) {
         print "### $srr\n\n";
 
-        print "#### Contig alignment\n\n";
+        print "#### Contig alignment (ref vs de novo assembly)\n\n";
         print "![$srr contig alignment](http://bioseed.mcs.anl.gov/~fangfang/francisella/png/$srr.png)\n\n";
 
-        print "#### SNPs\n\n";
+        print "#### SNPs (ref vs reads)\n\n";
         print_snp_text($srr);
-        
-        print "#### DNA differences\n\n";
-        print_dna_diff_text($srr);
 
-        print "#### Protein differences\n\n";
+        print "#### DNA differences (ref vs de novo assembly)\n\n";
+        print_dnadiff_text($srr);
+
+        print "#### Protein differences (ref vs de novo assembly)\n\n";
         print_bbh_text($srr);
 
     }
@@ -47,11 +60,11 @@ sub print_bbh_text {
     print "The protein pairs with low coverage (< 90%) or imperfect identity scores are listed below. Also listed are proteins unique to either genome.\n\n";
  
     my $file = "$base/bbhs/$srr.diffs"; 
-    print table_to_html($file)."\n";
-    # print table_to_markdown($file)."\n"; 
+    # print table_to_html($file)."\n";
+    print table_to_markdown($file)."\n"; 
 }
 
-sub print_dna_diff_text {
+sub print_dnadiff_text {
     my ($srr) = @_;
     my $file = "$base/mummer/$srr/$srr.report";
     my $text = `head -n 19 $file |tail -n 16`;
@@ -59,11 +72,26 @@ sub print_dna_diff_text {
     print "```\n$text```\n";
 }
 
+sub print_report_dnadiff_text {
+    my ($report) = @_;
+    my $name = $report; $name =~ s/.*\///; $name =~ s/\.report//;
+    my $text = `head -n 19 $report |tail -n 16`;
+    $text =~ s/      \[QRY\]/\[$name\]/;
+    print "```\n$text```\n";
+}
+
+sub print_dnadiff_snp_text {
+    my ($name) = @_;
+    my $file = "$base/olive-mummer/$name/$name.report";
+    my $text = `cat $file`;
+    print "```\n$text```\n";
+}
+
 sub print_snp_text {
     my ($srr) = @_;
     my $file = "$base/snps/$srr.snps";
-    # print table_to_markdown($file)."\n";
-    print table_to_html($file)."\n";
+    print table_to_markdown($file)."\n";
+    # print table_to_html($file)."\n";
 }
 
 sub table_to_markdown {
