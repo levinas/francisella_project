@@ -48,4 +48,4 @@ SNPs is 0.3.
 * [uncov/](uncov): Base positions in the reference contigs with no read coverage (empty if none)
 * [assembly/](assembly): De novo assemblies computed using Assembly-RAST (with --recipe "rast")
 * [rast2/](rast2): RAST2 annotations of de novo assembled contigs
-* [olive-mummer/](olive-mummer): DNA-level difference (reference vs NCBI scaffolds downloaded from the Broad Oliver site)
+* [olive-mummer/](olive-mummer): SNPs estimated by comparing reference and NCBI scaffolds downloaded from the Broad Oliver site
