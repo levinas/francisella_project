@@ -38,7 +38,6 @@ ref_beg	ref_end	ref_id	ref_len	type	qry_id	qry_len	fract_id	fract_pos	ref_cov	qr
 351205	351585	kb|g.219517.CDS.379	126	 - 										Mobile element protein	
 351573	351989	kb|g.219517.CDS.380	138	 ->	kb|g.219505.CDS.1290	41	0.967	0.967	0.210	0.707	NODE_3_length_93491_cov_186.056_ID_5	3	128	Mobile element protein	Mobile element protein
 352063	352554	kb|g.219517.CDS.381	163	 ->	kb|g.219505.CDS.1871	108	0.900	1.000	0.117	0.176	NODE_53_length_8517_cov_214.179_ID_105	8193	8516	Mobile element protein	Mobile element protein
-352918	353913	kb|g.219517.CDS.382	331	 ->	kb|g.219505.CDS.334	331	1.000	1.000	0.997	0.997	NODE_66_length_1682_cov_329.245_ID_131	263	1258	hypothetical protein	hypothetical protein
 354205	354621	kb|g.219517.CDS.383	138	 ->	kb|g.219505.CDS.1290	41	0.967	0.967	0.210	0.707	NODE_3_length_93491_cov_186.056_ID_5	3	128	Mobile element protein	Mobile element protein
 354609	354989	kb|g.219517.CDS.384	126	 - 										Mobile element protein	
 357361	357777	kb|g.219517.CDS.386	138	 ->	kb|g.219505.CDS.1290	41	0.967	0.967	0.210	0.707	NODE_3_length_93491_cov_186.056_ID_5	3	128	Mobile element protein	Mobile element protein
@@ -48,7 +47,6 @@ ref_beg	ref_end	ref_id	ref_len	type	qry_id	qry_len	fract_id	fract_pos	ref_cov	qr
 366495	366677	kb|g.219517.CDS.398	60	 - 										hypothetical protein	
 378906	379286	kb|g.219517.CDS.410	126	 - 										Mobile element protein	
 379274	379690	kb|g.219517.CDS.411	138	 ->	kb|g.219505.CDS.1290	41	0.967	0.967	0.210	0.707	NODE_3_length_93491_cov_186.056_ID_5	3	128	Mobile element protein	Mobile element protein
-379982	380977	kb|g.219517.CDS.412	331	 ->	kb|g.219505.CDS.334	331	1.000	1.000	0.997	0.997	NODE_66_length_1682_cov_329.245_ID_131	263	1258	hypothetical protein	hypothetical protein
 381341	381820	kb|g.219517.CDS.413	159	 ->	kb|g.219505.CDS.1871	108	0.900	1.000	0.119	0.176	NODE_53_length_8517_cov_214.179_ID_105	8193	8516	Mobile element protein	Mobile element protein
 383702	384445	kb|g.219517.CDS.415	247	 ->	kb|g.219505.CDS.1871	108	1.000	1.000	0.433	0.991	NODE_53_length_8517_cov_214.179_ID_105	8193	8516	Mobile element protein	Mobile element protein
 426305	427444	kb|g.219517.CDS.450	379	<->	kb|g.219505.CDS.609	423	1.000	1.000	0.989	0.887	NODE_6_length_68941_cov_149.738_ID_11	41928	43199	Glucose-1-phosphate adenylyltransferase (EC 2.7.7.27)	Glucose-1-phosphate adenylyltransferase (EC 2.7.7.27)
@@ -65,7 +63,6 @@ ref_beg	ref_end	ref_id	ref_len	type	qry_id	qry_len	fract_id	fract_pos	ref_cov	qr
 578744	579160	kb|g.219517.CDS.618	138	 ->	kb|g.219505.CDS.1290	41	0.967	0.967	0.210	0.707	NODE_3_length_93491_cov_186.056_ID_5	3	128	Mobile element protein	Mobile element protein
 582508	583251	kb|g.219517.CDS.622	247	 ->	kb|g.219505.CDS.1871	108	1.000	1.000	0.433	0.991	NODE_53_length_8517_cov_214.179_ID_105	8193	8516	Mobile element protein	Mobile element protein
 606904	607647	kb|g.219517.CDS.650	247	 ->	kb|g.219505.CDS.1871	108	1.000	1.000	0.433	0.991	NODE_53_length_8517_cov_214.179_ID_105	8193	8516	Mobile element protein	Mobile element protein
-693461	694720	kb|g.219517.CDS.749	419	<->	kb|g.219505.CDS.1485	419	0.998	0.998	0.998	0.998	NODE_2_length_103385_cov_137.65_ID_3	86139	87398	Hemolysins and related proteins containing CBS domains	Hemolysins and related proteins containing CBS domains
 710737	711153	kb|g.219517.CDS.766	138	 ->	kb|g.219505.CDS.1290	41	0.967	0.967	0.210	0.707	NODE_3_length_93491_cov_186.056_ID_5	3	128	Mobile element protein	Mobile element protein
 711141	711521	kb|g.219517.CDS.767	126	 - 										Mobile element protein	
 744289	744705	kb|g.219517.CDS.799	138	 ->	kb|g.219505.CDS.1290	41	0.967	0.967	0.210	0.707	NODE_3_length_93491_cov_186.056_ID_5	3	128	Mobile element protein	Mobile element protein
@@ -75,7 +72,6 @@ ref_beg	ref_end	ref_id	ref_len	type	qry_id	qry_len	fract_id	fract_pos	ref_cov	qr
 785370	785786	kb|g.219517.CDS.849	138	 ->	kb|g.219505.CDS.1290	41	0.967	0.967	0.210	0.707	NODE_3_length_93491_cov_186.056_ID_5	3	128	Mobile element protein	Mobile element protein
 799235	799615	kb|g.219517.CDS.866	126	 - 										Mobile element protein	
 799603	800019	kb|g.219517.CDS.867	138	 ->	kb|g.219505.CDS.1290	41	0.967	0.967	0.210	0.707	NODE_3_length_93491_cov_186.056_ID_5	3	128	Mobile element protein	Mobile element protein
-826545	827756	kb|g.219517.CDS.895	403	<->	kb|g.219505.CDS.410	403	0.998	0.998	0.998	0.998	NODE_12_length_39170_cov_143.386_ID_23	11463	12674	Hypothetical protein in predicted poly-gamma-glutamate synthase operon	Hypothetical protein in predicted poly-gamma-glutamate synthase operon
 839217	839597	kb|g.219517.CDS.910	126	 - 										Mobile element protein	
 839585	840001	kb|g.219517.CDS.911	138	 ->	kb|g.219505.CDS.1290	41	0.967	0.967	0.210	0.707	NODE_3_length_93491_cov_186.056_ID_5	3	128	Mobile element protein	Mobile element protein
 876765	877508	kb|g.219517.CDS.962	247	 ->	kb|g.219505.CDS.1871	108	1.000	1.000	0.433	0.991	NODE_53_length_8517_cov_214.179_ID_105	8193	8516	Mobile element protein	Mobile element protein
@@ -83,12 +79,10 @@ ref_beg	ref_end	ref_id	ref_len	type	qry_id	qry_len	fract_id	fract_pos	ref_cov	qr
 931304	931720	kb|g.219517.CDS.1018	138	 ->	kb|g.219505.CDS.1290	41	0.967	0.967	0.210	0.707	NODE_3_length_93491_cov_186.056_ID_5	3	128	Mobile element protein	Mobile element protein
 1018849	1020057	kb|g.219517.CDS.1114	402	<->	kb|g.219505.CDS.1073	377	0.997	1.000	0.935	0.997	NODE_1_length_148774_cov_111.131_ID_1	87175	88308	FIG097052: Sugar transporter	FIG097052: Sugar transporter
 1062454	1062660	kb|g.219517.CDS.1163	68	<->	kb|g.219505.CDS.1122	64	0.984	1.000	0.926	0.984	NODE_1_length_148774_cov_111.131_ID_1	130705	130899	hypothetical protein	hypothetical protein
-1064014	1064310	kb|g.219517.CDS.1167	98	 ->	kb|g.219505.CDS.1126	98	1.000	1.000	0.990	0.990	NODE_1_length_148774_cov_111.131_ID_1	132265	132561	Mobile element protein	Mobile element protein
 1073411	1073827	kb|g.219517.CDS.1181	138	 ->	kb|g.219505.CDS.1290	41	0.967	0.967	0.210	0.707	NODE_3_length_93491_cov_186.056_ID_5	3	128	Mobile element protein	Mobile element protein
 1073815	1074195	kb|g.219517.CDS.1182	126	 - 										Mobile element protein	
 1085435	1085815	kb|g.219517.CDS.1194	126	 - 										Mobile element protein	
 1085803	1086219	kb|g.219517.CDS.1195	138	 ->	kb|g.219505.CDS.1290	41	0.967	0.967	0.210	0.707	NODE_3_length_93491_cov_186.056_ID_5	3	128	Mobile element protein	Mobile element protein
-1104026	1105408	kb|g.219517.CDS.1217	460	<->	kb|g.219505.CDS.1810	457	0.998	1.000	0.991	0.998	NODE_16_length_35592_cov_148.448_ID_31	17778	19151	Outer membrane protein TolC	Outer membrane protein TolC
 1121516	1122259	kb|g.219517.CDS.1237	247	 ->	kb|g.219505.CDS.1871	108	1.000	1.000	0.433	0.991	NODE_53_length_8517_cov_214.179_ID_105	8193	8516	Mobile element protein	Mobile element protein
 1153900	1154316	kb|g.219517.CDS.1273	138	 ->	kb|g.219505.CDS.1290	41	0.967	0.967	0.210	0.707	NODE_3_length_93491_cov_186.056_ID_5	3	128	Mobile element protein	Mobile element protein
 1154304	1154684	kb|g.219517.CDS.1274	126	 - 										Mobile element protein	
@@ -105,40 +99,16 @@ ref_beg	ref_end	ref_id	ref_len	type	qry_id	qry_len	fract_id	fract_pos	ref_cov	qr
 1287369	1287749	kb|g.219517.CDS.1419	126	 - 										Mobile element protein	
 1332313	1332693	kb|g.219517.CDS.1466	126	 - 										Mobile element protein	
 1370445	1371188	kb|g.219517.CDS.1497	247	 ->	kb|g.219505.CDS.1871	108	1.000	1.000	0.433	0.991	NODE_53_length_8517_cov_214.179_ID_105	8193	8516	Mobile element protein	Mobile element protein
-1379925	1382387	kb|g.219517.CDS.1501	820	 ->	kb|g.219505.CDS.1502	820	1.000	1.000	0.999	0.999	NODE_26_length_27521_cov_196.975_ID_51	80	2542	hypothetical protein	hypothetical protein
-1382392	1385673	kb|g.219517.CDS.1502	1093	 ->	kb|g.219505.CDS.1503	1093	1.000	1.000	0.999	0.999	NODE_26_length_27521_cov_196.975_ID_51	2547	5828	hypothetical protein	hypothetical protein
-1385663	1386040	kb|g.219517.CDS.1503	125	 ->	kb|g.219505.CDS.1504	125	1.000	1.000	0.992	0.992	NODE_26_length_27521_cov_196.975_ID_51	5818	6195	hypothetical protein	hypothetical protein
-1386053	1386547	kb|g.219517.CDS.1504	164	 ->	kb|g.219505.CDS.1505	164	1.000	1.000	0.994	0.994	NODE_26_length_27521_cov_196.975_ID_51	6208	6702	vgrG protein	vgrG protein
-1386552	1388282	kb|g.219517.CDS.1505	576	 ->	kb|g.219505.CDS.1506	576	1.000	1.000	0.998	0.998	NODE_26_length_27521_cov_196.975_ID_51	6707	8437	DNA polymerase I (EC 2.7.7.7)	DNA polymerase I (EC 2.7.7.7)
-1388283	1388804	kb|g.219517.CDS.1506	173	 ->	kb|g.219505.CDS.1507	173	1.000	1.000	0.994	0.994	NODE_26_length_27521_cov_196.975_ID_51	8438	8959	hypothetical protein	hypothetical protein
-1388817	1390247	kb|g.219517.CDS.1507	476	 ->	kb|g.219505.CDS.1508	476	1.000	1.000	0.998	0.998	NODE_26_length_27521_cov_196.975_ID_51	8972	10402	hypothetical protein	hypothetical protein
-1390260	1390883	kb|g.219517.CDS.1508	207	 ->	kb|g.219505.CDS.1509	207	1.000	1.000	0.995	0.995	NODE_26_length_27521_cov_196.975_ID_51	10415	11038	hypothetical protein	hypothetical protein
-1390905	1392056	kb|g.219517.CDS.1509	383	 ->	kb|g.219505.CDS.1510	383	1.000	1.000	0.997	0.997	NODE_26_length_27521_cov_196.975_ID_51	11060	12211	hypothetical protein	hypothetical protein
-1392079	1392795	kb|g.219517.CDS.1510	238	 ->	kb|g.219505.CDS.1511	238	1.000	1.000	0.996	0.996	NODE_26_length_27521_cov_196.975_ID_51	12234	12950	hypothetical protein	hypothetical protein
-1392835	1396821	kb|g.219517.CDS.1511	1328	 ->	kb|g.219505.CDS.1512	1328	1.000	1.000	0.999	0.999	NODE_26_length_27521_cov_196.975_ID_51	12990	16976	hypothetical protein	hypothetical protein
-1396839	1397414	kb|g.219517.CDS.1512	191	 ->	kb|g.219505.CDS.1513	191	1.000	1.000	0.995	0.995	NODE_26_length_27521_cov_196.975_ID_51	16994	17569	hypothetical protein	hypothetical protein
-1397421	1398617	kb|g.219517.CDS.1513	398	 ->	kb|g.219505.CDS.1514	398	1.000	1.000	0.997	0.997	NODE_26_length_27521_cov_196.975_ID_51	17576	18772	hypothetical protein	hypothetical protein
-1398638	1399267	kb|g.219517.CDS.1514	209	 ->	kb|g.219505.CDS.1515	209	1.000	1.000	0.995	0.995	NODE_26_length_27521_cov_196.975_ID_51	18793	19422	hypothetical protein	hypothetical protein
-1399284	1400804	kb|g.219517.CDS.1515	506	 ->	kb|g.219505.CDS.1516	506	1.000	1.000	0.998	0.998	NODE_26_length_27521_cov_196.975_ID_51	19439	20959	Uncharacterized protein ImpC	Uncharacterized protein ImpC
-1400818	1401372	kb|g.219517.CDS.1516	184	 ->	kb|g.219505.CDS.1517	184	1.000	1.000	0.995	0.995	NODE_26_length_27521_cov_196.975_ID_51	20973	21527	Uncharacterized protein ImpB	Uncharacterized protein ImpB
-1401453	1405040	kb|g.219517.CDS.1517	1195	 ->	kb|g.219505.CDS.1518	1195	1.000	1.000	0.999	0.999	NODE_26_length_27521_cov_196.975_ID_51	21608	25195	hypothetical protein	hypothetical protein
-1405272	1405673	kb|g.219517.CDS.1518	133	 ->	kb|g.219505.CDS.1519	133	1.000	1.000	0.992	0.992	NODE_26_length_27521_cov_196.975_ID_51	25427	25828	Anhydro-N-acetylmuramic acid kinase (EC 2.7.1.-)	Anhydro-N-acetylmuramic acid kinase (EC 2.7.1.-)
-1405686	1406255	kb|g.219517.CDS.1519	189	 ->	kb|g.219505.CDS.1520	189	1.000	1.000	0.995	0.995	NODE_26_length_27521_cov_196.975_ID_51	25841	26410	Anhydro-N-acetylmuramic acid kinase (EC 2.7.1.-)	Anhydro-N-acetylmuramic acid kinase (EC 2.7.1.-)
-1406685	1407299	kb|g.219517.CDS.1520	204	 ->	kb|g.219505.CDS.1521	204	1.000	1.000	0.995	0.995	NODE_26_length_27521_cov_196.975_ID_51	26840	27454	Predicted trehalose permease%2C MFS family%2C FucP subfamily	Predicted trehalose permease%2C MFS family%2C FucP subfamily
 1407396	1407812	kb|g.219517.CDS.1521	138	 ->	kb|g.219505.CDS.1290	41	0.967	0.967	0.210	0.707	NODE_3_length_93491_cov_186.056_ID_5	3	128	Mobile element protein	Mobile element protein
 1407800	1408180	kb|g.219517.CDS.1522	126	 - 										Mobile element protein	
-1419073	1420044	kb|g.219517.CDS.1534	323	<->	kb|g.219505.CDS.1533	323	0.997	0.997	0.997	0.997	NODE_32_length_21782_cov_179.395_ID_63	10895	11866	3-oxoacyl-[acyl-carrier-protein] synthase%2C KASIII (EC 2.3.1.180)	3-oxoacyl-[acyl-carrier-protein] synthase%2C KASIII (EC 2.3.1.180)
-1422229	1423488	kb|g.219517.CDS.1538	419	<->	kb|g.219505.CDS.1537	419	0.998	0.998	0.998	0.998	NODE_32_length_21782_cov_179.395_ID_63	14051	15310	3-oxoacyl-[acyl-carrier-protein] synthase%2C KASII (EC 2.3.1.179)	3-oxoacyl-[acyl-carrier-protein] synthase%2C KASII (EC 2.3.1.179)
 1426779	1426982	kb|g.219517.CDS.1544	67	 - 										Putative membrane protein	
 1429959	1430339	kb|g.219517.CDS.1548	126	 - 										Mobile element protein	
 1430327	1430743	kb|g.219517.CDS.1549	138	 ->	kb|g.219505.CDS.1290	41	0.967	0.967	0.210	0.707	NODE_3_length_93491_cov_186.056_ID_5	3	128	Mobile element protein	Mobile element protein
-1442488	1443918	kb|g.219517.CDS.1558	476	<->	kb|g.219505.CDS.1885	469	0.985	0.985	0.998	0.998	NODE_27_length_27276_cov_131.107_ID_53	14152	15561	ATP-dependent DNA helicase	ATP-dependent DNA helicase
 1458062	1458811	kb|g.219517.CDS.1572	249	<->	kb|g.219505.CDS.906	132	1.000	1.000	0.526	0.992	NODE_38_length_17608_cov_147.487_ID_75	1	396	Predicted D-lactate dehydrogenase%2C Fe-S protein%2C FAD/FMN-containing	Predicted D-lactate dehydrogenase%2C Fe-S protein%2C FAD/FMN-containing
 1476022	1476402	kb|g.219517.CDS.1593	126	 - 										Mobile element protein	
 1476390	1476806	kb|g.219517.CDS.1594	138	 ->	kb|g.219505.CDS.1290	41	0.967	0.967	0.210	0.707	NODE_3_length_93491_cov_186.056_ID_5	3	128	Mobile element protein	Mobile element protein
 1483215	1483958	kb|g.219517.CDS.1604	247	 ->	kb|g.219505.CDS.1871	108	1.000	1.000	0.433	0.991	NODE_53_length_8517_cov_214.179_ID_105	8193	8516	Mobile element protein	Mobile element protein
 1498514	1498894	kb|g.219517.CDS.1618	126	 - 										Mobile element protein	
-1508636	1509865	kb|g.219517.CDS.1628	409	<->	kb|g.219505.CDS.1760	404	0.998	1.000	0.985	0.998	NODE_37_length_17693_cov_141.076_ID_73	6736	7950	NADH dehydrogenase subunit 4	NADH dehydrogenase subunit 4
 1516518	1517261	kb|g.219517.CDS.1635	247	 ->	kb|g.219505.CDS.1871	108	1.000	1.000	0.433	0.991	NODE_53_length_8517_cov_214.179_ID_105	8193	8516	Mobile element protein	Mobile element protein
 1531388	1531660	kb|g.219517.CDS.1651	90	<->	kb|g.219505.CDS.102	102	1.000	1.000	0.989	0.873	NODE_43_length_14762_cov_193.111_ID_85	14452	14760	Pap2 superfamily protein	Pap2 superfamily protein
 1531728	1532144	kb|g.219517.CDS.1652	138	 ->	kb|g.219505.CDS.1290	41	0.967	0.967	0.210	0.707	NODE_3_length_93491_cov_186.056_ID_5	3	128	Mobile element protein	Mobile element protein
@@ -157,7 +127,6 @@ ref_beg	ref_end	ref_id	ref_len	type	qry_id	qry_len	fract_id	fract_pos	ref_cov	qr
 1576231	1576974	kb|g.219517.CDS.1697	247	<->	kb|g.219505.CDS.1871	108	1.000	1.000	0.433	0.991	NODE_53_length_8517_cov_214.179_ID_105	8193	8516	Mobile element protein	Mobile element protein
 1609794	1610174	kb|g.219517.CDS.1728	126	 - 										Mobile element protein	
 1610162	1610578	kb|g.219517.CDS.1729	138	 ->	kb|g.219505.CDS.1290	41	0.967	0.967	0.210	0.707	NODE_3_length_93491_cov_186.056_ID_5	3	128	Mobile element protein	Mobile element protein
-1633718	1636054	kb|g.219517.CDS.1757	778	<->	kb|g.219505.CDS.1585	778	0.999	0.999	0.999	0.999	NODE_13_length_38202_cov_143.291_ID_25	12756	15092	Outer membrane protein assembly factor YaeT precursor	Outer membrane protein assembly factor YaeT precursor
 1648839	1649255	kb|g.219517.CDS.1770	138	 ->	kb|g.219505.CDS.1290	41	0.967	0.967	0.210	0.707	NODE_3_length_93491_cov_186.056_ID_5	3	128	Mobile element protein	Mobile element protein
 1649243	1649623	kb|g.219517.CDS.1771	126	 - 										Mobile element protein	
 1665129	1665545	kb|g.219517.CDS.1786	138	 ->	kb|g.219505.CDS.1290	41	0.967	0.967	0.210	0.707	NODE_3_length_93491_cov_186.056_ID_5	3	128	Mobile element protein	Mobile element protein
@@ -188,4 +157,3 @@ ref_beg	ref_end	ref_id	ref_len	type	qry_id	qry_len	fract_id	fract_pos	ref_cov	qr
 1869174	1869590	kb|g.219517.CDS.2003	138	<- 	kb|g.219505.CDS.52	41	0.967	0.967	0.210	0.707	NODE_36_length_19622_cov_170.512_ID_71	3	128	Mobile element protein	Mobile element protein
 1869174	1869590	kb|g.219517.CDS.2003	138	<- 	kb|g.219505.CDS.333	41	0.933	0.933	0.210	0.707	NODE_44_length_14658_cov_213.591_ID_87	14531	14656	Mobile element protein	Mobile element protein
 1869174	1869590	kb|g.219517.CDS.2003	138	<->	kb|g.219505.CDS.1290	41	0.967	0.967	0.210	0.707	NODE_3_length_93491_cov_186.056_ID_5	3	128	Mobile element protein	Mobile element protein
-1879440	1879736	kb|g.219517.CDS.2017	98	<- 	kb|g.219505.CDS.543	98	1.000	1.000	0.990	0.990	NODE_50_length_10173_cov_142.643_ID_99	9821	10117	Mobile element protein	Mobile element protein
