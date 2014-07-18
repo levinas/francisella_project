@@ -31,7 +31,7 @@ SL       | 10 | 0/0 |  0/1 | 298 (0.016%) |
 
 Each isolate is associated with two paired-end libraries. The number
 of SNPs estimated through read mapping is shown in the format of `#
-raw SNPs / filtered SNPs`. The minimum variant fraction for filtered
+filterd SNPs / # raw SNPs`. The minimum variant fraction for filtered
 SNPs is 0.3.
 
 ### Analysis
