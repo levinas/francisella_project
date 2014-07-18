@@ -77,7 +77,7 @@ The protein pairs with low coverage (< 90%) or imperfect identity scores are lis
 </td> </tr>
 <tr><td>3608</td> <td>3931</td> <td>g.219517.CDS.5</td> <td>107</td> <td> - </td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>Mobile element protein</td> <td>
 </td> </tr>
-<tr><td>3957</td> <td>4625</td> <td>g.219517.CDS.6</td> <td>222</td> <td><-></td> <td>g.219510.CDS.344</td> <td>108</td> <td>1.000</td> <td>1.000</td> <td>0.482</td> <td>0.991</td> <td>NODE_61_length_4429_cov_533.824_ID_121</td> <td>345</td> <td>671</td> <td>Succinate-semialdehyde dehydrogenase [NAD(P)+] (EC 1.2.1.16)</td> <td>Succinate-semialdehyde dehydrogenase [NAD(P)+] (EC 1.2.1.16)
+<tr><td>3957</td> <td>4625</td> <td>g.219517.CDS.6</td> <td>222</td> <td>"<->"</td> <td>g.219510.CDS.344</td> <td>108</td> <td>1.000</td> <td>1.000</td> <td>0.482</td> <td>0.991</td> <td>NODE_61_length_4429_cov_533.824_ID_121</td> <td>345</td> <td>671</td> <td>Succinate-semialdehyde dehydrogenase [NAD(P)+] (EC 1.2.1.16)</td> <td>Succinate-semialdehyde dehydrogenase [NAD(P)+] (EC 1.2.1.16)
 </td> </tr>
 <tr><td>8350</td> <td>8730</td> <td>g.219517.CDS.10</td> <td>126</td> <td> - </td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>Mobile element protein</td> <td>
 </td> </tr>
