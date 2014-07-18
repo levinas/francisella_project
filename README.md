@@ -43,7 +43,7 @@ SNPs is 0.3.
 
 * [vcf/](vcf): Raw SNPs estimated by read mapping (BWA-mem v0.7.7, Samtools v0.1.19)
 * [snps/](snps): Annotated filtered SNPs
-* [bbhs/](bbhs): Protein-protein bidiretional best hits (reference vs de novo assemblies, both annotated using RAST)
+* [bbhs/](bbhs): Protein-protein bidiretional best hits and unique proteins (reference vs de novo assemblies, both annotated using RAST)
 * [mummer/](mummer): DNA-level difference computed using Mummer (reference vs de novo assemblies)
 * [uncov/](uncov): Base positions in the reference contigs with no read coverage
 * [assembly/](assembly): De novo assemblies computed using Assembly-RAST (--recipe rast)
