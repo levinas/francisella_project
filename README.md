@@ -24,6 +24,8 @@ Francisella tularensis Schu S4: GenBank AJ749949.2
 
 ### Summary
 
+You can find a detailed report in [report.md](report.md).
+
 Isolate_name | SNPs (NCBI assembly) |SNPs (reads: Pond lib) |  SNPs (reads: Solexa lib) | Ref bases with no read coverage |
 --- | --- | --- | --- | --- |
 FSC043   |  1 | 0/0 |  0/0 | 0 |
@@ -37,8 +39,6 @@ Each isolate is associated with two paired-end libraries. The number
 of SNPs estimated through read mapping is shown in the format of `#
 raw SNPs / filtered SNPs`. The minimum variant fraction for filtered
 SNPs is 0.3.
-
-You can find a detailed report in [report.md](report.md).
 
 ### Analysis
 
