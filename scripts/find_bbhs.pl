@@ -123,6 +123,7 @@ sub extract_diff_from_bbh_log {
         # sid: contig ids in qry
         my ($qid, $qlen, $type, $sid, $slen, $fract_id, $fract_pos, $q_cover, $s_cover) = @fields;
         next unless $type ne '<->' || $fract_id < 1 || $q_cover < 0.9 || $s_cover < 0.9;
+        next if $fract_id >= 0.98 && $q_cover >= 0.98 && $s_cover >= 0.98;
         push @diffs, \@fields;
     }
     wantarray ? @diffs : \@diffs;
