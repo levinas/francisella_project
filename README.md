@@ -38,6 +38,7 @@ of SNPs estimated through read mapping is shown in the format of `#
 raw SNPs / filtered SNPs`. The minimum variant fraction for filtered
 SNPs is 0.3.
 
+You can find a detailed report in [report.md](report.md).
 
 ### Analysis
 
