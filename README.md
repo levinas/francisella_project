@@ -24,7 +24,7 @@ Francisella tularensis Schu S4: GenBank AJ749949.2
 
 ### Summary
 
-Isolate | SNPs (NCBI assembly) |SNPs (reads: Pond lib) |  SNPs (reads: Solexa lib) | Ref bases with no read coverage |
+Isolate name | SNPs (NCBI assembly) |SNPs (reads: Pond lib) |  SNPs (reads: Solexa lib) | Ref bases with no read coverage |
 --- | --- | --- | --- | --- |
 FSC043   |  1 | 0 |  - | 0 |
 FTS-634  |  8 | 6 |  6 | 0 |
