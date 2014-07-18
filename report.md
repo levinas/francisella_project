@@ -11,93 +11,14 @@ This isolate has one NCBI assembly and 2 sequence runs: SRR999319, SRR1061346
 #### SNPs (ref vs NCBI scaffolds)
 
 ```
-/space2/fangfang/francisella/ref/177416.18.contigs /space2/fangfang/francisella/olive/FTS-634.scaffolds.fasta
-NUCMER
-
-                               [REF]                [QRY]
-[Sequences]
-TotalSeqs                          1                    2
-AlignedSeqs               1(100.00%)           2(100.00%)
-UnalignedSeqs               0(0.00%)             0(0.00%)
-
-[Bases]
-TotalBases                   1892775              1892695
-AlignedBases        1892775(100.00%)     1892694(100.00%)
-UnalignedBases              0(0.00%)             1(0.00%)
-
-[Alignments]
-1-to-1                             5                    5
-TotalLength                  1942758              1942839
-AvgLength                  388551.60            388567.80
-AvgIdentity                    99.99                99.99
-
-M-to-M                             6                    6
-TotalLength                  1943653              1943734
-AvgLength                  323942.17            323955.67
-AvgIdentity                    99.99                99.99
-
-[Feature Estimates]
-Breakpoints                       10                    9
-Relocations                        0                    0
-Translocations                     1                    0
-Inversions                         0                    0
-
-Insertions                         2                    2
-InsertionSum                     922                   12
-InsertionAvg                  461.00                 6.00
-
-TandemIns                          1                    1
-TandemInsSum                      27                   11
-TandemInsAvg                   27.00                11.00
-
-[SNPs]
-TotalSNPs                          6                    6
-AT                          0(0.00%)             0(0.00%)
-AC                          0(0.00%)             0(0.00%)
-AG                         4(66.67%)            1(16.67%)
-TA                          0(0.00%)             0(0.00%)
-TC                          0(0.00%)            1(16.67%)
-TG                          0(0.00%)             0(0.00%)
-CA                          0(0.00%)             0(0.00%)
-CT                         1(16.67%)             0(0.00%)
-CG                          0(0.00%)             0(0.00%)
-GA                         1(16.67%)            4(66.67%)
-GT                          0(0.00%)             0(0.00%)
-GC                          0(0.00%)             0(0.00%)
-
-TotalGSNPs                         6                    6
-AT                          0(0.00%)             0(0.00%)
-AC                          0(0.00%)             0(0.00%)
-AG                         4(66.67%)            1(16.67%)
-TA                          0(0.00%)             0(0.00%)
-TC                          0(0.00%)            1(16.67%)
-TG                          0(0.00%)             0(0.00%)
-CA                          0(0.00%)             0(0.00%)
-CT                         1(16.67%)             0(0.00%)
-CG                          0(0.00%)             0(0.00%)
-GA                         1(16.67%)            4(66.67%)
-GT                          0(0.00%)             0(0.00%)
-GC                          0(0.00%)             0(0.00%)
-
-TotalIndels                        2                    2
-A.                         1(50.00%)            1(50.00%)
-T.                          0(0.00%)             0(0.00%)
-C.                          0(0.00%)             0(0.00%)
-G.                          0(0.00%)             0(0.00%)
-.A                         1(50.00%)            1(50.00%)
-.T                          0(0.00%)             0(0.00%)
-.C                          0(0.00%)             0(0.00%)
-.G                          0(0.00%)             0(0.00%)
-
-TotalGIndels                       2                    2
-A.                         1(50.00%)            1(50.00%)
-T.                          0(0.00%)             0(0.00%)
-C.                          0(0.00%)             0(0.00%)
-G.                          0(0.00%)             0(0.00%)
-.A                         1(50.00%)            1(50.00%)
-.T                          0(0.00%)             0(0.00%)
-.C                          0(0.00%)             0(0.00%)
-.G                          0(0.00%)             0(0.00%)
+24609	A	G	21269	21268	21269	1892775	1889500	1	1	NC_006570	7000000218715218
+427432	A	.	424118	113862	424118	1892775	1889500	1	1	NC_006570	7000000218715218
+694308	A	G	690983	132508	690983	1892775	1889500	1	1	NC_006570	7000000218715218
+826816	A	G	823491	132508	823491	1892775	1889500	1	1	NC_006570	7000000218715218
+1419877	C	T	1416601	3285	472899	1892775	1889500	1	1	NC_006570	7000000218715218
+1423162	A	G	1419886	3285	469614	1892775	1889500	1	1	NC_006570	7000000218715218
+1540424	.	A	1537149	94156	352352	1892775	1889500	1	1	NC_006570	7000000218715218
+1634580	G	A	1631305	94156	258196	1892775	1889500	1	1	NC_006570	7000000218715218
 ```
 #### DNA differences (ref vs NCBI scaffolds)
 
@@ -537,93 +458,7 @@ This isolate has one NCBI assembly and 2 sequence runs: SRR999320, SRR1061347
 #### SNPs (ref vs NCBI scaffolds)
 
 ```
-/space2/fangfang/francisella/ref/177416.18.contigs /space2/fangfang/francisella/olive/NR-10492.scaffolds.fasta
-NUCMER
-
-                               [REF]                [QRY]
-[Sequences]
-TotalSeqs                          1                    2
-AlignedSeqs               1(100.00%)           2(100.00%)
-UnalignedSeqs               0(0.00%)             0(0.00%)
-
-[Bases]
-TotalBases                   1892775              1894828
-AlignedBases        1892775(100.00%)      1893511(99.93%)
-UnalignedBases              0(0.00%)          1317(0.07%)
-
-[Alignments]
-1-to-1                             5                    5
-TotalLength                  1913673              1913722
-AvgLength                  382734.60            382744.40
-AvgIdentity                    99.99                99.99
-
-M-to-M                             5                    5
-TotalLength                  1913673              1913722
-AvgLength                  382734.60            382744.40
-AvgIdentity                    99.99                99.99
-
-[Feature Estimates]
-Breakpoints                        8                    6
-Relocations                        0                    0
-Translocations                     1                    0
-Inversions                         0                    0
-
-Insertions                         1                    2
-InsertionSum                       9                 1918
-InsertionAvg                    9.00               959.00
-
-TandemIns                          1                    0
-TandemInsSum                       9                    0
-TandemInsAvg                    9.00                 0.00
-
-[SNPs]
-TotalSNPs                          1                    1
-AT                          0(0.00%)             0(0.00%)
-AC                          0(0.00%)             0(0.00%)
-AG                          0(0.00%)             0(0.00%)
-TA                          0(0.00%)             0(0.00%)
-TC                          0(0.00%)           1(100.00%)
-TG                          0(0.00%)             0(0.00%)
-CA                          0(0.00%)             0(0.00%)
-CT                        1(100.00%)             0(0.00%)
-CG                          0(0.00%)             0(0.00%)
-GA                          0(0.00%)             0(0.00%)
-GT                          0(0.00%)             0(0.00%)
-GC                          0(0.00%)             0(0.00%)
-
-TotalGSNPs                         1                    1
-AT                          0(0.00%)             0(0.00%)
-AC                          0(0.00%)             0(0.00%)
-AG                          0(0.00%)             0(0.00%)
-TA                          0(0.00%)             0(0.00%)
-TC                          0(0.00%)           1(100.00%)
-TG                          0(0.00%)             0(0.00%)
-CA                          0(0.00%)             0(0.00%)
-CT                        1(100.00%)             0(0.00%)
-CG                          0(0.00%)             0(0.00%)
-GA                          0(0.00%)             0(0.00%)
-GT                          0(0.00%)             0(0.00%)
-GC                          0(0.00%)             0(0.00%)
-
-TotalIndels                        0                    0
-A.                          0(0.00%)             0(0.00%)
-T.                          0(0.00%)             0(0.00%)
-C.                          0(0.00%)             0(0.00%)
-G.                          0(0.00%)             0(0.00%)
-.A                          0(0.00%)             0(0.00%)
-.T                          0(0.00%)             0(0.00%)
-.C                          0(0.00%)             0(0.00%)
-.G                          0(0.00%)             0(0.00%)
-
-TotalGIndels                       0                    0
-A.                          0(0.00%)             0(0.00%)
-T.                          0(0.00%)             0(0.00%)
-C.                          0(0.00%)             0(0.00%)
-G.                          0(0.00%)             0(0.00%)
-.A                          0(0.00%)             0(0.00%)
-.T                          0(0.00%)             0(0.00%)
-.C                          0(0.00%)             0(0.00%)
-.G                          0(0.00%)             0(0.00%)
+1767864	C	T	1766722	124912	124912	1892775	1891633	1	1	NC_006570	7000000218714577
 ```
 #### DNA differences (ref vs NCBI scaffolds)
 
@@ -1087,93 +922,8 @@ This isolate has one NCBI assembly and 2 sequence runs: SRR999321, SRR1061348
 #### SNPs (ref vs NCBI scaffolds)
 
 ```
-/space2/fangfang/francisella/ref/177416.18.contigs /space2/fangfang/francisella/olive/NR-28534.scaffolds.fasta
-NUCMER
-
-                               [REF]                [QRY]
-[Sequences]
-TotalSeqs                          1                    2
-AlignedSeqs               1(100.00%)           2(100.00%)
-UnalignedSeqs               0(0.00%)             0(0.00%)
-
-[Bases]
-TotalBases                   1892775              1892972
-AlignedBases        1892775(100.00%)     1892972(100.00%)
-UnalignedBases              0(0.00%)             0(0.00%)
-
-[Alignments]
-1-to-1                             4                    4
-TotalLength                  1893375              1893375
-AvgLength                  473343.75            473343.75
-AvgIdentity                    99.99                99.99
-
-M-to-M                             4                    4
-TotalLength                  1893375              1893375
-AvgLength                  473343.75            473343.75
-AvgIdentity                    99.99                99.99
-
-[Feature Estimates]
-Breakpoints                        6                    4
-Relocations                        0                    0
-Translocations                     1                    0
-Inversions                         0                    0
-
-Insertions                         0                    2
-InsertionSum                       0                  102
-InsertionAvg                    0.00                51.00
-
-TandemIns                          0                    2
-TandemInsSum                       0                  102
-TandemInsAvg                    0.00                51.00
-
-[SNPs]
-TotalSNPs                          2                    2
-AT                          0(0.00%)             0(0.00%)
-AC                          0(0.00%)             0(0.00%)
-AG                          0(0.00%)             0(0.00%)
-TA                          0(0.00%)             0(0.00%)
-TC                         1(50.00%)            1(50.00%)
-TG                          0(0.00%)             0(0.00%)
-CA                          0(0.00%)             0(0.00%)
-CT                         1(50.00%)            1(50.00%)
-CG                          0(0.00%)             0(0.00%)
-GA                          0(0.00%)             0(0.00%)
-GT                          0(0.00%)             0(0.00%)
-GC                          0(0.00%)             0(0.00%)
-
-TotalGSNPs                         2                    2
-AT                          0(0.00%)             0(0.00%)
-AC                          0(0.00%)             0(0.00%)
-AG                          0(0.00%)             0(0.00%)
-TA                          0(0.00%)             0(0.00%)
-TC                         1(50.00%)            1(50.00%)
-TG                          0(0.00%)             0(0.00%)
-CA                          0(0.00%)             0(0.00%)
-CT                         1(50.00%)            1(50.00%)
-CG                          0(0.00%)             0(0.00%)
-GA                          0(0.00%)             0(0.00%)
-GT                          0(0.00%)             0(0.00%)
-GC                          0(0.00%)             0(0.00%)
-
-TotalIndels                        0                    0
-A.                          0(0.00%)             0(0.00%)
-T.                          0(0.00%)             0(0.00%)
-C.                          0(0.00%)             0(0.00%)
-G.                          0(0.00%)             0(0.00%)
-.A                          0(0.00%)             0(0.00%)
-.T                          0(0.00%)             0(0.00%)
-.C                          0(0.00%)             0(0.00%)
-.G                          0(0.00%)             0(0.00%)
-
-TotalGIndels                       0                    0
-A.                          0(0.00%)             0(0.00%)
-T.                          0(0.00%)             0(0.00%)
-C.                          0(0.00%)             0(0.00%)
-G.                          0(0.00%)             0(0.00%)
-.A                          0(0.00%)             0(0.00%)
-.T                          0(0.00%)             0(0.00%)
-.C                          0(0.00%)             0(0.00%)
-.G                          0(0.00%)             0(0.00%)
+3246	T	C	146	146	146	1892775	1889777	1	1	NC_006570	7000000218710701
+1767864	C	T	1764866	124912	124912	1892775	1889777	1	1	NC_006570	7000000218710701
 ```
 #### DNA differences (ref vs NCBI scaffolds)
 
@@ -1540,93 +1290,14 @@ This isolate has one NCBI assembly and 2 sequence runs: SRR999322, SRR1019709
 #### SNPs (ref vs NCBI scaffolds)
 
 ```
-/space2/fangfang/francisella/ref/177416.18.contigs /space2/fangfang/francisella/olive/NR-643.scaffolds.fasta
-NUCMER
-
-                               [REF]                [QRY]
-[Sequences]
-TotalSeqs                          1                    2
-AlignedSeqs               1(100.00%)           2(100.00%)
-UnalignedSeqs               0(0.00%)             0(0.00%)
-
-[Bases]
-TotalBases                   1892775              1892834
-AlignedBases        1892775(100.00%)      1892729(99.99%)
-UnalignedBases              0(0.00%)           105(0.01%)
-
-[Alignments]
-1-to-1                             5                    5
-TotalLength                  1932919              1932929
-AvgLength                  386583.80            386585.80
-AvgIdentity                    99.99                99.99
-
-M-to-M                             7                    7
-TotalLength                  1934030              1934040
-AvgLength                  276290.00            276291.43
-AvgIdentity                    99.99                99.99
-
-[Feature Estimates]
-Breakpoints                       12                   10
-Relocations                        1                    0
-Translocations                     1                    0
-Inversions                         0                    0
-
-Insertions                         2                    3
-InsertionSum                     911                  332
-InsertionAvg                  455.50               110.67
-
-TandemIns                          1                    1
-TandemInsSum                      16                   11
-TandemInsAvg                   16.00                11.00
-
-[SNPs]
-TotalSNPs                          6                    6
-AT                          0(0.00%)             0(0.00%)
-AC                          0(0.00%)             0(0.00%)
-AG                         4(66.67%)            1(16.67%)
-TA                          0(0.00%)             0(0.00%)
-TC                          0(0.00%)            1(16.67%)
-TG                          0(0.00%)             0(0.00%)
-CA                          0(0.00%)             0(0.00%)
-CT                         1(16.67%)             0(0.00%)
-CG                          0(0.00%)             0(0.00%)
-GA                         1(16.67%)            4(66.67%)
-GT                          0(0.00%)             0(0.00%)
-GC                          0(0.00%)             0(0.00%)
-
-TotalGSNPs                         6                    6
-AT                          0(0.00%)             0(0.00%)
-AC                          0(0.00%)             0(0.00%)
-AG                         4(66.67%)            1(16.67%)
-TA                          0(0.00%)             0(0.00%)
-TC                          0(0.00%)            1(16.67%)
-TG                          0(0.00%)             0(0.00%)
-CA                          0(0.00%)             0(0.00%)
-CT                         1(16.67%)             0(0.00%)
-CG                          0(0.00%)             0(0.00%)
-GA                         1(16.67%)            4(66.67%)
-GT                          0(0.00%)             0(0.00%)
-GC                          0(0.00%)             0(0.00%)
-
-TotalIndels                        2                    2
-A.                         1(50.00%)            1(50.00%)
-T.                          0(0.00%)             0(0.00%)
-C.                          0(0.00%)             0(0.00%)
-G.                          0(0.00%)             0(0.00%)
-.A                         1(50.00%)            1(50.00%)
-.T                          0(0.00%)             0(0.00%)
-.C                          0(0.00%)             0(0.00%)
-.G                          0(0.00%)             0(0.00%)
-
-TotalGIndels                       2                    2
-A.                         1(50.00%)            1(50.00%)
-T.                          0(0.00%)             0(0.00%)
-C.                          0(0.00%)             0(0.00%)
-G.                          0(0.00%)             0(0.00%)
-.A                         1(50.00%)            1(50.00%)
-.T                          0(0.00%)             0(0.00%)
-.C                          0(0.00%)             0(0.00%)
-.G                          0(0.00%)             0(0.00%)
+24609	A	G	21183	21183	21183	1892775	1889639	1	1	NC_006570	7000000218711731
+427432	A	.	424290	113862	424290	1892775	1889639	1	1	NC_006570	7000000218711731
+694308	A	G	691155	132508	691155	1892775	1889639	1	1	NC_006570	7000000218711731
+826816	A	G	823663	132508	823663	1892775	1889639	1	1	NC_006570	7000000218711731
+1419877	C	T	1416740	3285	472899	1892775	1889639	1	1	NC_006570	7000000218711731
+1423162	A	G	1420025	3285	469614	1892775	1889639	1	1	NC_006570	7000000218711731
+1540424	.	A	1537288	94156	352352	1892775	1889639	1	1	NC_006570	7000000218711731
+1634580	G	A	1631444	94156	258196	1892775	1889639	1	1	NC_006570	7000000218711731
 ```
 #### DNA differences (ref vs NCBI scaffolds)
 
@@ -2122,93 +1793,16 @@ This isolate has one NCBI assembly and 2 sequence runs: SRR999323, SRR1061349
 #### SNPs (ref vs NCBI scaffolds)
 
 ```
-/space2/fangfang/francisella/ref/177416.18.contigs /space2/fangfang/francisella/olive/SL.scaffolds.fasta
-NUCMER
-
-                               [REF]                [QRY]
-[Sequences]
-TotalSeqs                          1                    2
-AlignedSeqs               1(100.00%)           2(100.00%)
-UnalignedSeqs               0(0.00%)             0(0.00%)
-
-[Bases]
-TotalBases                   1892775              1894315
-AlignedBases         1892076(99.96%)      1893906(99.98%)
-UnalignedBases            699(0.04%)           409(0.02%)
-
-[Alignments]
-1-to-1                             6                    6
-TotalLength                  1932361              1932446
-AvgLength                  322060.17            322074.33
-AvgIdentity                    99.99                99.99
-
-M-to-M                             9                    9
-TotalLength                  1970080              1970167
-AvgLength                  218897.78            218907.44
-AvgIdentity                    99.99                99.99
-
-[Feature Estimates]
-Breakpoints                       16                   14
-Relocations                        1                    1
-Translocations                     1                    0
-Inversions                         0                    0
-
-Insertions                         5                    3
-InsertionSum                   35615                 3289
-InsertionAvg                 7123.00              1096.33
-
-TandemIns                          2                    0
-TandemInsSum                      43                    0
-TandemInsAvg                   21.50                 0.00
-
-[SNPs]
-TotalSNPs                          7                    7
-AT                         1(14.29%)            1(14.29%)
-AC                          0(0.00%)             0(0.00%)
-AG                         2(28.57%)             0(0.00%)
-TA                         1(14.29%)            1(14.29%)
-TC                         2(28.57%)             0(0.00%)
-TG                          0(0.00%)             0(0.00%)
-CA                          0(0.00%)             0(0.00%)
-CT                          0(0.00%)            2(28.57%)
-CG                          0(0.00%)            1(14.29%)
-GA                          0(0.00%)            2(28.57%)
-GT                          0(0.00%)             0(0.00%)
-GC                         1(14.29%)             0(0.00%)
-
-TotalGSNPs                         0                    0
-AT                          0(0.00%)             0(0.00%)
-AC                          0(0.00%)             0(0.00%)
-AG                          0(0.00%)             0(0.00%)
-TA                          0(0.00%)             0(0.00%)
-TC                          0(0.00%)             0(0.00%)
-TG                          0(0.00%)             0(0.00%)
-CA                          0(0.00%)             0(0.00%)
-CT                          0(0.00%)             0(0.00%)
-CG                          0(0.00%)             0(0.00%)
-GA                          0(0.00%)             0(0.00%)
-GT                          0(0.00%)             0(0.00%)
-GC                          0(0.00%)             0(0.00%)
-
-TotalIndels                        3                    3
-A.                          0(0.00%)            1(33.33%)
-T.                         1(33.33%)             0(0.00%)
-C.                         1(33.33%)             0(0.00%)
-G.                          0(0.00%)             0(0.00%)
-.A                         1(33.33%)             0(0.00%)
-.T                          0(0.00%)            1(33.33%)
-.C                          0(0.00%)            1(33.33%)
-.G                          0(0.00%)             0(0.00%)
-
-TotalGIndels                       0                    0
-A.                          0(0.00%)             0(0.00%)
-T.                          0(0.00%)             0(0.00%)
-C.                          0(0.00%)             0(0.00%)
-G.                          0(0.00%)             0(0.00%)
-.A                          0(0.00%)             0(0.00%)
-.T                          0(0.00%)             0(0.00%)
-.C                          0(0.00%)             0(0.00%)
-.G                          0(0.00%)             0(0.00%)
+635248	C	.	632498	1	632498	1892775	1891120	1	1	NC_006570	7000000218710932
+635249	T	.	632498	1	632498	1892775	1891120	1	1	NC_006570	7000000218710932
+1798705	.	A	1797050	3	94071	1892775	1891120	1	1	NC_006570	7000000218710932
+1798708	G	C	1797053	2	94068	1892775	1891120	1	1	NC_006570	7000000218710932
+1798710	T	A	1797055	2	94066	1892775	1891120	1	1	NC_006570	7000000218710932
+1798715	T	C	1797060	5	94061	1892775	1891120	1	1	NC_006570	7000000218710932
+1798723	T	C	1797068	4	94053	1892775	1891120	1	1	NC_006570	7000000218710932
+1798727	A	T	1797072	4	94049	1892775	1891120	1	1	NC_006570	7000000218710932
+1800629	A	G	1798974	17	92147	1892775	1891120	1	1	NC_006570	7000000218710932
+1800646	A	G	1798991	17	92130	1892775	1891120	1	1	NC_006570	7000000218710932
 ```
 #### DNA differences (ref vs NCBI scaffolds)
 
@@ -2640,93 +2234,7 @@ This isolate has one NCBI assembly and 1 sequence runs: SRR999318
 #### SNPs (ref vs NCBI scaffolds)
 
 ```
-/space2/fangfang/francisella/ref/177416.18.contigs /space2/fangfang/francisella/olive/FSC043.scaffolds.fasta
-NUCMER
-
-                               [REF]                [QRY]
-[Sequences]
-TotalSeqs                          1                    2
-AlignedSeqs               1(100.00%)           2(100.00%)
-UnalignedSeqs               0(0.00%)             0(0.00%)
-
-[Bases]
-TotalBases                   1892775              1893557
-AlignedBases        1892775(100.00%)      1892558(99.95%)
-UnalignedBases              0(0.00%)           999(0.05%)
-
-[Alignments]
-1-to-1                             5                    5
-TotalLength                  1932990              1933040
-AvgLength                  386598.00            386608.00
-AvgIdentity                    99.99                99.99
-
-M-to-M                             6                    6
-TotalLength                  1933885              1933935
-AvgLength                  322314.17            322322.50
-AvgIdentity                    99.99                99.99
-
-[Feature Estimates]
-Breakpoints                       10                    8
-Relocations                        0                    0
-Translocations                     1                    0
-Inversions                         0                    0
-
-Insertions                         3                    1
-InsertionSum                     920                 1203
-InsertionAvg                  306.67              1203.00
-
-TandemIns                          2                    0
-TandemInsSum                      25                    0
-TandemInsAvg                   12.50                 0.00
-
-[SNPs]
-TotalSNPs                          1                    1
-AT                          0(0.00%)             0(0.00%)
-AC                          0(0.00%)             0(0.00%)
-AG                          0(0.00%)             0(0.00%)
-TA                          0(0.00%)             0(0.00%)
-TC                          0(0.00%)           1(100.00%)
-TG                          0(0.00%)             0(0.00%)
-CA                          0(0.00%)             0(0.00%)
-CT                        1(100.00%)             0(0.00%)
-CG                          0(0.00%)             0(0.00%)
-GA                          0(0.00%)             0(0.00%)
-GT                          0(0.00%)             0(0.00%)
-GC                          0(0.00%)             0(0.00%)
-
-TotalGSNPs                         0                    0
-AT                          0(0.00%)             0(0.00%)
-AC                          0(0.00%)             0(0.00%)
-AG                          0(0.00%)             0(0.00%)
-TA                          0(0.00%)             0(0.00%)
-TC                          0(0.00%)             0(0.00%)
-TG                          0(0.00%)             0(0.00%)
-CA                          0(0.00%)             0(0.00%)
-CT                          0(0.00%)             0(0.00%)
-CG                          0(0.00%)             0(0.00%)
-GA                          0(0.00%)             0(0.00%)
-GT                          0(0.00%)             0(0.00%)
-GC                          0(0.00%)             0(0.00%)
-
-TotalIndels                        0                    0
-A.                          0(0.00%)             0(0.00%)
-T.                          0(0.00%)             0(0.00%)
-C.                          0(0.00%)             0(0.00%)
-G.                          0(0.00%)             0(0.00%)
-.A                          0(0.00%)             0(0.00%)
-.T                          0(0.00%)             0(0.00%)
-.C                          0(0.00%)             0(0.00%)
-.G                          0(0.00%)             0(0.00%)
-
-TotalGIndels                       0                    0
-A.                          0(0.00%)             0(0.00%)
-T.                          0(0.00%)             0(0.00%)
-C.                          0(0.00%)             0(0.00%)
-G.                          0(0.00%)             0(0.00%)
-.A                          0(0.00%)             0(0.00%)
-.T                          0(0.00%)             0(0.00%)
-.C                          0(0.00%)             0(0.00%)
-.G                          0(0.00%)             0(0.00%)
+3657	C	T	16	16	16	1892775	1890362	1	1	NC_006570	7000000218714945
 ```
 #### DNA differences (ref vs NCBI scaffolds)
 

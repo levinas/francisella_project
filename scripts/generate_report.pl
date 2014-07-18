@@ -82,7 +82,7 @@ sub print_report_dnadiff_text {
 
 sub print_dnadiff_snp_text {
     my ($name) = @_;
-    my $file = "$base/olive-mummer/$name/$name.report";
+    my $file = "$base/olive-mummer/$name/$name.snps";
     my $text = `cat $file`;
     print "```\n$text```\n";
 }
