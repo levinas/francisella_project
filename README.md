@@ -23,7 +23,7 @@ You can find a detailed report in [report.md](report.md).
 Isolate_name | SNPs (NCBI assembly) |SNPs (reads: Pond lib) |  SNPs (reads: Solexa lib) | Ref bases with no read coverage |
 --- | --- | --- | --- | --- |
 FSC043   |  1 | 0/0 |  0/0 | 0 |
-FTS-634  |  8 | 6/0 |  6/6 | 0 |
+FTS-634  |  8 | 6/6 |  6/6 | 0 |
 NR-10492 |  1 | 0/0 |  0/1 | 0 |
 NR-28534 |  2 | 0/0 |  0/2 | 0 |
 NR-643   |  8 | 7/7 | 10/11 | 0 |
