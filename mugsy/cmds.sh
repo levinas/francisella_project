@@ -1,0 +1,1 @@
+mugsy --prefix all /space2/fangfang/francisella/ref/AJ749949.contigs ../olive/FSC043.scaffolds.fasta ../olive/FTS-634.scaffolds.fasta ../olive/NR-10492.scaffolds.fasta ../olive/NR-28534.scaffolds.fasta ../olive/NR-643.scaffolds.fasta ../olive/SL.scaffolds.fasta
