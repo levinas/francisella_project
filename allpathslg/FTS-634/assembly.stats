@@ -1,0 +1,16 @@
+           1000    contig minimum size for reporting
+             67    number of contigs
+           36.5    number of contigs per Mb
+              9    number of scaffolds
+        1796027    total contig length
+        1835563    total scaffold length, with gaps
+           39.2    N50 contig size in kb
+           1426    N50 scaffold size in kb
+           1457    N50 scaffold size in kb, with gaps
+           4.90    number of scaffolds per Mb
+            660    median size of gaps in scaffolds
+             62    median dev of gaps in scaffolds
+           2.15    % of bases in captured gaps
+           0.00    % of bases in negative gaps (after 5 devs)
+           1.24    %% of ambiguous bases
+           0.36    ambiguities per 10,000 bases
