@@ -1,0 +1,3 @@
+library_name, project_name, organism_name,     type, paired, frag_size, frag_stddev, insert_size, insert_stddev, read_orientation, genomic_start, genomic_end
+Pond,       test,         genome,          fragment,      1,       180,          15,            ,              ,           inward,             0,           0
+Solexa,     test,         genome,          jumping,       1,          ,            ,        2500,           500,          outward,             0,           0
