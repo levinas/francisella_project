@@ -1,0 +1,99 @@
+Tue Aug 19 17:05:04 CDT 2014
+1: PREPARING DATA
+2,3: RUNNING mummer AND CREATING CLUSTERS
+# reading input file "/tmp/all.AJ749949.ntref" of length 1892776
+# construct suffix tree for sequence of length 1892776
+# (maximum input length is 2305843009213693948)
+# process 18927 characters per dot
+#....................................................................................................
+# CONSTRUCTIONTIME /space2/fangfang/programs/mugsy_x86-64-v1r2.3/MUMmer3.20/mummer /tmp/all.AJ749949.ntref 0.97
+# reading input file "/tmp/all.AJ749949.queries.fsa" of length 11361212
+# matching query-file "/tmp/all.AJ749949.queries.fsa"
+# against subject-file "/tmp/all.AJ749949.ntref"
+# COMPLETETIME /space2/fangfang/programs/mugsy_x86-64-v1r2.3/MUMmer3.20/mummer /tmp/all.AJ749949.ntref 15.83
+# SPACE /space2/fangfang/programs/mugsy_x86-64-v1r2.3/MUMmer3.20/mummer /tmp/all.AJ749949.ntref 12.85
+4: FINISHING DATA
+Tue Aug 19 17:05:27 CDT 2014
+1: PREPARING DATA
+2,3: RUNNING mummer AND CREATING CLUSTERS
+# reading input file "/tmp/all.FTS_634.ntref" of length 1892697
+# construct suffix tree for sequence of length 1892697
+# (maximum input length is 2305843009213693948)
+# process 18926 characters per dot
+#....................................................................................................
+# CONSTRUCTIONTIME /space2/fangfang/programs/mugsy_x86-64-v1r2.3/MUMmer3.20/mummer /tmp/all.FTS_634.ntref 1.18
+# reading input file "/tmp/all.FTS_634.queries.fsa" of length 9468515
+# matching query-file "/tmp/all.FTS_634.queries.fsa"
+# against subject-file "/tmp/all.FTS_634.ntref"
+# COMPLETETIME /space2/fangfang/programs/mugsy_x86-64-v1r2.3/MUMmer3.20/mummer /tmp/all.FTS_634.ntref 15.41
+# SPACE /space2/fangfang/programs/mugsy_x86-64-v1r2.3/MUMmer3.20/mummer /tmp/all.FTS_634.ntref 11.02
+4: FINISHING DATA
+Tue Aug 19 17:05:50 CDT 2014
+1: PREPARING DATA
+2,3: RUNNING mummer AND CREATING CLUSTERS
+# reading input file "/tmp/all.FSC043.ntref" of length 1893559
+# construct suffix tree for sequence of length 1893559
+# (maximum input length is 2305843009213693948)
+# process 18935 characters per dot
+#....................................................................................................
+# CONSTRUCTIONTIME /space2/fangfang/programs/mugsy_x86-64-v1r2.3/MUMmer3.20/mummer /tmp/all.FSC043.ntref 1.38
+# reading input file "/tmp/all.FSC043.queries.fsa" of length 7574956
+# matching query-file "/tmp/all.FSC043.queries.fsa"
+# against subject-file "/tmp/all.FSC043.ntref"
+# COMPLETETIME /space2/fangfang/programs/mugsy_x86-64-v1r2.3/MUMmer3.20/mummer /tmp/all.FSC043.ntref 13.11
+# SPACE /space2/fangfang/programs/mugsy_x86-64-v1r2.3/MUMmer3.20/mummer /tmp/all.FSC043.ntref 9.18
+4: FINISHING DATA
+Tue Aug 19 17:06:08 CDT 2014
+1: PREPARING DATA
+2,3: RUNNING mummer AND CREATING CLUSTERS
+# reading input file "/tmp/all.SL.ntref" of length 1894317
+# construct suffix tree for sequence of length 1894317
+# (maximum input length is 2305843009213693948)
+# process 18943 characters per dot
+#....................................................................................................
+# CONSTRUCTIONTIME /space2/fangfang/programs/mugsy_x86-64-v1r2.3/MUMmer3.20/mummer /tmp/all.SL.ntref 1.19
+# reading input file "/tmp/all.SL.queries.fsa" of length 5680639
+# matching query-file "/tmp/all.SL.queries.fsa"
+# against subject-file "/tmp/all.SL.ntref"
+# COMPLETETIME /space2/fangfang/programs/mugsy_x86-64-v1r2.3/MUMmer3.20/mummer /tmp/all.SL.ntref 9.20
+# SPACE /space2/fangfang/programs/mugsy_x86-64-v1r2.3/MUMmer3.20/mummer /tmp/all.SL.ntref 7.34
+4: FINISHING DATA
+Tue Aug 19 17:06:22 CDT 2014
+1: PREPARING DATA
+2,3: RUNNING mummer AND CREATING CLUSTERS
+# reading input file "/tmp/all.NR_643.ntref" of length 1892836
+# construct suffix tree for sequence of length 1892836
+# (maximum input length is 2305843009213693948)
+# process 18928 characters per dot
+#....................................................................................................
+# CONSTRUCTIONTIME /space2/fangfang/programs/mugsy_x86-64-v1r2.3/MUMmer3.20/mummer /tmp/all.NR_643.ntref 1.26
+# reading input file "/tmp/all.NR_643.queries.fsa" of length 3787803
+# matching query-file "/tmp/all.NR_643.queries.fsa"
+# against subject-file "/tmp/all.NR_643.ntref"
+# COMPLETETIME /space2/fangfang/programs/mugsy_x86-64-v1r2.3/MUMmer3.20/mummer /tmp/all.NR_643.ntref 6.81
+# SPACE /space2/fangfang/programs/mugsy_x86-64-v1r2.3/MUMmer3.20/mummer /tmp/all.NR_643.ntref 5.51
+4: FINISHING DATA
+Tue Aug 19 17:06:31 CDT 2014
+1: PREPARING DATA
+2,3: RUNNING mummer AND CREATING CLUSTERS
+# reading input file "/tmp/all.NR_10492.ntref" of length 1894830
+# construct suffix tree for sequence of length 1894830
+# (maximum input length is 2305843009213693948)
+# process 18948 characters per dot
+#....................................................................................................
+# CONSTRUCTIONTIME /space2/fangfang/programs/mugsy_x86-64-v1r2.3/MUMmer3.20/mummer /tmp/all.NR_10492.ntref 1.25
+# reading input file "/tmp/all.NR_10492.queries.fsa" of length 1892973
+# matching query-file "/tmp/all.NR_10492.queries.fsa"
+# against subject-file "/tmp/all.NR_10492.ntref"
+# COMPLETETIME /space2/fangfang/programs/mugsy_x86-64-v1r2.3/MUMmer3.20/mummer /tmp/all.NR_10492.ntref 4.03
+# SPACE /space2/fangfang/programs/mugsy_x86-64-v1r2.3/MUMmer3.20/mummer /tmp/all.NR_10492.ntref 3.67
+4: FINISHING DATA
+Tue Aug 19 17:06:36 CDT 2014
+CMD:cat /tmp//FTS_634 | perl -ne 'if(/^\>([^\s\:]+)\:([^\s\:]+)/){if($1 ne $2){ print ">$1.$2 $1\n";} elsif(defined $1 && defined $2){print ">$1.$2\n";}else {print ">$1\n";}}else{die if(/\>/);print $_}' >> /tmp/all.all.fsa
+CMD:cat /tmp//AJ749949 | perl -ne 'if(/^\>([^\s\:]+)\:([^\s\:]+)/){if($1 ne $2){ print ">$1.$2 $1\n";} elsif(defined $1 && defined $2){print ">$1.$2\n";}else {print ">$1\n";}}else{die if(/\>/);print $_}' >> /tmp/all.all.fsa
+CMD:cat /tmp//FSC043 | perl -ne 'if(/^\>([^\s\:]+)\:([^\s\:]+)/){if($1 ne $2){ print ">$1.$2 $1\n";} elsif(defined $1 && defined $2){print ">$1.$2\n";}else {print ">$1\n";}}else{die if(/\>/);print $_}' >> /tmp/all.all.fsa
+CMD:cat /tmp//SL | perl -ne 'if(/^\>([^\s\:]+)\:([^\s\:]+)/){if($1 ne $2){ print ">$1.$2 $1\n";} elsif(defined $1 && defined $2){print ">$1.$2\n";}else {print ">$1\n";}}else{die if(/\>/);print $_}' >> /tmp/all.all.fsa
+CMD:cat /tmp//NR_643 | perl -ne 'if(/^\>([^\s\:]+)\:([^\s\:]+)/){if($1 ne $2){ print ">$1.$2 $1\n";} elsif(defined $1 && defined $2){print ">$1.$2\n";}else {print ">$1\n";}}else{die if(/\>/);print $_}' >> /tmp/all.all.fsa
+CMD:cat /tmp//NR_10492 | perl -ne 'if(/^\>([^\s\:]+)\:([^\s\:]+)/){if($1 ne $2){ print ">$1.$2 $1\n";} elsif(defined $1 && defined $2){print ">$1.$2\n";}else {print ">$1\n";}}else{die if(/\>/);print $_}' >> /tmp/all.all.fsa
+CMD:cat /tmp//NR_28534 | perl -ne 'if(/^\>([^\s\:]+)\:([^\s\:]+)/){if($1 ne $2){ print ">$1.$2 $1\n";} elsif(defined $1 && defined $2){print ">$1.$2\n";}else {print ">$1\n";}}else{die if(/\>/);print $_}' >> /tmp/all.all.fsa
+CMD:/space2/fangfang/programs/mugsy_x86-64-v1r2.3/mugsyWGA --outfile /tmp/all --seq /tmp/all.all.fsa --aln /tmp/all.xmfa --distance 1000 --minlength 30  --unique true  > /tmp/all.mugsywga.out 2> /tmp/all.mugsywga.stderr
