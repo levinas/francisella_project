@@ -8,13 +8,13 @@ my $usage = "Usage: $0 vertical_alignment.txt\n\n";
 my $va = shift @ARGV or die $usage;
 
 my $context = 3;
-my $collapse = 1;
+my $collapse = 0;
 my $annoF = 'RD_annotation.txt';
 
 my %annoH = map { chomp; my ($loc, $desc, $link) = split/\t/;
                   $loc => rast_href($desc, $link) } `cat $annoF`;
 
-print STDERR '\%annoH = '. Dumper(\%annoH);
+# print STDERR '\%annoH = '. Dumper(\%annoH);
 
 my @orgs = qw(AJ749949 FSC043 NR-10492 NR-28534 SL FTS-634 NR-643);
 
@@ -51,7 +51,8 @@ sub base_class {
 sub get_rows {
     my @rows;
     push @rows, "<pre>";
-    my @lines = `grep -P '(IND|SNP)' -C $context $va`;
+    # my @lines = `grep -P '(IND|SNP)' -C $context $va`;
+    my @lines = `cat rd.txt`;
 
     my $k;
     my @mark;
@@ -152,8 +153,8 @@ sub get_rows {
         }
 
         my $row = join(" ", @d);
-        $row .= "         $anno" if $anno;
         $row = span_css($row, 'snp_row') if $type eq 'SNP';
+        $row .= "    $anno" if $anno;
         push @rows, $row;
     }
     push @rows, '----------------------------------------------------------------------------------------';
