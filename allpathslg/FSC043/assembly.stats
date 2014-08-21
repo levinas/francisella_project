@@ -1,0 +1,20 @@
+
+------------------ AllPathsReport -> assembly_stats.report
+
+           1000    contig minimum size for reporting
+             71    number of contigs
+           38.1    number of contigs per Mb
+              5    number of scaffolds
+        1808220    total contig length
+        1862920    total scaffold length, with gaps
+           39.2    N50 contig size in kb
+            996    N50 scaffold size in kb
+           1032    N50 scaffold size in kb, with gaps
+           2.68    number of scaffolds per Mb
+            685    median size of gaps in scaffolds
+             25    median dev of gaps in scaffolds
+           2.94    % of bases in captured gaps
+           0.00    % of bases in negative gaps (after 5 devs)
+           1.14    %% of ambiguous bases
+           0.84    ambiguities per 10,000 bases
+

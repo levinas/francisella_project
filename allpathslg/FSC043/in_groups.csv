@@ -1,0 +1,3 @@
+            file_name, library_name, group_name
+seq/SRR999318_?.fastq,  Pond,        frags
+seq/SRR1061345_?.fastq, Solexa,      jumps
