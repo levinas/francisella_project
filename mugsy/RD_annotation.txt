@@ -1,0 +1,2 @@
+NR-10492:1_1	Repeat region (957 nt, NR-10492_1:1:957)	fig|177416.27.repeat.1
+AJ749949:3243	Moble element protein (139 aa, AJ749949:3620:3204; 16 copies)	fig|177416.30.peg.4
