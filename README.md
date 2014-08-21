@@ -18,6 +18,10 @@ isolates to a published F. tularensis Schu S4 genomic sequence.
 
 ### Summary
 
+You can find the table of regions of difference in [RD.html](http://bioseed.mcs.anl.gov/~fangfang/francisella/RD.html)
+
+You can see the complete list of 17 SNPs and 4498 INDELs [RD_full.html](http://bioseed.mcs.anl.gov/~fangfang/francisella/RD_full.html)
+
 You can find a detailed report in [report.md](report.md).
 
 Isolate_name | SNPs (NCBI assembly) |SNPs (reads: Pond lib) |  SNPs (reads: Solexa lib) | Ref bases with no read coverage |
@@ -44,3 +48,4 @@ SNPs is 0.3.
 * [assembly/](assembly): De novo assemblies computed using Assembly-RAST (with --recipe "rast")
 * [rast2/](rast2): RAST2 annotations of de novo assembled contigs
 * [olive-mummer/](olive-mummer): SNPs estimated by comparing reference and NCBI scaffolds downloaded from the Olive data portal of Broad Institute.
+* [mugsy/](mugsy): Whole-genome DNA alignment of all NCBI scaffolds and reference using Mugsy
