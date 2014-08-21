@@ -26,10 +26,10 @@ You can find a detailed report in [report.md](report.md).
 
 ### Phylogenetic tree
 
-NJ tree based on GSNP counts (SNPs that have 20 identical base pairs that flank them
+* NJ tree based on GSNP counts (SNPs that have 20 identical base pairs that flank them)
 ![NJ tree based on GSNP counts](http://bioseed.mcs.anl.gov/~fangfang/francisella/NJ-GSNP-small.png)
 
-NJ tree based on aligned 4515 variant bases
+* NJ tree based on aligned 4515 variant bases
 ![NJ tree based on aligned 4515 variant bases](http://bioseed.mcs.anl.gov/~fangfang/francisella/var-tree-small.png)
 
 ### SNPs
