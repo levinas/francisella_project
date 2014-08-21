@@ -30,6 +30,7 @@ You can find a detailed report in [report.md](report.md).
 ![NJ tree based on GSNP counts](http://bioseed.mcs.anl.gov/~fangfang/francisella/NJ-GSNP-small.png)
 
 * NJ tree based on aligned 4515 variant bases
+
 ![NJ tree based on aligned 4515 variant bases](http://bioseed.mcs.anl.gov/~fangfang/francisella/var-tree-small.png)
 
 ### SNPs
