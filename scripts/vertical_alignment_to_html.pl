@@ -152,7 +152,7 @@ sub get_rows {
         }
 
         my $row = join(" ", @d);
-        $row .= "       $anno" if $anno;
+        $row .= "         $anno" if $anno;
         $row = span_css($row, 'snp_row') if $type eq 'SNP';
         push @rows, $row;
     }
