@@ -22,7 +22,7 @@ You can find the table of regions of difference in [RD.html](http://bioseed.mcs.
 
 You can see the complete list of 17 SNPs and 4498 INDELs [RD_full.html](http://bioseed.mcs.anl.gov/~fangfang/francisella/RD_full.html)
 
-You can find a detailed report in [report.md](report.md).
+You can find a detailed report in [REPORT.md](REPORT.md).
 
 Isolate_name | SNPs (NCBI assembly) |SNPs (reads: Pond lib) |  SNPs (reads: Solexa lib) | Ref bases with no read coverage |
 --- | --- | --- | --- | --- |
