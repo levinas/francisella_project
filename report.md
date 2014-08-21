@@ -2,7 +2,6 @@
 
 This isolate has one NCBI assembly and 2 sequence runs: SRR999319, SRR1061346
 
-
 ### FTS-634 scaffolds
 
 #### Contig alignment (ref vs NCBI scaffolds)
