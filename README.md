@@ -24,6 +24,14 @@ You can see the complete list of 17 SNPs and 4498 INDELs [RD_full.html](http://b
 
 You can find a detailed report in [report.md](report.md).
 
+### Phylogenetic tree
+
+![NJ tree based on GSNP counts (SNPs that have 20 identical base pairs that flank them)](http://bioseed.mcs.anl.gov/~fangfang/francisella/NJ-GSNP-small.png)
+
+![NJ tree based on aligned 4515 variant bases](http://bioseed.mcs.anl.gov/~fangfang/francisella/var-tree-small.png)
+
+### SNPs
+
 Isolate_name | SNPs (NCBI assembly) |SNPs (reads: Pond lib) |  SNPs (reads: Solexa lib) | Ref bases with no read coverage |
 --- | --- | --- | --- | --- |
 FSC043   |  1 | 0/0 |  0/0 | 0 |
@@ -49,3 +57,4 @@ SNPs is 0.3.
 * [rast2/](rast2): RAST2 annotations of de novo assembled contigs
 * [olive-mummer/](olive-mummer): SNPs estimated by comparing reference and NCBI scaffolds downloaded from the Olive data portal of Broad Institute.
 * [mugsy/](mugsy): Whole-genome DNA alignment of all NCBI scaffolds and reference using Mugsy
+* [trees/](trees): Phylogenetic trees of the seven isolates
