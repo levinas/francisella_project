@@ -12,23 +12,23 @@ NR-643:1_305472	Intergenic (RAST) or hypothetical protein (Broad)
 SL:1_381029	Hypothetical protein (35 aa, SL_1:381821:381925)	fig|177416.29.peg.414
 SL:1_381030	SL has this short protein inserted between another hypothetical protein and a mobile element protein (called by RAST and Broad)
 FTS-634:1_424118	   Glucose-1-phosphate adenylyltransferase (EC 2.7.7.27) (424 aa, FTS-634_1:422992:424263)	fig|177416.25.peg.447
-AJ749949:427432	  Seems the reference strain had a frameshift which broke the above gene and introduced a short gene:
+AJ749949:427432	  <b>Seems the reference and the first four strains shared a frameshift which broke the above gene and introduced a short gene:</b>
 AJ749949:427433	     Glucose-1-phosphate adenylyltransferase (EC 2.7.7.27) (44 aa, AJ749949:427437:427577)	fig|177416.30.peg.451
 AJ749949:541278	Intergenic region between NADPH-dependent broad range aldehyde dehydrogenase YqhD (186 aa, AJ749949:540518:541075)	fig|177416.30.peg.570
 AJ749949:541279	  and Ribosomal protein L11 methyltransferase (EC 2.1.1.-) (282 aa, AJ749949:541312:542157)	fig|177416.30.peg.571
-AJ749949:694308	Nonsyn (gAa -> gGa, E -> G); Hemolysins and related proteins containing CBS domains (420 aa, AJ749949:693461:694720)	fig|177416.30.peg.749
-AJ749949:826816	Nonsyn (gAt -> gGt, D -> G); Hypothetical protein in predicted poly-gamma-glutamate synthase operon (404 aa, 826545:827756)	fig|177416.30.peg.895
+AJ749949:694308	<b>Nonsyn (gAa -> gGa, E -> G); Hemolysins and related proteins containing CBS domains (420 aa, AJ749949:693461:694720)</b>	fig|177416.30.peg.749
+AJ749949:826816	<b>Nonsyn (gAt -> gGt, D -> G); Hypothetical protein in predicted poly-gamma-glutamate synthase operon (404 aa, 826545:827756)</b>	fig|177416.30.peg.895
 FTS-634:1_1280350	Intergenic; between Tryptophan repressor binding protein (44 aa, AJ749949:1283602:1283471)	fig|177416.30.peg.1413
 FTS-634:1_1280351	  and Mobile element protein (127 aa, AJ749949:1283965:1284345)	fig|177416.30.peg.1413
 NR-10492:1_1281283	Intergenic in all strains except NR-10492
 NR-10492:1_1281286	  NR-10492 has an inserted protein: Succinate-semialdehyde dehydrogenase [NAD(P)+] (EC 1.2.1.16) (147 aa, NR-10492_1:1281413:1280973)	fig|177416.27.peg.1411
 NR-10492:1_1282723	Intergenic in NR-10492
 NR-10492:1_1282724	  In all other strains: mobile element protein (127 aa, AJ749949:1283965:1284345)	fig|177416.30.peg.1414
-AJ749949:1419877	Nonsyn (Cct -> Tct, P -> S); 3-oxoacyl-[acyl-carrier-protein] synthase, KASIII (EC 2.3.1.180) (324 aa, AJ749949:1419073:1420044)	fig|177416.30.peg.1534
-AJ749949:1423162	Nonsyn (Agt -> Ggt, S -> G); 3-oxoacyl-[acyl-carrier-protein] synthase, KASII (EC 2.3.1.179) (420 aa, AJ749949:1422229:1423488)	fig|177416.30.peg.1538
+AJ749949:1419877	<b>Nonsyn (Cct -> Tct, P -> S); 3-oxoacyl-[acyl-carrier-protein] synthase, KASIII (EC 2.3.1.180) (324 aa, AJ749949:1419073:1420044)</b>	fig|177416.30.peg.1534
+AJ749949:1423162	<b>Nonsyn (Agt -> Ggt, S -> G); 3-oxoacyl-[acyl-carrier-protein] synthase, KASII (EC 2.3.1.179) (420 aa, AJ749949:1422229:1423488)</b>	fig|177416.30.peg.1538
 FTS-634:1_1537149	Intergenic between COG1565: Uncharacterized conserved protein (356 aa, AJ749949:1540272:1539205)	fig|177416.30.peg.1657
 FTS-634:1_1537150	      and Pyruvate dehydrogenase E1 component (EC 1.2.4.1) (894 aa, AJ749949:1538905:1536224)	fig|177416.30.peg.1657
-AJ749949:1634580	Nonsyn (aCa -> aTa, T -> I); Outer membrane protein assembly factor YaeT precursor (779 aa, AJ749949:1636054:1633718)	fig|177416.30.peg.1757
+AJ749949:1634580	<b>Nonsyn (aCa -> aTa, T -> I); Outer membrane protein assembly factor YaeT precursor (779 aa, AJ749949:1636054:1633718)</b>	fig|177416.30.peg.1757
 AJ749949:1766968	Deleted in SL: NAD-dependent formate dehydrogenase (EC 1.2.1.2) (255 aa, AJ749949:1767718:1766954)	fig|177416.30.peg.1907
 AJ749949:1767864	Intergenic
 AJ749949:1798708	Multiple mutations in SL:

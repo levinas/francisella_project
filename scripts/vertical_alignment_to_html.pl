@@ -8,7 +8,7 @@ my $usage = "Usage: $0 vertical_alignment.txt\n\n";
 my $va = shift @ARGV or die $usage;
 
 my $context = 3;
-my $collapse = 0;
+my $collapse = 1;
 my $annoF = 'RD_annotation.txt';
 
 my %annoH = map { chomp; my ($loc, $desc, $link) = split/\t/;
