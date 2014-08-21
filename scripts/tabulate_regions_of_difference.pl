@@ -4,7 +4,11 @@ use strict;
 
 my $usage = "Usage: $0 [-maf mugsy.maf] [-ref org] org1.fa org2.fa ...\n\n";
 
+# reference in the middle:
 # scripts/tabulate_regions_of_difference.pl -maf mugsy/all.maf olive/SL.scaffolds.fasta olive/NR-10492.scaffolds.fasta olive/NR-28534.scaffolds.fasta olive/FSC043.scaffolds.fasta ref/AJ749949.contigs olive/FTS-634.scaffolds.fasta olive/NR-643.scaffolds.fasta  -sort AJ749949 FTS-634 NR-643 FSC043 NR-28534 NR-10492 SL
+
+# reference on the left:
+# scripts/tabulate_regions_of_difference.pl -maf mugsy/curated.all.maf ref/AJ749949.contigs olive/FSC043.scaffolds.fasta olive/NR-10492.scaffolds.fasta olive/NR-28534.scaffolds.fasta olive/SL.scaffolds.fasta olive/FTS-634.scaffolds.fasta olive/NR-643.scaffolds.fasta -sort AJ749949 FTS-634 NR-643 FSC043 NR-28534 NR-10492 SL >va.txt
 
 use gjoseqlib;
 use Data::Dumper;
@@ -33,7 +37,74 @@ my @blocks = get_maf($maf, $orgH);
 # exit;
 @blocks = sort { cmp_blocks($a, $b, \@org_sort) } @blocks;
 # @blocks = sort @blocks;
-print STDERR '$blocks = '. Dumper(\@blocks);
+# print STDERR '$blocks = '. Dumper(\@blocks);
+
+$ref ||= ($org_sort[0] || $orgs[0]);
+$ref = org_to_name($ref);
+
+for my $block (@blocks) {
+    my $i;
+    my $start = $block->{$ref}->{start}; # in: 0-based
+    my %beg;
+    for (@orgs) {
+        my $name = org_to_name($_);
+        $beg{$name} = $block->{$name}->{start};
+    }
+    my %ctg;
+    for (@orgs) {
+        my $name = org_to_name($_);
+        $ctg{$name} = $block->{$name}->{contigNo};
+    }
+    while (1) {
+        my $refbase = substr($block->{$ref}->{seq}, $i, 1);
+        $start++ if $refbase =~ /[ATGCN]/; # 1-based 
+        my $coord = $start;
+        $coord = $coord .  ($refbase eq '-' ? '*' : ' ');
+        $coord = sprintf "%8s", $coord;
+        my @cols; 
+        my @cols2;
+        my $nongap;
+        my $ambig;
+        my %seen;
+        for (@orgs) {
+            my $name = org_to_name($_);
+            my $base = substr($block->{$name}->{seq}, $i, 1);
+            if ($base) {
+                $ambig++ if $base eq 'N';
+                if ($base ne 'N' && $base ne '-') {
+                    $seen{$base}++;
+                    $nongap++;
+                }
+            } else {
+                $base = ' ';                
+            }
+            push @cols, $base;
+
+            if ($name ne $ref) {
+                $beg{$name}++ if $base =~ /[ATGCN]/; # 1-based 
+                my $co;
+                $co = "$ctg{$name}_" . $beg{$name} if $base ne ' ';
+                $co .= $base eq '-' ? '*' : ' ';
+                $co = sprintf "%10s", $co;
+                # $co = sprintf "%17s", "$name:$co";
+                push @cols2, $co;
+            }
+        }
+        last unless $nongap || $ambig;
+        $i++;
+        my $flag;
+        $flag = 'IND' if $nongap > 0 && $nongap < @orgs;
+        $flag = 'SNP' if keys %seen > 1;
+        # print join("\t", $coord, @cols, $flag, join(",", @cols2)) . "\n";
+        print join("\t", $coord, @cols, $flag, @cols2) . "\n";
+    }
+    print "\n";
+}
+
+sub get_coordinate_for_block {
+    my ($block, $org_sort, $i) = @_;
+    
+}
 
 sub cmp_blocks {
     my ($b1, $b2, $org_sort) = @_;
@@ -47,7 +118,6 @@ sub cmp_blocks {
         my $s2 = $b2->{$org}->{start}; $s2 = 999999999999 unless defined($s2);
         $rv = ($n1 <=> $n2 || $s1 <=> $s2);
         # print join("  ", $rv, $b1->{$org}->{contigNo}, $b2->{$org}->{contigNo}, $b1->{$org}->{start}, $b2->{$org}->{start}) . "\n";
-        
         last if $rv;
     }
     return $rv;
@@ -70,7 +140,7 @@ sub get_maf {
             my ($org, $contig) = split(/\./, $src);
             $block{$org} = { src => $src, start => $start, size => $size, strand => $strand,
                              srcSize => $srcSize,
-                             # seq => $seq,
+                             seq => $seq,
                              org => $org, contig => $contig,
                              contigNo => $orgH->{$org}->{$contig}->[0],
                              contigLen => $orgH->{$org}->{$contig}->[1] };
@@ -97,4 +167,8 @@ sub get_org_contigs {
     wantarray ? %hash : \%hash;
 }
 
-
+sub org_to_name {
+    my ($org) = @_;
+    $org =~ s|.*/||; $org =~ s/\..*$//; $org =~ s/-/_/g;
+    return $org;
+}
