@@ -1,0 +1,84 @@
+FTS-634	SRR1061346	24609	A	G	10729.4	338	0.99									FTT_0025c: hypothetical protein	FTT_0026c: hypothetical protein
+FTS-634	SRR999319	24609	A	G	24485.2	720	1.00									FTT_0025c: hypothetical protein	FTT_0026c: hypothetical protein
+NR-643	SRR1019709	24609	A	G	9457.33	305	0.99									FTT_0025c: hypothetical protein	FTT_0026c: hypothetical protein
+NR-643	SRR999322	24609	A	G	30057.6	889	1.00									FTT_0025c: hypothetical protein	FTT_0026c: hypothetical protein
+FSC043	SRR1061345	66337	T	G	1.92624e-13	423	0.21	Synon	ggt	ggG	G	G	atpC	FTT_0065: ATP synthase F0F1 subunit epsilon		FTT_0064: ATP synthase F0F1 subunit beta	FTT_0066: hypothetical protein
+FSC043	SRR999318	66337	T	G	0	251	0.27	Synon	ggt	ggG	G	G	atpC	FTT_0065: ATP synthase F0F1 subunit epsilon		FTT_0064: ATP synthase F0F1 subunit beta	FTT_0066: hypothetical protein
+FTS-634	SRR999319	66337	T	G	2.2276e-13	327	0.31	Synon	ggt	ggG	G	G	atpC	FTT_0065: ATP synthase F0F1 subunit epsilon		FTT_0064: ATP synthase F0F1 subunit beta	FTT_0066: hypothetical protein
+NR-10492	SRR999320	66337	T	G	2.21072e-13	352	0.30	Synon	ggt	ggG	G	G	atpC	FTT_0065: ATP synthase F0F1 subunit epsilon		FTT_0064: ATP synthase F0F1 subunit beta	FTT_0066: hypothetical protein
+NR-28534	SRR999321	66337	T	G	1.37899e-13	415	0.30	Synon	ggt	ggG	G	G	atpC	FTT_0065: ATP synthase F0F1 subunit epsilon		FTT_0064: ATP synthase F0F1 subunit beta	FTT_0066: hypothetical protein
+NR-643	SRR999322	66337	T	G	8.38967e-14	302	0.28	Synon	ggt	ggG	G	G	atpC	FTT_0065: ATP synthase F0F1 subunit epsilon		FTT_0064: ATP synthase F0F1 subunit beta	FTT_0066: hypothetical protein
+SL	SRR999323	66337	T	G	0	297	0.28	Synon	ggt	ggG	G	G	atpC	FTT_0065: ATP synthase F0F1 subunit epsilon		FTT_0064: ATP synthase F0F1 subunit beta	FTT_0066: hypothetical protein
+FTS-634	SRR999319	187877	T	G	0	193	0.23	Synon	ggt	ggG	G	G	FTT_0173	FTT_0173: FTT_0173	frameshift	FTT_0172: FTT_0172	FTT_0174: hypothetical protein
+NR-10492	SRR999320	187877	T	G	8.14859e-14	286	0.24	Synon	ggt	ggG	G	G	FTT_0173	FTT_0173: FTT_0173	frameshift	FTT_0172: FTT_0172	FTT_0174: hypothetical protein
+NR-28534	SRR999321	187877	T	G	0	298	0.24	Synon	ggt	ggG	G	G	FTT_0173	FTT_0173: FTT_0173	frameshift	FTT_0172: FTT_0172	FTT_0174: hypothetical protein
+NR-643	SRR999322	187877	T	G	3.07384e-14	232	0.24	Synon	ggt	ggG	G	G	FTT_0173	FTT_0173: FTT_0173	frameshift	FTT_0172: FTT_0172	FTT_0174: hypothetical protein
+SL	SRR999323	187877	T	G	6.58156e-14	222	0.24	Synon	ggt	ggG	G	G	FTT_0173	FTT_0173: FTT_0173	frameshift	FTT_0172: FTT_0172	FTT_0174: hypothetical protein
+FSC043	SRR999318	216682	T	G	0	206	0.21	Synon	ggt	ggG	G	G	blc	FTT_0198: outer membrane lipoprotein		FTT_0197c: DNA polymerase III subunit delta	FTT_0199: FTT_0199
+FTS-634	SRR999319	216682	T	G	0	196	0.22	Synon	ggt	ggG	G	G	blc	FTT_0198: outer membrane lipoprotein		FTT_0197c: DNA polymerase III subunit delta	FTT_0199: FTT_0199
+NR-10492	SRR999320	216682	T	G	0	271	0.23	Synon	ggt	ggG	G	G	blc	FTT_0198: outer membrane lipoprotein		FTT_0197c: DNA polymerase III subunit delta	FTT_0199: FTT_0199
+NR-28534	SRR999321	216682	T	G	8.23299e-14	286	0.22	Synon	ggt	ggG	G	G	blc	FTT_0198: outer membrane lipoprotein		FTT_0197c: DNA polymerase III subunit delta	FTT_0199: FTT_0199
+NR-643	SRR999322	216682	T	G	1.22229e-13	231	0.22	Synon	ggt	ggG	G	G	blc	FTT_0198: outer membrane lipoprotein		FTT_0197c: DNA polymerase III subunit delta	FTT_0199: FTT_0199
+SL	SRR999323	216682	T	G	0	230	0.23	Synon	ggt	ggG	G	G	blc	FTT_0198: outer membrane lipoprotein		FTT_0197c: DNA polymerase III subunit delta	FTT_0199: FTT_0199
+FSC043	SRR999318	347342	T	G	1.14997e-13	196	0.20	Nonsyn	gta	gGa	V	G	secY	FTT_0345: preprotein translocase subunit SecY		FTT_0344: 50S ribosomal protein L15	FTT_0346: 50S ribosomal protein L36
+NR-643	SRR999322	347342	T	G	0	199	0.20	Nonsyn	gta	gGa	V	G	secY	FTT_0345: preprotein translocase subunit SecY		FTT_0344: 50S ribosomal protein L15	FTT_0346: 50S ribosomal protein L36
+FTS-634	SRR1061346	427426	GAAAAAAAG	GAAAAAAG	13368.2	468	0.97	Deletion	ctgaaaaaaagt	ctGAAAAAAGt	LKKS	LKK	glgC	FTT_0415: glgC	frameshift	FTT_0414: phosphoglucomutase	FTT_0416: glycogen synthase
+FTS-634	SRR999319	427426	GAAAAAAAG	GAAAAAAG	30269.4	959	0.99	Deletion	ctgaaaaaaagt	ctGAAAAAAGt	LKKS	LKK	glgC	FTT_0415: glgC	frameshift	FTT_0414: phosphoglucomutase	FTT_0416: glycogen synthase
+NR-643	SRR1019709	427426	GAAAAAAAG	GAAAAAAG	11602.7	393	0.97	Deletion	ctgaaaaaaagt	ctGAAAAAAGt	LKKS	LKK	glgC	FTT_0415: glgC	frameshift	FTT_0414: phosphoglucomutase	FTT_0416: glycogen synthase
+NR-643	SRR999322	427426	GAAAAAAAG	GAAAAAAG	30569.2	964	0.99	Deletion	ctgaaaaaaagt	ctGAAAAAAGt	LKKS	LKK	glgC	FTT_0415: glgC	frameshift	FTT_0414: phosphoglucomutase	FTT_0416: glycogen synthase
+FTS-634	SRR1061346	541269	CTTTATATAAGTTTTATATAAGTTTTATATAAGTT	CTTTATATAAGTTTTATATAAGTT	3323.61	119	0.92	Deletion								FTT_0517: FTT_0517	FTT_0518: 50S ribosomal protein L11 methyltransferase
+FTS-634	SRR999319	541269	CTTTATATAAGTTTTATATAAGTTTTATATAAGTT	CTTTATATAAGTTTTATATAAGTT	13634	426	0.96	Deletion								FTT_0517: FTT_0517	FTT_0518: 50S ribosomal protein L11 methyltransferase
+NR-643	SRR1019709	541269	CTTTATATAAGTTTTATATAAGTTTTATATAAGTT	CTTTATATAAGTTTTATATAAGTT	2876.5	101	0.91	Deletion								FTT_0517: FTT_0517	FTT_0518: 50S ribosomal protein L11 methyltransferase
+NR-643	SRR999322	541269	CTTTATATAAGTTTTATATAAGTTTTATATAAGTT	CTTTATATAAGTTTTATATAAGTT	14170.1	443	0.97	Deletion								FTT_0517: FTT_0517	FTT_0518: 50S ribosomal protein L11 methyltransferase
+SL	SRR1061349	635246	GTCT	GT	11412	392	0.97	Deletion	gagaca	gACa	ET	D	FTT_0615c	FTT_0615c: metal ion transporter protein		FTT_0614c: apolipoprotein N-acyltransferase	FTT_0616c: hypothetical protein
+SL	SRR999323	635246	GTCT	GT	27132.4	860	0.97	Deletion	gagaca	gACa	ET	D	FTT_0615c	FTT_0615c: metal ion transporter protein		FTT_0614c: apolipoprotein N-acyltransferase	FTT_0616c: hypothetical protein
+FTS-634	SRR1061346	694308	A	G	10770.1	365	0.99	Nonsyn	gaa	gGa	E	G	FTT_0676	FTT_0676: hypothetical protein		FTT_0675: 50S ribosomal protein L25	FTT_0677c: hypothetical protein
+FTS-634	SRR999319	694308	A	G	30643.5	952	1.00	Nonsyn	gaa	gGa	E	G	FTT_0676	FTT_0676: hypothetical protein		FTT_0675: 50S ribosomal protein L25	FTT_0677c: hypothetical protein
+NR-643	SRR1019709	694308	A	G	12018.9	403	0.99	Nonsyn	gaa	gGa	E	G	FTT_0676	FTT_0676: hypothetical protein		FTT_0675: 50S ribosomal protein L25	FTT_0677c: hypothetical protein
+NR-643	SRR999322	694308	A	G	33097.5	1025	1.00	Nonsyn	gaa	gGa	E	G	FTT_0676	FTT_0676: hypothetical protein		FTT_0675: 50S ribosomal protein L25	FTT_0677c: hypothetical protein
+FTS-634	SRR1061346	826816	A	G	14506.4	482	0.99	Nonsyn	gat	gGt	D	G	FTT_0807	FTT_0807: hypothetical protein		FTT_0806: capsule biosynthesis protein CapC	FTT_0808: guanosine-3%27%2C5%27-bis%28diphosphate%29 3%27-pyrophosphohydrolase
+FTS-634	SRR999319	826816	A	G	30563	931	1.00	Nonsyn	gat	gGt	D	G	FTT_0807	FTT_0807: hypothetical protein		FTT_0806: capsule biosynthesis protein CapC	FTT_0808: guanosine-3%27%2C5%27-bis%28diphosphate%29 3%27-pyrophosphohydrolase
+NR-643	SRR1019709	826816	A	G	14680.1	478	0.99	Nonsyn	gat	gGt	D	G	FTT_0807	FTT_0807: hypothetical protein		FTT_0806: capsule biosynthesis protein CapC	FTT_0808: guanosine-3%27%2C5%27-bis%28diphosphate%29 3%27-pyrophosphohydrolase
+NR-643	SRR999322	826816	A	G	34970	1062	1.00	Nonsyn	gat	gGt	D	G	FTT_0807	FTT_0807: hypothetical protein		FTT_0806: capsule biosynthesis protein CapC	FTT_0808: guanosine-3%27%2C5%27-bis%28diphosphate%29 3%27-pyrophosphohydrolase
+FSC043	SRR999318	1208109	G	T	0	213	0.25	Nonsyn	tgt	tTt	C	F	FTT_1191	FTT_1191: aminoacylase		FTT_1190c: exodeoxyribonuclease VII large subunit	FTT_1192c: FTT_1192c
+FTS-634	SRR999319	1208109	G	T	0	206	0.24	Nonsyn	tgt	tTt	C	F	FTT_1191	FTT_1191: aminoacylase		FTT_1190c: exodeoxyribonuclease VII large subunit	FTT_1192c: FTT_1192c
+NR-10492	SRR999320	1208109	G	T	8.08832e-14	195	0.22	Nonsyn	tgt	tTt	C	F	FTT_1191	FTT_1191: aminoacylase		FTT_1190c: exodeoxyribonuclease VII large subunit	FTT_1192c: FTT_1192c
+NR-28534	SRR999321	1208109	G	T	0	314	0.25	Nonsyn	tgt	tTt	C	F	FTT_1191	FTT_1191: aminoacylase		FTT_1190c: exodeoxyribonuclease VII large subunit	FTT_1192c: FTT_1192c
+NR-643	SRR999322	1208109	G	T	5.95472e-14	207	0.23	Nonsyn	tgt	tTt	C	F	FTT_1191	FTT_1191: aminoacylase		FTT_1190c: exodeoxyribonuclease VII large subunit	FTT_1192c: FTT_1192c
+SL	SRR999323	1208109	G	T	9.37813e-14	208	0.23	Nonsyn	tgt	tTt	C	F	FTT_1191	FTT_1191: aminoacylase		FTT_1190c: exodeoxyribonuclease VII large subunit	FTT_1192c: FTT_1192c
+FSC043	SRR999318	1223750	T	G	0	208	0.21	Synon	ggt	ggG	G	G	gidA	FTT_1205: tRNA uridine 5-carboxymethylaminomethyl modification protein GidA		FTT_1204c: hypothetical protein	FTT_1206: hypothetical protein
+FTS-634	SRR999319	1223750	T	G	1.05474e-13	203	0.21	Synon	ggt	ggG	G	G	gidA	FTT_1205: tRNA uridine 5-carboxymethylaminomethyl modification protein GidA		FTT_1204c: hypothetical protein	FTT_1206: hypothetical protein
+NR-28534	SRR999321	1223750	T	G	0	253	0.21	Synon	ggt	ggG	G	G	gidA	FTT_1205: tRNA uridine 5-carboxymethylaminomethyl modification protein GidA		FTT_1204c: hypothetical protein	FTT_1206: hypothetical protein
+NR-643	SRR999322	1223750	T	G	0	203	0.21	Synon	ggt	ggG	G	G	gidA	FTT_1205: tRNA uridine 5-carboxymethylaminomethyl modification protein GidA		FTT_1204c: hypothetical protein	FTT_1206: hypothetical protein
+NR-643	SRR1019709	1244876	C	T	0	224	0.45	Nonsyn	gct	gTt	A	V	rne	FTT_1227: ribonuclease E		FTT_1226c: cysteine desulfurase	FTT_1228: prolipoprotein diacylglyceryl transferase
+NR-643	SRR999322	1244876	C	T	0	446	0.41	Nonsyn	gct	gTt	A	V	rne	FTT_1227: ribonuclease E		FTT_1226c: cysteine desulfurase	FTT_1228: prolipoprotein diacylglyceryl transferase
+FTS-634	SRR999319	1369973	A	C	0	196	0.22	Synon	ggt	ggG	G	G	FTT_1339c	FTT_1339c: sulfate permease family protein		FTT_1338c: translation initiation inhibitor	: 
+FTS-634	SRR1061346	1419877	C	T	14664.1	502	0.99	Nonsyn	cct	Tct	P	S	fabH	FTT_1373: 3-oxoacyl-ACP synthase		FTT_1372: glycerol-3-phosphate acyltransferase PlsX	FTT_1374: malonyl CoA-ACP transacylase
+FTS-634	SRR999319	1419877	C	T	28421.2	888	0.99	Nonsyn	cct	Tct	P	S	fabH	FTT_1373: 3-oxoacyl-ACP synthase		FTT_1372: glycerol-3-phosphate acyltransferase PlsX	FTT_1374: malonyl CoA-ACP transacylase
+NR-643	SRR1019709	1419877	C	T	13249.7	435	0.99	Nonsyn	cct	Tct	P	S	fabH	FTT_1373: 3-oxoacyl-ACP synthase		FTT_1372: glycerol-3-phosphate acyltransferase PlsX	FTT_1374: malonyl CoA-ACP transacylase
+NR-643	SRR999322	1419877	C	T	34494.2	1078	0.99	Nonsyn	cct	Tct	P	S	fabH	FTT_1373: 3-oxoacyl-ACP synthase		FTT_1372: glycerol-3-phosphate acyltransferase PlsX	FTT_1374: malonyl CoA-ACP transacylase
+FTS-634	SRR1061346	1423162	A	G	19455.6	667	0.98	Nonsyn	agt	Ggt	S	G	fabF	FTT_1377: 3-oxoacyl-ACP synthase		FTT_1376: acyl carrier protein	FTT_1378: FTT_1378
+FTS-634	SRR999319	1423162	A	G	31566.9	948	1.00	Nonsyn	agt	Ggt	S	G	fabF	FTT_1377: 3-oxoacyl-ACP synthase		FTT_1376: acyl carrier protein	FTT_1378: FTT_1378
+NR-643	SRR1019709	1423162	A	G	18652.9	619	0.99	Nonsyn	agt	Ggt	S	G	fabF	FTT_1377: 3-oxoacyl-ACP synthase		FTT_1376: acyl carrier protein	FTT_1378: FTT_1378
+NR-643	SRR999322	1423162	A	G	37866.8	1136	0.99	Nonsyn	agt	Ggt	S	G	fabF	FTT_1377: 3-oxoacyl-ACP synthase		FTT_1376: acyl carrier protein	FTT_1378: FTT_1378
+FTS-634	SRR1061346	1540416	TAAAAAAAAAT	TAAAAAAAAAAT	6476.41	223	0.90	Insertion								FTT_1486c: hypothetical protein	FTT_1487: dephospho-CoA kinase
+FTS-634	SRR999319	1540416	TAAAAAAAAAT	TAAAAAAAAAAT	19957.2	654	0.93	Insertion								FTT_1486c: hypothetical protein	FTT_1487: dephospho-CoA kinase
+NR-643	SRR1019709	1540416	TAAAAAAAAAT	TAAAAAAAAAAT	5750.63	194	0.92	Insertion								FTT_1486c: hypothetical protein	FTT_1487: dephospho-CoA kinase
+NR-643	SRR999322	1540416	TAAAAAAAAAT	TAAAAAAAAAAT	22366.2	736	0.91	Insertion								FTT_1486c: hypothetical protein	FTT_1487: dephospho-CoA kinase
+FTS-634	SRR1061346	1634580	G	A	12612.9	411	0.99	Nonsyn	aca	aTa	T	I	FTT_1573c	FTT_1573c: hypothetical protein		FTT_1572c: outer membrane protein OmpH	FTT_1574c: 1-deoxy-D-xylulose 5-phosphate reductoisomerase
+FTS-634	SRR999319	1634580	G	A	31644.9	960	1.00	Nonsyn	aca	aTa	T	I	FTT_1573c	FTT_1573c: hypothetical protein		FTT_1572c: outer membrane protein OmpH	FTT_1574c: 1-deoxy-D-xylulose 5-phosphate reductoisomerase
+NR-643	SRR1019709	1634580	G	A	13386.8	436	0.99	Nonsyn	aca	aTa	T	I	FTT_1573c	FTT_1573c: hypothetical protein		FTT_1572c: outer membrane protein OmpH	FTT_1574c: 1-deoxy-D-xylulose 5-phosphate reductoisomerase
+NR-643	SRR999322	1634580	G	A	32119.9	970	1.00	Nonsyn	aca	aTa	T	I	FTT_1573c	FTT_1573c: hypothetical protein		FTT_1572c: outer membrane protein OmpH	FTT_1574c: 1-deoxy-D-xylulose 5-phosphate reductoisomerase
+FSC043	SRR999318	1662650	T	G	0	213	0.21	Synon	ggt	ggG	G	G	FTT_1598	FTT_1598: hypothetical protein		FTT_1597: hypothetical protein	: 
+FTS-634	SRR999319	1662650	T	G	0	206	0.21	Synon	ggt	ggG	G	G	FTT_1598	FTT_1598: hypothetical protein		FTT_1597: hypothetical protein	: 
+NR-10492	SRR999320	1662650	T	G	0	242	0.20	Synon	ggt	ggG	G	G	FTT_1598	FTT_1598: hypothetical protein		FTT_1597: hypothetical protein	: 
+NR-28534	SRR999321	1662650	T	G	0	286	0.23	Synon	ggt	ggG	G	G	FTT_1598	FTT_1598: hypothetical protein		FTT_1597: hypothetical protein	: 
+NR-10492	SRR1061347	1767864	C	T	2956.13	100	0.98									FTT_1698c: formate dehydrogenase	FTT_r08: 5S ribosomal RNA
+NR-28534	SRR1061348	1767864	C	T	1960.74	70	0.99									FTT_1698c: formate dehydrogenase	FTT_r08: 5S ribosomal RNA
+SL	SRR1061349	1800646	A	G	695.84	37	1.00									: 	FTT_1718c: transposase
+FSC043	SRR999318	1834383	A	G	1.18613e-13	187	0.20	Nonsyn	atc	aCc	I	T	ipdC	FTT_1744c: indolepyruvate decarboxylase		FTT_1743: FTT_1743	FTT_1745c: FTT_1745c
+FTS-634	SRR999319	1834383	A	G	0	200	0.20	Nonsyn	atc	aCc	I	T	ipdC	FTT_1744c: indolepyruvate decarboxylase		FTT_1743: FTT_1743	FTT_1745c: FTT_1745c
+NR-643	SRR999322	1834383	A	G	0	218	0.20	Nonsyn	atc	aCc	I	T	ipdC	FTT_1744c: indolepyruvate decarboxylase		FTT_1743: FTT_1743	FTT_1745c: FTT_1745c
+SL	SRR999323	1834383	A	G	1.02942e-13	221	0.21	Nonsyn	atc	aCc	I	T	ipdC	FTT_1744c: indolepyruvate decarboxylase		FTT_1743: FTT_1743	FTT_1745c: FTT_1745c
+NR-28534	SRR999321	1872035	A	C	0	294	0.21	Synon	ggt	ggG	G	G	yjjK	FTT_1782c: ABC transporter ATP-binding protein		FTT_1781c: hypothetical protein	FTT_1783: major facilitator transporter
+NR-643	SRR999322	1872035	A	C	6.96729e-14	208	0.21	Synon	ggt	ggG	G	G	yjjK	FTT_1782c: ABC transporter ATP-binding protein		FTT_1781c: hypothetical protein	FTT_1783: major facilitator transporter

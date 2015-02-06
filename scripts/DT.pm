@@ -74,7 +74,6 @@ print "<title>$title</title>\n";
     border-style: inset;
     border-color: rgb(170, 170, 170);
     background-color: white;
-    -moz-border-radius: ;
   }
   .dynamicTable td.header {
     font-size: 15px;
@@ -83,7 +82,6 @@ print "<title>$title</title>\n";
     border-style: inset;
     border-color: rgb(170, 170, 170);
     background-color: white;
-    -moz-border-radius: ;
   }
   .dynamicTable td {
     border-width: 1px;
@@ -92,7 +90,6 @@ print "<title>$title</title>\n";
     text-align: center;
     border-style: inset;
     border-color: rgb(170, 170, 170);
-    -moz-border-radius: ;
   }
   .dynamicTable tr:nth-child(even) {
     background-color: rgba(0, 0, 255, 0.08); /* greenish blue, 8% alpha */
@@ -107,7 +104,7 @@ print "<title>$title</title>\n";
   .centerText {
     text-align:center;
     white-space:nowrap;
-  }   
+  }
   .wrap {
     white-space:normal;
   }
@@ -146,7 +143,7 @@ sub print_html_end {
 </body>
 </html>
 End_of_Table
-    
+
 }
 
 sub mouseover_javascript {
@@ -201,4 +198,3 @@ sub span_css {
 
 
 1;
-

@@ -37,6 +37,8 @@ my $features = get_sorted_features($ref_fasta, $ref_gff);
 # my $features = retrieve('features.store');
 # print STDERR '$features = '. Dumper($features);
 
+my %srr_to_strain = get_SRR_to_isolate_mapping();
+
 my @snps;
 for my $vcf (@vcf_files) {
     my $sample = $vcf; ($sample) = $sample =~ /(SRR\d+)/;
@@ -44,6 +46,8 @@ for my $vcf (@vcf_files) {
     @snps = (@snps, @$sample_snps);
     # print STDERR '$snps = '. Dumper($snps);
 }
+
+@snps = sort { $a->[2] <=> $b->[2] || $a->[0] cmp $b->[0] || $a->[1] cmp $b->[1] } @snps;
 
 if ($show_html) {
     my @head = ('Sample', 'Strain', 'Pos', 'Ref', 'Var', 'Score', 'Var cov', 'Var frac',
@@ -90,7 +94,7 @@ sub vcf_to_snps {
 
         # print STDERR join("\t", $ctg, $pos, $alt_dp, $alt_frac, $map_qual) . "\n";
 
-        # next unless $alt_frac >= $min_alt_fract && $alt_dp >= $min_alt_depth && $map_qual >= $min_map_quality;
+        next unless $alt_frac >= $min_alt_fract && $alt_dp >= $min_alt_depth && $map_qual >= $min_map_quality;
 
         my $type = length($alt) > length($ref) ? 'Insertion' : length($alt) < length($ref) ? 'Deletion' : undef;
 
@@ -139,11 +143,12 @@ sub vcf_to_snps {
             # $func = "$gene_name, $func" if $gene_name;
         }
 
-        my $strain;
+        my $strain = $srr_to_strain{$sample};
+
         # push @snps, [ $sample, $ctg, $pos, $ref, $alt, $score, $alt_dp, $alt_frac,
         push @snps, [ $strain, $sample, $pos, $ref, $alt, $score, $alt_dp, $alt_frac,
                       $type, $nt1, $nt2, $aa1, $aa2,
-                      $locus, [ $gene->[0], $func ],
+                      $gene_name, [ $gene->[0], $func ],
                       $hash->{frameshift_region} ? 'frameshift' : undef,
                       [ @{$hash->{left}}[0, 8] ],
                       [ @{$hash->{right}}[0, 8] ]
@@ -151,6 +156,7 @@ sub vcf_to_snps {
 
         # print join("\t", $sample, $ctg, $pos, $ref, $alt, $score, $alt_dp, $alt_frac, $nt1, $nt2, $aa1, $aa2, $hash->{frameshift_region} ? 'frameshift' : undef) . "\n";
     }
+
     wantarray ? @snps : \@snps;
 }
 
@@ -208,6 +214,7 @@ sub get_sorted_features {
         my $alias  = { LocusTag => $locus, GENE => $_->{attribute}->{Name} };
         my $desc   = $_->{descendants}->[0];
         $func      = $desc->{attribute}->{product} if $desc;
+        $func      = join(": ", $locus, $func);
         my $note   = $desc->{attribute}->{Note} if $desc;
         $note    ||= $_->{attribute}->{Name};
 
@@ -634,3 +641,22 @@ sub sum {
     $s += $_ for @x;
     return $s;
 }
+
+sub get_SRR_to_isolate_mapping {
+    my %hash = map { chomp; my ($isolate, $srr) = split /\s+/; $srr => $isolate } <DATA>;
+    return %hash;
+}
+
+__END__
+FTS-634 SRR999319
+FTS-634 SRR1061346
+NR-10492        SRR999320
+NR-10492        SRR1061347
+NR-28534        SRR999321
+NR-28534        SRR1061348
+NR-643  SRR999322
+NR-643  SRR1019709
+SL      SRR999323
+SL      SRR1061349
+FSC043  SRR999318
+FSC043  SRR1061345
